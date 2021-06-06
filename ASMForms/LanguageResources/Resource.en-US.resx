@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Browse" xml:space="preserve">
+    <value>&amp;Browse</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="Button_Close" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>&amp;No</value>
+  </data>
+  <data name="Button_Stop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>&amp;Yes</value>
+  </data>
+  <data name="CloseThisWizard" xml:space="preserve">
+    <value>Close this wizard</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ID3TagSynchronisedLyricItem" xml:space="preserve">
+    <value>ID3 Tag Synchronised Lyric Item</value>
+  </data>
+  <data name="MessageCaption_DeleteItem" xml:space="preserve">
+    <value>Delete Item</value>
+  </data>
+  <data name="MessageCaption_NameAlreadyTaken" xml:space="preserve">
+    <value>Name Already Taken</value>
+  </data>
+  <data name="MessageCaption_NoID3Tagv2Found" xml:space="preserve">
+    <value>No ID3 Tag v2 found</value>
+  </data>
+  <data name="MessageCaption_SpellCheck" xml:space="preserve">
+    <value>Spell check</value>
+  </data>
+  <data name="MessageCaption_StopTranslationProgress" xml:space="preserve">
+    <value>Stop Translation Progress</value>
+  </data>
+  <data name="MessageCaption_SubtitlesFormatExport" xml:space="preserve">
+    <value>Subtitles Format Export</value>
+  </data>
+  <data name="Message_AreYouSure" xml:space="preserve">
+    <value>Are you sure ?</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToStopCurrentProgress" xml:space="preserve">
+    <value>Are you sure you want to stop current progress ?</value>
+  </data>
+  <data name="Message_CantRipThisTrackOrCanceledByUser" xml:space="preserve">
+    <value>Can't rip this track or canceled by user.</value>
+  </data>
+  <data name="Message_Done" xml:space="preserve">
+    <value>Done !!</value>
+  </data>
+  <data name="Message_InvaildeMkv" xml:space="preserve">
+    <value>Invailed file (not Matroska file or has no subtitles track)</value>
+  </data>
+  <data name="Message_NoSubtitleDetectedToExport" xml:space="preserve">
+    <value>No subtitle detected to export. Go to step 1 page and change subtitles track.</value>
+  </data>
+  <data name="Message_PleaseBrowseWhereToSave" xml:space="preserve">
+    <value>Please browse where to save the output file. Go to step 4 page.</value>
+  </data>
+  <data name="Message_PleaseSelectEncodingFirst" xml:space="preserve">
+    <value>Please select write encoding first. Go to step 3 page.</value>
+  </data>
+  <data name="Message_PleaseSelectTextFirst" xml:space="preserve">
+    <value>Please select text first</value>
+  </data>
+  <data name="Message_TheresNoSubtitleToLoad" xml:space="preserve">
+    <value>There's no subtitle to load !</value>
+  </data>
+  <data name="Message_TheSplitTimeMustBeLargerThanTheOriginalSubtitlesStartTime" xml:space="preserve">
+    <value>The split time must be larger than the original subtitle's start time</value>
+  </data>
+  <data name="Message_TheSplitTimeMustBeSmallerThanTheOriginalSubtitlesEndTime" xml:space="preserve">
+    <value>The split time must be smaller than the original subtitle's end time</value>
+  </data>
+  <data name="Message_ThisMp3FileDoesntHaveID3v2" xml:space="preserve">
+    <value>This mp3 file doesn't have ID3v2, the program will create ID3 Tag v2.3 when save</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTaken" xml:space="preserve">
+    <value>This name already taken !!</value>
+  </data>
+  <data name="Message_UnableToOpenMKV" xml:space="preserve">
+    <value>Unable to load the Matroska file. This file is not Matroka file or has no subtitles track.</value>
+  </data>
+  <data name="Message_UnableToRipThisTrackEncryptedVobsubContentNotSupported" xml:space="preserve">
+    <value>Unable to rip this track. Encrypted vobsub content not supported</value>
+  </data>
+  <data name="NewSubtitlesTrack" xml:space="preserve">
+    <value>New Subtitles Track</value>
+  </data>
+  <data name="SubtitlesTrack" xml:space="preserve">
+    <value>Subtitles Track</value>
+  </data>
+  <data name="TipOfTheDay_0" xml:space="preserve">
+    <value>You can duplicate subtitles track's subtitles to another new one, just select the desired language track then CTRL+D or right-mouse click then select duplicate.</value>
+  </data>
+  <data name="TipOfTheDay_1" xml:space="preserve">
+    <value>If your mp3 file has a ID3 Synchronized Lyric, add it to your project !!, Go to Tools&gt;Extract from ID3 Or Control+Alt+Q.</value>
+  </data>
+  <data name="TipOfTheDay_10" xml:space="preserve">
+    <value>It's a long movie you work with here and it's hard to seek to chapters. You use the marks to seek media time easily, go to Player&gt;Marks.</value>
+  </data>
+  <data name="TipOfTheDay_11" xml:space="preserve">
+    <value>Use the GT-Text file to translate huge count of subtitles, it's x 2 faster than usual translate opeation.</value>
+  </data>
+  <data name="TipOfTheDay_12" xml:space="preserve">
+    <value>You don't have time to synchronise subtitle timings using the timeline control ? then use the AHD Synchronisation Tool, it can do the hard works in seconds !!?</value>
+  </data>
+  <data name="TipOfTheDay_13" xml:space="preserve">
+    <value>Don't you know ? AHD Subtitles format file can save all subtitle tracks of your project ? also saves styles (colors, fonts..) for each char of each subtitles ? A backup of your project can be created using this format.</value>
+  </data>
+  <data name="TipOfTheDay_2" xml:space="preserve">
+    <value>When you import a subtitle format, it may includes wrong subtitle(s). you can check subtitles error by going to Tools&gt;Check subtitles errors Or Control+Alt+C.</value>
+  </data>
+  <data name="TipOfTheDay_3" xml:space="preserve">
+    <value>You can change the media any time you want, press CTRL + M</value>
+  </data>
+  <data name="TipOfTheDay_4" xml:space="preserve">
+    <value>You can set current time as the end time for the subtitle at the player time, just click 'Set current time as subtitle's end time' button in the player controls.</value>
+  </data>
+  <data name="TipOfTheDay_5" xml:space="preserve">
+    <value>Do you know that ASM auto check for subtitle errors for imported subtitles format ? aslo you can change this option via settings&gt;general</value>
+  </data>
+  <data name="TipOfTheDay_6" xml:space="preserve">
+    <value>No need to manual synchronise, use the timeline control to adjust subtitle timings !!</value>
+  </data>
+  <data name="TipOfTheDay_7" xml:space="preserve">
+    <value>If you want to convert subtitles format,no need to run AHd Subtitles Maker Professional at all !! it's better  to use AHD Subtitles Converter istead.</value>
+  </data>
+  <data name="TipOfTheDay_8" xml:space="preserve">
+    <value>You need to translate subtitles but you don't have enough time to write texts ? you can use the google translate service instead.</value>
+  </data>
+  <data name="TipOfTheDay_9" xml:space="preserve">
+    <value>You Don't like the look of AHD Subtiltes Maker Professional and you see the layout is confused ? you can change the layout and more, go to View&gt;Layout</value>
+  </data>
+  <data name="Title_ChangeMedia" xml:space="preserve">
+    <value>Change Media</value>
+  </data>
+  <data name="Title_DataFor" xml:space="preserve">
+    <value>Data for</value>
+  </data>
+  <data name="Title_EnterProjectName" xml:space="preserve">
+    <value>Enter project name</value>
+  </data>
+  <data name="Title_ExportTo" xml:space="preserve">
+    <value>Export to</value>
+  </data>
+  <data name="Title_ImportSubtitlesFormat" xml:space="preserve">
+    <value>Import subtitles format</value>
+  </data>
+  <data name="Title_SubtitlesFormat" xml:space="preserve">
+    <value>subtitles format</value>
+  </data>
+  <data name="ToolTip_ResetTheShiftToZero" xml:space="preserve">
+    <value>Reset the shift to zero (no shift)</value>
+  </data>
+  <data name="ToolTip_ShiftLeft" xml:space="preserve">
+    <value>Shift left</value>
+  </data>
+  <data name="ToolTip_ShiftRight" xml:space="preserve">
+    <value>Shift right</value>
+  </data>
+  <data name="ToolTip_TheRealTime" xml:space="preserve">
+    <value>The real time (where the start time of the subtitle (or the first subtitle if shift all) will be)</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>VERSION</value>
+  </data>
+  <data name="MessageCaption_DownloadDictionaries" xml:space="preserve">
+    <value>Download dictionaries</value>
+  </data>
+  <data name="Message_PleaseSelectOneDictionaryAtLeast" xml:space="preserve">
+    <value>Please select at least one dictionary</value>
+  </data>
+  <data name="Message_UnableToDownloadDictionary" xml:space="preserve">
+    <value>Unable to download dictionary</value>
+  </data>
+  <data name="MessageCaption_NoDictionaryToUse" xml:space="preserve">
+    <value>No dictionary to use</value>
+  </data>
+  <data name="Message_NoDictionaryToUse" xml:space="preserve">
+    <value>There is no dictionary in the dictionaries folder. Would you like to download dictionaries ?</value>
+  </data>
+  <data name="Message_PleaseSelectASubtitleFirst" xml:space="preserve">
+    <value>Please select a subtitle first</value>
+  </data>
+  <data name="Message_PleaseSelectLanguageFirst" xml:space="preserve">
+    <value>Please select a dictionary (language) first</value>
+  </data>
+  <data name="Message_PleaseSelectWordFromsuggestions" xml:space="preserve">
+    <value>Please select a word from the suggestion words. if no word listed, then you have to edit the word manualy then click ok.</value>
+  </data>
+  <data name="MessageCaption_SubtitleDownload" xml:space="preserve">
+    <value>Subtitle Download</value>
+  </data>
+  <data name="Message_PleaseEnterSearchName" xml:space="preserve">
+    <value>Please enter search name</value>
+  </data>
+  <data name="Message_PleaseSelectAResult" xml:space="preserve">
+    <value>Please select a file from the results first</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitleLanguagesFirst" xml:space="preserve">
+    <value>Please select subtitle language(s) first</value>
+  </data>
+  <data name="Message_NoResult" xml:space="preserve">
+    <value>No result !</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOpenSubtitlesorg" xml:space="preserve">
+    <value>Download subtitles from OpenSubtitles.org</value>
+  </data>
+  <data name="Message_ErrorNoResultReturnedFromServerPleaseTryAgainLater" xml:space="preserve">
+    <value>Error ! no result returned from server. Please try again later.</value>
+  </data>
+  <data name="Message_PleaseEnterMovieName" xml:space="preserve">
+    <value>Please enter the movie name first. The name should be clear (without dvd rip, BlueRay rip..etc).</value>
+  </data>
+  <data name="Message_PleaseEnterTheMovieHashFirst" xml:space="preserve">
+    <value>Please enter the movie hash first.</value>
+  </data>
+  <data name="Message_PleaseEnterTheMovieSizeInBytesFirst" xml:space="preserve">
+    <value>Please enter the movie size in bytes first.</value>
+  </data>
+  <data name="Title_OpenMovieFile" xml:space="preserve">
+    <value>Open movie file</value>
+  </data>
+  <data name="Title_OpenSubtitlesFile" xml:space="preserve">
+    <value>Open subtitles file</value>
+  </data>
+  <data name="MessageCaption_UploadSubtitlesToOpenSubtitlesorg" xml:space="preserve">
+    <value>Upload subtitles to OpenSubtitles.org</value>
+  </data>
+  <data name="Message_CantFindMovieIMDB" xml:space="preserve">
+    <value>Can't find movie IMDB,  you'll need to enter it manually. To get the movie imbd, go to OpenSubtitles.org and search for the movie, when you find the desired move the IMDB should be there too.</value>
+  </data>
+  <data name="Message_LinkToYourSubtitlesFile" xml:space="preserve">
+    <value>Link to your subtitles file</value>
+  </data>
+  <data name="Message_PleaseBrowseForMovieFirst" xml:space="preserve">
+    <value>Please browse for movie file first.</value>
+  </data>
+  <data name="Message_PleaseBrowseForSubtitlesFileFirst" xml:space="preserve">
+    <value>Please browse for subtitles file first</value>
+  </data>
+  <data name="Message_PleaseTryAgainLater" xml:space="preserve">
+    <value>Please try again later.</value>
+  </data>
+  <data name="Message_ThisSubtitleFileIsAlreadyInOpenSubtitlesorgDatabase" xml:space="preserve">
+    <value>This subtitle file is already in OpenSubtitles.org database !</value>
+  </data>
+  <data name="Message_UnableToConnectToOSServer" xml:space="preserve">
+    <value>Unable to connect to OS server</value>
+  </data>
+  <data name="Message_UploadDone" xml:space="preserve">
+    <value>Upload done !!</value>
+  </data>
+  <data name="Message_LinkCopiedToClipboard" xml:space="preserve">
+    <value>"Link copied to clipboard"</value>
+  </data>
+  <data name="Title_EnterMovieIMDB" xml:space="preserve">
+    <value>Enter movie IMDB</value>
+  </data>
+  <data name="Message_NoResultMovieNameOSSearch" xml:space="preserve">
+    <value>No result  for the search !</value>
+  </data>
+  <data name="Message_NoResultNormalOSSearch" xml:space="preserve">
+    <value>No result  for the search ! maybe the movie file you search for is not exist in OpenSubtitles.org. Try to search using movie name.</value>
+  </data>
+  <data name="Message_InvailedUserrNameOrPassword" xml:space="preserve">
+    <value>Invalid user name or password.</value>
+  </data>
+  <data name="Message_CanceldByUser" xml:space="preserve">
+    <value>Operation canceled by user.</value>
+  </data>
+  <data name="Message_PleaseEnterIMDBFirst" xml:space="preserve">
+    <value>Please enter IMDB first</value>
+  </data>
+  <data name="Message_ThisIMDBIsInvailed" xml:space="preserve">
+    <value>This IMDB is invailed. Please change the imdb.</value>
+  </data>
+  <data name="TipOfTheDay_14" xml:space="preserve">
+    <value>Search and download subtitles for your movie directly from OpenSubtitles.org anytime without leaving ASM !
+Go to Tools&gt;Download subtitles from OpenSubtitles.org</value>
+  </data>
+  <data name="TipOfTheDay_15" xml:space="preserve">
+    <value>Share your subtitles now and upload them directly to OpenSubtitles.org.
+Go to Tools&gt;Upload subtitles to OpenSubtitles.org</value>
+  </data>
+  <data name="Message_BitcoinAddressCopiedToClipboard" xml:space="preserve">
+    <value>Bitcoin address copied to clipboard.</value>
+  </data>
+  <data name="Title_OpenPreparedTextFile" xml:space="preserve">
+    <value>Open prepared text file (lyrics, movie texts ...etc)</value>
+  </data>
+  <data name="Message_PleaseAddAtLeastOneStyle" xml:space="preserve">
+    <value>Please add at least one style.</value>
+  </data>
+  <data name="Message_PleaseSelectAStyleFirst" xml:space="preserve">
+    <value>Please select a style first.</value>
+  </data>
+  <data name="Title_PleaseEnterTheStyleName" xml:space="preserve">
+    <value>Please enter the style name</value>
+  </data>
+  <data name="Word_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Message_PleaseEnterSurroundingChar" xml:space="preserve">
+    <value>Please enter the first char of the caption surrounding, that must be one char.</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>Please select at least one mode !</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>Please enter at least one punctuation to break at !</value>
+  </data>
+  <data name="Message_PleaseEnterPassword" xml:space="preserve">
+    <value>Please enter password first.</value>
+  </data>
+  <data name="Message_PleaseEnterUsername" xml:space="preserve">
+    <value>Please enter a username first.</value>
+  </data>
+  <data name="Message_PleaseEnterIMBID" xml:space="preserve">
+    <value>PLEASE ENTER IMBID HERE !!</value>
+  </data>
+</root>

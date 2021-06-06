@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toolStripButton2.ToolTipText" xml:space="preserve">
+    <value>Mudar posição da legenda</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton_rtl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton_rtl.ToolTipText" xml:space="preserve">
+    <value>Alinhamento Direita para Esquerda</value>
+  </data>
+  <data name="toolStripButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALQSURBVDhPY6Aq0JpyhSdl5aOddbtfvJu2/9bfCftf/izf
+        /vx9/OL7p+XLzytAleEHyr03PGqOvrl57Om3/0cff/vvMPPOKvn8s5oMDP8ZoUrwgP//GfUn3Jg46+KH
+        j1aTbi7K2fLsokX79UVSsSeFoSrwA/mGK4kbbz79pVV3pV8644xF1ZZnt10nXN8imXPZWr3p5hzz3jsH
+        jTpu7zZqvb3brPXWQc2Sq8ugWhkYlGquqpbsfHF15ulXb2TST5vJxJzSmXTw9Wu/ybcPSGVddFYqvzHZ
+        a979z9kbX/zPXPPiv1bp9XXiMefLoNoZGAyar87cfOXhn3mH333oOvDqxZT9L98euPnpf8yMu2ckfQ7L
+        6TXcWh/Qe/Gffdfdu4nLnvwXjz7XrBV6hY2BoX4/i3TGqdj5J9999ptya69k6NFICf+DweJ+B/Km7Hnx
+        NmXm3csS8WczYpY8/W/TdveyaOwF94i5j/9LR53rBdssnXxWL2PN40uT9rx6JRV81BAsCATC7nvVE2fc
+        upg24+YDt8nX37tNuPdSNOq8tWj42aDImQ//K8efh/i/Y/3z79MOvvpfv/bOl+Tpt7aBxETc9hkHdV87
+        uezQm//Rk+79T1zy5L9Y+OlasFzIae/wqff/ayVf2ALi4wVicedjouc//p+86Mn/mDkP//v23fsfPvne
+        /5S5D/9rxV7YwhuAJ3rFI8+bWdfcvOxWf+WbXOT56SL+JwqEfE/kqEeeW5c888F/vfjzB4XdjmpAlWMC
+        zcxLaxLmPfovGnyiWdLnDBdUmEHI80iwS+WVD3rR5w/wOx9WggojgEjoWWPhkNPF7vVXPti33fgq5HM8
+        mMH4DCtIjt/1oCK/6+EG+6JrX60zLj3mdT4YD9aEDFzq737y7bv737fnzn+fjjv/jVIuHJMJOcYJkjNJ
+        OX/Rq+b4P6+aG/+9qm/8t8+69hOsiXzAwAAAnrVcAHAn4owAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton5.Text" xml:space="preserve">
+    <value>Mostrar / ocultar estilos</value>
+  </data>
+  <data name="toolStripButton_line_break_tools.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJLSURBVDhPYxicwL79uoNz141Wj95bU5w7b/bbt9yY4NBy
+        fZZl0aUuq6QjvAwM/xmhSrED25brwRnLHt2buOfl//5dz/93b3/+P3X+/d8Odde2Gaed4YIqww3M6i/K
+        hE29vSt72cNPRUtvfM1f8vC7XfnlGfbx+zmgSvAD6/Ir5fnLHn13bb+11rHm6oKmdU/+W+WcmwmVxg9M
+        Ci4pJc+89yh68u37xlnnQkwzzzfUrHwENODCUqgS3CA0dBWzU/21VVmTL383STubBvKvUeKZjsplD//H
+        z3f8nTrf8D9UKXZgknk+Jnn2lW8B3bcuGsad8jOIPqFlnn52QRXQgKSJtv8aN0f9D5+hgd0Qg8RzokBn
+        v6pc/ui/R9ONy/lLbf/nTLP8lz7V9F/SXKP/NetD/686PfF/yWr//6794r8Z/jMgR+V/RruSS7NBfjVN
+        PQ0OrOzF5v83nJv2f+3ZKWCNK05P+D9hT8n/hce7/mcsdfuv2c4OMQTkT4PYUy6lSx7+D++59UY3+Igt
+        yIBkoH9Bmvt25f/v3JH9v3Vb2v+GzYn/m7am/59xqPl/zAKb/5LFDD8ZzDPOrYttPvcvYcLt/77N199q
+        +x/ulbffLxA9W/P/ylMT/i890ft/4bGu//OOdgANyfo//VDT/7SlHv8VaxiuyxQycIIswwpcpyv+tZ8o
+        /de+X/SvdTf/37j5Vv+nHWz4n7TY7b9cDcNFlVwGdqhS4oB2M+Pr+IXO/+WrGM5o1TOwQYWJB/KVDK/l
+        qpn/M9QzsECFgICBAQAwLx8wjAmHtgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton_line_break_tools.Text" xml:space="preserve">
+    <value>Ferramentas de quebra de linha</value>
+  </data>
+  <data name="toolStripButton8.ToolTipText" xml:space="preserve">
+    <value>Mudar fonte usando a caixa de fontes</value>
+  </data>
+  <data name="ComboBox_font.ToolTipText" xml:space="preserve">
+    <value>Nome da Fonte</value>
+  </data>
+  <data name="toolStripTextBox_fontSize.ToolTipText" xml:space="preserve">
+    <value>Tamanho da Fonte</value>
+  </data>
+  <data name="toolStripButton_bold.ToolTipText" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="toolStripButton_italic.ToolTipText" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="toolStripButton_leftAlign.ToolTipText" xml:space="preserve">
+    <value>Alinhamento a esquerda</value>
+  </data>
+  <data name="toolStripButton_centerAlign.ToolTipText" xml:space="preserve">
+    <value>Alinhamento ao Centro</value>
+  </data>
+  <data name="toolStripButton_rightAlign.ToolTipText" xml:space="preserve">
+    <value>Alinhamento a direita</value>
+  </data>
+  <data name="toolStripButton9.ToolTipText" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJdSURBVDhPjZDtS1NxFMeD/gIhEi3WE5GIaA+GKcJ6GKJh
+        oo1ZEzWnbA1Lm6nNRrl0Ta/btG2p81ZqqaxaBFYkkUERKIHrTTXb5tbdrnfXmdH7Ivp277xvqmX7wHnx
+        +57zO+d7zro/ab4bQqOTRv1oCErHh8+CnDgNTuZhzySNtgdRVA0xakFOHCXpR80QNXZ6bAXSASZPkBOj
+        9haNKuvH13IysuFEfwTFJrpFSP2fmpEli9oxD6nxran08qxY3k+joIsaF9JrUzm8nKWwe3G8Y+4Q/9a8
+        VN6pvteDI4bAm1jBWlQ4IoMyO40yowfHrNFkzau6UescAfOsAWU3OiBzydYX9skjh20h7UErPZ1n4cJM
+        u3K7wyqhxe/UPz/VS8xcwVRgEpeetaJAr/9+dJCBYjyKfDONyhEW5+4vo5xkkNX5KX6TCmeZSTfVBOvM
+        FGQ3WSgnojhA0ASfyzZQhGKUxcmhCNJ1AW3sQzzENvG3849foPp2FDl618/87nASr2e2U6SCc1FiD2Nn
+        WyC+g6I+cURszEWObg/26vRIv9j5I7ODms5op1BqX0TXkxWkaQMQta02jQs/cf9Varqcsyod4O0G3bsu
+        LLjqhlk0cCuJND63UBof7kBuOclC5mCQpvPHdt3a7NcWW8IoMoex6Yz33/vvNgQlkl4axNMvyNCtWuUm
+        bk896wk2TbDI5rRUpU8ilP8Nd11V8bUwDI9WUGJbxI5mP9Ja/CgkQtCMLaHy+iL2tS4gVeGJ34SfuK3F
+        T27R+LC50cfbdaeovdoUlVe7UTH/lY/k2vekqOJd0i/H1UWRORv94AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKeSURBVDhPjZPrS1NxGMeD/oF8WxRkF2KUJRahBIfSwHoh
+        6TqUKy8Dna68LN2cG2LGnK61u5vpdN7yLHdK6IVIaNKrImovukg5t+M8v51zdokkIiEv9HR2GkTBtA/8
+        3jyX7+/3PM/v2ZGksDeKn3cwVEFPBErcHORbEJzQhQ2Cczvye2OZRX0cYEZEnemmM07qw4bKYQ5EmuBs
+        KmRr8i10Zp4JzeZ2LauzO5fUWe1L/tI+Bg4og//3glwjjZ/SUdRZEw0iLeWvexCFvDtLsLsuUJAK2Zpz
+        Fhqy2gMrR1pDOQdVQbyMdADm1K/hJL4zFbI1uIuBQ4rAyt7GRbV43PTN9sYA917qoNgjfZ4UKbRjdOsj
+        1qgmGXuzj5lX+jhUP8aihhHaKQjsVwapfYoA7Lm54C8Z6XxteNEB06En0PZUBZgJWz2qP7zRMs5ElROh
+        747ZBPTMxOHuVBTkQ8sxQeBfJN5io3b6FkwueIH4MMT3RbSpeBzLVHjZ9Ubr/Kbr2QqofAmQj8bS9wiz
+        Y2tj7wfA89YFxxWiH/VeLnjDidbkw2ime+oLNHnjUO1JI3DBgrGYPhdOa7OTyXCxq2ujjWRANhh+VzMS
+        1WjIBLRMxKHSzapTKelpID7nNI2zUDsQXq8e5MRVg1F1M397ExGD665tBOTE14zaYS7SQUagqic4iZMg
+        jLXsPgstvMhVB+oXAtNRM8oZNAQNpaaFValtca6cPxLzx7k6dxg0D+Nw2YbSf3WZh5OpCP7pfRRUmj8d
+        S5kFrtgioOUFSszInzL9QU7QGUKdfI0Vt1/9LLOGfBXW8K6kT8LvDG6NqGvdLOgmE1DuZKDISP89CekA
+        J5Py61zO13nNiUDCrzdup3OSPrEV9YvNCIpNCC4Zf58iI+r/BbeQfVdQlf/tAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
+    <value>Maiúscula</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 176</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>591, 137</value>
+  </data>
+  <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="cutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Recortar</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Colar</value>
+  </data>
+  <data name="pasteToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Colar texto da área de transferência</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="fontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="fontToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="fontToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Mudar fonte</value>
+  </data>
+  <data name="colorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="colorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="colorToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Mudar cor do texto</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="alignementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="alignementToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alinhamento</value>
+  </data>
+  <data name="leftToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="leftToolStripMenuItem.Text" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="centerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="centerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Centro</value>
+  </data>
+  <data name="rightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="rightToolStripMenuItem.Text" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Selecionar Tudo</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 187</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Contagem de caracteres da linha = 0, Contagem total de caracteres = 0</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALZSURBVDhPjc59LNRxHAfwi61ltbU2GyHkj9aGsF2haVen
+        zJVk4xKW++OGkZvk4SQ5k3MujtOR3IY/9LCZIV2o5GkkjLtzz+53uztP57lz5s5NfLr0a2UTvf75/vF5
+        v797Y35zqVMfCX+pYT0bWFx8Pao3ZPCmRf4MWTx6/j/+1aosztjKauXXpQV8mbzWKfWLDXo62NkCqR+1
+        fVZ4LlecFlKN1AeVKuqd74vxWJYq35+lYvoyVEyvHDkdje9mlyY4mtg89fHnfO9MYcTjpuneqColzz6e
+        Twwo12jjmnQQwtbqHcnCYrSym3+eJIXROb+UxEU+xJRIW7if55ZIFfJ3p+NGkwlV2lUcExkIZKqUtuHD
+        PmjlD7eUMQKtTbcSWih9fgzXbWvj1+lILBK1JNSotZdYCo0PVV5+KpZ/G09TztZwEnLlr+6A8i0dBDVB
+        IKh0j8Xkt87wOD1zclLFRDGGRrNyjewPSuZqeikc0XYIW633pcrCL2RK0mlVVRu6Lirox3kAazPwbbwR
+        +p4Gz2EaGsB6ZwrAoZ2X2GDtnCAi4yo05uBCxcTFDOkwjc3VL4jywDzVCrqeYjCKmuC7ph/4ZfGmnc7f
+        7G4LPK7SlYgHZbzxxI1hj47awGikL2d7y9gPRlUyLA9TQFZPBgE3cmmIE3YGrVnQwOpkFD/M856wK7RE
+        BQ4RIw+QJhfCiughbJkGYR0hgWkyBgzSbFBXBszxy655o81fiDTx4ct5E2+uFyGSm5bplNT0Zt0IFS3H
+        gkkbDaviR4Bw8AZZ6XksWtvb+wL7cGlHknnL2AcmNRk2Ju+C3rJEXBlolJX5uqKxvdUkOpElbdkgbGfD
+        9BAR1tUxsCzIAikbN68oxbqhsX9rYAYCGDQg50ZAV7YDDLwgQHc+dkZAx3qgkf09IblsmgcrwDxUDkP0
+        K1BHclrroLp7oeeD3fI6bmJYPmksImx+YuF7eVme+8zGYH4A9RmMTlDm1VQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>Editar estilos</value>
+  </data>
+  <data name="toolStripButton6.ToolTipText" xml:space="preserve">
+    <value>Aplicar primeiro estilo
+(Alt+1)</value>
+  </data>
+  <data name="toolStripButton7.ToolTipText" xml:space="preserve">
+    <value>Aplique o segundo estilo
+(Alt+2)</value>
+  </data>
+  <data name="toolStripButton10.ToolTipText" xml:space="preserve">
+    <value>Aplicar o terceiro estilo
+(Alt+3)</value>
+  </data>
+  <data name="toolStripButton11.ToolTipText" xml:space="preserve">
+    <value>Aplicar o quarto estilo
+(Alt+4)</value>
+  </data>
+  <data name="toolStripButton12.ToolTipText" xml:space="preserve">
+    <value>Aplique o quinto estilo
+(Alt+5)</value>
+  </data>
+  <data name="toolStripButton13.ToolTipText" xml:space="preserve">
+    <value>Aplique o sexto estilo
+(Alt+6)</value>
+  </data>
+  <data name="toolStripButton14.ToolTipText" xml:space="preserve">
+    <value>Aplique o sétimo estilo
+(Alt+7)</value>
+  </data>
+  <data name="toolStrip_line_break.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 162</value>
+  </data>
+  <data name="toolStripButton15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJLSURBVDhPYxicwL79uoNz141Wj95bU5w7b/bbt9yY4NBy
+        fZZl0aUuq6QjvAwM/xmhSrED25brwRnLHt2buOfl//5dz/93b3/+P3X+/d8Odde2Gaed4YIqww3M6i/K
+        hE29vSt72cNPRUtvfM1f8vC7XfnlGfbx+zmgSvAD6/Ir5fnLHn13bb+11rHm6oKmdU/+W+WcmwmVxg9M
+        Ci4pJc+89yh68u37xlnnQkwzzzfUrHwENODCUqgS3CA0dBWzU/21VVmTL383STubBvKvUeKZjsplD//H
+        z3f8nTrf8D9UKXZgknk+Jnn2lW8B3bcuGsad8jOIPqFlnn52QRXQgKSJtv8aN0f9D5+hgd0Qg8RzokBn
+        v6pc/ui/R9ONy/lLbf/nTLP8lz7V9F/SXKP/NetD/686PfF/yWr//6794r8Z/jMgR+V/RruSS7NBfjVN
+        PQ0OrOzF5v83nJv2f+3ZKWCNK05P+D9hT8n/hce7/mcsdfuv2c4OMQTkT4PYUy6lSx7+D++59UY3+Igt
+        yIBkoH9Bmvt25f/v3JH9v3Vb2v+GzYn/m7am/59xqPl/zAKb/5LFDD8ZzDPOrYttPvcvYcLt/77N199q
+        +x/ulbffLxA9W/P/ylMT/i890ft/4bGu//OOdgANyfo//VDT/7SlHv8VaxiuyxQycIIswwpcpyv+tZ8o
+        /de+X/SvdTf/37j5Vv+nHWz4n7TY7b9cDcNFlVwGdqhS4oB2M+Pr+IXO/+WrGM5o1TOwQYWJB/KVDK/l
+        qpn/M9QzsECFgICBAQAwLx8wjAmHtgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton15.ToolTipText" xml:space="preserve">
+    <value>Auto quebra de linha
+(ALT+B)</value>
+  </data>
+  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Modo:</value>
+  </data>
+  <data name="toolStripComboBox_line_break_mode.Items" xml:space="preserve">
+    <value>Letra maiúscula</value>
+  </data>
+  <data name="toolStripComboBox_line_break_mode.Items1" xml:space="preserve">
+    <value>Limite de contagem de caridade</value>
+  </data>
+  <data name="toolStripComboBox_line_break_mode.Items2" xml:space="preserve">
+    <value>Pontuação</value>
+  </data>
+  <data name="toolStripComboBox_line_break_mode.Items3" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="toolStripTextBox_brk_chars_limit.ToolTipText" xml:space="preserve">
+    <value>Digite o limite de contagem de caracteres por linha aqui.
+Max = 100</value>
+  </data>
+  <data name="toolStripLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripLabel3.Text" xml:space="preserve">
+    <value>Pontuação:</value>
+  </data>
+  <data name="toolStripTextBox_punctuation.ToolTipText" xml:space="preserve">
+    <value>Digite os símbolos que serão reconhecidos como pontuação.
+Divida cada um pelo espaço.</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>591, 209</value>
+  </data>
+</root>

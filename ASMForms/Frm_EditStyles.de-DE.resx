@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 425</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 425</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>&amp;Stornieren</value>
+  </data>
+  <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALvSURBVDhPY/j//z8cq826y5O26tHOuj0v3k079vrv
+        hEOvftbvfP4+afGD0/KlFxSQ1cIwhoBy702PuuNvbh57+u3/0cff/jvOvLtKLv+8pkzmGUZ0tSCMwlHq
+        vMGoP+HmxEVXPny0nnJ7Ue7WZxctO68vkkk+LYysDhmjcBQariRuvPn5l3bdlX7Z7LMWVTue33abcHOL
+        dPYla83mW3PMe+8dNOm8u9uk9c5us9ZbBzVLry1DaK66rFqy88XVmaffvZFJO2MmHX9SZ8rB16/9p9w+
+        IJ15wVm54uZkn3mPP2dvfPE/c82L/zqlN9aJx14ogxtg1HJ15ubrn/7MO/nuw4QDr17MOPj67YGbn/7H
+        zrp7RszrgJx+w631AfMe/XPqvXs3cdmT/xLR55vFws+yMQADiAUYQLFLzrz77Dftzl7J0KOREoGHg8X9
+        DuZN3fPibcrsu5clE85mxCx5+t+27e5loK3uEXMf/5eJOt8LspgBGEB62WseX5p04NUriaAjhjAXiXru
+        VU+acedixqx7D9wm33/vNuHeS7Go89ZAW4MiZz78r5p4YRnYgI6dz79PO/jqf/PWZ1+SZ9zeBhIUcd9j
+        HNxz4+SyQ2/+R0+69z9xyZP/YhFna8FyIae9w6fe/6+dfGEL2AAQgQsDnRsTPf/x/+RFT/6nzpj/P2dK
+        /P+0Pv//Ua0e/21yi28Ieh0RxqoRhMWjz5tZ19+87NV795tvdf3pxtWJ/7dcmfr/wrNd//t3Z/0P79f9
+        b5yuMw+rZhDWzL60JmHeo/9iwSebY9tdvm+8POH/xmuTgFL///fsSf3fvyf9v3m21A8MjcBAMhYNPVPs
+        3nbng0fbna/CfieCfaoN/2+7MgcojQCbLk0FGiCJqhmE3TvvfvLtu/vft+fOf5+OO/+N0i4es8yR/t69
+        K+l/+64EoJL//9t3JoBdYJEtj2kANgy0qSW4R+N/764UsM0gGsQHivdg1YANAxV3APEnkLOhdMf///8Z
+        AOWUlUnP4/+nAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>&amp;Hinzufügen</value>
+  </data>
+  <data name="button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAL/SURBVDhPdZJrSJNRGMcnzvrSFzGn5jRNZoiipGIX
+        Ccq8tbylifdSZ6KMCjLTpNSYDg1XyxtqucBEQkyxVDacsHnL5cbm3eneqZuXtek0r11sT+8reMt14HcO
+        55zn/3+e83BwALCHfRVyIrlewcnmqrTlvZo/zE71zxzOwnLi++n+0+kSm4Oxuxw5sGNI/bO/LEp75zah
+        R7kJVyuReusHYgdiqtDg31iMQ5szheMGLkzp65rhle+epZM191rnBy4WjtUQKf0mB+MOcmhjkzuc0Cxd
+        ++WYPfzKiiq6kMVemPRlSlssqYOeDrSJt+cZcr57IdLuni9r98if4Dukj9bti7OGSI84qpHKfu0iMVno
+        YXlH4FTK12iCSyd5lqmSa3aZ0pIAlnKN2qyC1AYVOKWPN5rFSR7vGbjmjVR+HlvdZgm0K0yeWlXB1yzx
+        pKsQV4UICWSetUvuRFMIS6HzYiBIQt0smMeIaYQI0TEc2iA82qC4WqF2Lahc1mER3hNlfrMrzCyIf7+M
+        q1pKeoMMWcSLUmJr5+AyHRlCs/pFViuBGC1mYIlxaIOcqQ3KwWKeWm0e2n1utyLT6x1nEytkAylV8mnf
+        kqllX6b8GyFa7IlmDY2qnAFSgqRux6CAs7BVzlcDrXV+nVIx2YYdnvTjuoUVjQvqOhchplgOCbWzQIgU
+        Pdu5u9V/I6JsChwpkpYdA2z6H2i5sTHvlECpmQXG03z4FG4PXC8jaAomQlbI7TFjcreJXiGGWYzYwzNH
+        OkRmIJvPI+/2idMubW+1MkA3yoaNDw/hK9VZV+1NytMrxnCgDjbEsxRACBPQ2N54+SYqhuJAgAxjALot
+        aF5cgTbv44ojQrRJbqbhwjQ/umzFny7bMAnqC+N64XU6USN6vT+Wc8zR5+B1Rwz8CpHVwJcIBBbJIKBA
+        Bq7JA71sH/zsejUFABX9QL+OFmUmxRA+ki2OGuijK+JUriCJ9Hs+wxbUT4wASTKAjkD8NtvHMEuvQB/d
+        EVaZHB/DKaxsdFViYgDA/QXZspOnHkw/LQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>&amp;Entfernen</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 100</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Hintergrundfarbe:</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>DAS IST EIN PROBEN TEXT
+Zum Testen des ausgewählten Stils.</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>422, 460</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Bearbeiten von Projektstilen</value>
+  </data>
+</root>

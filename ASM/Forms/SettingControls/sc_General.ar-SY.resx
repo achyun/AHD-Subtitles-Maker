@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox_newProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 17</value>
+  </data>
+  <data name="checkBox_newProject.Text" xml:space="preserve">
+    <value>إظهار نافذة حوار مشروع جديد عند إنشاء مشروع جديد</value>
+  </data>
+  <data name="checkBox_newProject.ToolTip" xml:space="preserve">
+    <value>إذا كان مفعلاً، سيتم إظهار نافذة حوار المشروع الجديد عند إنشاء مشروع جديد</value>
+  </data>
+  <data name="checkBox_askWhenChangingRTL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 17</value>
+  </data>
+  <data name="checkBox_askWhenChangingRTL.Text" xml:space="preserve">
+    <value>إسأل عن وضع من اليمين إلى اليسار لكافة العناوين الثانوية</value>
+  </data>
+  <data name="checkBox_askWhenChangingRTL.ToolTip" xml:space="preserve">
+    <value>عند تغيير تنسيق من اليمين إلى اليسار لإحدى العناوين الثانوية، سيسأل
+البرنامج إن كنت تريد تطبيق التنسيق الجديد على بقية العناوين الثانوية للمسار نفسه</value>
+  </data>
+  <data name="checkBox_trackTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 17</value>
+  </data>
+  <data name="checkBox_trackTemplate.Text" xml:space="preserve">
+    <value>قالب مسار العناوين الثانوية</value>
+  </data>
+  <data name="checkBox_trackTemplate.ToolTip" xml:space="preserve">
+    <value>إذا كان مفعلاً، سيتم إضافة عنوانين ثانويين جديدين عند إضافة مسار جديد
+تلقائياً. تحوي هذه العناوين على معلومات عن المترجم أو الذي قام بوضع العناوين الثانوية</value>
+  </data>
+  <data name="checkBox_AutoCreateTrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 17</value>
+  </data>
+  <data name="checkBox_AutoCreateTrack.Text" xml:space="preserve">
+    <value>إنشاء مسار للعناوين الثانوية تلقائياً عند إنشاء مشروع جديد</value>
+  </data>
+  <data name="checkBox_AutoCreateTrack.ToolTip" xml:space="preserve">
+    <value>إذا كان مفعلاً، سيقوم البرنامج بإنشاء مسار جديد للعناوين الثانوية
+كل مرة تقوم بإنشاء مشروع جديد</value>
+  </data>
+  <data name="checkBox_askToExportBeforeUpload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 17</value>
+  </data>
+  <data name="checkBox_askToExportBeforeUpload.Text" xml:space="preserve">
+    <value>السؤال عن تصدير ملف الترجمة قبل التحميل إلى الأنترنيت</value>
+  </data>
+  <data name="checkBox_askToExportBeforeUpload.ToolTip" xml:space="preserve">
+    <value>إذا كان مفعلاً، سيسألك البرنامج إن كنت ترغب بتصدير المشروع إلى
+ملف ترجمة عند القيام بعملية التحميل إلى الأنترنيت</value>
+  </data>
+  <data name="checkBox_autoSaveEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 17</value>
+  </data>
+  <data name="checkBox_autoSaveEnable.Text" xml:space="preserve">
+    <value>تفعيل حفظ المشروع التلقائي</value>
+  </data>
+  <data name="checkBox_autoSaveEnable.ToolTip" xml:space="preserve">
+    <value>إذا كان مفعلاً، سيقوم البرنامج بحفظ المشروع تلقائياً
+حسب المدة المحددة في مدّة الحفظ التلقائي</value>
+  </data>
+  <data name="checkBox_check_for_updates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 17</value>
+  </data>
+  <data name="checkBox_check_for_updates.Text" xml:space="preserve">
+    <value>تفحص التحديثات تلقائياً عند اقلاع البرنامج</value>
+  </data>
+  <data name="checkBox_check_for_updates.ToolTip" xml:space="preserve">
+    <value>إذا كان مفعلا, سيقوم البرنامج بالتحقق ان كان هناك 
+تحديثات متوفرة للبرمج تلقائيا عند اقلاع البرنامج</value>
+  </data>
+  <data name="checkBox_autoSelecteSubtitlesTrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 17</value>
+  </data>
+  <data name="checkBox_autoSelecteSubtitlesTrack.Text" xml:space="preserve">
+    <value>إختر تلقائياً المسار الأول عند فنح مشروع</value>
+  </data>
+  <data name="numericUpDown_autoSavePeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 187</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>مدّة الحفظ التلقائي:</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 189</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 227</value>
+  </data>
+</root>

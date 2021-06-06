@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AHD.SM.ASMP.Project" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAIAACACAAAgAAAAIAAACAQAACkEAAAhAAAAAAAAAAI=</HashCode>
+      <FileName>ASMP\Project.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="SubtitleTracks" />
+      <Property Name="TimeMarks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AHD.SM.ASMP.SubtitlesTrack" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEQAAAAEQAAAAEABAAAAAAAAAEAAA=</HashCode>
+      <FileName>ASMP\SubtitlesTrack.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Subtitles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AHD.SM.ASMP.TimeMark" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEAAAAAAQAAAAEAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Marks\TimeMark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AHD.SM.ASMP.Subtitle" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAEAAAgACAAIAAgAAAIAAAACAAAABA=</HashCode>
+      <FileName>ASMP\Subtitle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Text" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AHD.SM.ASMP.SubtitleText" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <AssociationLine Name="TextLines" Type="AHD.SM.ASMP.SubtitleLine">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.442" Y="0.248" Height="0.182" Width="1.193" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABAAAABAAAAAQAkEAAAIAiAACAAAAAAAAwAAAAEQAA=</HashCode>
+      <FileName>SubtitleText\SubtitleText.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="TextLines" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AHD.SM.ASMP.SubtitleLine" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAUEAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubtitleText\SubtitleLine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Chars" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AHD.SM.ASMP.SubtitleChar" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAAAEAAAAAIAAAAAAAACAAAAAgAACAAA=</HashCode>
+      <FileName>SubtitleText\SubtitleChar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

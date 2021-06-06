@@ -1,0 +1,9 @@
+## Changelog
+
+Version 5.23.7818.13246
+
+Built at 28 May, 2021 07:21
+
+- Updated: copyright information and links.
+- Removed: Rip from MKV and VOB subtitle features.
+- Removed: ability to auto detect encoding.

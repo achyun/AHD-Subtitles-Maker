@@ -1,0 +1,133 @@
+﻿***************************************************TODO****************************************************
+* List of things done and thing should be done. Once this list is FULL completed, the library should be   *
+* ULTIMATE !! but this is hard to make. Anyway, work in progress and trying to add as possible as we can  *
+* to complete.                                                                                            *
+***********************************************************************************************************
+NOTE: some frames are shared with all versions so making them should not be hard.
+
+****************************************************
+*Lable                                   | Status  *
+****************************************************
+ID3v2 version 2:                           Pending
+~~~~~~~~~~~~~~~~
+Header and flags:                          OK
+Frames header and data read:               OK
+Unsynchronisation:                         OK
+
+FRAMES:
+=======
+Unique file identifier                     OK
+Text information frames                    OK
+User defined text information frame        OK
+URL link frames                            OK
+User defined URL link frame                OK
+Involved people list                       OK
+Music CD identifier                        OK
+Event timing codes                         OK
+MPEG location lookup table                 Pending
+Synchronised tempo codes                   Pending
+Unsychronised lyrics/text transcription    OK
+Synchronised lyrics/text                   OK
+Comments                                   OK
+Relative volume adjustment                 Pending
+Equalisation                               Pending
+Reverb                                     Pending
+Attached picture                           OK
+General encapsulated object                OK
+Play counter                               OK
+Popularimeter                              OK
+Recommended buffer size                    Pending
+Encrypted meta frame                       Pending
+Audio encryption                           Pending
+Linked information                         Pending
+****************************************************
+ID3v2 version 3:                           Pending
+~~~~~~~~~~~~~~~~
+Header and flags:                          OK
+Frames header and data read:               OK
+Frames header flags:                       Pending
+extended header:                           Can read OK, but not implemented.. just skipped.
+Unsynchronisation:                         OK
+Experimental indicator:                    ??? not sure
+
+FRAMES:
+=======
+Unique file identifier                     OK
+Text information frames                    OK
+User defined text information frame        OK
+URL link frames                            OK
+User defined URL link frame                OK
+Involved people list                       OK
+Music CD identifier                        OK
+Event timing codes                         OK
+MPEG location lookup table                 Pending
+Synchronised tempo codes                   Pending
+Unsychronised lyrics/text transcription    OK
+Synchronised lyrics/text                   OK
+Comments                                   OK
+Relative volume adjustment                 Pending
+Equalisation                               Pending
+Reverb                                     Pending
+Attached picture                           OK
+General encapsulated object                OK
+Play counter                               OK
+Popularimeter                              OK
+Recommended buffer size                    Pending
+Audio encryption                           Pending
+Linked information                         Pending
+Position synchronisation frame             Pending
+Terms of use frame                         OK
+Ownership frame                            Pending
+Commercial frame                           OK
+Encryption method registration             Pending
+Group identification registration          Pending
+Private frame                              Pending
+Group identification registration          Pending
+****************************************************
+ID3v2 version 4:                           Pending
+~~~~~~~~~~~~~~~~
+Header and flags:                          OK
+Frames header and data read:               OK
+Frames header flags:                       Pending
+extended header:                           Can read OK, but not implemented.. just skipped.
+Unsynchronisation:                         OK
+Experimental indicator:                    ??? not sure
+Footer:                                    OK
+
+FRAMES:
+=======
+Unique file identifier                     OK
+Text information frames                    OK
+User defined text information frame        OK
+URL link frames                            OK
+User defined URL link frame                OK
+Involved people list                       OK
+Music CD identifier                        OK
+Event timing codes                         OK
+MPEG location lookup table                 Pending
+Synchronised tempo codes                   Pending
+Unsychronised lyrics/text transcription    OK
+Synchronised lyrics/text                   OK
+Comments                                   OK
+Relative volume adjustment (2)             Pending
+Equalisation (2)                           Pending
+Reverb                                     Pending
+Attached picture                           OK
+General encapsulated object                OK
+Play counter                               OK
+Popularimeter                              OK
+Recommended buffer size                    Pending
+Audio encryption                           Pending
+Linked information                         Pending
+Position synchronisation frame             Pending
+Terms of use frame                         OK
+Ownership frame                            Pending
+Commercial frame                           OK
+Encryption method registration             Pending
+Group identification registration          Pending
+Private frame                              Pending
+Group identification registration          Pending
+Signature frame                            Pending
+Seek frame                                 Pending
+Audio seek point index                     Pending
+***************************************************

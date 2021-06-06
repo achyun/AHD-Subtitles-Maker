@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="Button_DontSave" xml:space="preserve">
+    <value>Não Guardar</value>
+  </data>
+  <data name="Button_Insert" xml:space="preserve">
+    <value>&amp;Inserir</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>&amp;Não</value>
+  </data>
+  <data name="Button_OnTime" xml:space="preserve">
+    <value>Na Hora</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="History_DefaultRTLChanged" xml:space="preserve">
+    <value>DPE padrão alterado</value>
+  </data>
+  <data name="History_ErrorsAutoFix" xml:space="preserve">
+    <value>Reparação automática de erro(s)</value>
+  </data>
+  <data name="History_ID3Managed" xml:space="preserve">
+    <value>ID3 Gerido</value>
+  </data>
+  <data name="History_ImportSubtitlesFormat" xml:space="preserve">
+    <value>Importar formato de legendas</value>
+  </data>
+  <data name="History_MarkAddedAt" xml:space="preserve">
+    <value>Marca adicionada em</value>
+  </data>
+  <data name="History_MarkEdit" xml:space="preserve">
+    <value>Editar Marca</value>
+  </data>
+  <data name="History_MarkRemoved" xml:space="preserve">
+    <value>Marca removida</value>
+  </data>
+  <data name="History_MediaChanged" xml:space="preserve">
+    <value>Mídia alterado</value>
+  </data>
+  <data name="History_ProjectNameChange" xml:space="preserve">
+    <value>Nome do projecto alterado</value>
+  </data>
+  <data name="History_ProjectOpened" xml:space="preserve">
+    <value>Projecto aberto</value>
+  </data>
+  <data name="History_RTLValueChanged" xml:space="preserve">
+    <value>Valor RTL alterado</value>
+  </data>
+  <data name="History_SetCurrentTimeAsEndTimeForSubtitleAt" xml:space="preserve">
+    <value>Definir tempo actual como tempo final da legenda</value>
+  </data>
+  <data name="History_SubtitleAddedAt" xml:space="preserve">
+    <value>Legenda Adicionada a</value>
+  </data>
+  <data name="History_SubtitleFillSpace" xml:space="preserve">
+    <value>Espaço de preenchimento da legenda</value>
+  </data>
+  <data name="History_SubtitleInsertedAt" xml:space="preserve">
+    <value>Legenda Inserida em</value>
+  </data>
+  <data name="History_SubtitlePropertiesChanged" xml:space="preserve">
+    <value>Propriedades da Legenda alteradas</value>
+  </data>
+  <data name="History_SubtitlesCut" xml:space="preserve">
+    <value>Cortar legenda(s).</value>
+  </data>
+  <data name="History_SubtitlesDelete" xml:space="preserve">
+    <value>Eliminar legenda(s).</value>
+  </data>
+  <data name="History_SubtitleShift" xml:space="preserve">
+    <value>Desvio das legendas</value>
+  </data>
+  <data name="History_SubtitlesPasted" xml:space="preserve">
+    <value>Legenda(s) Colada(s)</value>
+  </data>
+  <data name="History_SubtitleSplited" xml:space="preserve">
+    <value>Legenda Dividida</value>
+  </data>
+  <data name="History_SubtitlesReplaced" xml:space="preserve">
+    <value>Legendas Substituídas</value>
+  </data>
+  <data name="History_SubtitlesTrackAdded" xml:space="preserve">
+    <value>Adicionada Faixa de legendas</value>
+  </data>
+  <data name="History_SubtitlesTrackDuplicate" xml:space="preserve">
+    <value>Faixa de Legendas duplicada</value>
+  </data>
+  <data name="History_SubtitlesTrackRemove." xml:space="preserve">
+    <value>Remover Faixa de Legendas.</value>
+  </data>
+  <data name="History_SubtitlesTrackRenamed" xml:space="preserve">
+    <value>Faixa de Legendas renomeada</value>
+  </data>
+  <data name="History_SubtitlesTrackShift" xml:space="preserve">
+    <value>Desvio da Faixa de Legendas</value>
+  </data>
+  <data name="History_SubtitlesTrackSynchronised" xml:space="preserve">
+    <value>Faixa de Legendas sincronizada.</value>
+  </data>
+  <data name="History_SubtitlesTrackTextsClone" xml:space="preserve">
+    <value>Clonar textos da Faixa de Legendas.</value>
+  </data>
+  <data name="History_SubtitlesTrackTimingsClone" xml:space="preserve">
+    <value>Clonar tempos da Faixa de Legendas.</value>
+  </data>
+  <data name="History_SubtitlesTrackTranslated" xml:space="preserve">
+    <value>Faixa de Legendas Traduzida</value>
+  </data>
+  <data name="History_SubtitleStretchToNext" xml:space="preserve">
+    <value>Legenda Esticada para Seguinte</value>
+  </data>
+  <data name="History_SubtitleStretchToPrevious" xml:space="preserve">
+    <value>Legenda Esticada para Anterior</value>
+  </data>
+  <data name="MessageCaption_AddSubtitle" xml:space="preserve">
+    <value>Adicionar Legenda</value>
+  </data>
+  <data name="MessageCaption_ApplyLanguage" xml:space="preserve">
+    <value>Aplicar textos de idioma</value>
+  </data>
+  <data name="MessageCaption_CantExport" xml:space="preserve">
+    <value>Não é possível exportar</value>
+  </data>
+  <data name="MessageCaption_CantFindProject" xml:space="preserve">
+    <value>Não é possível encontrar o Projecto</value>
+  </data>
+  <data name="MessageCaption_CantRename" xml:space="preserve">
+    <value>Não é possível renomear</value>
+  </data>
+  <data name="MessageCaption_ClearLog" xml:space="preserve">
+    <value>Limpar Registo</value>
+  </data>
+  <data name="MessageCaption_Clone" xml:space="preserve">
+    <value>Clonar</value>
+  </data>
+  <data name="MessageCaption_DeleteSelectedSubtitlesTrack" xml:space="preserve">
+    <value>Eliminar Faixa de Legendas seleccionada</value>
+  </data>
+  <data name="MessageCaption_Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="MessageCaption_ExportGT" xml:space="preserve">
+    <value>Exportar GT</value>
+  </data>
+  <data name="MessageCaption_FaildToImportGTText" xml:space="preserve">
+    <value>Falha ao Importar texto- GT</value>
+  </data>
+  <data name="MessageCaption_FillSpace" xml:space="preserve">
+    <value>Preencher Espaço</value>
+  </data>
+  <data name="MessageCaption_FindSubtitle" xml:space="preserve">
+    <value>Encontrar Legenda</value>
+  </data>
+  <data name="MessageCaption_ImportGT" xml:space="preserve">
+    <value>Importar GT</value>
+  </data>
+  <data name="MessageCaption_InsertSubtitle" xml:space="preserve">
+    <value>Inserir Legenda</value>
+  </data>
+  <data name="MessageCaption_LoadError" xml:space="preserve">
+    <value>Erro ao Carregar</value>
+  </data>
+  <data name="MessageCaption_PasteSubtitles" xml:space="preserve">
+    <value>Colar Legenda(s)</value>
+  </data>
+  <data name="MessageCaption_RemoveMark" xml:space="preserve">
+    <value>Remover Marca</value>
+  </data>
+  <data name="MessageCaption_SaveError" xml:space="preserve">
+    <value>Erro ao Guardar</value>
+  </data>
+  <data name="MessageCaption_SaveProject" xml:space="preserve">
+    <value>Guardar projecto</value>
+  </data>
+  <data name="MessageCaption_ShiftTime" xml:space="preserve">
+    <value>Tempo de Desvio</value>
+  </data>
+  <data name="MessageCaption_Split" xml:space="preserve">
+    <value>Dividir</value>
+  </data>
+  <data name="MessageCaption_StretchToNext" xml:space="preserve">
+    <value>Esticar para o Seguinte</value>
+  </data>
+  <data name="MessageCaption_StretchToPrevious" xml:space="preserve">
+    <value>Esticar para o Anterior</value>
+  </data>
+  <data name="MessageCaption_Synchronise" xml:space="preserve">
+    <value>Sincronizar</value>
+  </data>
+  <data name="MessageCaption_Translate" xml:space="preserve">
+    <value>Traduzir</value>
+  </data>
+  <data name="Message_AreYouSure" xml:space="preserve">
+    <value>Tem a certeza ?</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteSelected" xml:space="preserve">
+    <value>Tem a certeza que deseja eliminar a selecção</value>
+  </data>
+  <data name="Message_CantDeleteNoSubtitlesTrackSelected" xml:space="preserve">
+    <value>Não é possível eliminar, nenhuma faixa de legendas seleccionada.</value>
+  </data>
+  <data name="Message_DoYouWantToSaveProjectFirst" xml:space="preserve">
+    <value>Deseja guardar primeiro o projecto ?</value>
+  </data>
+  <data name="Message_ErrorWhenLoadingProject" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar carregar, mensagem do sistema:</value>
+  </data>
+  <data name="Message_ErrorWhenSavingProject" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar guardar, mensagem do sistema:</value>
+  </data>
+  <data name="Message_FaildToImportGTText" xml:space="preserve">
+    <value>Falha ao Importar Texto-GT, este ficheiro não é do formato Texto-GT ou não é para esta Faixa de Legendas</value>
+  </data>
+  <data name="Message_NameAlreadyTaken" xml:space="preserve">
+    <value>Nome já atribuído</value>
+  </data>
+  <data name="Message_NoSubtitlesTrackToExport" xml:space="preserve">
+    <value>Nenhuma faixa de legendas para exportar !!</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitlesTrackFirst" xml:space="preserve">
+    <value>Por favor seleccione primeiro a Faixa de Legendas.</value>
+  </data>
+  <data name="Message_SelectedTracksHaveNotTheSameCountOfSubtitles" xml:space="preserve">
+    <value>As faixas seleccionadas não tem o mesmo número de legendas, o número de legendas tem que ser o mesmo para concluir esta operação</value>
+  </data>
+  <data name="Message_SelectSubtitlesTrackFirst" xml:space="preserve">
+    <value>Primeiro seleccione a Faixa de Legendas !</value>
+  </data>
+  <data name="Message_Subtitles" xml:space="preserve">
+    <value>legenda(s)</value>
+  </data>
+  <data name="Message_TheBaseFramerateMustBeNotZero" xml:space="preserve">
+    <value>A Taxa de Quadros base deve ser um valor diferente de zero</value>
+  </data>
+  <data name="Message_TheMediaDurationMustBeLargerThanZero" xml:space="preserve">
+    <value>a duração do mídia deve ser maior que 0</value>
+  </data>
+  <data name="Message_TheProjectMustHave2TracksOrMore" xml:space="preserve">
+    <value>O projecto deve ter 2 faixas ou mais</value>
+  </data>
+  <data name="Message_TheTargetFramerateMustBeNotZero" xml:space="preserve">
+    <value>A Taxa de Quadros de destino deve ser um valor diferente de zero</value>
+  </data>
+  <data name="Message_ThisProjectIsMissing" xml:space="preserve">
+    <value>Este projecto não existe !!</value>
+  </data>
+  <data name="Message_WhereToPasteSubtitles" xml:space="preserve">
+    <value>Colar as legenda(s) no tempo do mídia ou depois da legenda seleccionada ?\nTenha em atenção que isto irá substituir/remover a legenda que tenha os mesmos tempos</value>
+  </data>
+  <data name="Message_YouMustRestartTheProgramToApplyLanguage" xml:space="preserve">
+    <value>Tem que reiniciar o programa para aplicar os valores do texto de idioma seleccionado</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToFillSpaceFor" xml:space="preserve">
+    <value>Tem que seleccionar uma legenda para preenchimento do espaço</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToSplit" xml:space="preserve">
+    <value>Tem que selecionar uma legenda para dividir</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToStretch" xml:space="preserve">
+    <value>Tem que seleccionar uma legenda para esticar</value>
+  </data>
+  <data name="Message_YouMustSelectSubtitleToShift" xml:space="preserve">
+    <value>Tem que seleccionar uma legenda para desviar (ou todas as faixas de legendas)</value>
+  </data>
+  <data name="Status_AddingNewSubtitle" xml:space="preserve">
+    <value>Adicionar Nova Legenda</value>
+  </data>
+  <data name="Status_CantCopyOrCutNoSubtitleSelected" xml:space="preserve">
+    <value>Não é possível copiar ou cortar, nenhuma legenda seleccionada.</value>
+  </data>
+  <data name="Status_CantDeleteNoSubtitleSelected" xml:space="preserve">
+    <value>Não é possível eliminar, nenhuma legenda seleccionada.</value>
+  </data>
+  <data name="Status_CantPasteNoSubtitesTrackSelected" xml:space="preserve">
+    <value>Não é possível colar, nenhuma faixa de legendas seleccionada.</value>
+  </data>
+  <data name="Status_CloningTexts" xml:space="preserve">
+    <value>A clonar textos..</value>
+  </data>
+  <data name="Status_CloningTimings" xml:space="preserve">
+    <value>A clonar timings..</value>
+  </data>
+  <data name="Status_Done" xml:space="preserve">
+    <value>Concluído !</value>
+  </data>
+  <data name="Status_Duration" xml:space="preserve">
+    <value>Duração</value>
+  </data>
+  <data name="Status_End" xml:space="preserve">
+    <value>Fim</value>
+  </data>
+  <data name="Status_FindAllDone" xml:space="preserve">
+    <value>Encontrar todos concluído</value>
+  </data>
+  <data name="Status_FindDone" xml:space="preserve">
+    <value>Encontrar concluído</value>
+  </data>
+  <data name="Status_LeftToRightSet" xml:space="preserve">
+    <value>Definição Esquerda Para a Direita</value>
+  </data>
+  <data name="Status_ProjectDidntLoad" xml:space="preserve">
+    <value>Projecto não carregado.</value>
+  </data>
+  <data name="Status_ProjectDidntSave" xml:space="preserve">
+    <value>Projecto não guardado.</value>
+  </data>
+  <data name="Status_ProjectLoadedSuccessfuly" xml:space="preserve">
+    <value>Projecto carregado com êxito.</value>
+  </data>
+  <data name="Status_ProjectSavedSuccessfuly" xml:space="preserve">
+    <value>Projecto guardado com êxito.</value>
+  </data>
+  <data name="Status_ReplaceAllDone" xml:space="preserve">
+    <value>Substituir todos concluído</value>
+  </data>
+  <data name="Status_ReplaceDone" xml:space="preserve">
+    <value>Substituir concluído</value>
+  </data>
+  <data name="Status_RightToLeftSet" xml:space="preserve">
+    <value>Definição Direita para a Esquerda</value>
+  </data>
+  <data name="Status_SelectTrack" xml:space="preserve">
+    <value>Seleccionar Faixa</value>
+  </data>
+  <data name="Status_Start" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="Status_SubtitlesCopied" xml:space="preserve">
+    <value>legenda(s) copiada(s)</value>
+  </data>
+  <data name="Status_subtitlesFound" xml:space="preserve">
+    <value>legenda(s) encontrada(s)</value>
+  </data>
+  <data name="Status_Synchronising" xml:space="preserve">
+    <value>A sincronizar ...</value>
+  </data>
+  <data name="SubtitlesTrack" xml:space="preserve">
+    <value>Faixa de Legendas</value>
+  </data>
+  <data name="Title_ChangeMedia" xml:space="preserve">
+    <value>Alterar Mídia</value>
+  </data>
+  <data name="Title_EnterProjectName" xml:space="preserve">
+    <value>Introduzir nome do projecto</value>
+  </data>
+  <data name="Title_General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="Title_ID3" xml:space="preserve">
+    <value>Etiqueta ID3 Tag (para letra sincronizada)</value>
+  </data>
+  <data name="Title_ImportSubtitlesFormat" xml:space="preserve">
+    <value>Importar formato de legendas</value>
+  </data>
+  <data name="Title_LoadLayout" xml:space="preserve">
+    <value>Carregar Estrutura</value>
+  </data>
+  <data name="Title_NewSubtitle" xml:space="preserve">
+    <value>&lt;Nova Legenda&gt;</value>
+  </data>
+  <data name="Title_OpenProject" xml:space="preserve">
+    <value>Abrir Projecto</value>
+  </data>
+  <data name="Title_PlayBack" xml:space="preserve">
+    <value>Reproduzir</value>
+  </data>
+  <data name="Title_SaveLayout" xml:space="preserve">
+    <value>Guardar Estrutura</value>
+  </data>
+  <data name="Title_SaveLog" xml:space="preserve">
+    <value>Guardar Registo</value>
+  </data>
+  <data name="Title_SaveProject" xml:space="preserve">
+    <value>Guardar Projecto</value>
+  </data>
+  <data name="Title_Subtitle" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="Title_SubtitleFormats" xml:space="preserve">
+    <value>Formatos de Legendas</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Sem Título</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="History_ColorSetForSelected" xml:space="preserve">
+    <value>Definir cor para as legendas seleccionadas</value>
+  </data>
+  <data name="History_FontSetForSelected" xml:space="preserve">
+    <value>Definir fonte para as legendas seleccionadas</value>
+  </data>
+  <data name="MessageCaption_NosubtitleSelected" xml:space="preserve">
+    <value>Nenhuma legenda seleccionada</value>
+  </data>
+  <data name="Message_YouMustSelectAtLeastOneSubtitle" xml:space="preserve">
+    <value>Tem que seleccionar pelo menos uma legenda para fazer isto</value>
+  </data>
+  <data name="History_PostitionSetforSelectedSubtitles" xml:space="preserve">
+    <value>Definir posição para as legendas seleccionadas</value>
+  </data>
+  <data name="History_SetLeftToRightForSelectedSubtitle" xml:space="preserve">
+    <value>Definir esquerda para a direita para as legendas seleccionadas</value>
+  </data>
+  <data name="History_SetRightToLeftForSelectedSubtitle" xml:space="preserve">
+    <value>Definir direita para a esquerda para as legendas seleccionadas</value>
+  </data>
+  <data name="History_SetAlignmentForSelectedSubtitles" xml:space="preserve">
+    <value>Definir alinhamento para as legendas seleccionadas</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitleFirst" xml:space="preserve">
+    <value>Por favor primeiro seleccione uma legenda</value>
+  </data>
+  <data name="Title_Editors" xml:space="preserve">
+    <value>Editores</value>
+  </data>
+  <data name="MessageCaption_NoMedia" xml:space="preserve">
+    <value>Sem mídia</value>
+  </data>
+  <data name="Message_NoMediaDoYouWantToChangeMedia" xml:space="preserve">
+    <value>Ainda não foi atribuído nenhum mídia para este projecto, quer procurar um agora ?</value>
+  </data>
+  <data name="MessageCaption_ID3Detected" xml:space="preserve">
+    <value>ID3 Detectado</value>
+  </data>
+  <data name="MessageCaption_MKVDetected" xml:space="preserve">
+    <value>Matroska Detectado</value>
+  </data>
+  <data name="MessageCheckBox_AlwaysWarnMeWhenID3Detected" xml:space="preserve">
+    <value>&amp;Avisar sempre ao detectar ID3</value>
+  </data>
+  <data name="MessageCheckBox_AlwaysWarnMeWhenMKVDetected" xml:space="preserve">
+    <value>&amp;Avisar sempre ao abrir ficheiros Matroska</value>
+  </data>
+  <data name="Message_ID3Detected" xml:space="preserve">
+    <value>Este ficheiro contém Etiquetas ID3, quer gerir as letras sincronizadas deste ficheiro ?</value>
+  </data>
+  <data name="Message_MKVDetected" xml:space="preserve">
+    <value>Este ficheiro é Matroska e pode conter faixa(s) de legendas. Quer ripar legendas deste ficheiro Matroska ?</value>
+  </data>
+  <data name="Button_Abort" xml:space="preserve">
+    <value>&amp;Abortar</value>
+  </data>
+  <data name="Button_ResetSettings" xml:space="preserve">
+    <value>&amp;Repor definições</value>
+  </data>
+  <data name="Button_RetryLoading" xml:space="preserve">
+    <value>Repe&amp;tir carregamento</value>
+  </data>
+  <data name="MessageCaption_Settings" xml:space="preserve">
+    <value>Definições</value>
+  </data>
+  <data name="Message_SettingsLoadError" xml:space="preserve">
+    <value>Erro ao carregar definições, O que pretende fazer ?</value>
+  </data>
+  <data name="Title_SystemMessage" xml:space="preserve">
+    <value>Mensagem do sistema:</value>
+  </data>
+  <data name="History_SpellCheck" xml:space="preserve">
+    <value>Verificação Ortográfica</value>
+  </data>
+  <data name="MessageCaption_SpellCheck" xml:space="preserve">
+    <value>Verificação Ortográfica</value>
+  </data>
+  <data name="MessageCaption_Merge" xml:space="preserve">
+    <value>Fundir</value>
+  </data>
+  <data name="Status_Merging" xml:space="preserve">
+    <value>A fundir ...</value>
+  </data>
+  <data name="History_SubtitleTracksMerge" xml:space="preserve">
+    <value>Fundir faixas de legendas</value>
+  </data>
+  <data name="History_MatroskaSubtitlesTrackRip" xml:space="preserve">
+    <value>Ripar faixa de legendas Matroska</value>
+  </data>
+  <data name="History_VobSubRip" xml:space="preserve">
+    <value>Ripar VobSub</value>
+  </data>
+  <data name="History_SubtitlesMergeAt" xml:space="preserve">
+    <value>Fundir legendas em</value>
+  </data>
+  <data name="Message_PleaseSelectMoreThanOneSubtitle" xml:space="preserve">
+    <value>Por favor seleccione mais do que uma legenda</value>
+  </data>
+  <data name="Message_TheSubtitlesMustBeInOneQueue" xml:space="preserve">
+    <value>As legendas devem estar numa lista para concluir esta operação</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOS" xml:space="preserve">
+    <value>Transferir legendas de OpenSubtitles.org</value>
+  </data>
+  <data name="MessageCheckBox_AskToDownloadFromOS" xml:space="preserve">
+    <value>Perguntar isto sempre que mude de mídia</value>
+  </data>
+  <data name="Message_DoYouWantToDownloadSubtitlesFromOSForThisMovie" xml:space="preserve">
+    <value>Quer transferir legendas de OpenSubtitles.org para este filme ?</value>
+  </data>
+  <data name="MessageCaption_UploadSubtitles" xml:space="preserve">
+    <value>Enviar legendas</value>
+  </data>
+  <data name="MessageCheckBox_AskEveryTimeBeforeUploadSubtitles." xml:space="preserve">
+    <value>Perguntar sempre antes de enviar legendas.</value>
+  </data>
+  <data name="Message_DoYouWantToExportSubtitlesFirst" xml:space="preserve">
+    <value>Quer exportar primeiro as legendas e depois enviá-las ?</value>
+  </data>
+  <data name="Title_HotKeys" xml:space="preserve">
+    <value>Teclas de atalho</value>
+  </data>
+  <data name="MessageCaption_ChangeKey" xml:space="preserve">
+    <value>Alterar Tecla</value>
+  </data>
+  <data name="Message_ThisShortcutKeyAlreadyTakenBy" xml:space="preserve">
+    <value>Esta tecla de atalho já está em uso por</value>
+  </data>
+  <data name="CheckBox_AskEveryTimeBeforeDeletingSubtitle" xml:space="preserve">
+    <value>Perguntar sempre antes de eliminar legenda(s).</value>
+  </data>
+  <data name="MessageCaption_DeleteSubtitles" xml:space="preserve">
+    <value>Eliminar Legenda(s)</value>
+  </data>
+  <data name="Title_DefaultFontAndColor" xml:space="preserve">
+    <value>Cor e fonte padrão</value>
+  </data>
+  <data name="Filter_Settings" xml:space="preserve">
+    <value>Ficheiro de definições(*.set)|*.set</value>
+  </data>
+  <data name="Title_ExportSettingsToFile" xml:space="preserve">
+    <value>Exportar definições para ficheiro</value>
+  </data>
+  <data name="Title_ImportSettingsToFile" xml:space="preserve">
+    <value>Importar ficheiro de definições</value>
+  </data>
+  <data name="Message_ThisWillDiscardCurrentChangesContinue" xml:space="preserve">
+    <value>Isto irá ignorar quaisquer alterações, continuar ?</value>
+  </data>
+  <data name="Message_ThisWillSaveCurrentSettingsContinue" xml:space="preserve">
+    <value>Isto irá guardar as definições actuais, continuar ?</value>
+  </data>
+  <data name="History_PreparedTextChanged" xml:space="preserve">
+    <value>O texto elaborado foi alterado</value>
+  </data>
+  <data name="Button_DownloadNow" xml:space="preserve">
+    <value>Baixe agora !</value>
+  </data>
+  <data name="Button_ViewDetails" xml:space="preserve">
+    <value>Ver detalhes</value>
+  </data>
+  <data name="CheckBox_CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>Verificar atualizações automaticamente.</value>
+  </data>
+  <data name="MessageCaption_AutoUpdater" xml:space="preserve">
+    <value>atualizador automático</value>
+  </data>
+  <data name="Message_ANewerVersionAvailable" xml:space="preserve">
+    <value>A versão mais recente do AHD legendas Maker está disponível !!</value>
+  </data>
+  <data name="Message_UnapleToDownloadTheUpdate" xml:space="preserve">
+    <value>Não é possível baixar a atualização !!</value>
+  </data>
+  <data name="Message_WouldYouLikeTodownloadTheVersion" xml:space="preserve">
+    <value>Gostaria de baixar a atualização agora (Você precisa fechar o primeiro programa)?</value>
+  </data>
+  <data name="Text_AvailableVersion" xml:space="preserve">
+    <value>versão disponível</value>
+  </data>
+  <data name="Text_CurrentVersion" xml:space="preserve">
+    <value>Versão Atual</value>
+  </data>
+  <data name="Status_CheckingForUpdates" xml:space="preserve">
+    <value>A verificação de atualizações</value>
+  </data>
+  <data name="Status_LoadingMainWindow" xml:space="preserve">
+    <value>Carregando a janela principal</value>
+  </data>
+  <data name="Messagecaption_PreviewwithAHDSynchronisedLyricsViewer" xml:space="preserve">
+    <value>pré-visualização com AHD Synchronised Lyrics Viewer</value>
+  </data>
+  <data name="Message_NoMediaLoaded" xml:space="preserve">
+    <value>Nenhuma mídia carregado !!</value>
+  </data>
+  <data name="History_StylesEdited" xml:space="preserve">
+    <value>Projetos editados.</value>
+  </data>
+  <data name="History_StyleSetForSelected" xml:space="preserve">
+    <value>Estilo definido para legendas selecionadas.</value>
+  </data>
+  <data name="MessageCaption_ChangeMedia" xml:space="preserve">
+    <value>Carregar mídia</value>
+  </data>
+  <data name="Message_MediaNotLoaded" xml:space="preserve">
+    <value>Não é possível carregar o arquivo de mídia (Duração &lt;= 0)
+O arquivo está danificado, ou seu sistema perde o filtro DirectShow apropriado para executar este tipo de mídia.
+Instale um pacote de codecs de mídia ou os filtros dircetshow necessários e tente novamente.</value>
+  </data>
+  <data name="Title_MediaPlayer" xml:space="preserve">
+    <value>Reprodutor de mídia</value>
+  </data>
+  <data name="History_SubtitlesTrackCaptionsSplit" xml:space="preserve">
+    <value>Subtitles Track Captions Split.</value>
+  </data>
+  <data name="Status_SplittingCaptions" xml:space="preserve">
+    <value>Dividindo legendas ...</value>
+  </data>
+  <data name="History_LineBreakApplied" xml:space="preserve">
+    <value>Quebra de linha aplicada para legenda (s)</value>
+  </data>
+  <data name="MessageCaption_ChangePlayer" xml:space="preserve">
+    <value>Mudar o jogador</value>
+  </data>
+  <data name="Message_VLCPlayerMustBeInstalled" xml:space="preserve">
+    <value>Por favor, note que o VLC media player versão 3 ou posterior (versão de 32 bits) deve ser instalado para que este reprodutor funcione.
+
+O caminho do VLC no sistema de 64 bits deve ser:
+C: \ Arquivos de Programas (x86) \ VideoLAN \ VLC
+O caminho do VLC no sistema de 32 bits deve ser:
+C: \ Arquivos de Programas \ VideoLAN \ VLC</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOpenSubtitlesorg" xml:space="preserve">
+    <value>Transferir legendas de OpenSubtitles.org</value>
+  </data>
+  <data name="Message_PleaseEnterPassword" xml:space="preserve">
+    <value>Digite a senha primeiro.</value>
+  </data>
+  <data name="Message_PleaseEnterUsername" xml:space="preserve">
+    <value>Digite um nome de usuário primeiro.</value>
+  </data>
+</root>

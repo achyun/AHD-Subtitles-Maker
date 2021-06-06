@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Browse" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="Button_Close" xml:space="preserve">
+    <value>Fe&amp;char</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>&amp;Não</value>
+  </data>
+  <data name="Button_Stop" xml:space="preserve">
+    <value>Parar</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="CloseThisWizard" xml:space="preserve">
+    <value>Fechar este assistente</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="ID3TagSynchronisedLyricItem" xml:space="preserve">
+    <value>Item Etiqueta ID3 Letra Sincronizada</value>
+  </data>
+  <data name="MessageCaption_DeleteItem" xml:space="preserve">
+    <value>Eliminar Item</value>
+  </data>
+  <data name="MessageCaption_NameAlreadyTaken" xml:space="preserve">
+    <value>Nome Já Existente</value>
+  </data>
+  <data name="MessageCaption_NoID3Tagv2Found" xml:space="preserve">
+    <value>Não foi encontrada Etiqueta ID3 v2</value>
+  </data>
+  <data name="MessageCaption_SpellCheck" xml:space="preserve">
+    <value>Verificação ortográfica</value>
+  </data>
+  <data name="MessageCaption_StopTranslationProgress" xml:space="preserve">
+    <value>Parar Tradução</value>
+  </data>
+  <data name="MessageCaption_SubtitlesFormatExport" xml:space="preserve">
+    <value>Exportar Formato de Legendas</value>
+  </data>
+  <data name="Message_AreYouSure" xml:space="preserve">
+    <value>Tam a certeza ?</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToStopCurrentProgress" xml:space="preserve">
+    <value>Tem a certeza que quer parar o progresso actual ?</value>
+  </data>
+  <data name="Message_CantRipThisTrackOrCanceledByUser" xml:space="preserve">
+    <value>Não foi possível extrair esta faixa ou cancelado pelo utilizador.</value>
+  </data>
+  <data name="Message_Done" xml:space="preserve">
+    <value>Concluído !!</value>
+  </data>
+  <data name="Message_InvaildeMkv" xml:space="preserve">
+    <value>Ficheiro inválido (ficheiro não é Matroska ou não tem faixas de legendas)</value>
+  </data>
+  <data name="Message_NoSubtitleDetectedToExport" xml:space="preserve">
+    <value>Não foi detectada nenhuma legenda para exportar. Vá para o passo 1 page e altere a faixa de legendas.</value>
+  </data>
+  <data name="Message_PleaseBrowseWhereToSave" xml:space="preserve">
+    <value>Por favor indique onde guardar o ficheiro de saída. Vá para o passo 4.</value>
+  </data>
+  <data name="Message_PleaseSelectEncodingFirst" xml:space="preserve">
+    <value>Por favor primeiro seleccione a codificação de escrita. Vá para o passo 3.</value>
+  </data>
+  <data name="Message_PleaseSelectTextFirst" xml:space="preserve">
+    <value>Por favor, primeiro seleccione o texto</value>
+  </data>
+  <data name="Message_TheresNoSubtitleToLoad" xml:space="preserve">
+    <value>Não há nenhuma legenda para carregar !</value>
+  </data>
+  <data name="Message_TheSplitTimeMustBeLargerThanTheOriginalSubtitlesStartTime" xml:space="preserve">
+    <value>O tempo de divisão tem que ser superior ao tempo inicial da legenda original</value>
+  </data>
+  <data name="Message_TheSplitTimeMustBeSmallerThanTheOriginalSubtitlesEndTime" xml:space="preserve">
+    <value>O tempo de divisão tem que ser inferior ao tempo final da legenda original</value>
+  </data>
+  <data name="Message_ThisMp3FileDoesntHaveID3v2" xml:space="preserve">
+    <value>Este ficheiro mp3 não tem ID3v2, o programa irá criar Etiquetas ID3 v2.3 ao guardar</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTaken" xml:space="preserve">
+    <value>Este nome já existe !!</value>
+  </data>
+  <data name="Message_UnableToOpenMKV" xml:space="preserve">
+    <value>Não é possível carregar o ficheiro Matroska. Este ficheiro não é Matroka ou não tem faixas de legendas.</value>
+  </data>
+  <data name="Message_UnableToRipThisTrackEncryptedVobsubContentNotSupported" xml:space="preserve">
+    <value>Não é possível extrair esta faixa. Conteúdo vobsub codificado não suportado</value>
+  </data>
+  <data name="NewSubtitlesTrack" xml:space="preserve">
+    <value>Nova Faixa de Legendas</value>
+  </data>
+  <data name="SubtitlesTrack" xml:space="preserve">
+    <value>Faixa de Legendas</value>
+  </data>
+  <data name="TipOfTheDay_0" xml:space="preserve">
+    <value>Pode duplicar faixas de legendas para uma nova faixa, seleccione o idioma da faixa desejada e prima CTRL+D ou clique direito do rato e seleccione duplicar.</value>
+  </data>
+  <data name="TipOfTheDay_1" xml:space="preserve">
+    <value>Se o seu ficheiro mp3 possui uma Letra Sincronizada ID3 , adicione-o ao seu projecto !!, Vá a Ferramentas&gt;Extrair de ID3 ou prima Control+Alt+Q.</value>
+  </data>
+  <data name="TipOfTheDay_10" xml:space="preserve">
+    <value>Está a trabalhar com um filme muito grande e é difícil encontrar os capítulos. Pode usar marcas para encontrar o tempo mais facilmente, vá a Leitor&gt;Marcas.</value>
+  </data>
+  <data name="TipOfTheDay_11" xml:space="preserve">
+    <value>Use o ficheiro de Texto-GT para traduzir um grande número de legendas, é 2 x mais rápido do que a operação normal de tradução.</value>
+  </data>
+  <data name="TipOfTheDay_12" xml:space="preserve">
+    <value>Não tem tempo para sincronizar os tempos das legendas usando o controlo da linha de tempos ? Então use a Ferramenta de Sincronização AHD, ela pode fazer o trabalho difícil em segundos !!?</value>
+  </data>
+  <data name="TipOfTheDay_13" xml:space="preserve">
+    <value>Não sabe ? O ficheiro de formato de legendas AHD pode guardar todas as faixas de legendas do seu projecto ? também guarda estilos (cores, fontes..) para os caracteres de cada legenda ? Pode ser criada uma cópia de segurança do seu projecto usando este formato.</value>
+  </data>
+  <data name="TipOfTheDay_2" xml:space="preserve">
+    <value>Quando importa um formato de legendas, elepode conter legenda(s) errada(s). pode pesquisar erros das legendas indo a Ferramentas&gt;Pesquisar erros das legendas ou Control+Alt+C.</value>
+  </data>
+  <data name="TipOfTheDay_3" xml:space="preserve">
+    <value>Pode mudar de mídia sempre que desejar, pima CTRL + M</value>
+  </data>
+  <data name="TipOfTheDay_4" xml:space="preserve">
+    <value>Pode definir o tempo actual como o tempo final para a legenda no tempo do leitor, clique no botão 'Definir tempo actual como tempo final da legenda' nos controlos do leitor.</value>
+  </data>
+  <data name="TipOfTheDay_5" xml:space="preserve">
+    <value>Sabe que o ASM faz a pesquisa automática de erros de legendas para formatos de legendas importados ? também pode alterar esta opção em definições&gt;geral</value>
+  </data>
+  <data name="TipOfTheDay_6" xml:space="preserve">
+    <value>Não precisa sincronizar manualmente, use o controlo da linha de tempos para ajustar os tempos das legendas !!</value>
+  </data>
+  <data name="TipOfTheDay_7" xml:space="preserve">
+    <value>Se deseja converter o formato das legendas,não necessita executar o AHD Subtitles Maker  !! É melhor usar o Conversor de Legendas AHD.</value>
+  </data>
+  <data name="TipOfTheDay_8" xml:space="preserve">
+    <value>Necessita traduzir legendas mas não tem tempo para escrever textos ? Pode usar o serviço de tradução google.</value>
+  </data>
+  <data name="TipOfTheDay_9" xml:space="preserve">
+    <value>Não gosta do aspecto do AHD Subtiltes Maker Professional e pensa que a estrutura é confusa ? Pode alterar a estrutura e mais, vá a Ver&gt;Estrutura</value>
+  </data>
+  <data name="Title_ChangeMedia" xml:space="preserve">
+    <value>Alterar Mídia</value>
+  </data>
+  <data name="Title_DataFor" xml:space="preserve">
+    <value>Dados para</value>
+  </data>
+  <data name="Title_EnterProjectName" xml:space="preserve">
+    <value>Introduza o nome do projecto</value>
+  </data>
+  <data name="Title_ExportTo" xml:space="preserve">
+    <value>Exportar para</value>
+  </data>
+  <data name="Title_ImportSubtitlesFormat" xml:space="preserve">
+    <value>Importar formato de legendas</value>
+  </data>
+  <data name="Title_SubtitlesFormat" xml:space="preserve">
+    <value>formato de legendas</value>
+  </data>
+  <data name="ToolTip_ResetTheShiftToZero" xml:space="preserve">
+    <value>Repor desvio para zero (sem desvio)</value>
+  </data>
+  <data name="ToolTip_ShiftLeft" xml:space="preserve">
+    <value>Desvio à esquerda</value>
+  </data>
+  <data name="ToolTip_ShiftRight" xml:space="preserve">
+    <value>Desvio à direita</value>
+  </data>
+  <data name="ToolTip_TheRealTime" xml:space="preserve">
+    <value>O tempo real (onde o tempo inicial da legenda (ou da primeira legenda se desviadas) estarão)</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>VERSÃO</value>
+  </data>
+  <data name="MessageCaption_DownloadDictionaries" xml:space="preserve">
+    <value>Transferir dicionários</value>
+  </data>
+  <data name="Message_PleaseSelectOneDictionaryAtLeast" xml:space="preserve">
+    <value>Por favor seleccione pelo menos um dicionário</value>
+  </data>
+  <data name="Message_UnableToDownloadDictionary" xml:space="preserve">
+    <value>Não é possível transferir o dicionário</value>
+  </data>
+  <data name="MessageCaption_NoDictionaryToUse" xml:space="preserve">
+    <value>Nenhum dicionário para usar</value>
+  </data>
+  <data name="Message_NoDictionaryToUse" xml:space="preserve">
+    <value>Não há nenhum dicionário na pasta dicionários. Deseja transferir dicionários ?</value>
+  </data>
+  <data name="Message_PleaseSelectASubtitleFirst" xml:space="preserve">
+    <value>Por favor, primeiro seleccione uma legenda</value>
+  </data>
+  <data name="Message_PleaseSelectLanguageFirst" xml:space="preserve">
+    <value>Por favor, primeiro seleccione um dicionário (idioma)</value>
+  </data>
+  <data name="Message_PleaseSelectWordFromsuggestions" xml:space="preserve">
+    <value>Por favor seleccione uma palavra das sugeridas. Se não existir nenhuma palavra na lista, tem que editar a palavra manualmente e depois clicar ok.</value>
+  </data>
+  <data name="MessageCaption_SubtitleDownload" xml:space="preserve">
+    <value>Transferir Legenda</value>
+  </data>
+  <data name="Message_PleaseEnterSearchName" xml:space="preserve">
+    <value>Por favor introduza o nome a procurar</value>
+  </data>
+  <data name="Message_PleaseSelectAResult" xml:space="preserve">
+    <value>Por favor, promeiro seleccione um ficheiro dos resultados</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitleLanguagesFirst" xml:space="preserve">
+    <value>Por favor, primeiro seleccione o(s) idioma(s) da legenda</value>
+  </data>
+  <data name="Message_NoResult" xml:space="preserve">
+    <value>Sem resultados !</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOpenSubtitlesorg" xml:space="preserve">
+    <value>Transferir legendas de OpenSubtitles.org</value>
+  </data>
+  <data name="Message_ErrorNoResultReturnedFromServerPleaseTryAgainLater" xml:space="preserve">
+    <value>Erro ! O servidor não devolveu nenhum resultado. Tente mais tarde.</value>
+  </data>
+  <data name="Message_PleaseEnterMovieName" xml:space="preserve">
+    <value>Por favor, primeiro introduza o nome do filme. O nome deve ser claro (sem dvd rip, BlueRay rip..etc).</value>
+  </data>
+  <data name="Message_PleaseEnterTheMovieHashFirst" xml:space="preserve">
+    <value>Por favor, primeiro introduza o hash do filme.</value>
+  </data>
+  <data name="Message_PleaseEnterTheMovieSizeInBytesFirst" xml:space="preserve">
+    <value>Por favor, primeiro introduza o tamanho do filme em bytes.</value>
+  </data>
+  <data name="Title_OpenMovieFile" xml:space="preserve">
+    <value>Abrir ficheiro do filme</value>
+  </data>
+  <data name="Title_OpenSubtitlesFile" xml:space="preserve">
+    <value>Abrir ficheiro de legendas</value>
+  </data>
+  <data name="MessageCaption_UploadSubtitlesToOpenSubtitlesorg" xml:space="preserve">
+    <value>Enviar legendas para OpenSubtitles.org</value>
+  </data>
+  <data name="Message_CantFindMovieIMDB" xml:space="preserve">
+    <value>Não é possível encontrar o IMDB do filme,  precisa introduzí-lo manualmente. Para obter o imbd do filme, vá a OpenSubtitles.org e procure o filme, quando encontrar o filme que pretende o IMDB também deve lá estar.</value>
+  </data>
+  <data name="Message_LinkToYourSubtitlesFile" xml:space="preserve">
+    <value>Ligação para o seu ficheiro de legendas</value>
+  </data>
+  <data name="Message_PleaseBrowseForMovieFirst" xml:space="preserve">
+    <value>Por favor, primeiro procure o ficheiro do filme</value>
+  </data>
+  <data name="Message_PleaseBrowseForSubtitlesFileFirst" xml:space="preserve">
+    <value>Por favor, primeiro procure o ficheiro da legenda</value>
+  </data>
+  <data name="Message_PleaseTryAgainLater" xml:space="preserve">
+    <value>Por favor, tente mais tarde.</value>
+  </data>
+  <data name="Message_ThisSubtitleFileIsAlreadyInOpenSubtitlesorgDatabase" xml:space="preserve">
+    <value>Este ficheiro de legendas já se encontra na base de dados da OpenSubtitles.org !</value>
+  </data>
+  <data name="Message_UnableToConnectToOSServer" xml:space="preserve">
+    <value>Não é possível ligar ao servidor OS</value>
+  </data>
+  <data name="Message_UploadDone" xml:space="preserve">
+    <value>Envio concluído !!</value>
+  </data>
+  <data name="Message_LinkCopiedToClipboard" xml:space="preserve">
+    <value>"Ligação copiada para a área de transferências"</value>
+  </data>
+  <data name="Title_EnterMovieIMDB" xml:space="preserve">
+    <value>Introduza o IMDB do filme</value>
+  </data>
+  <data name="Message_NoResultMovieNameOSSearch" xml:space="preserve">
+    <value>Não há resultados para a procura !</value>
+  </data>
+  <data name="Message_NoResultNormalOSSearch" xml:space="preserve">
+    <value>Não há resultados para a procura ! talvez o ficheiro que procura não exista em OpenSubtitles.org. Tente procurar usando o nome do filme.</value>
+  </data>
+  <data name="Message_InvailedUserrNameOrPassword" xml:space="preserve">
+    <value>Utilizador ou palavra-passe inválidos.</value>
+  </data>
+  <data name="Message_CanceldByUser" xml:space="preserve">
+    <value>Operação cancelada pelo utilizador.</value>
+  </data>
+  <data name="Message_PleaseEnterIMDBFirst" xml:space="preserve">
+    <value>Por favor, primeiro introduza o IMDB</value>
+  </data>
+  <data name="Message_ThisIMDBIsInvailed" xml:space="preserve">
+    <value>Este IMDB é inválido. Por favor altere o imdb.</value>
+  </data>
+  <data name="TipOfTheDay_14" xml:space="preserve">
+    <value>Procure e transfira legendas do OpenSubtitles.org a qualquer altura sem sair do ASM !
+Vá a Ferramentas&gt;Transferir legendas de OpenSubtitles.org</value>
+  </data>
+  <data name="TipOfTheDay_15" xml:space="preserve">
+    <value>Partilhe as suas legendas e envie-as directamente para o OpenSubtitles.org.
+Vá a Ferramentas&gt;Enviar legendas para OpenSubtitles.org</value>
+  </data>
+  <data name="Message_BitcoinAddressCopiedToClipboard" xml:space="preserve">
+    <value>Endereço Bitcoin copiado para a área de transferências.</value>
+  </data>
+  <data name="Title_OpenPreparedTextFile" xml:space="preserve">
+    <value>Abrir ficheiro de texto preparado (letras, textos de filmes ...etc)</value>
+  </data>
+  <data name="Message_PleaseAddAtLeastOneStyle" xml:space="preserve">
+    <value>Por favor, adicione pelo menos um estilo.</value>
+  </data>
+  <data name="Message_PleaseSelectAStyleFirst" xml:space="preserve">
+    <value>Selecione primeiro um estilo.</value>
+  </data>
+  <data name="Title_PleaseEnterTheStyleName" xml:space="preserve">
+    <value>Digite o nome do estilo</value>
+  </data>
+  <data name="Word_Default" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="Message_PleaseEnterSurroundingChar" xml:space="preserve">
+    <value>Por favor, insira o primeiro caractere da legenda ao redor, que deve ser um caractere.</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>Por favor selecione pelo menos um modo!</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>Por favor, insira pelo menos uma pontuação para quebrar!</value>
+  </data>
+  <data name="Message_PleaseEnterPassword" xml:space="preserve">
+    <value>Digite a senha primeiro.</value>
+  </data>
+  <data name="Message_PleaseEnterUsername" xml:space="preserve">
+    <value>Digite um nome de usuário primeiro.</value>
+  </data>
+</root>

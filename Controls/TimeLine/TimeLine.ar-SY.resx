@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button1.ToolTip" xml:space="preserve">
+    <value>تغيير الوسائط</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>الوسائط</value>
+  </data>
+  <data name="button2.ToolTip" xml:space="preserve">
+    <value>استيراد ملف ترجمة</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>المسار العناوين الثانوية</value>
+  </data>
+  <data name="trackBar_zoom.ToolTip" xml:space="preserve">
+    <value>شريط التكبير</value>
+  </data>
+  <data name="numericUpDown1.ToolTip" xml:space="preserve">
+    <value>ميلي ثانية في كل بكسل
+(كم ميلي ثانية يمثله كل بكسل)
+غيّر القيمة ثم أنقر مرتين للتفعيل</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKLSURBVDhPrZHvSxNxHMf3F/S0h0UPYlaIJHpPtCNQk4mu
+        dP7YTzEZq2mZJJIwUZq7ytFm5Q+m5AzzZsy6CixL53I6j3L3PTNMCNm8jVixB9VNejY+3bWTEQ7qQS/4
+        PrrP6/19fz8n+2+skTqM8Rgo5GlM+KfxlJ/EU0G3PkGP1lP0YA0mjWWHJfVG9mFTnJk0oLUJjSXkVsuD
+        rmo5Paqy0K5atDJSHw84zxql8T8Rb07LWoKJ8Dloh1chLtnGRpOt69yPyg3u+5HAgJJYdirji3bF/iYM
+        aaDEm0MRXo44/qJwutgo34miux0sl2wXgrRs5NvhJYcS+W4oKEnLgMjGxNpEg2U9xlcL8rW0nLwqya0o
+        ypuFRiU+m8IyZ6tMSFoGvwdPhVxquTDcsnfr3hNML3TQ9LQedNPVMNdTJl/sx1OSlsE/JWxbWBjL8SZR
+        RDvJy2IYw/EXGh/XAbl5H2rGK34H+IgsAUG3NkEPqyxMdLc83YI3Nz9Xg8Grgs6Xl2D8/RC0zDRDib0Y
+        TlkxkLQMqyMqanWwFomLEurXsTHeKFZ2b4zAKHsXiGA3DLy7CfZVKxR05e0PCDirsJUhZfyNQ0kw4Z+H
+        2FjytFi5crgUjB4D2GkbaMZqIL8zF3LbcuBJW5FaUjP4+6uMAeE/+25VoHnrGYv4XvGIla8HuuFkxwmI
+        hVwQXrkNC1YlPGvGDkpqhkVCgb3uU1BztrKEuKyFPjwlVs5rPw7HWo7Cl81J+Lo1BZ/me8GLF6fIbCHZ
+        oK7g+iVHA0SCToh/mIAd+h68HWsColS+LY38nRlzkX6h7xxszXbDx9keWL5TB14TFpY+/xuPjAWaB7r8
+        z696y8F7vnB7Ult4QCaTyX4ByFmO5IgcLIkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton3.ToolTipText" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ9SURBVDhPrZH/SxNxGMf3LwRBEEFREOuXIKQGYRxRfmGl
+        K5ubS6eZDcusFUkoXGnoJlm5IkumPzjQbYbhUWSudDudmyvcfU6KFCqct0Gr1he9GxrR9XSfdjLCQf3Q
+        Cz6/3Od5Pc/785zivzHlKlMx7nIKuSsSdD8h0i5CDPYYE6EuPRXqOKKSyzLDuowmtq8yzvSWoynHUTLc
+        Y1AG7UXKUJeWDNmLUaBTH/fbDpnk8j/Bk1NyqZWJ8NvQPK9FnGBmo0LtNLdY8IJb2Oy/qbFO2DRx3zX1
+        6iSMq5zCk8MRXok4/pR0GtgofxFFk3UsJ5yXGpWyka+bxts1yNuqpmQtDXJVJKYcJeR0jC+S5PqULFyQ
+        5VoU5WukRPu9FjXpsRQkZC0N7SbEsN2glIpPr0xdeQJOxHJ8NU7hacxV+toIUdbS0E5p29LCcCEW0bxw
+        FjdjOP7k729R/sQ0J+hxA681Q4NgT2kidFdLMtFkfioFX/Ozvg5+mM/A96rjsKzVQTInHxZ37oYvW7eD
+        rKWZ7NRSkx3FCC9Kiq9jY7wJy9+e0bA8NgxLjwchOdAHgqMbPq3fsrqB31aoCtzRxMfaNVZmbmkjGxP2
+        ZpqM5Y9rNsCgOdsgq2notkKTX/rP3qsH0EhzHonfi89wwz6Svk6IM48aIBa2w1zgBow2a+BBlWqdrKbx
+        WdWqpy1qymPJTeBljbYQ4sPLeQsjVw7CG7oV3r/qhQ+zTng90gQDxB7RlalJJqhzhHG8vQQiQRvEXzpg
+        PnQbnndXgjVH+VYu+Tv3a7KNoy2HYXboEswMNcLELR0MVO/4LF//G/dMu4zOsix40pQP/cdU75yGrLUK
+        hULxC/UHm4RnNbv3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton4.ToolTipText" xml:space="preserve">
+    <value>تصغير</value>
+  </data>
+  <data name="toolStripButton10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMLSURBVDhPhZNrSJNRHMbfiNAuUB+yIsKoMEoik4rMLvsQ
+        RH2SypDSMhMvZZhS0MViaRcvpW4y5y19HWteCm2xnFtJ6XSuzK2WrnV7nZecuc1K3dRtbk/b66QCsR+c
+        L4f/7+EcznkIHcn01pLJiVoySaQhkyktN978kmQ41EVn8IoVgRd3GI6alJ3mqnMBVFnsahEnYmkiM5Lw
+        JqbRlCa3dNenQ9+aD8PbUpg6eDCqy/G9rQT9Mi56n+WCepKOTv4VtLCiUHt5L3LDFrR4dFcA/6p6OmBQ
+        WeJa9zGgKMK3pnx0S3JACTOhrUzF25ILkN07QQdkh69Qe3SCkHV2+yvljfhaXwxNxXW05UfjRXoIRCkM
+        VCUFgIxbh8JoXxQnbELlzSMo5mSAzRf7e/QpGj5ZJco+K0yjdozbnJiwOzFkmYRGP472njHoTFZQRiue
+        qozg1OkkHu1fpB/GHjOzqp3drmHzhAP6X3ZoBybQ5RLln0fAZHKdeXVUrWd8Zp60DwcJVSbqNTWK3h82
+        Wha/GwJXqvvCFuuCPGP/p0JuaFb1mNGuGwVHopO59xL4OywxZCBCq4Pm00OzUdE6qHjXZ4bSFZD3tKvZ
+        vXeMXG9JFR1HWOEGhGavmjmkUj4YXKsY7HnfO4rzgj1IfLAT8bxtiCrdgmuPj+LhGzYuPgoBI3e5g8Hx
+        WeTRpuA364VMZqmzyzBOv4TryBCquKhRcmix6g0LrIaL4CmyEC/Yj+3pXo6tGcRiWi6TDUifdwyh/5cN
+        FqsDtkknol33dcs5z84jU5KA2+JY3BBFIa0uDoWym4go3w0/JjFJVDd0+gua9Wj88BOGETstO5xAeMlG
+        VLexIHiVDV5rFsrkGa6QsyiQpSFWcAC+1wnDyqvEFroLndJCtCjkUHw0oc84hmGLDYcL1uIgexX25S7D
+        rrtLcJIMBrfpBk7z98Pn7BzriivE1G/8u0yzdSHw1jxE8vZhc4oXLp30UtKym7/rrCqKoeSsQ2Z3hae7
+        UMZY48g/sdDsd41w+qbMRdKp+al/6kwQvwEZ4SqExOJo0QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton10.ToolTipText" xml:space="preserve">
+    <value>الذهاب إلى مؤشر الوقت</value>
+  </data>
+  <data name="toolStripButton_auto_scroll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKZSURBVDhPjZPbT5JhHMe5dHHbRVe11p1r89a6iD+htdZh
+        S9fKdVrNyewic/XWatrBxAMYooINQ53TdKhAOTUOYgYIiZDlKwgJciqVV868317odWlz6Xd79jz77ff5
+        bs/ze76cnFwyosAp45c7ZRXKeRmfdLbcpCZkvKyt9RamG0owXsPL9lefoHruFJHS60eUwpKD5cRlTkEe
+        zmm+g693q2rhmxIhONuB8NwbhGydWJ1pw4q2BZ73ApBDtbDLq6BvuIKBe6cguHBAz+KMgfy+bcsgYG5j
+        Vjv8xlb8+CiCW10PcvA5nN2PMdtWCW1dad7g1aVDNhbncLR2d6HZMIlFlQTzigeYEZVhvPY0lNU89FQU
+        QXbjGMRlhyG5fRzdT85CInyGRvloIYv/0dhCUm32JhGOphFP0UikaUQ2M5j3xWFajsEVToIMJTFsCUE4
+        4lKz2E5pHLF3hFhFu5lmKpGFby0Npz+BJQY0fNsAQXTRTSPkANu+u4ZM68WDljD5iYzC8zOVh0etEbRo
+        XN8bR13FbNveUhiCOssyBZMrCqHapWXL+5diKmC0eimYGYOm4SUdW95b3YbAyQFjYPmLJ4oIlYF/PY0R
+        UwA1fY7Fpz2O/19BrvMNEi/66KVgPD+JZIbGRjwLTyQFlTWEh0QzXSW17P6IUq1f82EugpW1FDaTWaQY
+        OJOlQTHnWW8Mcytx2JhdoiHBF8/sHGPvmL3wrc6HSccvBDfSeZhh8wZrsQwWVhN52OKJoX/ah+pOCypf
+        9v79SLks2DVi6I0GGL+G4Q3FsL7JjNAfhWLChUddVtyVfAb/9TTqmuVoJ67+k4VtYdpvFnYYbI+zpfUa
+        aWg4Q+UivJUFKe9oVlTKpQTnuWT9Oa5ScJHLxpnD+Q3FAx8fE3IFfwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton_auto_scroll.ToolTipText" xml:space="preserve">
+    <value>تعديل العرض اوتوماتيكا في حال تجاوز الوقت للعرض</value>
+  </data>
+  <data name="toolStripButton_link_playback.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL/SURBVDhPjZNbSJNxGMZ3KXXbRVcFdSeF0ZV10WAeEpeE
+        CaZomOlaOpuOCKbLPlLb1DxtznPuK8UTtqWoU8vj3LREp+JhdPjcPDTPh3Iel3vavj4vhMAeeOHl4Xl+
+        f/4XL8tMEm4mUiQ0kQlNk6SIMhU+snWT7MOxkhh8ygtHl5R9qJZcs9XGeVCqh+eblOFnhEQEy411pMly
+        kd7SKoO1vwDLI+VYHX+LlbE3WBwsww9dIWY/5IJqlGGiMhH6vEhoxDeQe/eUnqk7AZVJY0eApeEy57zG
+        wkAJ5nsLYGnLAdWQAVPNC4yUPYEu6x4NyA47O8bUWSzdhMV92NCD762lmKxOxmBBFLpkt9EkYaM2wQMk
+        /yKKo86hVHAJNalBKFWmQ16pdWfqf9XxZb9teG4fq1t27B44sGd3YG37Nyatuxia2YF5dR/Uyj6ajStQ
+        tpjbmNpxtU/tvCcKWxwWZ9i2dwjrph2mhT1MO4uGr79AEBUORQulYeL/VuPQT88G4yr1mdrC7PoBXdaO
+        rqGw3fxNrjV7MrGTVW1Y7jPO2DBk3oKyzaxj7P9Xdf/SwOicDcNOgKJ5uo+xT1aNYel6vd4yW1HfjKys
+        bKhUKqS+zABR1jWfVNDMlUgklMsjCGI9Njb2qY+Pz2mmymJV9lkbiLQqR66yFHK5HIuLi6AoCr29vUh/
+        lYtnaXno7u4+dHl6vZ7OcLncTLqs0i20fxxfg0bbCecrMI6PQyZLR0BAAHg8HhQKBRITE+mde+uWIyQk
+        ROuCCIXCTVZdx4R7VZ8VPVMbkGbmQCqV0oDtnV3c9PNDZ2cnjEYjdDod1Go1ON6+EBD5V12AlJSUXfoW
+        JtqLoR8wIF1Rjvj4BBogljyHl5c3fH19ERgYSI9r9+JwcD+Is+EC8Pn8jWPHNNiUAV5kKPLlOdC8q4NG
+        o0FRURFEIhHEYjG9uzySJO0ymWzD+UXTsXM2FvMoNRG8E3qHCz7vAR4LYhDnnOSwy3tE8AVrRESEXSCI
+        PYiOjrb5+/ub2Wz2lT9DUSjdaQoptgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton_link_playback.Text" xml:space="preserve">
+    <value>تغيير احداثيات العرض ليتابع الوقت الحالي</value>
+  </data>
+  <data name="toolStripButton_smart.ToolTipText" xml:space="preserve">
+    <value>الأداة الذكية
+(للاختيار و التحريك، تقوم بانتقاء الأداة المناسبة تلقائياً)</value>
+  </data>
+  <data name="toolStripButton_selectTool.ToolTipText" xml:space="preserve">
+    <value>أداة الإختيار</value>
+  </data>
+  <data name="toolStripButton_move.ToolTipText" xml:space="preserve">
+    <value>أداة التحريك
+(لتحريك العناوين الثانوية)</value>
+  </data>
+  <data name="toolStripButton_editStart.ToolTipText" xml:space="preserve">
+    <value>أداة تغيير وقت البدء
+(يمكنك استخدام هذه الأداة في المزامنة أيضاً حيث
+ يمكنك تغيير وقت البدء لأكثر من عنوان ثانوي واحد)</value>
+  </data>
+  <data name="toolStripButton_editEnd.ToolTipText" xml:space="preserve">
+    <value>أداة تغيير وقت الانتهاء
+(يمكنك استخدام هذه الأداة في المزامنة أيضاً حيث
+ يمكنك تغيير وقت الإنتهاء لأكثر من عنوان ثانوي واحد)</value>
+  </data>
+  <data name="toolStripButton_split.ToolTipText" xml:space="preserve">
+    <value>أداة التقسيم
+(قسم عنوان ثانوي إلى إثنين)</value>
+  </data>
+  <data name="toolStripButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton5.ToolTipText" xml:space="preserve">
+    <value>حدد الوقت الحالي كوقت بدء لمسار العناوين الثانوية
+(مع التقويم)</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
+    <value>حدد الوقت الحالي كوقت بدء لمسار العناوين الثانوية
+(بدون تقويم، تحريك فقط)</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton2.ToolTipText" xml:space="preserve">
+    <value>حدد الوقت الحالي كوقت إنتهاء لمسار العناوين الثانوية
+(بدون تقويم، تحريك فقط)</value>
+  </data>
+  <data name="toolStripButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton6.ToolTipText" xml:space="preserve">
+    <value>حدد الوقت الحالي كوقت إنتهاء لمسار العناوين الثانوية
+(مع التقويم)</value>
+  </data>
+  <data name="toolStripButton11.ToolTipText" xml:space="preserve">
+    <value>انشاء / اظهاء العرض الموجي</value>
+  </data>
+  <data name="toolStripButton_gridlines.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD4SURBVDhP3Y6xqoIAAAAFh4YECUIEEYIMDEGxCAsqIyzE
+        pEAdKoIQRASDGqLfv7eEH/B4Lu/WG+6Ef8Tn8+H9fvN6vXg8HlRVxVcJl8uFNE05Ho+EYch2u23c3/F8
+        PqnrmrIsyfOc2+3WVA6HA7vdDt/3WSwWTKfTFg6KouB+v3O9XsmyjNPp1FRWqxWe5+G6LpZlMRqNWjg4
+        n88kSUIcx+z3ezabTVOxbRvTNBkOh+i6jqqqLRxEUUQQBKzXa+bzOZPJpKkMBgM0TUNRFHq9HpIktXCw
+        XC6ZzWY4jsN4PMYwjKbS7/eRZZlut0un00EUxRYOfocg/ABw7Wd7hDMb/AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton_gridlines.ToolTipText" xml:space="preserve">
+    <value>اظهار / اخفاء الخطوط العامودية</value>
+  </data>
+  <data name="toolStripButton15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton15.ToolTipText" xml:space="preserve">
+    <value>اظهار تواقيت العنوان الثانوي المعروض</value>
+  </data>
+  <data name="toolStripButton17.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton17.ToolTipText" xml:space="preserve">
+    <value>اظهار دائم لخطوط العناوين الثانوية</value>
+  </data>
+  <data name="toolStripButton_autoScrollWhenChangingTime.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKYSURBVDhPjZPJT1NRGMW7JHbrwpXGuCMmbNGF/ROMMQ6J
+        EKPEKRpCgwuR6NNoQANSwJahQIupFtCIkDK0SgA7UMS2tNJBlMcrrbR0UqCPzn3H1/qIYIhwkpt78+X7
+        neTe7x5eTpScKHDJheUueYXKIReSrpbr9IRckLW138B0YwnGawTZt9XH6N5bRaTs6iGVuGR/OXGRV5CH
+        c3J0CfXu0Vr4piQIznYhPPcCIVs3VmY6sKxtgee9CORgLeyKKugbL6H/zgmIzu3TczhroLhr2zQImDvY
+        1Qm/sR0/PkrgVjeAHHgKV89DzHZUQltfmjd4duGAjcN5PK3dXWg2TGJhVAqH8h5mJGUYrz0JVbUAvRVF
+        kF87grayg5DePIqeR6chFT9Bk2KkkMP/aGw+qTZ7kwhH04inGCTSDCIbGTh8cZiWYqDCSZChJIYsIYiH
+        KTWHbZfGGXtH1L1m3GwzncjCt5qGy5/AIgsavq2DIFqZ5mGyn2vfWYOmteIBS5j8REbh+ZnKwyPWCFo0
+        1PemEaqYa9tdSkNQZ1miYaKiEKspLVfeu5RTAaPVS8PMGjQPLeq48u7qMQSO9xsDS188UUToDPxraQyb
+        Aqh541x43Ov8/xUUOt8AQciYxWA8P4lkhsF6PAtPJIVRawj3iRqmSmbZ+RFlWr/mw1wEy6spbCSzSLFw
+        JsuAZs+z3hjmluOwsbtUQ0LYNrN9jH1j9sJXOh8mnb8QXE/nYZbNG6zGMphfSeRhiyeGt9M+VHdbUFnX
+        9/cj5bJg17RBbzTA+DUMbyiGtQ12hP4olBMUHry04rb0M4St06h/rkAncfmfLGwJ016zsM1ga5wt7VdI
+        Q+MpOhfhzSzIBIezklI+LTrLJxvO8FWi83wuzjzebygcHtOE2cgIAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton_autoScrollWhenChangingTime.ToolTipText" xml:space="preserve">
+    <value>الزحلقة الأوتوماتيكية إلى خط الوقت بعد تغير موضع
+خط الوقت</value>
+  </data>
+  <data name="toolStripButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALgSURBVDhPrZFLTxNRGIbnH7iVjWs3RNlgjMaFMSQao4nE
+        oCYiKAppgYSbXCrBRm5CoYCWohDLpVxaBGxDIC13AhUIUNpCpVBaSpFrqdOWtjAIrzNlMBpduPBJvpxz
+        Mud5v3POEP+dvqbiq5rW7L4pRcbOjJJHTSmzqGFZ0oaqJulTe1XGRXbb3xlqya8cUHP27aYxbK0vweVy
+        giQdWF3WQz/SgrbK2F1ZaXw2u/13Blryys2TYji3bTDZnPjYb0Vl2xwq5LNo6DZjemEDVpMGXdVxkOTG
+        pLHaMT11hZeVylTKsWnFsHYN7QNWmO0uOFwebLt2YVpxoUFtRseQBfPabkhf3fPWFMSFsDpBqOvSuxbp
+        D1+WdyDvs4DBSZJY+LoOPz1nynMEVHWaMaKzoUeaAjHvfgOrE4SqPmF9zWaAVLUII93Ze3AEj9cL0QcJ
+        Nukg994e2lT9GF4gUdysg2FChmpeuJXVCaKjLt7vdKyiqFGHTR8F594h9umumS/5kLYrkJ7Dh1ozDgNJ
+        IVk0jhXrOB0Q5mN1OkAY63dsLYEv0WLFQ9Ehh7CTbuQKSgLysFaP7QNg0kEhoewzbEtDqM78JaCtNNKy
+        ZOhGmVyHoUUSa/Sl7W4KXYOjsOy4sPEdkGnakSSOwrPS23hUcA2J6ZdIVieI2rxIyaAsAxrdAgrlJmzT
+        D+akAPchXfS8dbQF/NZodM6KMLOmhrCHgwhhMEK5QYJAgCSXc746J8I3P1mPxu4pvJbPQ2v9Bg/9Hh4v
+        heii61AYyqAwVjA/CILepxD2xuIc95Q/EMDwjh+d0VR4F8axSgxMTCJfMobnFaNIKRvBTV4IumZrAvIJ
+        Sr0IF7hBYPVj3r54mP0+9YZHIX6A6b48WIxSWOZqcSXxDIrVj1GgjgrIBaqoP09wgjjrSWh52p3mN8m3
+        bOLUMB9TUYnBrnDBWZSoYwKdmZFZ/3yDfyGUc7owhBvkZo7NjMyaIAjiB2ioMPmrxyvxAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="toolStripButton7.ToolTipText" xml:space="preserve">
+    <value>أضف علامة</value>
+  </data>
+  <data name="toolStripButton8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALySURBVDhPrZFdSJNRGMffmt4X3XTThV1ECUHdBEFBqXUR
+        1IUSZqAQCorphd9TkyWpmaap5WZpzY+p22yaks6pc7p0qahrM83pPpwzvzbnO+emvur+vdOXPiDoph88
+        cOCc3/95zjnEf0feUBigasqSj7Wy1760ZVJjbRmUUpSwLKtK+NBcwb7MHPs7/cI8rqIrdseiG8LqkgEO
+        hx0kacPCnBbaASEk3OhNUXFcFnP8TxTC3FL9KA92qxk6sx3ve03gSiZRJv6KOqke4zPLMOlU6KiMAT8n
+        KoXRDumuyb/S1pZM2VZMUKoX0awwQW9xwOZwwurYhG7egbouPVr6jZhWSyF4cs9V9TTmIqMTRFdNWscs
+        vfFtbg1iuRFe7CSJme9L2KLX3nJ6gIqPegxozOgWJIGXGVbH6AQhq41fWjRPQCCbxRTd2bXrgdPlQvk7
+        PlbooI3tbUhkvVDOkChs1GBiRITKzBAToxNES03clt22gIJ6DVbcFOzb+9ihu6Y/zoaguRVpnGx0qYYx
+        QVJILB/GvGmYDrjpZnQ64EX0lm3VgGy+GvNOig7Zh4XcQM7zogNZqdbCuguM2ijEl3yG2dCPyvTfAiTF
+        EUbDhBQlYg36Z0ks0pe2bFDo6BuEcc2B5T1A21SO3vCz6AnwRU/ICdSEnyMZnSCqcyP4fSI2VJoZ5It1
+        sNIPZqeAjX266PVsCxfa1KvYai+CZ6oTLmEiOA/Pe7oDfeIPAvg5sRcqOaHu6dFa1EvH8Ew8DbVpHU76
+        PZwuCj1hp+GmZZTdBtKOA3l+sBZcQ/t1lvEgwMvr7Afshvy7mBriQjEyijz+EFLLBpFUMnAwtmes2fu7
+        P1nnnAQnwMfD6Ie8ehSe9Sb5lrOVdx/j8lwYpwQwTlajO/gYNt9GArS0nUrATpc5hoXOG6wFRv0FLyPy
+        UmlKcOPLxDtmXvJNt7ck4f4kJ+qMZzHND6vpvjBEHYHc32dPGnQ0g9H+zafQU2xZIMvkHVsWxLIcygTx
+        A0F8LpKh+t29AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton8.ToolTipText" xml:space="preserve">
+    <value>حذف العلامة</value>
+  </data>
+  <data name="toolStripButton9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMDSURBVDhPrZBdTFJhHIffPlbrrptaFy5Xa+vjqrqo1eyi
+        j7HmRS1b69tWVprlnIlLBaeoFGkplgGFExEooNC00sTQZEamIqGlgighpRlEIOEHTn8d6GzV1kUXPdu7
+        vTvnfZ7/eQ/5r+juF+4yPMzSGWvSv76tZQWNtZlBvSrlc0NZyuMqUfo2+tjfaVFeFTRrE6edljZ8GR2E
+        z+eB1+vGxw/d6G5VQiOI/64qupRFH/+TZiW3xNYphMflgMXhwaMmOwSa97ilfgdZvQ1d1s+wWwyoEydA
+        kn82jdZ+0ijlRdXWMoPuMTv0phFUNdthc/rg9vnh8n2HZdgHmdaG6pYh9JvqIc87Eii7lrCJ1gnRSq/U
+        DVAv+j58hVo3hBAerxfWT6OYpPah5Z8DRE9taDU70ChPhZB1VEbrhDRUJo2OOHogbxhALzU5MDMHfyCA
+        O+USjFGh8akpaBqaoLd6UfjAjJ52FcSsg3ZaJ6RaemnS4/6IAoUZYxNBeKZmMU1NzcjhQF5VgyvZHGgN
+        b5CqYuCcZBOG7W+oAGOC1qlAcfyk+8sgOBIThv1BKjILp3cc+TduhmW9qRuuGeCiYic4T47hsGgdxBm/
+        BTRFsUODPfXgq81oGfBihLq0czyIZMUOJMu340LlFsSVbwa7+hDUHSVgPtwPRvEKEJB54UAFN1byUpUO
+        g9kKntoCF/XDPEFqomwrHncJoDGWhkVlBx/8F0xIXxcgQcFA5LXFM+GIJD9xozj78ER/ZyUU9UZcV/fD
+        ZP+GOOq+IblIm4zrzy+CW3ceOU9OI/dZPET6PJyoiMKyRDId/oq7nNPp93mH0NsmQHN7J65K2nBcvB6q
+        dj4UbTchNRSg/BWPiiRCqM/FecVerGKTvogUsiQcCFHKPpl1jxntrxEeQ5eOixjhakTfisCe4uWIKlyK
+        WMl2CFpycEbGwEo2Ma9JIotp9RfCzLgtJWkxD25f3ucQMhkToRXaFzMPqNbmzf92SrobkZmkc0M2WUQr
+        /05kBnGtZC0AySYL6UcUhPwAzU4RWv5Vv8MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton9.ToolTipText" xml:space="preserve">
+    <value>القفز إلى هذه العلامة</value>
+  </data>
+  <data name="toolStripButton12.ToolTipText" xml:space="preserve">
+    <value>اظهار متحكمات الوسائط</value>
+  </data>
+  <data name="toolStripButton13.ToolTipText" xml:space="preserve">
+    <value>تشغيل / توقيف مؤقت للوسائط</value>
+  </data>
+  <data name="toolStripButton14.ToolTipText" xml:space="preserve">
+    <value>تشغيل العناوين الثانوية المختارة
+تشغيل الوسائط من وقت البدء لاول عنوان ثانوي مختار
+الى وقت الانتهاء لاخر عنوان ثانوي مختار
+</value>
+  </data>
+  <data name="toolStripButton_replay_period.ToolTipText" xml:space="preserve">
+    <value>اذا كان هناك تشغيل لعناوين ثانوية, سيتم تشغيلها للابد طالما هذا الخيار مفعلا</value>
+  </data>
+  <data name="toolStripButton16.ToolTipText" xml:space="preserve">
+    <value>توقيف الوسائط</value>
+  </data>
+</root>

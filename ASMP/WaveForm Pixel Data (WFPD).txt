@@ -1,0 +1,73 @@
+﻿// This file is part of AHD Subtitles Maker
+// A program that can make and edit subtitle.
+// 
+// Copyright © Alaa Ibrahim Hadid 2009 - 2021
+//
+// This library is free software; you can redistribute it and/or modify 
+// it under the terms of the GNU Lesser General Public License as published 
+// by the Free Software Foundation; either version 3 of the License, 
+// or (at your option) any later version.
+//
+// This library is distributed in the hope that it will be useful, but 
+// WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+// or FITNESS FOR A PARTICULAR PURPOSE.See the GNU Lesser General Public 
+// License for more details.
+//
+// You should have received a copy of the GNU Lesser General Public License 
+// along with this library; if not, write to the Free Software Foundation, 
+// Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+// 
+// Author email: mailto:alaahadidfreeware@gmail.com
+//
+
+Introduction
+------------
+WaveForm Pixel Data file is meant to make it easier and faster to get wave form from wave files.
+Because of wave files are too big, it is slow to get data at run-time and display it as waveform.
+WFPD will convert the wave file into pixels, each pixel ranged from 0 to 255. Each entry represents a wave peak at millipixel (milliseconds per pixel).
+Thus, for waveform displaying, instead of getting data from wave file and convert samples for each millipixel (which will take a long time specially
+1 millisecond represented as thousands of samples for example), we have the pixel value for each millisecond in a wfpd.
+For a wave file (44100, 16 bit, stereo) for an audio which is length is 03:00:
+The original file maybe 30 mb.
+The WPFD file is : 12 + 4 * (3 * 60 * 1000) = 720012 bytes = 703,13671875 KB = 0,6866569519042969 MB
+12 is the header size
+4 is 2 multiply number of channels which it is 2 for stereo.
+
+So, when the program attempt to show waveform, it loads the WFPD data into memory. Then at runtime, when it needs to represents a pixel at
+time x, it just can get this pixel easily and fast from the WFPD buffer. Pixel is ranged from 0 - 255 (byte), also can be scaled easily
+to the height/width required.
+
+WFPD file structure:
+-------------------
+
+Index | Bytes Number | Value | Description
+------+--------------+-------+------------
+0     | 4            | WFPD  | Header ID, must be WFPD in ASCII encoding.
+------+--------------+-------+------------
+4     | 2            | CN    | Number OF Channels. Can be 1 for mono or 2 for stereo. (More than 2 channels are not supported)
+------+--------------+-------+------------
+6     | 2            | BITS  | Bits Per Sample. Can be 8, 16, 24 or 32
+------+--------------+-------+------------
+8     | 4            | MPB   | Milliseconds Per Block. Can be anything between 1 and 1000
+------+--------------+-------+------------
+12    | XX           | DATA  | The Pixels data
+
+Each entry in DATA is:
+. If CN = 1 (MONO)
+  Each entry is 2 bytes, first one represent the pixel for positive, the second one is for negative value for given millisecond.
+. If CN = 2 (STEREO)
+  Each entry is 4 bytes, first one represent the left-channel-pixel for positive, the second one is the left-channel-pixel for negative,
+  third one represent the right-channel-pixel for positive, the forth one is the right-channel-pixel for negative value for given millisecond.
+
+To get a pixel data at given time (WFPD file MPB is 1):
+For example at second 22.534
+First we convert it to milliseconds: 22.534 * 1000 = 22534
+Then we devide by MPB then 22534 / 1 = 22534
+Then we multiply by 2 * CN. For stereo: 22534 * 2 * 2 = 90136
+Finally, to get the index of that block within the WFPD, we add 12 the header length: 90136 + 12 = 90148
+For stereo, we read 4 bytes:
+
+leftChannelPOS = TheBuffer[90148 + 0];
+leftChannelNEG = TheBuffer[90148 + 1];
+rightChannelPOS = TheBuffer[90148 + 2];
+rightChannelNEG = TheBuffer[90148 + 3];

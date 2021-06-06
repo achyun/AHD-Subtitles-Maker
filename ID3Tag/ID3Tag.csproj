@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF94E1EC-89CF-4363-A4AD-370B71A1058E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AHD.ID3</RootNamespace>
+    <AssemblyName>ID3Tag</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\ID3Tag.XML</DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|AnyCPU'">
+    <OutputPath>bin\x86\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\Release\</OutputPath>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\x86\</OutputPath>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Debug\DebugLogger.cs" />
+    <Compile Include="ID3TagSettings.cs" />
+    <Compile Include="ID3TagWrapper.cs" />
+    <Compile Include="ID3v2\ID3v2QuickWrapper.cs" />
+    <Compile Include="ID3v2\Frames\AttachedPictureFrame.cs" />
+    <Compile Include="ID3v2\Frames\CommentsFrame.cs" />
+    <Compile Include="ID3v2\Frames\CommercialFrame.cs" />
+    <Compile Include="ID3v2\Frames\EventTimingCodesFrames.cs" />
+    <Compile Include="ID3v2\Frames\GeneralEncapsulatedObjectFrame.cs" />
+    <Compile Include="ID3v2\Frames\MusicCDIdentifierFrame.cs" />
+    <Compile Include="ID3v2\Frames\PlayCounterFrame.cs" />
+    <Compile Include="ID3v2\Frames\PopularimeterFrame.cs" />
+    <Compile Include="ID3v2\Frames\SynchronisedLyricsFrame.cs" />
+    <Compile Include="ID3v2\Frames\TermsOfUseFrame.cs" />
+    <Compile Include="ID3v2\Frames\UnsychronisedLyricsFrame.cs" />
+    <Compile Include="ID3v2\ExtendedHeader.cs" />
+    <Compile Include="ID3v2\FramesManager.cs" />
+    <Compile Include="MIME\MimeItem.cs" />
+    <Compile Include="MIME\MimeManager.cs" />
+    <Compile Include="Types\Version4FrameFlags.cs" />
+    <Compile Include="Types\ID3v2EncodingWrapper.cs" />
+    <Compile Include="ID3v2\Frames\InvolvedPeopleListFrame.cs" />
+    <Compile Include="ID3v2\Frames\UserDefinedURLLinkFrame.cs" />
+    <Compile Include="ID3v2\Frames\URLLinkFrame.cs" />
+    <Compile Include="ID3v2\Frames\TextFrame.cs" />
+    <Compile Include="ID3v2\Frames\UniqueFileIdentifierFrame.cs" />
+    <Compile Include="ID3v2\Frames\UnknownFrame.cs" />
+    <Compile Include="ID3v2\Frames\UserDefinedTextInformationFrame.cs" />
+    <Compile Include="ID3v2\ID3TagFrameAttr.cs" />
+    <Compile Include="ID3v2\ID3TagFrame.cs" />
+    <Compile Include="MP3\MP3Info.cs" />
+    <Compile Include="MP3\Enums.cs" />
+    <Compile Include="Types\Consts.cs" />
+    <Compile Include="Types\EventTimingItem.cs" />
+    <Compile Include="Types\InvolvedPeopleItem.cs" />
+    <Compile Include="Types\ID3Version.cs" />
+    <Compile Include="Shared\SynchsafeConvertor.cs" />
+    <Compile Include="ID3v2\ID3v2.cs" />
+    <Compile Include="Shared\ProgressArg.cs" />
+    <Compile Include="Shared\Result.cs" />
+    <Compile Include="ID3v1\ID3v1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\SynchronisedLyricsItem.cs" />
+    <Compile Include="Types\TimeStampFormat.cs" />
+    <Compile Include="Types\Version3FrameFlags.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

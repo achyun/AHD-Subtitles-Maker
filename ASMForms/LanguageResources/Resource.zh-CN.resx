@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Browse" xml:space="preserve">
+    <value>浏览(&amp;B)</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>取消(&amp;C)</value>
+  </data>
+  <data name="Button_Close" xml:space="preserve">
+    <value>关闭(&amp;C)</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>否(&amp;N)</value>
+  </data>
+  <data name="Button_Stop" xml:space="preserve">
+    <value>停止(&amp;S)</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>是(&amp;Y)</value>
+  </data>
+  <data name="CloseThisWizard" xml:space="preserve">
+    <value>关闭此向导</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="ID3TagSynchronisedLyricItem" xml:space="preserve">
+    <value>ID3 标签同步歌词项</value>
+  </data>
+  <data name="Message_AreYouSure" xml:space="preserve">
+    <value>你确定吗 ?</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToStopCurrentProgress" xml:space="preserve">
+    <value>你确定你想停止当前进程 ?</value>
+  </data>
+  <data name="Message_BitcoinAddressCopiedToClipboard" xml:space="preserve">
+    <value>比特币地址复制到剪贴板.</value>
+  </data>
+  <data name="Message_CanceldByUser" xml:space="preserve">
+    <value>用户取消操作.</value>
+  </data>
+  <data name="Message_CantFindMovieIMDB" xml:space="preserve">
+    <value>找不到电影IMDB(互联网电影资料库),  你需要手动输入.为获得该影片IMDB, 请到 OpenSubtitles.org 网站并搜索该影片, 找到你希望放入这里的的IMDB.</value>
+  </data>
+  <data name="Message_CantRipThisTrackOrCanceledByUser" xml:space="preserve">
+    <value>不能抓取该轨道或被用户取消.</value>
+  </data>
+  <data name="Message_Done" xml:space="preserve">
+    <value>完成 !!</value>
+  </data>
+  <data name="Message_ErrorNoResultReturnedFromServerPleaseTryAgainLater" xml:space="preserve">
+    <value>错误 ! 没有从服务器返回结果. 请稍后再试.</value>
+  </data>
+  <data name="Message_InvaildeMkv" xml:space="preserve">
+    <value>无效文件 (非 Matroska 文件或没有字幕轨)</value>
+  </data>
+  <data name="Message_InvailedUserrNameOrPassword" xml:space="preserve">
+    <value>无效的用户名或密码.</value>
+  </data>
+  <data name="Message_LinkCopiedToClipboard" xml:space="preserve">
+    <value>"复制链接到剪贴板"</value>
+  </data>
+  <data name="Message_LinkToYourSubtitlesFile" xml:space="preserve">
+    <value>链接到你的字幕文件</value>
+  </data>
+  <data name="Message_NoDictionaryToUse" xml:space="preserve">
+    <value>字典文件夹中没有字典. 你想下载字典吗 ?</value>
+  </data>
+  <data name="Message_NoResult" xml:space="preserve">
+    <value>无结果 !</value>
+  </data>
+  <data name="Message_NoResultMovieNameOSSearch" xml:space="preserve">
+    <value>搜索无结果 !</value>
+  </data>
+  <data name="Message_NoResultNormalOSSearch" xml:space="preserve">
+    <value>没有搜索结果 ! 也许你要找的电影文件不在的 OpenSubtitles.org 中. 尝试使用电影名称搜索.</value>
+  </data>
+  <data name="Message_NoSubtitleDetectedToExport" xml:space="preserve">
+    <value>没有检测到导出的字幕. 转到步骤1页面并更改字幕轨.</value>
+  </data>
+  <data name="Message_PleaseAddAtLeastOneStyle" xml:space="preserve">
+    <value>请至少添加一种样式.</value>
+  </data>
+  <data name="Message_PleaseBrowseForMovieFirst" xml:space="preserve">
+    <value>请先浏览电影文件.</value>
+  </data>
+  <data name="Message_PleaseBrowseForSubtitlesFileFirst" xml:space="preserve">
+    <value>请先浏览字幕文件</value>
+  </data>
+  <data name="Message_PleaseBrowseWhereToSave" xml:space="preserve">
+    <value>请浏览保存输出文件的位置. 转到步骤4页面.</value>
+  </data>
+  <data name="Message_PleaseEnterIMDBFirst" xml:space="preserve">
+    <value>请先输入IMDB</value>
+  </data>
+  <data name="Message_PleaseEnterMovieName" xml:space="preserve">
+    <value>请先输入电影名称. 该名称应该清晰 (不带 DVD 抓取, 蓝光抓取..等等).</value>
+  </data>
+  <data name="Message_PleaseEnterSearchName" xml:space="preserve">
+    <value>请输入搜索名称</value>
+  </data>
+  <data name="Message_PleaseEnterSurroundingChar" xml:space="preserve">
+    <value>请输入标题围绕的第一个字符, 它必须是一个字符.</value>
+  </data>
+  <data name="Message_PleaseEnterTheMovieHashFirst" xml:space="preserve">
+    <value>请先输入电影哈希值.</value>
+  </data>
+  <data name="Message_PleaseEnterTheMovieSizeInBytesFirst" xml:space="preserve">
+    <value>请先以字节为单位输入电影大小.</value>
+  </data>
+  <data name="Message_PleaseSelectAResult" xml:space="preserve">
+    <value>请先从结果中选择一个文件</value>
+  </data>
+  <data name="Message_PleaseSelectAStyleFirst" xml:space="preserve">
+    <value>请先选择一个样式.</value>
+  </data>
+  <data name="Message_PleaseSelectASubtitleFirst" xml:space="preserve">
+    <value>请先选择一个字幕</value>
+  </data>
+  <data name="Message_PleaseSelectEncodingFirst" xml:space="preserve">
+    <value>请先选择写入编码. 转到步骤3页面.</value>
+  </data>
+  <data name="Message_PleaseSelectLanguageFirst" xml:space="preserve">
+    <value>请先选择字典 (语言)</value>
+  </data>
+  <data name="Message_PleaseSelectOneDictionaryAtLeast" xml:space="preserve">
+    <value>请选择至少一本字典</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitleLanguagesFirst" xml:space="preserve">
+    <value>请先选择字幕语言</value>
+  </data>
+  <data name="Message_PleaseSelectTextFirst" xml:space="preserve">
+    <value>请先选择文本</value>
+  </data>
+  <data name="Message_PleaseSelectWordFromsuggestions" xml:space="preserve">
+    <value>请从建议词中选择一个单词. 如果它不在列表中, 那么你必须手动编辑后点击确定.</value>
+  </data>
+  <data name="Message_PleaseTryAgainLater" xml:space="preserve">
+    <value>请以后再试一次.</value>
+  </data>
+  <data name="Message_TheresNoSubtitleToLoad" xml:space="preserve">
+    <value>没有字幕加载 !</value>
+  </data>
+  <data name="Message_TheSplitTimeMustBeLargerThanTheOriginalSubtitlesStartTime" xml:space="preserve">
+    <value>分割时间必须大于原始字幕的开始时间</value>
+  </data>
+  <data name="Message_TheSplitTimeMustBeSmallerThanTheOriginalSubtitlesEndTime" xml:space="preserve">
+    <value>分割时间必须小于原始字幕的结束时间</value>
+  </data>
+  <data name="Message_ThisIMDBIsInvailed" xml:space="preserve">
+    <value>该 IMDB 是无效的. 请更改 imdb.</value>
+  </data>
+  <data name="Message_ThisMp3FileDoesntHaveID3v2" xml:space="preserve">
+    <value>这个MP3文件没有ID3v2, 程序将在保存时创建的ID3标签</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTaken" xml:space="preserve">
+    <value>该名称已被占用 !!</value>
+  </data>
+  <data name="Message_ThisSubtitleFileIsAlreadyInOpenSubtitlesorgDatabase" xml:space="preserve">
+    <value>这个字幕文件已经在 Opensubtitles.org 数据库中 !</value>
+  </data>
+  <data name="Message_UnableToConnectToOSServer" xml:space="preserve">
+    <value>无法连接到操作系统服务器</value>
+  </data>
+  <data name="Message_UnableToDownloadDictionary" xml:space="preserve">
+    <value>无法下载字典</value>
+  </data>
+  <data name="Message_UnableToOpenMKV" xml:space="preserve">
+    <value>无法加载Matroska文件. 此文件不是 Matroka 文件或没有字幕轨.</value>
+  </data>
+  <data name="Message_UnableToRipThisTrackEncryptedVobsubContentNotSupported" xml:space="preserve">
+    <value>无法抓取此轨道. 不支持加密的 vobsub 内容</value>
+  </data>
+  <data name="Message_UploadDone" xml:space="preserve">
+    <value>上传完成 !!</value>
+  </data>
+  <data name="MessageCaption_DeleteItem" xml:space="preserve">
+    <value>删除项</value>
+  </data>
+  <data name="MessageCaption_DownloadDictionaries" xml:space="preserve">
+    <value>下载字典</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOpenSubtitlesorg" xml:space="preserve">
+    <value>从 OpenSubtitles.org 下载字幕</value>
+  </data>
+  <data name="MessageCaption_NameAlreadyTaken" xml:space="preserve">
+    <value>名称已被使用</value>
+  </data>
+  <data name="MessageCaption_NoDictionaryToUse" xml:space="preserve">
+    <value>无可用字典</value>
+  </data>
+  <data name="MessageCaption_NoID3Tagv2Found" xml:space="preserve">
+    <value>未发现ID3标签v2</value>
+  </data>
+  <data name="MessageCaption_SpellCheck" xml:space="preserve">
+    <value>拼写检查</value>
+  </data>
+  <data name="MessageCaption_StopTranslationProgress" xml:space="preserve">
+    <value>停止翻译进程</value>
+  </data>
+  <data name="MessageCaption_SubtitleDownload" xml:space="preserve">
+    <value>字幕下载</value>
+  </data>
+  <data name="MessageCaption_SubtitlesFormatExport" xml:space="preserve">
+    <value>字幕格式导出</value>
+  </data>
+  <data name="MessageCaption_UploadSubtitlesToOpenSubtitlesorg" xml:space="preserve">
+    <value>上传字幕到 OpenSubtitles.org</value>
+  </data>
+  <data name="NewSubtitlesTrack" xml:space="preserve">
+    <value>新建字幕轨</value>
+  </data>
+  <data name="SubtitlesTrack" xml:space="preserve">
+    <value>字幕轨</value>
+  </data>
+  <data name="TipOfTheDay_0" xml:space="preserve">
+    <value>你可以重复字幕个轨的字幕到另一个新字幕, 只需选择所需的语言轨道然后按Ctrl+D或右击鼠标然后选择复制.</value>
+  </data>
+  <data name="TipOfTheDay_1" xml:space="preserve">
+    <value>如果您的MP3文件有ID3同步歌词, 将其添加到您的项目中 !!, 进入工具&gt;从ID3提取或按下 Ctrl+Alt+Q.</value>
+  </data>
+  <data name="TipOfTheDay_10" xml:space="preserve">
+    <value>这是你在这里运行的一部很长的电影, 很难找到章节.你可以使用标记来轻松地寻找媒体时间, 进入播放器&gt;标记.</value>
+  </data>
+  <data name="TipOfTheDay_11" xml:space="preserve">
+    <value>使用GT文本文件翻译大量字幕, 这比平时翻译操作快两倍.</value>
+  </data>
+  <data name="TipOfTheDay_12" xml:space="preserve">
+    <value>你没有时间使用时间轴控件同步字幕时间 ? 然后使用AHD同步工具, 它可以在几秒钟内完成艰巨的工作 !!?</value>
+  </data>
+  <data name="TipOfTheDay_13" xml:space="preserve">
+    <value>你不知道吗 ? AHD 字幕格式文件可以保存你项目的所有字幕轨 ? 还可以保存每个字幕的每个字符的样式 (颜色, 字体..) ? 可以使用此格式创建项目的备份.</value>
+  </data>
+  <data name="TipOfTheDay_14" xml:space="preserve">
+    <value>随时直接从 Opensubtitles.org 搜索和下载字幕电影不离开ASM !
+进入工具&gt;从 Opensubtitles.org 下载字幕</value>
+  </data>
+  <data name="TipOfTheDay_15" xml:space="preserve">
+    <value>分享你的字幕并直接上传到 OpenSubtitles.org.
+进入工具&gt;上传字幕到 Opensubtitles.org</value>
+  </data>
+  <data name="TipOfTheDay_2" xml:space="preserve">
+    <value>当你导入字幕格式时, 它可能包括错误的字幕. 你可以通过工具&gt;检查字幕错误或Ctrl+Alt+C来检查字幕错误.</value>
+  </data>
+  <data name="TipOfTheDay_3" xml:space="preserve">
+    <value>你可以任何时间改变你想要媒体, 按 CTRL + M</value>
+  </data>
+  <data name="TipOfTheDay_4" xml:space="preserve">
+    <value>您可以将当前时间设置为播放器时间上的字幕结束时间, 只要点击播放器控件中"设置当前时间作为字幕的结束时间"按钮即可.</value>
+  </data>
+  <data name="TipOfTheDay_5" xml:space="preserve">
+    <value>你知道ASM能自动检查导入字幕格式的字幕错误吗 ? 您可以通过设置&gt;常规更改此选项</value>
+  </data>
+  <data name="TipOfTheDay_6" xml:space="preserve">
+    <value>无需手动同步, 使用时间轴控制来调整字幕时间 !!</value>
+  </data>
+  <data name="TipOfTheDay_7" xml:space="preserve">
+    <value>如果你想转换字幕格式,其实根本不需要运行 AHD Subtitles Maker 专业版 !! 使用 AHD 字幕转换器更好.</value>
+  </data>
+  <data name="TipOfTheDay_8" xml:space="preserve">
+    <value>你需要翻译字幕但没有足够的时间来写文本吗 ? 您可以使用谷歌翻译服务.</value>
+  </data>
+  <data name="TipOfTheDay_9" xml:space="preserve">
+    <value>你不喜欢 AHD Subtiltes Maker 专业版的外观并困惑于你看到布局 ? 您可以更改布局和更多, 请转到视图&gt;布局</value>
+  </data>
+  <data name="Title_ChangeMedia" xml:space="preserve">
+    <value>改变媒体</value>
+  </data>
+  <data name="Title_DataFor" xml:space="preserve">
+    <value>数据对于</value>
+  </data>
+  <data name="Title_EnterMovieIMDB" xml:space="preserve">
+    <value>输入影片 IMDB</value>
+  </data>
+  <data name="Title_EnterProjectName" xml:space="preserve">
+    <value>输入项目名称</value>
+  </data>
+  <data name="Title_ExportTo" xml:space="preserve">
+    <value>导出到</value>
+  </data>
+  <data name="Title_ImportSubtitlesFormat" xml:space="preserve">
+    <value>导入字幕格式</value>
+  </data>
+  <data name="Title_OpenMovieFile" xml:space="preserve">
+    <value>打开影片文件</value>
+  </data>
+  <data name="Title_OpenPreparedTextFile" xml:space="preserve">
+    <value>打开已就绪的文本文件 (歌词, 电影文本 ...等等)</value>
+  </data>
+  <data name="Title_OpenSubtitlesFile" xml:space="preserve">
+    <value>打开字幕文件</value>
+  </data>
+  <data name="Title_PleaseEnterTheStyleName" xml:space="preserve">
+    <value>请输入风格名称</value>
+  </data>
+  <data name="Title_SubtitlesFormat" xml:space="preserve">
+    <value>字幕格式</value>
+  </data>
+  <data name="ToolTip_ResetTheShiftToZero" xml:space="preserve">
+    <value>复位偏移为零 (无偏移)</value>
+  </data>
+  <data name="ToolTip_ShiftLeft" xml:space="preserve">
+    <value>左偏移</value>
+  </data>
+  <data name="ToolTip_ShiftRight" xml:space="preserve">
+    <value>右偏移</value>
+  </data>
+  <data name="ToolTip_TheRealTime" xml:space="preserve">
+    <value>真实时间 (会是字幕的起始时间位置 (或如果偏移全部的第一个字幕))</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="Word_Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>请选择至少一种模式!</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>请输入至少一个标点符号做断行!</value>
+  </data>
+  <data name="Message_PleaseEnterPassword" xml:space="preserve">
+    <value>请先输入密码。</value>
+  </data>
+  <data name="Message_PleaseEnterUsername" xml:space="preserve">
+    <value>请先输入一个用户名。</value>
+  </data>
+</root>

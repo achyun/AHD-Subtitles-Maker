@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77B07C3D-42CD-4298-9E3D-AF2FA53F7280}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AHD.SM.Forms</RootNamespace>
+    <AssemblyName>ASMForms</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|AnyCPU'">
+    <OutputPath>bin\x86\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\RELEASE\x86\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NHunspell">
+      <HintPath>..\Libraries\NHunspell\NHunspell.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZipSharp">
+      <HintPath>..\Libraries\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_AboutASM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AboutASM.Designer.cs">
+      <DependentUpon>Frm_AboutASM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\Frm_AddTimeMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\Frm_AddTimeMark.Designer.cs">
+      <DependentUpon>Frm_AddTimeMark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_AutoSaving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AutoSaving.Designer.cs">
+      <DependentUpon>Frm_AutoSaving.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ChooseSubtitlesTrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ChooseSubtitlesTrack.Designer.cs">
+      <DependentUpon>Frm_ChooseSubtitlesTrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_EditStyles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_EditStyles.Designer.cs">
+      <DependentUpon>Frm_EditStyles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_LineBreakRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_LineBreakRule.Designer.cs">
+      <DependentUpon>Frm_LineBreakRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_SelectStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_SelectStyle.Designer.cs">
+      <DependentUpon>Frm_SelectStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_SplitCaptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_SplitCaptions.Designer.cs">
+      <DependentUpon>Frm_SplitCaptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_OSIMDBSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_OSIMDBSet.Designer.cs">
+      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_UploadToOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_UploadToOS.Designer.cs">
+      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_SubSearchResultDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_SubSearchResultDetails.Designer.cs">
+      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpellCheck\Frm_DictionariesDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpellCheck\Frm_DictionariesDownload.Designer.cs">
+      <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.Designer.cs">
+      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportExport\Frm_Export.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportExport\Frm_Export.Designer.cs">
+      <DependentUpon>Frm_Export.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ID3v2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ID3v2.Designer.cs">
+      <DependentUpon>Frm_ID3v2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportExport\Frm_Import.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportExport\Frm_Import.Designer.cs">
+      <DependentUpon>Frm_Import.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\Frm_MergeTwoTracks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\Frm_MergeTwoTracks.Designer.cs">
+      <DependentUpon>Frm_MergeTwoTracks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NewProject.Designer.cs">
+      <DependentUpon>Frm_NewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_QuickStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_QuickStart.Designer.cs">
+      <DependentUpon>Frm_QuickStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_SelectMovieResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenSubtitles\Frm_SelectMovieResult.Designer.cs">
+      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\Frm_SetAlignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\Frm_SetAlignment.Designer.cs">
+      <DependentUpon>Frm_SetAlignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\Frm_Shift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\Frm_Shift.designer.cs">
+      <DependentUpon>Frm_Shift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpellCheck\Frm_SpellCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpellCheck\Frm_SpellCheck.Designer.cs">
+      <DependentUpon>Frm_SpellCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpellCheck\Frm_SpellCheckSubtitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpellCheck\Frm_SpellCheckSubtitle.Designer.cs">
+      <DependentUpon>Frm_SpellCheckSubtitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\Frm_Split.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\Frm_Split.Designer.cs">
+      <DependentUpon>Frm_Split.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\Frm_SubtitleEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\Frm_SubtitleEdit.Designer.cs">
+      <DependentUpon>Frm_SubtitleEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_JumpTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_JumpTime.Designer.cs">
+      <DependentUpon>Frm_JumpTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TipOfTheDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TipOfTheDay.Designer.cs">
+      <DependentUpon>Frm_TipOfTheDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Translate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Translate.Designer.cs">
+      <DependentUpon>Frm_Translate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Synchronise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Synchronise.Designer.cs">
+      <DependentUpon>Frm_Synchronise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewItemComparer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Editors\Frm_AddTimeMark.ar-SY.resx">
+      <DependentUpon>Frm_AddTimeMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_AddTimeMark.de-DE.resx">
+      <DependentUpon>Frm_AddTimeMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_AddTimeMark.pt-BR.resx">
+      <DependentUpon>Frm_AddTimeMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_AddTimeMark.pt-PT.resx">
+      <DependentUpon>Frm_AddTimeMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_AddTimeMark.zh-CN.resx">
+      <DependentUpon>Frm_AddTimeMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_MergeTwoTracks.ar-SY.resx">
+      <DependentUpon>Frm_MergeTwoTracks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_MergeTwoTracks.de-DE.resx">
+      <DependentUpon>Frm_MergeTwoTracks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_MergeTwoTracks.pt-BR.resx">
+      <DependentUpon>Frm_MergeTwoTracks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_MergeTwoTracks.pt-PT.resx">
+      <DependentUpon>Frm_MergeTwoTracks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_MergeTwoTracks.zh-CN.resx">
+      <DependentUpon>Frm_MergeTwoTracks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SetAlignment.ar-SY.resx">
+      <DependentUpon>Frm_SetAlignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SetAlignment.de-DE.resx">
+      <DependentUpon>Frm_SetAlignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SetAlignment.pt-BR.resx">
+      <DependentUpon>Frm_SetAlignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SetAlignment.pt-PT.resx">
+      <DependentUpon>Frm_SetAlignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SetAlignment.zh-CN.resx">
+      <DependentUpon>Frm_SetAlignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Shift.ar-SY.resx">
+      <DependentUpon>Frm_Shift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Shift.de-DE.resx">
+      <DependentUpon>Frm_Shift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Shift.pt-BR.resx">
+      <DependentUpon>Frm_Shift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Shift.pt-PT.resx">
+      <DependentUpon>Frm_Shift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Shift.zh-CN.resx">
+      <DependentUpon>Frm_Shift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Split.ar-SY.resx">
+      <DependentUpon>Frm_Split.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Split.de-DE.resx">
+      <DependentUpon>Frm_Split.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Split.pt-BR.resx">
+      <DependentUpon>Frm_Split.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Split.pt-PT.resx">
+      <DependentUpon>Frm_Split.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Split.zh-CN.resx">
+      <DependentUpon>Frm_Split.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SubtitleEdit.ar-SY.resx">
+      <DependentUpon>Frm_SubtitleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SubtitleEdit.de-DE.resx">
+      <DependentUpon>Frm_SubtitleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SubtitleEdit.pt-BR.resx">
+      <DependentUpon>Frm_SubtitleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SubtitleEdit.pt-PT.resx">
+      <DependentUpon>Frm_SubtitleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SubtitleEdit.zh-CN.resx">
+      <DependentUpon>Frm_SubtitleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AboutASM.ar-SY.resx">
+      <DependentUpon>Frm_AboutASM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AboutASM.de-DE.resx">
+      <DependentUpon>Frm_AboutASM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AboutASM.pt-BR.resx">
+      <DependentUpon>Frm_AboutASM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AboutASM.pt-PT.resx">
+      <DependentUpon>Frm_AboutASM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AboutASM.resx">
+      <DependentUpon>Frm_AboutASM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_AddTimeMark.resx">
+      <DependentUpon>Frm_AddTimeMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AboutASM.zh-CN.resx">
+      <DependentUpon>Frm_AboutASM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AutoSaving.ar-SY.resx">
+      <DependentUpon>Frm_AutoSaving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AutoSaving.de-DE.resx">
+      <DependentUpon>Frm_AutoSaving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AutoSaving.pt-BR.resx">
+      <DependentUpon>Frm_AutoSaving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AutoSaving.pt-PT.resx">
+      <DependentUpon>Frm_AutoSaving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AutoSaving.resx">
+      <DependentUpon>Frm_AutoSaving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AutoSaving.zh-CN.resx">
+      <DependentUpon>Frm_AutoSaving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChooseSubtitlesTrack.ar-SY.resx">
+      <DependentUpon>Frm_ChooseSubtitlesTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChooseSubtitlesTrack.de-DE.resx">
+      <DependentUpon>Frm_ChooseSubtitlesTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChooseSubtitlesTrack.pt-BR.resx">
+      <DependentUpon>Frm_ChooseSubtitlesTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChooseSubtitlesTrack.pt-PT.resx">
+      <DependentUpon>Frm_ChooseSubtitlesTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChooseSubtitlesTrack.resx">
+      <DependentUpon>Frm_ChooseSubtitlesTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChooseSubtitlesTrack.zh-CN.resx">
+      <DependentUpon>Frm_ChooseSubtitlesTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_EditStyles.ar-SY.resx">
+      <DependentUpon>Frm_EditStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_EditStyles.de-DE.resx">
+      <DependentUpon>Frm_EditStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_EditStyles.pt-BR.resx">
+      <DependentUpon>Frm_EditStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_EditStyles.pt-PT.resx">
+      <DependentUpon>Frm_EditStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_EditStyles.resx">
+      <DependentUpon>Frm_EditStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_EditStyles.zh-CN.resx">
+      <DependentUpon>Frm_EditStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ID3v2.ar-SY.resx">
+      <DependentUpon>Frm_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ID3v2.de-DE.resx">
+      <DependentUpon>Frm_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ID3v2.pt-BR.resx">
+      <DependentUpon>Frm_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ID3v2.pt-PT.resx">
+      <DependentUpon>Frm_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ID3v2.zh-CN.resx">
+      <DependentUpon>Frm_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_JumpTime.ar-SY.resx">
+      <DependentUpon>Frm_JumpTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_JumpTime.de-DE.resx">
+      <DependentUpon>Frm_JumpTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_JumpTime.pt-BR.resx">
+      <DependentUpon>Frm_JumpTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_JumpTime.pt-PT.resx">
+      <DependentUpon>Frm_JumpTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_JumpTime.zh-CN.resx">
+      <DependentUpon>Frm_JumpTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LineBreakRule.ar-SY.resx">
+      <DependentUpon>Frm_LineBreakRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LineBreakRule.de-DE.resx">
+      <DependentUpon>Frm_LineBreakRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LineBreakRule.pt-BR.resx">
+      <DependentUpon>Frm_LineBreakRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LineBreakRule.pt-PT.resx">
+      <DependentUpon>Frm_LineBreakRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LineBreakRule.resx">
+      <DependentUpon>Frm_LineBreakRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LineBreakRule.zh-CN.resx">
+      <DependentUpon>Frm_LineBreakRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NewProject.ar-SY.resx">
+      <DependentUpon>Frm_NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NewProject.de-DE.resx">
+      <DependentUpon>Frm_NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NewProject.pt-BR.resx">
+      <DependentUpon>Frm_NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NewProject.pt-PT.resx">
+      <DependentUpon>Frm_NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NewProject.zh-CN.resx">
+      <DependentUpon>Frm_NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_QuickStart.ar-SY.resx">
+      <DependentUpon>Frm_QuickStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_QuickStart.de-DE.resx">
+      <DependentUpon>Frm_QuickStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_QuickStart.pt-BR.resx">
+      <DependentUpon>Frm_QuickStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_QuickStart.pt-PT.resx">
+      <DependentUpon>Frm_QuickStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_QuickStart.zh-CN.resx">
+      <DependentUpon>Frm_QuickStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SelectStyle.ar-SY.resx">
+      <DependentUpon>Frm_SelectStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SelectStyle.de-DE.resx">
+      <DependentUpon>Frm_SelectStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SelectStyle.pt-BR.resx">
+      <DependentUpon>Frm_SelectStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SelectStyle.pt-PT.resx">
+      <DependentUpon>Frm_SelectStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SelectStyle.resx">
+      <DependentUpon>Frm_SelectStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SelectStyle.zh-CN.resx">
+      <DependentUpon>Frm_SelectStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SplitCaptions.ar-SY.resx">
+      <DependentUpon>Frm_SplitCaptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SplitCaptions.de-DE.resx">
+      <DependentUpon>Frm_SplitCaptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SplitCaptions.pt-BR.resx">
+      <DependentUpon>Frm_SplitCaptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SplitCaptions.pt-PT.resx">
+      <DependentUpon>Frm_SplitCaptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SplitCaptions.resx">
+      <DependentUpon>Frm_SplitCaptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SplitCaptions.zh-CN.resx">
+      <DependentUpon>Frm_SplitCaptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Synchronise.ar-SY.resx">
+      <DependentUpon>Frm_Synchronise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Synchronise.de-DE.resx">
+      <DependentUpon>Frm_Synchronise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Synchronise.pt-BR.resx">
+      <DependentUpon>Frm_Synchronise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Synchronise.pt-PT.resx">
+      <DependentUpon>Frm_Synchronise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Synchronise.zh-CN.resx">
+      <DependentUpon>Frm_Synchronise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipOfTheDay.ar-SY.resx">
+      <DependentUpon>Frm_TipOfTheDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipOfTheDay.de-DE.resx">
+      <DependentUpon>Frm_TipOfTheDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipOfTheDay.pt-BR.resx">
+      <DependentUpon>Frm_TipOfTheDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipOfTheDay.pt-PT.resx">
+      <DependentUpon>Frm_TipOfTheDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipOfTheDay.zh-CN.resx">
+      <DependentUpon>Frm_TipOfTheDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Translate.ar-SY.resx">
+      <DependentUpon>Frm_Translate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Translate.de-DE.resx">
+      <DependentUpon>Frm_Translate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Translate.pt-BR.resx">
+      <DependentUpon>Frm_Translate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Translate.pt-PT.resx">
+      <DependentUpon>Frm_Translate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Translate.zh-CN.resx">
+      <DependentUpon>Frm_Translate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Export.ar-SY.resx">
+      <DependentUpon>Frm_Export.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Export.de-DE.resx">
+      <DependentUpon>Frm_Export.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Export.pt-BR.resx">
+      <DependentUpon>Frm_Export.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Export.pt-PT.resx">
+      <DependentUpon>Frm_Export.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Export.zh-CN.resx">
+      <DependentUpon>Frm_Export.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Import.ar-SY.resx">
+      <DependentUpon>Frm_Import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Import.de-DE.resx">
+      <DependentUpon>Frm_Import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Import.pt-BR.resx">
+      <DependentUpon>Frm_Import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Import.pt-PT.resx">
+      <DependentUpon>Frm_Import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Import.zh-CN.resx">
+      <DependentUpon>Frm_Import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageResources\Resource.ar-SY.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.de-DE.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.pt-BR.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.pt-PT.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.zh-CN.resx" />
+    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.ar-SY.resx">
+      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.de-DE.resx">
+      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.pt-BR.resx">
+      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.pt-PT.resx">
+      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.zh-CN.resx">
+      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.ar-SY.resx">
+      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.de-DE.resx">
+      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.pt-BR.resx">
+      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.pt-PT.resx">
+      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.resx">
+      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.zh-CN.resx">
+      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.ar-SY.resx">
+      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.de-DE.resx">
+      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.pt-BR.resx">
+      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.pt-PT.resx">
+      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.zh-CN.resx">
+      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.ar-SY.resx">
+      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.de-DE.resx">
+      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.pt-BR.resx">
+      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.pt-PT.resx">
+      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.zh-CN.resx">
+      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.ar-SY.resx">
+      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.de-DE.resx">
+      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.pt-BR.resx">
+      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.pt-PT.resx">
+      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.resx">
+      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.resx">
+      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.zh-CN.resx">
+      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_DictionariesDownload.ar-SY.resx">
+      <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_DictionariesDownload.de-DE.resx">
+      <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_DictionariesDownload.pt-BR.resx">
+      <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_DictionariesDownload.pt-PT.resx">
+      <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_DictionariesDownload.resx">
+      <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.resx">
+      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Export.resx">
+      <DependentUpon>Frm_Export.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ID3v2.resx">
+      <DependentUpon>Frm_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\Frm_Import.resx">
+      <DependentUpon>Frm_Import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_MergeTwoTracks.resx">
+      <DependentUpon>Frm_MergeTwoTracks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NewProject.resx">
+      <DependentUpon>Frm_NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_QuickStart.resx">
+      <DependentUpon>Frm_QuickStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.resx">
+      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SetAlignment.resx">
+      <DependentUpon>Frm_SetAlignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Shift.resx">
+      <DependentUpon>Frm_Shift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_DictionariesDownload.zh-CN.resx">
+      <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheck.ar-SY.resx">
+      <DependentUpon>Frm_SpellCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheck.de-DE.resx">
+      <DependentUpon>Frm_SpellCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheck.pt-BR.resx">
+      <DependentUpon>Frm_SpellCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheck.pt-PT.resx">
+      <DependentUpon>Frm_SpellCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheck.resx">
+      <DependentUpon>Frm_SpellCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheck.zh-CN.resx">
+      <DependentUpon>Frm_SpellCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheckSubtitle.ar-SY.resx">
+      <DependentUpon>Frm_SpellCheckSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheckSubtitle.de-DE.resx">
+      <DependentUpon>Frm_SpellCheckSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheckSubtitle.pt-BR.resx">
+      <DependentUpon>Frm_SpellCheckSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheckSubtitle.pt-PT.resx">
+      <DependentUpon>Frm_SpellCheckSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheckSubtitle.resx">
+      <DependentUpon>Frm_SpellCheckSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_Split.resx">
+      <DependentUpon>Frm_Split.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\Frm_SubtitleEdit.resx">
+      <DependentUpon>Frm_SubtitleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_JumpTime.resx">
+      <DependentUpon>Frm_JumpTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Synchronise.resx">
+      <DependentUpon>Frm_Synchronise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipOfTheDay.resx">
+      <DependentUpon>Frm_TipOfTheDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Translate.resx">
+      <DependentUpon>Frm_Translate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageResources\Resource.en-US.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheck\Frm_SpellCheckSubtitle.zh-CN.resx">
+      <DependentUpon>Frm_SpellCheckSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASMP\ASMP.csproj">
+      <Project>{26170BC5-B2C0-4B36-ACD5-CBA634B52174}</Project>
+      <Name>ASMP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{93C23A9F-1EF7-4417-8925-3F2A410D11E8}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formats\Formats.csproj">
+      <Project>{980C8603-F470-4856-8284-BE449EB2F9C4}</Project>
+      <Name>Formats</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Forms\Forms.csproj">
+      <Project>{61F98A44-6B77-4025-A99C-20243C616F47}</Project>
+      <Name>Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ID3Tag\ID3Tag.csproj">
+      <Project>{cf94e1ec-89cf-4363-a4ad-370b71a1058e}</Project>
+      <Name>ID3Tag</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenSubtitlesHandler\OpenSubtitlesHandler.csproj">
+      <Project>{9259f70f-3687-4996-aed3-e58dd26ac74b}</Project>
+      <Name>OpenSubtitlesHandler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CREDIT.rtf" />
+    <None Include="Resources\Undo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dele.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewProject.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenFile.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help Windows.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1813-91951.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_align_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_align_center.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_align_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OSLogoTransparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3830-12566.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MKV.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home page.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypal-donate-button.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PayPal+Donate+Logo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rangers_donate.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93C23A9F-1EF7-4417-8925-3F2A410D11E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AHD.SM.Controls</RootNamespace>
+    <AssemblyName>Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|AnyCPU'">
+    <OutputPath>bin\x86\</OutputPath>
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\RELEASE\x86\</OutputPath>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASMP, Version=5.4.6691.38668, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RELEASE\x86\ASMP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args.cs" />
+    <Compile Include="ControlsBase.cs" />
+    <Compile Include="ControlsSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ControlsSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_SubtitlePosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_SubtitlePosition.designer.cs">
+      <DependentUpon>Frm_SubtitlePosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Media\MediaSeeker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Media\MediaSeeker.designer.cs">
+      <DependentUpon>MediaSeeker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\PreparedTextEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editors\PreparedTextEditor.Designer.cs">
+      <DependentUpon>PreparedTextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLine\SoundMeter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TimeLine\SoundMeter.Designer.cs">
+      <DependentUpon>SoundMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLine\SubtitleBufferObject.cs" />
+    <Compile Include="TimeLine\TimelineZoomingView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TimeLine\TimelineZoomingView.designer.cs">
+      <DependentUpon>TimelineZoomingView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditors\VerticalDataEditPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataEditors\VerticalDataEditPanel.Designer.cs">
+      <DependentUpon>VerticalDataEditPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditors\VerticalDataEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataEditors\VerticalDataEdit.Designer.cs">
+      <DependentUpon>VerticalDataEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Viewers\MultipleSubtitleTracksViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewers\MultipleSubtitleTracksViewer.Designer.cs">
+      <DependentUpon>MultipleSubtitleTracksViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Others\EncodingsTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Others\EncodingsTool.designer.cs">
+      <DependentUpon>EncodingsTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Others\ErrorsChecker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Others\ErrorsChecker.Designer.cs">
+      <DependentUpon>ErrorsChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Media\MediaPlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Media\MediaPlayer.Designer.cs">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\SubtitleEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editors\SubtitleEditor.Designer.cs">
+      <DependentUpon>SubtitleEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditors\SubtitlesDataEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataEditors\SubtitlesDataEditor.Designer.cs">
+      <DependentUpon>SubtitlesDataEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\TimeEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editors\TimeEdit.designer.cs">
+      <DependentUpon>TimeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\TimeSpaner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editors\TimeSpaner.designer.cs">
+      <DependentUpon>TimeSpaner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\SubtitleTextEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editors\SubtitleTextEditor.Designer.cs">
+      <DependentUpon>SubtitleTextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLine\ShowToolTipArgs.cs" />
+    <Compile Include="Viewers\SubtitleTextViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewers\SubtitleTextViewer.Designer.cs">
+      <DependentUpon>SubtitleTextViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLine\TimeLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeLine\TimeLine.Designer.cs">
+      <DependentUpon>TimeLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLine\TimeLine_TicksPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TimeLine\TimeLine_TicksPanel.Designer.cs">
+      <DependentUpon>TimeLine_TicksPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLine\TimeLine_Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TimeLine\TimeLine_Panel.Designer.cs">
+      <DependentUpon>TimeLine_Panel.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataEditors\SubtitlesDataEditor.ar-SY.resx">
+      <DependentUpon>SubtitlesDataEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\SubtitlesDataEditor.de-DE.resx">
+      <DependentUpon>SubtitlesDataEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\SubtitlesDataEditor.pt-BR.resx">
+      <DependentUpon>SubtitlesDataEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\SubtitlesDataEditor.pt-PT.resx">
+      <DependentUpon>SubtitlesDataEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\SubtitlesDataEditor.zh-CN.resx">
+      <DependentUpon>SubtitlesDataEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\VerticalDataEdit.ar-SY.resx">
+      <DependentUpon>VerticalDataEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\VerticalDataEdit.de-DE.resx">
+      <DependentUpon>VerticalDataEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\VerticalDataEdit.pt-BR.resx">
+      <DependentUpon>VerticalDataEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\VerticalDataEdit.pt-PT.resx">
+      <DependentUpon>VerticalDataEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\VerticalDataEdit.zh-CN.resx">
+      <DependentUpon>VerticalDataEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\VerticalDataEditPanel.resx">
+      <DependentUpon>VerticalDataEditPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\PreparedTextEditor.ar-SY.resx">
+      <DependentUpon>PreparedTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\PreparedTextEditor.de-DE.resx">
+      <DependentUpon>PreparedTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\PreparedTextEditor.pt-BR.resx">
+      <DependentUpon>PreparedTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\PreparedTextEditor.pt-PT.resx">
+      <DependentUpon>PreparedTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\PreparedTextEditor.zh-CN.resx">
+      <DependentUpon>PreparedTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleEditor.ar-SY.resx">
+      <DependentUpon>SubtitleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleEditor.de-DE.resx">
+      <DependentUpon>SubtitleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleEditor.pt-BR.resx">
+      <DependentUpon>SubtitleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleEditor.pt-PT.resx">
+      <DependentUpon>SubtitleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleEditor.zh-CN.resx">
+      <DependentUpon>SubtitleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleTextEditor.ar-SY.resx">
+      <DependentUpon>SubtitleTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleTextEditor.de-DE.resx">
+      <DependentUpon>SubtitleTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleTextEditor.pt-BR.resx">
+      <DependentUpon>SubtitleTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleTextEditor.pt-PT.resx">
+      <DependentUpon>SubtitleTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleTextEditor.zh-CN.resx">
+      <DependentUpon>SubtitleTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SubtitlePosition.ar-SY.resx">
+      <DependentUpon>Frm_SubtitlePosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SubtitlePosition.de-DE.resx">
+      <DependentUpon>Frm_SubtitlePosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SubtitlePosition.pt-BR.resx">
+      <DependentUpon>Frm_SubtitlePosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SubtitlePosition.pt-PT.resx">
+      <DependentUpon>Frm_SubtitlePosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SubtitlePosition.resx">
+      <DependentUpon>Frm_SubtitlePosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SubtitlePosition.zh-CN.resx">
+      <DependentUpon>Frm_SubtitlePosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageResources\Resource.ar-SY.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.de-DE.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.en-US.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.pt-BR.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.pt-PT.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.zh-CN.resx" />
+    <EmbeddedResource Include="Media\MediaPlayer.ar-SY.resx">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media\MediaPlayer.de-DE.resx">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\PreparedTextEditor.resx">
+      <DependentUpon>PreparedTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media\MediaPlayer.pt-BR.resx">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media\MediaPlayer.pt-PT.resx">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media\MediaPlayer.zh-CN.resx">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\EncodingsTool.ar-SY.resx">
+      <DependentUpon>EncodingsTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\EncodingsTool.de-DE.resx">
+      <DependentUpon>EncodingsTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\EncodingsTool.pt-BR.resx">
+      <DependentUpon>EncodingsTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\EncodingsTool.pt-PT.resx">
+      <DependentUpon>EncodingsTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\EncodingsTool.zh-CN.resx">
+      <DependentUpon>EncodingsTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\ErrorsChecker.ar-SY.resx">
+      <DependentUpon>ErrorsChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\ErrorsChecker.de-DE.resx">
+      <DependentUpon>ErrorsChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\ErrorsChecker.pt-BR.resx">
+      <DependentUpon>ErrorsChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\ErrorsChecker.pt-PT.resx">
+      <DependentUpon>ErrorsChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\ErrorsChecker.zh-CN.resx">
+      <DependentUpon>ErrorsChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLine\TimeLine.ar-SY.resx">
+      <DependentUpon>TimeLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLine\TimeLine.de-DE.resx">
+      <DependentUpon>TimeLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLine\TimeLine.pt-BR.resx">
+      <DependentUpon>TimeLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLine\TimeLine.pt-PT.resx">
+      <DependentUpon>TimeLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\VerticalDataEdit.resx">
+      <DependentUpon>VerticalDataEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLine\TimeLine.zh-CN.resx">
+      <DependentUpon>TimeLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewers\MultipleSubtitleTracksViewer.resx">
+      <DependentUpon>MultipleSubtitleTracksViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\EncodingsTool.resx">
+      <DependentUpon>EncodingsTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\ErrorsChecker.resx">
+      <DependentUpon>ErrorsChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media\MediaPlayer.resx">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleEditor.resx">
+      <DependentUpon>SubtitleEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditors\SubtitlesDataEditor.resx">
+      <DependentUpon>SubtitlesDataEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\TimeEdit.resx">
+      <DependentUpon>TimeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\TimeSpaner.resx">
+      <DependentUpon>TimeSpaner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SubtitleTextEditor.resx">
+      <DependentUpon>SubtitleTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewers\SubtitleTextViewer.resx">
+      <DependentUpon>SubtitleTextViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLine\TimeLine.resx">
+      <DependentUpon>TimeLine.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Forms\Forms.csproj">
+      <Project>{61F98A44-6B77-4025-A99C-20243C616F47}</Project>
+      <Name>Forms</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ControlsSettings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ControlsSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_italic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_strikethrough.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_align_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_align_center.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_align_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_swatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddA.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PreFrame.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowright.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mute.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom+.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackArrow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Move.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomIn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomOut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Split.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditStart.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EndEnd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteArrow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NextFrame.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PreFrame1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddMark.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveMark.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumpToMark.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorsChe.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compile.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NextResult.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compile1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uncheck.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unrate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_play_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_pause_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wave_mfW_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\style.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass_link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_rewind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_fastforward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_repeat_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_equalizer.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="trackBar_zoom.ToolTip" xml:space="preserve">
+    <value>Barra de Zoom</value>
+  </data>
+  <data name="numericUpDown1.ToolTip" xml:space="preserve">
+    <value>Milisegundos por píxel
+(Quantos milisegundos cada píxel é apresentado)
+Altere o valor e faça duplo-clique para aplicar.
+Min=5 Milisegundos por píxel</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKLSURBVDhPrZHvSxNxHMf3F/S0h0UPYlaIJHpPtCNQk4mu
+        dP7YTzEZq2mZJJIwUZq7ytFm5Q+m5AzzZsy6CixL53I6j3L3PTNMCNm8jVixB9VNejY+3bWTEQ7qQS/4
+        PrrP6/19fz8n+2+skTqM8Rgo5GlM+KfxlJ/EU0G3PkGP1lP0YA0mjWWHJfVG9mFTnJk0oLUJjSXkVsuD
+        rmo5Paqy0K5atDJSHw84zxql8T8Rb07LWoKJ8Dloh1chLtnGRpOt69yPyg3u+5HAgJJYdirji3bF/iYM
+        aaDEm0MRXo44/qJwutgo34miux0sl2wXgrRs5NvhJYcS+W4oKEnLgMjGxNpEg2U9xlcL8rW0nLwqya0o
+        ypuFRiU+m8IyZ6tMSFoGvwdPhVxquTDcsnfr3hNML3TQ9LQedNPVMNdTJl/sx1OSlsE/JWxbWBjL8SZR
+        RDvJy2IYw/EXGh/XAbl5H2rGK34H+IgsAUG3NkEPqyxMdLc83YI3Nz9Xg8Grgs6Xl2D8/RC0zDRDib0Y
+        TlkxkLQMqyMqanWwFomLEurXsTHeKFZ2b4zAKHsXiGA3DLy7CfZVKxR05e0PCDirsJUhZfyNQ0kw4Z+H
+        2FjytFi5crgUjB4D2GkbaMZqIL8zF3LbcuBJW5FaUjP4+6uMAeE/+25VoHnrGYv4XvGIla8HuuFkxwmI
+        hVwQXrkNC1YlPGvGDkpqhkVCgb3uU1BztrKEuKyFPjwlVs5rPw7HWo7Cl81J+Lo1BZ/me8GLF6fIbCHZ
+        oK7g+iVHA0SCToh/mIAd+h68HWsColS+LY38nRlzkX6h7xxszXbDx9keWL5TB14TFpY+/xuPjAWaB7r8
+        z696y8F7vnB7Ult4QCaTyX4ByFmO5IgcLIkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton3.ToolTipText" xml:space="preserve">
+    <value>Ampliar</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ9SURBVDhPrZH/SxNxGMf3LwRBEEFREOuXIKQGYRxRfmGl
+        K5ubS6eZDcusFUkoXGnoJlm5IkumPzjQbYbhUWSudDudmyvcfU6KFCqct0Gr1he9GxrR9XSfdjLCQf3Q
+        Cz6/3Od5Pc/785zivzHlKlMx7nIKuSsSdD8h0i5CDPYYE6EuPRXqOKKSyzLDuowmtq8yzvSWoynHUTLc
+        Y1AG7UXKUJeWDNmLUaBTH/fbDpnk8j/Bk1NyqZWJ8NvQPK9FnGBmo0LtNLdY8IJb2Oy/qbFO2DRx3zX1
+        6iSMq5zCk8MRXok4/pR0GtgofxFFk3UsJ5yXGpWyka+bxts1yNuqpmQtDXJVJKYcJeR0jC+S5PqULFyQ
+        5VoU5WukRPu9FjXpsRQkZC0N7SbEsN2glIpPr0xdeQJOxHJ8NU7hacxV+toIUdbS0E5p29LCcCEW0bxw
+        FjdjOP7k729R/sQ0J+hxA681Q4NgT2kidFdLMtFkfioFX/Ozvg5+mM/A96rjsKzVQTInHxZ37oYvW7eD
+        rKWZ7NRSkx3FCC9Kiq9jY7wJy9+e0bA8NgxLjwchOdAHgqMbPq3fsrqB31aoCtzRxMfaNVZmbmkjGxP2
+        ZpqM5Y9rNsCgOdsgq2notkKTX/rP3qsH0EhzHonfi89wwz6Svk6IM48aIBa2w1zgBow2a+BBlWqdrKbx
+        WdWqpy1qymPJTeBljbYQ4sPLeQsjVw7CG7oV3r/qhQ+zTng90gQDxB7RlalJJqhzhHG8vQQiQRvEXzpg
+        PnQbnndXgjVH+VYu+Tv3a7KNoy2HYXboEswMNcLELR0MVO/4LF//G/dMu4zOsix40pQP/cdU75yGrLUK
+        hULxC/UHm4RnNbv3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton4.ToolTipText" xml:space="preserve">
+    <value>Reduzir</value>
+  </data>
+  <data name="toolStripButton10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMKSURBVDhPhZNrSJNRHMbfiDArqA9dJMSoKEqilIrULvsg
+        SH2KypBKKxMvZXghodJiXirtYs6Ya2r6Nta8FHlhOqdJ5eacqZta6rq9zkvO3GZp29RNt6ftdVKB2A/O
+        l8P/93AO5zyEmmQuVZHxMSoyTthNxlMqTpTxDcmwduZeRDMrGK/vMKwvk3yNJZd3UYURG4Ts4NUxzHPE
+        UmKO7oL4xr6adGiacqBtL4D+Aw+6zqf43pKPIQkHA3VZoCrT0cW/jkZWKMquHUJW0LJGp24P4Cd2zgWM
+        KPLt6wmG5bn41pCDPvFDUBV3oSpOQXv+FUgehNABmWfcOp06QUi6+jwVsrf4WpOH7qKbaMkJw+v0oxAm
+        MVAStwtk5GZwwzyQF70DxWknkMfOQDZf5OnUZ6n/ZBYrBs3QG6YxabFhatqGUdMMujWTaOufgFpvBqUz
+        o0qpA7taLXZq/1LbM1HOfPDC1mcfNk5ZoRmbhmp4Cr12Ufb5F5hMru1RNVXmHJ+fyrZxnwqlnnpHGTDw
+        w0LLoo5RcGrVX7JFah/n2P8pkmmlyn4j2tQGsMVqiWMvmr/PFE56I7DUx5UeWoiiphF5x6ARCnvAo6pe
+        qWPvFLnVlCI8jSDuNgRmus8fUiwb8SuTj/S/HzAgVnAQMc98EcXbg9ACL9woP4nnrdlIeHEUjKx1VgZ7
+        zQqnNgtfqqlgMklbr3aSfgn7kVGh5OClgk2LJa0ssOoTwJPfQ5QgAHvTXay7M4iVtFwoGa599WEUQ2MW
+        mMxWWGZsCLPf1yE/rIvFXXE0bosikCwMRWp1JLiSNAQ/PYAtTGKGKK3v8hRINXjb8xPaX9O0bLUBZ/K3
+        o7SFBUFzJnhN91Aoy7CHXMJjSSoiBIfhcZPQrk8kvOgudNVy0SiXQf5Rj0HdBMZNFhx/vAlHst3hn7UW
+        +++vwlnSD5yGZFzgB2DNpUVmt+vE7G/8u0wLdcH71hKc4/ljZ5ILrp51UdCyg7/rrMwNp2SsY0ZHhee6
+        UMjYaM0JWW7ccoOweSQtRtx515Q/dSaI3y0BKoxTmgsqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton10.ToolTipText" xml:space="preserve">
+    <value>Rolar para o tempo actual</value>
+  </data>
+  <data name="toolStripButton_auto_scroll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKYSURBVDhPjZPJT1NRGMW7JHbrwpXGuCMmbNGF/ROMMQ6J
+        EKPEKRpCgwuR6NNoQCPSgi1CgRZTLRADQsrQKgHsQBHb0koHUR6vtNLSSYE+OvcdX+sjgiHCSW7uzZfv
+        d5J7v3t4eVEKositEFa6FVVqp0JIuluu0xMKQc7edgPT4jKM1wlyfbXH6J5bJaT86iG1pGx/JXGRV1SA
+        83J2Cg2e0Xr4p6QIzXYiMvcKYXsXVmbasaxrgfe9CORgPRzKGhjEl9B/5wRE5/YZOJw1UN61bxoELe3s
+        6kDA1IYfH6XwaBpBDjyFu/shZturoWsoLxg8v3DAzuE8ns7hKbYYJ7EwKoNTdQ8z0gqM15+EulaAnqoS
+        KK4dQWvFQchuHkX3o9OQSZ6gSTlSzOF/NDaf0lh8KURiGSTSDJIZBtGNLJz+BMxLcVCRFMhwCkPWMCTD
+        lIbDtkvrir8jZFrGwzbTyRz8qxm4A0kssqDx2zoIQsU0D5P9XPvOGjSvlQ5YI+QnMgbvz3QBHrFF0aKl
+        vjeNUKVc2+5SGUN66xINMxWDREPpuPLepZoKmmw+GhbWoHloUc+Vd1e3MXi83xRc+uKNIUpnEVjLYNgc
+        RN1b18LjHtf/r6DU+weIhj5mMZQoTCKVZbCeyMEbTWPUFsZ9QsrUyK07P6JcF9B+mItieTWNjVQOaRbO
+        5hjQ7HnWF8fccgJ2dpdpSQhbZ7aPsXfMUfxG78ek6xdC65kCzLIFg9V4FvMryQJs9cbRN+1HbZcV1c96
+        /36kfBYc2lYYTEaYvkbgC8extsGOMBCDaoLCg9c23JZ9hvDlNBpeKNFBXP4nC1vCtNcsbDPYGmdr2xXS
+        KD5F5yO8mQW54HBOWs6nRWf5ZOMZvlp0ns/Fmcf7Dd2ZHysBPrccAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton_link_playback.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMASURBVDhPjZNbSJNxGMZ3KXXbRVcFdSeF0ZV10cBT4pIw
+        wRQNM11LZ9MRwXTZR1qbmqfNec59leUB21LUqeVxblqiU/EwOnxuHppnZznnYbmn7evzQgjsgRdeHp7n
+        9+d/8bJMJOFhJIUCI5ncNEkKKWPxPVs3yd4fK4vHp4IodEnY+yrxJVttohelvHu6SRF1QkBEszxYB5qs
+        FOrMrVJY+ouwPFKJ1fFXWBl7icXBCvzQFmP2Qz6oRikmqlKgK4iBWnQF+TeP6Zi6C1CVOnYAWBqucM0L
+        LAyUYb63COa2PFANWTDWPMFIxQNoc27RgNzIk2NMncXSTpg9h/U9+N5ajsnqNAwWxaJLeh1NYjZqk71A
+        8s6iNPYUyvnnUJMRinJFJmRVGk+m/lcdX3bbhud2sbrpwPaeEzsOJ9a2fmPSso2hGTtMq7ugVnbRbFiB
+        osXUxtQOq33K/p4obXWaXWHbzj4sGw4YF3Yw7Srqv/4CQbxxylsoNRP/txqHfno3GFapz9QmZtf36LJm
+        dA3F7aZvMo3Jm4kdrWr9cp9hxoYh0yYUbSYtY/+/qvuXBkbnbBh2AeTN032MfbRq9EuX63Xm2df1zcjJ
+        yYVSqUTGsywQFV3zqUXNHLFYTLk9giDWExISHvr7+x9nqixWVZ+lgZDUOPMV5ZDJZFhcXARFUejt7UXm
+        83w8elqA7u7ufben0+noDIfDyabLSu1C+8fxNag1nXC9AsP4OKTSTAQHB4PL5UIulyMlJYXeOdeuOcPD
+        wzVuiEAg2GDVdUx4vu2zoGfKCkl2HiQSCQ3Ysm/jamAgOjs7YTAYoNVqoVKp4OMXAD5ReNENSE9P36Zv
+        YaK9FLoBPTLllUhKSqYBIvFj+Pr6ISAgACEhIfS4d18fH9wO9bG6ATwez3romAabssCNiUChLA/qd3VQ
+        q9UoKSmBUCiESCSid7dHkqRDKpVaXV80HjpnQymXUhFh9ogbHPC4d3CfH49E16RFnt8hws5YoqOjHXx+
+        wl5cXJwtKCjIxGazL/wBWWEo54oLH3sAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton_smart.ToolTipText" xml:space="preserve">
+    <value>Inteligente 
+(Seleccionar, modo editar com mudança automática)</value>
+  </data>
+  <data name="toolStripButton_selectTool.ToolTipText" xml:space="preserve">
+    <value>Ferramenta de Seleccção</value>
+  </data>
+  <data name="toolStripButton_move.ToolTipText" xml:space="preserve">
+    <value>Mover 
+(Desviar tempos da legenda)</value>
+  </data>
+  <data name="toolStripButton_editStart.ToolTipText" xml:space="preserve">
+    <value>Editar Tempo Inicial 
+(Edita o tempo inicial das legendas. Também pode ser
+usado para ajustar a duração da legenda)</value>
+  </data>
+  <data name="toolStripButton_editEnd.ToolTipText" xml:space="preserve">
+    <value>Editar Tempo final 
+(Edita o tempo final das legendas. Também pode ser
+usado para ajustar a duração da legenda)</value>
+  </data>
+  <data name="toolStripButton_split.ToolTipText" xml:space="preserve">
+    <value>Dividir 
+(Divide a legenda em duas)</value>
+  </data>
+  <data name="toolStripButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton5.ToolTipText" xml:space="preserve">
+    <value>Definir tempo actual como tempo inicial da Faixa de Legendas
+(com ajuste)</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
+    <value>Definir tempo actual como tempo inicial da Faixa de Legendas 
+(Sem ajuste, apenas move)</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton2.ToolTipText" xml:space="preserve">
+    <value>Definir tempo actual como tempo final da Faixa de Legendas 
+(Sem ajuste, apenas move)</value>
+  </data>
+  <data name="toolStripButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton6.ToolTipText" xml:space="preserve">
+    <value>Definir tempo actual como tempo final da Faixa de Legendas 
+(Com ajuste)</value>
+  </data>
+  <data name="toolStripButton_gridlines.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD4SURBVDhP3Y6xqoIAAAAFh4YECUIEEYIMDEGxCAsqIyzE
+        pEAdKoIQRASDGqLfv7eEH/B4Lu/WG+6Ef8Tn8+H9fvN6vXg8HlRVxVcJl8uFNE05Ho+EYch2u23c3/F8
+        PqnrmrIsyfOc2+3WVA6HA7vdDt/3WSwWTKfTFg6KouB+v3O9XsmyjNPp1FRWqxWe5+G6LpZlMRqNWjg4
+        n88kSUIcx+z3ezabTVOxbRvTNBkOh+i6jqqqLRxEUUQQBKzXa+bzOZPJpKkMBgM0TUNRFHq9HpIktXCw
+        XC6ZzWY4jsN4PMYwjKbS7/eRZZlut0un00EUxRYOfocg/ABw7Wd7hDMb/AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton15.ToolTipText" xml:space="preserve">
+    <value>Mostrar os horários das legendas em exibição</value>
+  </data>
+  <data name="toolStripButton17.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton17.ToolTipText" xml:space="preserve">
+    <value>Mostrar sempre linhas de legendas</value>
+  </data>
+  <data name="toolStripButton_autoScrollWhenChangingTime.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKYSURBVDhPjZPJT1NRGMW7JHbrwpXGuCMmbNGF/ROMMQ6J
+        EKPEKRpCgwuR6NNoACNQwBZpgRZTLRAVIWVolQB2oIhtodJBlMcrrbR0UqCPzn3H1/qIYIhwkpt78+X7
+        neTe7x5eTpSCKHAphOUuRYXaoRCSrtbr9LhCkLVJb2CqqQRjNYLs2+pjdM+tIlJ+9ZBaXLK/nLjIK8jD
+        OTk6hQb3SC18kxIEZzoRnnuBkK0LK9PtWNa1wvNeBHKgFnZlFQxNl9B35wRE5/YZOJw1UN61bRoELO3s
+        6oDfJMWPjxK4NY0g+5/A1f0QM+2V0NWX5g0aLhywcTiPp7O7Cy3GCSyMyOBQ3cO0pAxjtSehrhagp6II
+        imtH0FZ2ELKbR9H96DRk4jo0K4cLOfyPRueTGos3iXA0jXiKQSLNILKRgcMXh3kpBiqcBBlKYtAagniI
+        0nDYdmmdsXdEwxvGzTbTiSx8q2m4/AkssqDx2zoIQsq0DJF9XPvOGjCvFfdbw+QnMgrPz1QeHp6NoFVL
+        fW8epoq5tt2lMgb11iUaZioKsYbSceW9SzUZMM16aVhYg5bBRT1X3l3dxsDxPlNg6YsnigidgX8tjSFz
+        ADWvnQuPe5z/v4JS7+sniC5mMRjPTyKZYbAez8ITSWFkNoT7RB1TJbfu/IhynV/7YS6C5dUUNpJZpFg4
+        k2VAs+cZbwxzy3HY2F2mJSFsm94+xt5Re+ErvQ8Tzl8IrqfzMMvmDVZjGcyvJPKw1RPD2ykfqrusqHza
+        +/cj5bJg17bBYDLC9DUMbyiGtQ12hP4oVOMUHrycxW3ZZwifT6H+mRIdxOV/srAlTHvNwjaDrXG2Sq+Q
+        xqZTdC7Cm1mQCw5nJaV8WnSWTzae4atF5/lcnHm83z3KHt2fqYNaAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton_autoScrollWhenChangingTime.ToolTipText" xml:space="preserve">
+    <value>Rolagem automática para o tempo da linha 
+ao alterar a posição da linha de tempo</value>
+  </data>
+  <data name="toolStripButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALgSURBVDhPrZFLTxNRGIbnH7iVjWs3RNlgjMaFMSQao4nE
+        oCYiKAppgYSbXCrBRm5CoYCWohDLpVxaBGxDIC13AhUIUNpCpVBaSpFrqdOWtjAIrzNlMBpduPBJvpxz
+        Mud5v3POEP+dvqbiq5rW7L4pRcbOjJJHTSmzqGFZ0oaqJulTe1XGRXbb3xlqya8cUHP27aYxbK0vweVy
+        giQdWF3WQz/SgrbK2F1ZaXw2u/13Blryys2TYji3bTDZnPjYb0Vl2xwq5LNo6DZjemEDVpMGXdVxkOTG
+        pLHaMT11hZeVylTKsWnFsHYN7QNWmO0uOFwebLt2YVpxoUFtRseQBfPabkhf3fPWFMSFsDpBqOvSuxbp
+        D1+WdyDvs4DBSZJY+LoOPz1nynMEVHWaMaKzoUeaAjHvfgOrE4SqPmF9zWaAVLUII93Ze3AEj9cL0QcJ
+        Nukg994e2lT9GF4gUdysg2FChmpeuJXVCaKjLt7vdKyiqFGHTR8F594h9umumS/5kLYrkJ7Dh1ozDgNJ
+        IVk0jhXrOB0Q5mN1OkAY63dsLYEv0WLFQ9Ehh7CTbuQKSgLysFaP7QNg0kEhoewzbEtDqM78JaCtNNKy
+        ZOhGmVyHoUUSa/Sl7W4KXYOjsOy4sPEdkGnakSSOwrPS23hUcA2J6ZdIVieI2rxIyaAsAxrdAgrlJmzT
+        D+akAPchXfS8dbQF/NZodM6KMLOmhrCHgwhhMEK5QYJAgCSXc746J8I3P1mPxu4pvJbPQ2v9Bg/9Hh4v
+        heii61AYyqAwVjA/CILepxD2xuIc95Q/EMDwjh+d0VR4F8axSgxMTCJfMobnFaNIKRvBTV4IumZrAvIJ
+        Sr0IF7hBYPVj3r54mP0+9YZHIX6A6b48WIxSWOZqcSXxDIrVj1GgjgrIBaqoP09wgjjrSWh52p3mN8m3
+        bOLUMB9TUYnBrnDBWZSoYwKdmZFZ/3yDfyGUc7owhBvkZo7NjMyaIAjiB2ioMPmrxyvxAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="toolStripButton7.ToolTipText" xml:space="preserve">
+    <value>Adicionar marca</value>
+  </data>
+  <data name="toolStripButton8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALySURBVDhPrZFbSJNhGMe/mt4X3XTThV1ECUHdBEFBqXUR
+        1IUSZqAQCorphcdNTdZIzTRNLTdr1jzM02yaks6p85Sairo205zu4JzNw+b8trmpn7p/3/SjAwTd9IMH
+        Xnjf3/953vcl/juK2vyA4cZMxUQLZ/1LawY10ZpODTQkrMjLEz40lXEuM8f+Tn99Dr+3M3bHpBnB2rIO
+        drsNJGnF0oIa6sF6SPnRmw2FcZnM8T/prc8u1o4LYLMYoTHa8L7HAL50GiWSr6iWaTE5twKDZhjtwhiI
+        sqJSGO2QrsrcK62tyZR11YABpRlNvQZoTXZY7U5Y7JvQLNpR3alFc78es0oZxE/uucqfxlxkdILorGS3
+        z9Mb3xbWIVHo4cVGkpj7vowteu0tpwco+6jFoMqILnESBBlh1YxOEPKq+GWzcQpi+Txm6M6uXQ+cLhdK
+        34mwSgc5trchlfdgYI5Efp0KU2MNEGaEGBidIJor47Zs1iXk1aiw6qZg297HDt017TEP4qYWsLk8dA6P
+        YoqkkFg6ikXDKB1w083odMCL6C3rmg48kRKLTooO2YeJdCDrecGBPKBUw7ILjFspxBd9hlHXD2HabwHS
+        wgi9bkqGIokK/fMkzPSlTQ4K7X1D0K/bsbIHqBtL0RN+Ft0BvugOOYHK8HMkoxNERXaEqK+Bg2HVHHIl
+        GljoB7NRgGOfLno938yHOvUqttoK4JnpgKs+EbyH5z1dgT7xBwGirNgLQm6oe3a8CjWyCTyTzEJp2ICT
+        fg+ni0J32Gm4aRkltwH2cSDHD5a8a2i7ztIfBHh5zXvAqc29i5kRPnrHxpEjGkFqyRCSigYPxvZMNHl/
+        9ycb3JPgBvh4GP2QV4/CM98k33K2CO5jUpEN/YwY+ukKdAUfw+bbSICWtlMJ2OgyxrDQcYO1xKi/EKRH
+        XipOCa57mXjHKEi+6faWNNyf5Ead8ZjZflhL84Uu6ggU/j57sqCj6Yz2bz6FnuLIA1kG79jyIJbpUCaI
+        H0QWLpRDVqj2AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton8.ToolTipText" xml:space="preserve">
+    <value>Remover marca</value>
+  </data>
+  <data name="toolStripButton9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMDSURBVDhPrZBdTFJhHIffPlbrrptaFy5Xa+vjqrqo1eyi
+        j7HmRS1b69tWVprlnIlLBaeoFGkplgGFExEooNC00sTQZEamIqGlgighpRlEIOEHTn8d6GzV1kUXPdu7
+        vTvnfZ7/eQ/5r+juF+4yPMzSGWvSv76tZQWNtZlBvSrlc0NZyuMqUfo2+tjfaVFeFTRrE6edljZ8GR2E
+        z+eB1+vGxw/d6G5VQiOI/64qupRFH/+TZiW3xNYphMflgMXhwaMmOwSa97ilfgdZvQ1d1s+wWwyoEydA
+        kn82jdZ+0ijlRdXWMoPuMTv0phFUNdthc/rg9vnh8n2HZdgHmdaG6pYh9JvqIc87Eii7lrCJ1gnRSq/U
+        DVAv+j58hVo3hBAerxfWT6OYpPah5Z8DRE9taDU70ChPhZB1VEbrhDRUJo2OOHogbxhALzU5MDMHfyCA
+        O+USjFGh8akpaBqaoLd6UfjAjJ52FcSsg3ZaJ6RaemnS4/6IAoUZYxNBeKZmMU1NzcjhQF5VgyvZHGgN
+        b5CqYuCcZBOG7W+oAGOC1qlAcfyk+8sgOBIThv1BKjILp3cc+TduhmW9qRuuGeCiYic4T47hsGgdxBm/
+        BTRFsUODPfXgq81oGfBihLq0czyIZMUOJMu340LlFsSVbwa7+hDUHSVgPtwPRvEKEJB54UAFN1byUpUO
+        g9kKntoCF/XDPEFqomwrHncJoDGWhkVlBx/8F0xIXxcgQcFA5LXFM+GIJD9xozj78ER/ZyUU9UZcV/fD
+        ZP+GOOq+IblIm4zrzy+CW3ceOU9OI/dZPET6PJyoiMKyRDId/oq7nNPp93mH0NsmQHN7J65K2nBcvB6q
+        dj4UbTchNRSg/BWPiiRCqM/FecVerGKTvogUsiQcCFHKPpl1jxntrxEeQ5eOixjhakTfisCe4uWIKlyK
+        WMl2CFpycEbGwEo2Ma9JIotp9RfCzLgtJWkxD25f3ucQMhkToRXaFzMPqNbmzf92SrobkZmkc0M2WUQr
+        /05kBnGtZC0AySYL6UcUhPwAzU4RWv5Vv8MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton9.ToolTipText" xml:space="preserve">
+    <value>Saltar para esta marca</value>
+  </data>
+  <data name="toolStripButton12.ToolTipText" xml:space="preserve">
+    <value>Mostrar / ocultar controles do player</value>
+  </data>
+  <data name="toolStripButton13.ToolTipText" xml:space="preserve">
+    <value>A pausa</value>
+  </data>
+  <data name="toolStripButton14.ToolTipText" xml:space="preserve">
+    <value>Reproduzir legenda (s) selecionada (s)
+Reproduzir desde a hora de início da primeira legenda selecionada, até
+a hora final do último selecionado.
+Se apenas uma legenda for selecionada, simplesmente isso será reproduzido
+apenas esse subtítulo.</value>
+  </data>
+  <data name="toolStripButton_replay_period.ToolTipText" xml:space="preserve">
+    <value>Se estiver tocando legenda (s), continue repetindo para sempre.</value>
+  </data>
+  <data name="toolStripButton16.ToolTipText" xml:space="preserve">
+    <value>Pare</value>
+  </data>
+</root>

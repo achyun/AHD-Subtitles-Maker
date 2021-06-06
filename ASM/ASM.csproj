@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BE55D4AF-1437-4710-B6C8-5F65462FC4A8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AHD.SM</RootNamespace>
+    <AssemblyName>asm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\RELEASE\DEBUG\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\ASM.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|x86'">
+    <OutputPath>..\RELEASE\x86\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AHD.SM.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FormLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLogIn.Designer.cs">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_Subtitle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_Subtitle.Designer.cs">
+      <DependentUpon>sc_Subtitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_Formats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_Formats.Designer.cs">
+      <DependentUpon>sc_Formats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_ID3v2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_ID3v2.Designer.cs">
+      <DependentUpon>sc_ID3v2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_FirstRun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_FirstRun.Designer.cs">
+      <DependentUpon>Frm_FirstRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_EditorOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_EditorOptions.Designer.cs">
+      <DependentUpon>sc_EditorOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_HotKeys.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_HotKeys.Designer.cs">
+      <DependentUpon>sc_HotKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_SubtitleDefaultFontAndColor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_SubtitleDefaultFontAndColor.Designer.cs">
+      <DependentUpon>sc_SubtitleDefaultFontAndColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_MediaPlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_MediaPlayer.Designer.cs">
+      <DependentUpon>sc_MediaPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Types\ASMSettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_StartUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_StartUp.Designer.cs">
+      <DependentUpon>Frm_StartUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Main.Designer.cs">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Settings.Designer.cs">
+      <DependentUpon>Frm_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_General.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_General.Designer.cs">
+      <DependentUpon>sc_General.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_PlayBack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingControls\sc_PlayBack.Designer.cs">
+      <DependentUpon>sc_PlayBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Types\BooleansCollection.cs" />
+    <Compile Include="Types\ToolbarProperties.cs" />
+    <Compile Include="Types\TabProperties.cs" />
+    <Compile Include="Types\LayoutPresent.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FormLogIn.ar-SY.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogIn.de-DE.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogIn.pt-BR.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogIn.pt-PT.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogIn.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogIn.zh-CN.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_FirstRun.zh-CN.resx">
+      <DependentUpon>Frm_FirstRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Main.ar-SY.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Main.de-DE.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Main.pt-BR.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Main.pt-PT.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Main.zh-CN.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Settings.ar-SY.resx">
+      <DependentUpon>Frm_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Settings.de-DE.resx">
+      <DependentUpon>Frm_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Settings.pt-BR.resx">
+      <DependentUpon>Frm_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Settings.pt-PT.resx">
+      <DependentUpon>Frm_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Settings.resx">
+      <DependentUpon>Frm_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Settings.zh-CN.resx">
+      <DependentUpon>Frm_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_StartUp.ar-SY.resx">
+      <DependentUpon>Frm_StartUp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_StartUp.de-DE.resx">
+      <DependentUpon>Frm_StartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_StartUp.pt-BR.resx">
+      <DependentUpon>Frm_StartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_StartUp.pt-PT.resx">
+      <DependentUpon>Frm_StartUp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_StartUp.resx">
+      <DependentUpon>Frm_StartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_StartUp.zh-CN.resx">
+      <DependentUpon>Frm_StartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_EditorOptions.ar-SY.resx">
+      <DependentUpon>sc_EditorOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_EditorOptions.de-DE.resx">
+      <DependentUpon>sc_EditorOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_EditorOptions.pt-BR.resx">
+      <DependentUpon>sc_EditorOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_EditorOptions.pt-PT.resx">
+      <DependentUpon>sc_EditorOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_EditorOptions.zh-CN.resx">
+      <DependentUpon>sc_EditorOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Formats.ar-SY.resx">
+      <DependentUpon>sc_Formats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Formats.de-DE.resx">
+      <DependentUpon>sc_Formats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Formats.pt-BR.resx">
+      <DependentUpon>sc_Formats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Formats.pt-PT.resx">
+      <DependentUpon>sc_Formats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Formats.zh-CN.resx">
+      <DependentUpon>sc_Formats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_General.ar-SY.resx">
+      <DependentUpon>sc_General.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_General.de-DE.resx">
+      <DependentUpon>sc_General.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_General.pt-BR.resx">
+      <DependentUpon>sc_General.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_General.pt-PT.resx">
+      <DependentUpon>sc_General.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_General.zh-CN.resx">
+      <DependentUpon>sc_General.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_HotKeys.ar-SY.resx">
+      <DependentUpon>sc_HotKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_HotKeys.de-DE.resx">
+      <DependentUpon>sc_HotKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_HotKeys.pt-BR.resx">
+      <DependentUpon>sc_HotKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_HotKeys.pt-PT.resx">
+      <DependentUpon>sc_HotKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_HotKeys.resx">
+      <DependentUpon>sc_HotKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_HotKeys.zh-CN.resx">
+      <DependentUpon>sc_HotKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_ID3v2.ar-SY.resx">
+      <DependentUpon>sc_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_ID3v2.de-DE.resx">
+      <DependentUpon>sc_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_ID3v2.pt-BR.resx">
+      <DependentUpon>sc_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_ID3v2.pt-PT.resx">
+      <DependentUpon>sc_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_ID3v2.zh-CN.resx">
+      <DependentUpon>sc_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_MediaPlayer.ar-SY.resx">
+      <DependentUpon>sc_MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_MediaPlayer.de-DE.resx">
+      <DependentUpon>sc_MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_MediaPlayer.pt-BR.resx">
+      <DependentUpon>sc_MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_MediaPlayer.pt-PT.resx">
+      <DependentUpon>sc_MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_MediaPlayer.zh-CN.resx">
+      <DependentUpon>sc_MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_PlayBack.ar-SY.resx">
+      <DependentUpon>sc_PlayBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_PlayBack.de-DE.resx">
+      <DependentUpon>sc_PlayBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_FirstRun.resx">
+      <DependentUpon>Frm_FirstRun.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_PlayBack.pt-BR.resx">
+      <DependentUpon>sc_PlayBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_PlayBack.pt-PT.resx">
+      <DependentUpon>sc_PlayBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_PlayBack.zh-CN.resx">
+      <DependentUpon>sc_PlayBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Subtitle.ar-SY.resx">
+      <DependentUpon>sc_Subtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Subtitle.de-DE.resx">
+      <DependentUpon>sc_Subtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Subtitle.pt-BR.resx">
+      <DependentUpon>sc_Subtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Subtitle.pt-PT.resx">
+      <DependentUpon>sc_Subtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Subtitle.zh-CN.resx">
+      <DependentUpon>sc_Subtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_SubtitleDefaultFontAndColor.ar-SY.resx">
+      <DependentUpon>sc_SubtitleDefaultFontAndColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_SubtitleDefaultFontAndColor.de-DE.resx">
+      <DependentUpon>sc_SubtitleDefaultFontAndColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_SubtitleDefaultFontAndColor.pt-BR.resx">
+      <DependentUpon>sc_SubtitleDefaultFontAndColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_SubtitleDefaultFontAndColor.pt-PT.resx">
+      <DependentUpon>sc_SubtitleDefaultFontAndColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_SubtitleDefaultFontAndColor.zh-CN.resx">
+      <DependentUpon>sc_SubtitleDefaultFontAndColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageResources\Resource.ar-SY.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.de-DE.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.en-US.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.pt-BR.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.pt-PT.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.zh-CN.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_General.resx">
+      <DependentUpon>sc_General.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_PlayBack.resx">
+      <DependentUpon>sc_PlayBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Subtitle.resx">
+      <DependentUpon>sc_Subtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_Formats.resx">
+      <DependentUpon>sc_Formats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_ID3v2.resx">
+      <DependentUpon>sc_ID3v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_EditorOptions.resx">
+      <DependentUpon>sc_EditorOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_SubtitleDefaultFontAndColor.resx">
+      <DependentUpon>sc_SubtitleDefaultFontAndColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingControls\sc_MediaPlayer.resx">
+      <DependentUpon>sc_MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASM.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASMForms\ASMForms.csproj">
+      <Project>{77B07C3D-42CD-4298-9E3D-AF2FA53F7280}</Project>
+      <Name>ASMForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASMP\ASMP.csproj">
+      <Project>{26170bc5-b2c0-4b36-acd5-cba634b52174}</Project>
+      <Name>ASMP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{93c23a9f-1ef7-4417-8925-3f2a410d11e8}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formats\Formats.csproj">
+      <Project>{980C8603-F470-4856-8284-BE449EB2F9C4}</Project>
+      <Name>Formats</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Forms\Forms.csproj">
+      <Project>{61F98A44-6B77-4025-A99C-20243C616F47}</Project>
+      <Name>Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ID3Tag\ID3Tag.csproj">
+      <Project>{cf94e1ec-89cf-4363-a4ad-370b71a1058e}</Project>
+      <Name>ID3Tag</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartHotKey\SmartHotKey.csproj">
+      <Project>{0e29a0d7-afec-458d-9155-c15caa153d92}</Project>
+      <Name>SmartHotKey</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FillTime.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timefill11.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Right.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Left.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\split.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ID3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MKV.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VobSubRip.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Merge.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OSLogoTransparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASLV.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rangers_donate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypal-donate-button.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

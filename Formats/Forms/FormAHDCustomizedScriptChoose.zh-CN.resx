@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>AHD Customized Format
+---------------------
+Created by Alaa Ibrahim Hadid.
+
+Script File Structure
+---------------------
+Line started with "//" get ignored. 
+Empty line ignored...
+Options codes start with ;
+Codes surrounded with &lt; and &gt;
+
+A script file should contain the following :
+
+; AHD Customized
+// Header, this should be presented at the first line of the script
+
+; startf=hh:mm:ss.iii
+// Start time format, this will set the start time timing format, see "Timing Fomrating" section.
+
+; endf=hh:mm:ss.iii
+// End time format, this will set the end time timing format, see "Timing Fomrating" section.
+
+; durf=nnnn
+// Optional: Duration format, this will set the duration timing format, see "Timing Fomrating" section.
+
+; text_splitter=|
+// Optional: Text new line splitter, this will replace new lines with a splitter provided.
+
+; text_format=html
+// Optional: Text formatting, this will use formatting you choose for styling. Can be html/ass.
+
+// Now the subtitles data. 
+; DATA
+// Presentation of DATA code will start the repeated pattern that presented here for each subtitle.
+&lt;subi&gt; - &lt;subn&gt; - &lt;start&gt; - &lt;end&gt; - &lt;dur&gt; : &lt;text&gt;
+// &lt;subi&gt;: is subtitle zero-based index. For first subtitle is 0, second one is 1 ....etc
+// &lt;subn&gt;: is subtitle number. &lt;subn&gt; = &lt;subi&gt; + 1. For first subtitle is 1, second one is 2 ....etc
+// &lt;start&gt;: is the start time, formatted as startf.
+// &lt;end&gt;: is the end time, formatted as endf.
+// &lt;dur&gt;: is the duration time, formatted as durf.
+// &lt;text&gt;: is the text, options will be applied as text_splitter and text_format
+
+// WARNING: please set spaces between codes and splitters.
+// Example:
+// &lt;start&gt;: &lt;text&gt; THIS IS WRONG
+// &lt;start&gt; : &lt;text&gt; THIS IS RIGHT, there are spaces between codes and splitters.
+
+; NEW LINE
+// This indicates a new empty line. Can be added as much as needed.
+
+; END
+// This is very important, to tell the decoder that the subtitle pattern script is finished.
+
+
+Examples:
+---------
+
+SubRip should be like this:
+
+; AHD Customized
+; startf=hh:mm:ss.iii
+; endf=hh:mm:ss.iii
+; text_format=html
+
+; DATA
+
+&lt;subn&gt;
+&lt;start&gt; --&gt; &lt;end&gt;
+&lt;text&gt;
+; NEW LINE
+
+; END
+
+IMPORTANT NOTES:
+----------------
+. Please set spaces between codes and splitters.
+  Example:
+  &lt;start&gt;: &lt;text&gt; THIS IS WRONG
+  &lt;start&gt; : &lt;text&gt; THIS IS RIGHT, there are spaces between codes and splitters.
+. Please include either &lt;start&gt; and &lt;dur&gt; or &lt;start&gt; and &lt;end&gt; in the scripts, because of:
+  * &lt;start&gt; code preseneted alone will not work (subtitles will never be imported)
+  * After (or before) &lt;start&gt;, &lt;end&gt; or &lt;dur&gt; must be included, otherwise the decoder will not recognize the durations of the subtitles.
+
+Timing Fomrating:
+----------------
+
+h-m-s-i-fxx-sfxx-n
+
+-: a splitter. can be ':' , '-' , '.' , ';' , ','
+
+* h: means hour. ranged between 0-23. Can be hh or h. 
+  h is one digit if value &lt; 10 (e.i 1=1, 2=2, 23=23 ...etc)
+  hh means the entry is always 2 digits (e.i. 0=00, 1=01 ...etc)
+
+* m: means minute. ranged between 0-59. Can be mm or m. 
+  m is one digit if value &lt; 10 (e.i 1=1, 2=2, 23=23 ...etc) 
+  mm means the entry is always 2 digits (e.i. 0=00, 1=01 ...etc)
+
+* s: means second. ranged between 0-59. Can be ss or s. 
+  s is one digit if value &lt; 10 (e.i 1=1, 2=2, 23=23 ...etc)
+  ss means the entry is always 2 digits (e.i. 0=00, 1=01 ...etc)
+
+* i: milliseconds. ranged between 0-999. Can be i, ii or iii
+  i is one digit (e.i. 4=400, 5=500) 
+  ii is 2 digits (e.i. 4=040, 5=050, 45=450 ..etc) 
+  iii always 3 digits (e.i. 1=001, 2=002, 10=010, 244=244 ...etc)
+
+* fxx: frame while xx is the framerate. (e.i. f25, f29_97 ...etc) each digit represents one frame.
+  NOTE: for frame rate, use '_' instead of '.' . Example: for 29.97 FPS use 'f29_97' not 'f29.97' . 
+
+* sfxx: sub frame while xx is the frame rate. Each digit represents one frame range.
+  sfxx is one digit 
+  sffxx is 2 digits
+
+* n: means no decode. Return the second value as it is.
+  n is absolute second. (i.e. 1, 2, 44, 5334 ....etc)
+  nn second.milli one digit for milli (e.i. 1.4=1.400, 1.5=1.500) 
+  nnn second.milli 2 digits for milli (e.i. 1.04=1.040, 1.05=050, 1.45=1.450 ..etc) 
+  nnnn second.milli 3 digits for milli (e.i. 1.001, 1.002, 1.010, 1.244 ...etc) 
+
+Examples:
+hh:mm:ss,iii: timing format of SubRip, example values: 00:02:30,442 , 00:05:32,235 ...
+hh:mm: example values: 00:02 , 00:05
+hh.i: example values: 00.1 , 00.2, 01.3
+mm:ss.ii: example values: 01:00.12 , 03:03.24, 05:22.01
+
+NOTES:
+. Never include a code more than once. For example, mm cannot be existed twice in a format.
+. Splitters can be one of these: ':' , '-' , '.' , ';' , ','. Other splitters get ignored and considered part of the time.
+
+Subtitle format file
+---------------------
+First lines contains the script lines that this subtitles format is exported from.
+Script here is optional (i.e the subtitles can start normally after ; SUBS), in this case, when import, you'll need to select the script manually to import as.
+
+
+; AHD Customized
+// Header, this should be presented at the first line of the script
+; startf=hh:mm:ss.iii
+; endf=hh:mm:ss.iii
+; text_format=html
+
+// Descripe the format
+; DATA
+&lt;subn&gt;
+&lt;start&gt; --&gt; &lt;end&gt;
+&lt;text&gt;
+; NEW LINE
+; END
+// Now the subtitles data. DON'T ADD COMMENTS NOR EMPTY LINES AFTER THIS CODE.
+; SUBS
+1
+00:00:38,295 --&gt; 00:00:40,494
+text1
+
+2
+00:00:40,799 --&gt; 00:00:42,984
+text2
+
+3
+00:00:43,223 --&gt; 00:00:45,726
+text3
+
+4
+00:00:48,054 --&gt; 00:00:50,194
+text4
+....</value>
+  </data>
+</root>

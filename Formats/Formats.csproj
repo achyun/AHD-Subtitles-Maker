@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{980C8603-F470-4856-8284-BE449EB2F9C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AHD.SM.Formats</RootNamespace>
+    <AssemblyName>Formats</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|AnyCPU'">
+    <OutputPath>bin\x86\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\RELEASE\x86\</OutputPath>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Types\AHDCustomizedTimingFormatter.cs" />
+    <Compile Include="Controls\cl_SubViewer2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_SubViewer2.Designer.cs">
+      <DependentUpon>cl_SubViewer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cl_Subviewer1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_Subviewer1.Designer.cs">
+      <DependentUpon>cl_Subviewer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cl_SubStationAlpha.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_SubStationAlpha.Designer.cs">
+      <DependentUpon>cl_SubStationAlpha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cl_SubRip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_SubRip.Designer.cs">
+      <DependentUpon>cl_SubRip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cl_SpurceSubtitleFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_SpurceSubtitleFile.Designer.cs">
+      <DependentUpon>cl_SpurceSubtitleFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cl_KarokaLyrics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_KarokaLyrics.Designer.cs">
+      <DependentUpon>cl_KarokaLyrics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cl_DVDSubtitle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_DVDSubtitle.Designer.cs">
+      <DependentUpon>cl_DVDSubtitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAHDCustomizedScriptChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAHDCustomizedScriptChoose.Designer.cs">
+      <DependentUpon>FormAHDCustomizedScriptChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formats\AHDCustomizedSubtitles.cs" />
+    <Compile Include="Formats\Captions32.cs" />
+    <Compile Include="Controls\cl_AutodeskSmoke.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_AutodeskSmoke.Designer.cs">
+      <DependentUpon>cl_AutodeskSmoke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formats\AutodeskSmoke.cs" />
+    <Compile Include="Formats\AQTitle.cs" />
+    <Compile Include="Formats\AHDSubtitles.cs" />
+    <Compile Include="Controls\cl_AdvancedSubStationAlpha.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\cl_AdvancedSubStationAlpha.Designer.cs">
+      <DependentUpon>cl_AdvancedSubStationAlpha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formats\AdvancedSubStationAlpha.cs" />
+    <Compile Include="Controls\Cl_ABCiView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Cl_ABCiView.Designer.cs">
+      <DependentUpon>Cl_ABCiView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formats\ABCiView.cs" />
+    <Compile Include="Controls\Cl_AdobeEncore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Cl_AdobeEncore.Designer.cs">
+      <DependentUpon>Cl_AdobeEncore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Shared\Cl_frameRate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Shared\Cl_frameRate.Designer.cs">
+      <DependentUpon>Cl_frameRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formats\AdobeEncore.cs" />
+    <Compile Include="Formats\CaptionsInc.cs" />
+    <Compile Include="Formats\Cavena.cs" />
+    <Compile Include="Formats\Cheetah.cs" />
+    <Compile Include="Formats\CPC600.cs" />
+    <Compile Include="Formats\Csv.cs" />
+    <Compile Include="Formats\DKS.cs" />
+    <Compile Include="Formats\DVDArchitectSubtitle.cs" />
+    <Compile Include="Formats\DVDJunior.cs" />
+    <Compile Include="Formats\DVDSubtitle.cs" />
+    <Compile Include="Formats\DVDSubtitleSystem.cs" />
+    <Compile Include="Formats\FABSubtitler.cs" />
+    <Compile Include="Formats\FinalCutPro.cs" />
+    <Compile Include="Formats\IAuthorScript.cs" />
+    <Compile Include="Formats\InscriberCG.cs" />
+    <Compile Include="Formats\JACOSub.cs" />
+    <Compile Include="Formats\KaraokeLyrics.cs" />
+    <Compile Include="Formats\KaraokeLyricsVKT.cs" />
+    <Compile Include="Formats\MacSUB.cs" />
+    <Compile Include="Formats\MicroDVD.cs" />
+    <Compile Include="Formats\MPlayer.cs" />
+    <Compile Include="Formats\MPlayer2.cs" />
+    <Compile Include="Formats\OpenDVT.cs" />
+    <Compile Include="Formats\OVR.cs" />
+    <Compile Include="Formats\Panimator.cs" />
+    <Compile Include="Formats\PhoenixJapanimation.cs" />
+    <Compile Include="Formats\PinnecleImpression.cs" />
+    <Compile Include="Formats\PowerDivX.cs" />
+    <Compile Include="Formats\QuickTime.cs" />
+    <Compile Include="Formats\RealTime.cs" />
+    <Compile Include="Formats\SAMI.cs" />
+    <Compile Include="Formats\Scenarist.cs" />
+    <Compile Include="Formats\SonicDVDCreator.cs" />
+    <Compile Include="Formats\SpurceSubtitleFile.cs" />
+    <Compile Include="Formats\SubRip.cs" />
+    <Compile Include="Formats\SubSonic.cs" />
+    <Compile Include="Formats\SubStationAlpha.cs" />
+    <Compile Include="Formats\SubtitleEditorProject.cs" />
+    <Compile Include="Formats\Subviewer1.cs" />
+    <Compile Include="Formats\SubViewer2.cs" />
+    <Compile Include="Formats\TMPlayer.cs" />
+    <Compile Include="Formats\TurboTitler.cs" />
+    <Compile Include="Formats\UleadDVDWorkshop20.cs" />
+    <Compile Include="Formats\WebVTT.cs" />
+    <Compile Include="Formats\WincapsTextTimeCoded.cs" />
+    <Compile Include="Formats\Youtubesbv.cs" />
+    <Compile Include="Formats\ZeroG.cs" />
+    <Compile Include="Forms\Frm_Framerate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Framerate.Designer.cs">
+      <DependentUpon>Frm_Framerate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Types\SubtitlesFormat.cs" />
+    <Compile Include="SubtitleFormats.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\TextFormatter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Cl_ABCiView.ar-SY.resx">
+      <DependentUpon>Cl_ABCiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_ABCiView.de-DE.resx">
+      <DependentUpon>Cl_ABCiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_ABCiView.pt-BR.resx">
+      <DependentUpon>Cl_ABCiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_ABCiView.pt-PT.resx">
+      <DependentUpon>Cl_ABCiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_ABCiView.zh-CN.resx">
+      <DependentUpon>Cl_ABCiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_AdobeEncore.ar-SY.resx">
+      <DependentUpon>Cl_AdobeEncore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_AdobeEncore.de-DE.resx">
+      <DependentUpon>Cl_AdobeEncore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_AdobeEncore.pt-BR.resx">
+      <DependentUpon>Cl_AdobeEncore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_AdobeEncore.pt-PT.resx">
+      <DependentUpon>Cl_AdobeEncore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_AdobeEncore.zh-CN.resx">
+      <DependentUpon>Cl_AdobeEncore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AdvancedSubStationAlpha.ar-SY.resx">
+      <DependentUpon>cl_AdvancedSubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AdvancedSubStationAlpha.de-DE.resx">
+      <DependentUpon>cl_AdvancedSubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AdvancedSubStationAlpha.pt-BR.resx">
+      <DependentUpon>cl_AdvancedSubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AdvancedSubStationAlpha.pt-PT.resx">
+      <DependentUpon>cl_AdvancedSubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AdvancedSubStationAlpha.zh-CN.resx">
+      <DependentUpon>cl_AdvancedSubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AutodeskSmoke.ar-SY.resx">
+      <DependentUpon>cl_AutodeskSmoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AutodeskSmoke.de-DE.resx">
+      <DependentUpon>cl_AutodeskSmoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AutodeskSmoke.pt-BR.resx">
+      <DependentUpon>cl_AutodeskSmoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AutodeskSmoke.pt-PT.resx">
+      <DependentUpon>cl_AutodeskSmoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AutodeskSmoke.zh-CN.resx">
+      <DependentUpon>cl_AutodeskSmoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_DVDSubtitle.ar-SY.resx">
+      <DependentUpon>cl_DVDSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_DVDSubtitle.de-DE.resx">
+      <DependentUpon>cl_DVDSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_DVDSubtitle.pt-BR.resx">
+      <DependentUpon>cl_DVDSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_DVDSubtitle.pt-PT.resx">
+      <DependentUpon>cl_DVDSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_DVDSubtitle.zh-CN.resx">
+      <DependentUpon>cl_DVDSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_KarokaLyrics.ar-SY.resx">
+      <DependentUpon>cl_KarokaLyrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_KarokaLyrics.de-DE.resx">
+      <DependentUpon>cl_KarokaLyrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_KarokaLyrics.pt-BR.resx">
+      <DependentUpon>cl_KarokaLyrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_KarokaLyrics.pt-PT.resx">
+      <DependentUpon>cl_KarokaLyrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_KarokaLyrics.zh-CN.resx">
+      <DependentUpon>cl_KarokaLyrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SpurceSubtitleFile.ar-SY.resx">
+      <DependentUpon>cl_SpurceSubtitleFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SpurceSubtitleFile.de-DE.resx">
+      <DependentUpon>cl_SpurceSubtitleFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SpurceSubtitleFile.pt-BR.resx">
+      <DependentUpon>cl_SpurceSubtitleFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SpurceSubtitleFile.pt-PT.resx">
+      <DependentUpon>cl_SpurceSubtitleFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SpurceSubtitleFile.zh-CN.resx">
+      <DependentUpon>cl_SpurceSubtitleFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubRip.ar-SY.resx">
+      <DependentUpon>cl_SubRip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubRip.de-DE.resx">
+      <DependentUpon>cl_SubRip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubRip.pt-BR.resx">
+      <DependentUpon>cl_SubRip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubRip.pt-PT.resx">
+      <DependentUpon>cl_SubRip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubRip.zh-CN.resx">
+      <DependentUpon>cl_SubRip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubStationAlpha.ar-SY.resx">
+      <DependentUpon>cl_SubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubStationAlpha.de-DE.resx">
+      <DependentUpon>cl_SubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubStationAlpha.pt-BR.resx">
+      <DependentUpon>cl_SubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubStationAlpha.pt-PT.resx">
+      <DependentUpon>cl_SubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubStationAlpha.zh-CN.resx">
+      <DependentUpon>cl_SubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_Subviewer1.ar-SY.resx">
+      <DependentUpon>cl_Subviewer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_Subviewer1.de-DE.resx">
+      <DependentUpon>cl_Subviewer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_Subviewer1.pt-BR.resx">
+      <DependentUpon>cl_Subviewer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_Subviewer1.pt-PT.resx">
+      <DependentUpon>cl_Subviewer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_Subviewer1.zh-CN.resx">
+      <DependentUpon>cl_Subviewer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubViewer2.ar-SY.resx">
+      <DependentUpon>cl_SubViewer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubViewer2.de-DE.resx">
+      <DependentUpon>cl_SubViewer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubViewer2.pt-BR.resx">
+      <DependentUpon>cl_SubViewer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubViewer2.pt-PT.resx">
+      <DependentUpon>cl_SubViewer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubViewer2.resx">
+      <DependentUpon>cl_SubViewer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_Subviewer1.resx">
+      <DependentUpon>cl_Subviewer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubStationAlpha.resx">
+      <DependentUpon>cl_SubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubRip.resx">
+      <DependentUpon>cl_SubRip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SpurceSubtitleFile.resx">
+      <DependentUpon>cl_SpurceSubtitleFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_KarokaLyrics.resx">
+      <DependentUpon>cl_KarokaLyrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_DVDSubtitle.resx">
+      <DependentUpon>cl_DVDSubtitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AutodeskSmoke.resx">
+      <DependentUpon>cl_AutodeskSmoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_AdvancedSubStationAlpha.resx">
+      <DependentUpon>cl_AdvancedSubStationAlpha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_ABCiView.resx">
+      <DependentUpon>Cl_ABCiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Cl_AdobeEncore.resx">
+      <DependentUpon>Cl_AdobeEncore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\cl_SubViewer2.zh-CN.resx">
+      <DependentUpon>cl_SubViewer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Shared\Cl_frameRate.ar-SY.resx">
+      <DependentUpon>Cl_frameRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Shared\Cl_frameRate.de-DE.resx">
+      <DependentUpon>Cl_frameRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Shared\Cl_frameRate.pt-BR.resx">
+      <DependentUpon>Cl_frameRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Shared\Cl_frameRate.pt-PT.resx">
+      <DependentUpon>Cl_frameRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Shared\Cl_frameRate.resx">
+      <DependentUpon>Cl_frameRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Shared\Cl_frameRate.zh-CN.resx">
+      <DependentUpon>Cl_frameRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAHDCustomizedScriptChoose.resx">
+      <DependentUpon>FormAHDCustomizedScriptChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAHDCustomizedScriptChoose.zh-CN.resx">
+      <DependentUpon>FormAHDCustomizedScriptChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Framerate.resx">
+      <DependentUpon>Frm_Framerate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Framerate.zh-CN.resx">
+      <DependentUpon>Frm_Framerate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASMP\ASMP.csproj">
+      <Project>{26170BC5-B2C0-4B36-ACD5-CBA634B52174}</Project>
+      <Name>ASMP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{93C23A9F-1EF7-4417-8925-3F2A410D11E8}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AHDCustomized\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

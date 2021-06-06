@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 25</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 19</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 29</value>
+  </data>
+  <data name="mediaSeeker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 19</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 488</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 48</value>
+  </data>
+  <data name="AddButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ4SURBVDhPrZP9S1NRGMfv3zKLIFaQaFQk+EKUYCReKl9b
+        5Evq0k1d5NS7aVPnrjnx7bpRZkFbuU1Guunm3GiKmThd6SL1OpRoowiCcvjrt3vrmokWBH3g+e35fM85
+        zzmH+O/QXkVcm1tOaRwVbOOoZEvxnKthCVttlVAVT6/FCW0HQ3uqSK2rKvpksRfz0WmEPgex+GkOrrAd
+        ancFykxXosWDWaTQvhdeVg+Xxjzrdmx+W4f3wxhM7H08WmVg3zBh5uML0FNKSJjMWL4xY2+I1iMXNTvl
+        kfE1C9a/rmBgpRs9C23QB5rBhNrRF6KhX9JgfNMOyi0FabgQyWLSRILOBbhkqv7ZFrz7ssSt2IfeZRq6
+        V2rs0LKgRMO0FKpZGZwbNlx9eA4ZXckqQScIfmBjYRu3VTPuzTehda4BSm+loAPltjzcmbyOmol8GN+0
+        o3umEef1Z1lBJwjVSOG27/0Y+t+2c3KdoO1H7sqByl8GS2gAqeqj24JOEHX2wu3R8BDoIIWmwG2hfT98
+        AOW7CWvoAZJ+D1DYJKwhQINZ1qHupRRyfyGKrZcF7afIV7U7D/2BFnT46nFac3z3CLKhAlWplYQjbIHS
+        X4Qqn+THmXfg5UpnNhTj+XCsmZHWeQoJTeLdIZaZckUlj8kI5S7HCPvs18B4Uebki5fzMLpqwi1LLhLu
+        iiPH1Id3r5HnxuAlsoC5GKt1FMHJhRgCWlCTJWiYKIJhvhUOTpZaspGgFsVOUEcOfo05xnSS7EmNZhpT
+        0DlFwfyagTnIQOerRWrHSU4WR/8o75DZlRKXrk+i0ugzbLIucStRG7+VyA0svlFMxdcf+vtn+ncI4jvA
+        d88ihPD7ZgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="AddButton.ToolTipText" xml:space="preserve">
+    <value>Untertitel hinzufügen
+(Schnellmodus, halten Sie für die gewünschte Dauer)</value>
+  </data>
+  <data name="EndSetButon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIpSURBVDhPY8AHVHLnGDrVrVzIkDaTFSpEGnCsXp7ZvuHk
+        A5mQXk6oEBhohdazQZn4gXvDyvz+9ee/y8f3C0CFGJQypul4N6w8DeXiB15Na0rXn7z3XyFpijyILxI7
+        Wa1y/uHXyRM2EWdAQPu6moNXn/+XTZmiLRTXK9285MjzuXuuPkyauC0JqgQ/CO7c2HLu/rv/CinTUysW
+        Hrq1/8DFv35NK6uh0oRBePemziuPPv7vW3v0y4PXX/971S2dC5XCD+oZGJhAdFTvlgl3X337v+Xsw/+x
+        vRv3gyXxgW4BBvllalIzd5lonZkjLdCZOWP3mQsPPvyP69t2VDymmxuqDDsAad5pqnn9vJvN/1N2hp+u
+        +9j/n7Xnxv+HQBdETty5XzJ5kjUDw39GqHJMsEJdds4ZN+v/EwU5rCYIsQVf8bD+P2fv7f/Lzrz7f8/H
+        4f9FZ6v/MyT4MqHKMcEhG703a/UU14PYK1SkZl4KcPpf2r353zV/x/+LFMTmHrDQubLbQvt+vSQDF1gD
+        OthrqX/vpL3p040Gyofuetn/X6Mlf2iTnsrpYzaGn1YxMDDPkRYsP+Fo/r+fn10BqgUVTJfkTz5uZvTj
+        PFDRSg25DV1cDBJbdBXX77c3/QtiL1eXnnrUzORHDw+DCFQLJugW4JDv4WVTA9kI4s+SFiq46e3wf7+p
+        5t2L7rb/V6rKLgErJBaA/LtMTXr+SX397+t1lXZ2cDLIQKWggIEBAMqv3GFou990AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="EndSetButon.ToolTipText" xml:space="preserve">
+    <value>Aktuelle Zeit als End-Zeit für angezeigten Untertitel festlegen</value>
+  </data>
+  <data name="toolStripButton_sub_edit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKKSURBVDhPrZDtS1NhGMbPf9D3vgQRfYnqb8igGkRZFESW
+        +yAO6YUg8qWVYkOZL7MWLl2zpWKaylzTrDXN6dx0Hhd63ItOc75s6txO0zl1x2lydc7pyBIiCrrg4oH7
+        ea7ffd8P8V/U0L9SUGtZDdT2RaA109B8plHVFUKlMQjlhyUoOhZQ8s6PIt0cClt8yG+chrR+aliIE0St
+        haY3mB38ix/UDW0JcYJ43fuNLzZ6XqHepYaWUkE9okSloxxPSTlKB2Uoshag0CLFY3MO//ZejRtCnCBq
+        emi++Lfi3t6qHksC1Oy+XLHJGvqjP/W0wdt4DV/bi0Fpz4B6cSydB6jYz9oDcGqxLfPnnnT2ZWwutSNo
+        zkXU2QmsL2LVqUN/2bllHvCscxGx+DZaB0PQcbaH0WYPQU+GYGBttjQh4nmCRKADwb5yxF16fJ+zYVQp
+        YXiAoj2ANRagJ8N8R4NwcmJoCyLufOzGbYj77iAyfBcTDRkgX2aCrEw9ygPk+nlEN7bR4Qjj/Zeke20G
+        rLgeYpexY3NaDMafhti4FDN1qbgt1yU/UdY6i9X1BIwjPzt3UzSC4+zOjlwhnA5m/jrW3I8wozkPLzUM
+        ccVQElDQ7OMBXWyQC5uMb+Ex5bBj94OZzcCW/yai7CRT1SKYBtzw+qO4UTaYBEjfTGKFBZidNCYH2PBH
+        KcaMSiyQV7E5m4YIlQef9hK2owv8hBxArPgFkF0/gUhsC+Eog9bS00BsDl7NFZilBzGgFsGqOIsJJ8UH
+        93yhrHdXiBPEfa3HllXl2siqGoNMcgIJuwoJ8jnI4lNokhxBpqwZl4us+5ySbTII8f26ePIAIxcf2tGX
+        iHa6K1IsnXnHDwtXvxFB/ADi3pvZkq8rGAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHnSURBVDhPrVNdyzFRFJ0f5T+5oiReMRg/QAqF3Llw48KF
+        K6XMhZRExCEXLnx/DsZHhOznrNNIU3rrqWfXambOOWvttfc+I/159Pt9C4fCofZ6PY0xpnU6HbXdbiuN
+        RsNiHPseg8HAyolss9nQ5XKh5/MpcD6fablcUr1eZxxW47g5QOZZ9NvtRgg8j8cj6bpO1+tVrEG0Vqvp
+        1WrVLGLYZm/yfr+n1WpFmqYJbLdbms/nYg8i5XKZcXzKQc2wjXiT/X6/iSzLslhHDIdDKhQKikGXpG63
+        q0IZVlGr2/1PCEB0NpuR3W4XAthDP3a7HeVyOdWgSxLvroZmYcPlcnG4BQGZbTYbh518Pp/4hov7/U6Z
+        TEYz6B+Bw+FAwaBCTqdTCEDQ4/GQw+Egr9cr3LxdmARarZaKjqOM9XpNgUCQlxCgxWIhCBCTZT9Np1Mx
+        mdFoROl02lSCgs3X6yUIsBkKhURGANYVRaHxeEyPx4P4GCmVSn2ayGdrqVQqDCUgQEJ2iE4mE0HEEwnw
+        zsksmUyab2WpVLIWi0UdY8PB0+kk3EAIlwmZYZ2T9Wg0+v025vN5azabZc1mU9hGT1Az5q6qKsViMRaJ
+        RL6T38EFLLxBSiKRUOPxuMazaZykhsNhhQv8/2f6fUjSD9iWNeXigFaOAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Button_playPause.ToolTipText" xml:space="preserve">
+    <value>Wiedergabe / Pause</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG7SURBVDhPrZNNqwFRGMfnQ813ssJXGKylUMjOwsbCwkop
+        ZyElEXHIwsL768F4iZDnnv9pztWUe+vWferfaOb8/s/bYfx79Pt9U8qSYr1eT3DORafTYe1222o0GqZz
+        7HMMBgOPBPlms6HL5ULP51PpfD7Tcrmker3OpTzOcXcAllns2+1GCDyPxyPZtk3X61W9g2mtVrOr1arb
+        xCmba3i/39NutyMhhNJ2uyVUhYBJuVzmUu920LM+8BO8Wq2UEMPhkAqFguXghtHtdhmcUaoG/X6/ks/n
+        o1AopGDMAfNAglwuxxzcMOR0BYZ1OBwUjIwAtWCwWCxoPp8ro/v9TplMRjj42wDlA16v19+w1+ulYDBI
+        s9lMSVfhMmi1WgwTRxu6V2QFCAUCAQVPp1O1mdFoROl02tWChY+v10tl0OXqrPg2mUxoPB7T4/EguUZK
+        pVLvIcrdmpVKhWMGiE8gsiIBfkuYJ5NJ960slUqeYrFoY204eDqdvqvBZUJmmEjYjkajn29jPp/3ZLNZ
+        3mw2VQuYCXrG3hljFIvFeCQS+QzrkAamHJCVSCRYPB4XMpuQEAuHw5Y0+P3P9PcwjC9ISUA3qwj9IwAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton4.ToolTipText" xml:space="preserve">
+    <value>Stopp</value>
+  </data>
+  <data name="toolStripButton_fastForward.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHfSURBVDhPrVNNyzlxFJ0P5TvZP+PlYTVfQAqF7CxsLCys
+        lDILKYmIH1kg76+D8RIh97nn1/hrSv966rl10kz3nHPPvUP58+p0Og6GxtDb7bYhhDCazabeaDS0arXq
+        sNo+V7fbdTJRrNdrOp/P9Hg8JE6nEy0WC6pUKoLhtNrtBTK7mNfrlVD4PRwOZJomXS4X+Q6i5XLZLJVK
+        dhFrbPEiTyYT2m63ZBiGxGg0IkyFgkihUBCMdxxkfjXsdjvyer1MGkvyZrMht9tDg8GAlsul7On1epTN
+        ZjWLriitVkuHMkYFyePxMjw0HA5ptVqxgFui3+/LfWC6dDqtW3RF4e0aWNZ+v5cCcAT8fj+Nx2NyudwM
+        F31/++Tz7XajZDJpWPS3AMZHFJB9Pp90haiqumQsVVXlM6awCdTrdR0bRwzkBBmuaJ7NZv/IMEAfoiUS
+        CVsEDZt/Pp/y3hgX5Ol0KvH1pcrcuMb9fic+I8Xj8fcS+baOYrEoQELBCUSIIjPIcIUBRJgsYrGY/avM
+        5/POXC5n4mxoPB6Pcpr5fC4/JjhDhMlmKBT6/DVmMhlnKpUStVpNZsdOkBl313WdwuGwCAaDn8mvYgEH
+        L0iLRqN6JBIx2M1gkh4IBDQW+P+f6felKD9cyjVKSLIyiwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripSplitButton1.Text" xml:space="preserve">
+    <value>Bearbeiten die Einstellungen für die Untertitelansicht</value>
+  </data>
+  <data name="enableSubtitlePreviewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
+  </data>
+  <data name="enableSubtitlePreviewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aktivieren die Untertitelvorschau</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 6</value>
+  </data>
+  <data name="showSubtitleFormattingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
+  </data>
+  <data name="showSubtitleFormattingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verwenden die Untertitelformatierung</value>
+  </data>
+  <data name="useCustomFormatToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
+  </data>
+  <data name="useCustomFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verwenden benutzerdefinierten Stil</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 6</value>
+  </data>
+  <data name="customFormatToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
+  </data>
+  <data name="customFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bearbeiten den benutzerdefinierten Stil</value>
+  </data>
+  <data name="toolStripButton_mute.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH8SURBVDhPzZLdS9tQGIcD/gkDB4NdeTGErmyiDFIkslKh
+        TlHpwma7kbRJbLOaFqOjga4USbuorWi902JBZUILw/vSq3m5f0CYYE7BQsHcevtbmpay7gN26QMvnPfl
+        nOe854O6v2xtfV7K5fSbXvr/1Gq1oe3tTT2bzd7p+gZ65QHMmCqSSPyRkxSLRfrXsBf/ODoq4/z8K7LZ
+        T38ISDSZvpUVXLPCd6ews1PA/n4JpdIu9vZ2cXp6jGq1ipOTY2ipjwMCU0xKzXcxVysowAqFYfoCcapQ
+        2MTFxTc0Gg3U63VUKhXoum4LS1BXE32BKSjirRQHYTnNnH2bsAJBEM+rS8ow8jg7+wLDMJDP55HJZKCq
+        qj3OQVFkR3AzG7wyQ8ve9lIYZOaNUyP0DMiYF1TnosrlA0iSBI7jEAgE4Pf7IctRO5adye25oGXOh7zt
+        BXvXqfmu4NlLkFEPqHRaw+HhATQthWQygcXFBTAMY8veIxoV+kcg069la44FmZjWTPdUwvL4QB4/v6TW
+        11extpa0F8edlldWZEcSDnN2V+G+oENz3Peh6WZcLfckrAkG5sOncUpVFFqWZTskWpJ4OhLhrzqiVEqF
+        KPIDgg5k5MWGNTaJ6+HR7jP+DsuyQ4LA5QWBv/uboAMZdsXIgyfdj/QvRDES4nm+1UvvLRT1Ex2pDcnm
+        O9ZHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_info.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label_info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel_surface.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_surface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="panel_surface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 475</value>
+  </data>
+  <data name="subtitleTextViewer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="subtitleTextViewer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 441</value>
+  </data>
+  <data name="subtitleTextViewer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 34</value>
+  </data>
+  <data name="panel_video_host.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 488</value>
+  </data>
+  <data name="subtitleTextEditor1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="subtitleTextEditor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 344</value>
+  </data>
+  <data name="subtitleTextEditor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 144</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 536</value>
+  </data>
+</root>

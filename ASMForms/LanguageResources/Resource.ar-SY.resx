@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Browse" xml:space="preserve">
+    <value>ا&amp;ستعراض</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>إل&amp;غاء الأمر</value>
+  </data>
+  <data name="Button_Close" xml:space="preserve">
+    <value>إ&amp;غلاق</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>&amp;لا</value>
+  </data>
+  <data name="Button_Stop" xml:space="preserve">
+    <value>&amp;توقف</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>&amp;نعم</value>
+  </data>
+  <data name="CloseThisWizard" xml:space="preserve">
+    <value>أغلق هذا المعالج</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="ID3TagSynchronisedLyricItem" xml:space="preserve">
+    <value>عنصر الأي دي ثري لكلمات الأغنية المتزامنة</value>
+  </data>
+  <data name="MessageCaption_DeleteItem" xml:space="preserve">
+    <value>حذف عنصر</value>
+  </data>
+  <data name="MessageCaption_NameAlreadyTaken" xml:space="preserve">
+    <value>الإسم موجود</value>
+  </data>
+  <data name="MessageCaption_NoID3Tagv2Found" xml:space="preserve">
+    <value>لا يوجد أي أي دي ثري</value>
+  </data>
+  <data name="MessageCaption_SpellCheck" xml:space="preserve">
+    <value>تفحص الأخطاء الإملائية</value>
+  </data>
+  <data name="MessageCaption_StopTranslationProgress" xml:space="preserve">
+    <value>أوقف عملية الترجمة</value>
+  </data>
+  <data name="MessageCaption_SubtitlesFormatExport" xml:space="preserve">
+    <value>تصدير ملف الترجمة</value>
+  </data>
+  <data name="Message_AreYouSure" xml:space="preserve">
+    <value>هل أنت متأكد ؟</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToStopCurrentProgress" xml:space="preserve">
+    <value>هل أنت متأكد من إيقاف العملية الحالية ؟</value>
+  </data>
+  <data name="Message_CantRipThisTrackOrCanceledByUser" xml:space="preserve">
+    <value>لا يمكن الإستخراج من هذا المسار أو تم إلغاء الأمر من قبل المستخدم</value>
+  </data>
+  <data name="Message_Done" xml:space="preserve">
+    <value>تمّ !!</value>
+  </data>
+  <data name="Message_InvaildeMkv" xml:space="preserve">
+    <value>لا يمكن الإستخراج من هذا الملف، إما أن الملف ليس ماتروسكا أو لا يحوي على مسارات للعناوين الثانوية</value>
+  </data>
+  <data name="Message_NoSubtitleDetectedToExport" xml:space="preserve">
+    <value>لا يوجد أي عنوان ثانوي للتصدير، غذهب إلى الخطوة 1 و إختر مساراً</value>
+  </data>
+  <data name="Message_PleaseBrowseWhereToSave" xml:space="preserve">
+    <value>إختر مسار الملف رجاءاً، الخطوة 4</value>
+  </data>
+  <data name="Message_PleaseSelectEncodingFirst" xml:space="preserve">
+    <value>إختر تشفير الأحرف رجاءاً، إذهب غلى الخطوة 3</value>
+  </data>
+  <data name="Message_PleaseSelectTextFirst" xml:space="preserve">
+    <value>إختر نصاً اولاً رجاءاً</value>
+  </data>
+  <data name="Message_TheresNoSubtitleToLoad" xml:space="preserve">
+    <value>لا يوجد اي عنوان ثانوي في هذا المسار</value>
+  </data>
+  <data name="Message_TheSplitTimeMustBeLargerThanTheOriginalSubtitlesStartTime" xml:space="preserve">
+    <value>وقت التقسيم يجب بأن يكون أكبر من وقت البدء للعنوان الثانوي</value>
+  </data>
+  <data name="Message_TheSplitTimeMustBeSmallerThanTheOriginalSubtitlesEndTime" xml:space="preserve">
+    <value>وقت التقسيم يجب بأن يكون أصغر من وقت البدء للعنوان الثانوي</value>
+  </data>
+  <data name="Message_ThisMp3FileDoesntHaveID3v2" xml:space="preserve">
+    <value>هذا الملف الإم بي ثري لا يحوي بيانات الأي دي ثري النسخة 2، سيتم إنشاؤها لاحقاً عن الحفظ</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTaken" xml:space="preserve">
+    <value>هذا الإسم موجود سابقاً</value>
+  </data>
+  <data name="Message_UnableToOpenMKV" xml:space="preserve">
+    <value>لا يمكن فتح ملف الماتروسكا. إما أن هذا الملف ليس بملف ماتروسكا أو لا يحوي على مسارات العناوين الثانوية</value>
+  </data>
+  <data name="NewSubtitlesTrack" xml:space="preserve">
+    <value>مسار عناوين ثانوية جديد</value>
+  </data>
+  <data name="SubtitlesTrack" xml:space="preserve">
+    <value>مسار عناوين ثانوية</value>
+  </data>
+  <data name="TipOfTheDay_0" xml:space="preserve">
+    <value>يمكنك إنشاء نسخة مضاعفة لمسار العناوين الثانوية، إضغط CTRL+D على لوحة المفاتيح</value>
+  </data>
+  <data name="TipOfTheDay_1" xml:space="preserve">
+    <value>هل لديك ملف إم بي ثري ؟ تريد أن تعدل الأي دي ثري الخاص بكلمات الأغنية المتزامنة ؟ إذهب إلى الأدوات&gt;مدير الأي دي ثري</value>
+  </data>
+  <data name="TipOfTheDay_10" xml:space="preserve">
+    <value>لديك فيلم طويل و تجد صعوبة في التنقل بين أجزائه، إستخدم العلامات التي توفر الوقت و الجهد لتفعل ذلك، إذهب إلى الوسائط&gt;العلامات</value>
+  </data>
+  <data name="TipOfTheDay_11" xml:space="preserve">
+    <value>إستخدم تقنية الجي تي لترجمة العناوين الثانوية باستخدام خدمة جوجل ترانزليت، إنها أسهل و أسرع بكثير من الطريقة العادية</value>
+  </data>
+  <data name="TipOfTheDay_12" xml:space="preserve">
+    <value>ليس لديك الوقت لمزامنة العناوين الثانوية باستخدام متحكمات البرنامج ؟ ما رأيك باستخدام AHD Synchronisation Tool، إنها أسرع و أسهل يمكنها فعل ذلك بثواني !!</value>
+  </data>
+  <data name="TipOfTheDay_13" xml:space="preserve">
+    <value>هل تعلم بأن صيغة الترجمة AHD Subtitles يمكنها حفظ كل مسارات العناوين الثانوية بالإضافة إلى الخطوط و الألوان .... يمكنك الإعتماد عليها لإنشاء نسخة إحتياطية لمشروعك</value>
+  </data>
+  <data name="TipOfTheDay_2" xml:space="preserve">
+    <value>عندما تستورد ملف الترجمة قد يحوي أخطاءاً في التوقي و النصوص. إبحث عن الأخطاء و صححها بالضغط على Control+Alt+C. عبى لوحة المفاتيح</value>
+  </data>
+  <data name="TipOfTheDay_3" xml:space="preserve">
+    <value>يمكنك تغيير ملف الوسائط متى تريد إضغط CTRL + M</value>
+  </data>
+  <data name="TipOfTheDay_4" xml:space="preserve">
+    <value>يمكنك تحديد وقت الإنتهاء للعنوان الثانوي الذي يتم عرضه بالوقت الحالي للوسائط</value>
+  </data>
+  <data name="TipOfTheDay_5" xml:space="preserve">
+    <value>هل تعلم بأن البرنامج يتفحص أخطاء الملف الترجمة عند إستيراده تلقائياً؟ يمكنك تغيير ذلك في نافذة الإعدادات، إذهب إلى الأدوات&gt;الإعدادات</value>
+  </data>
+  <data name="TipOfTheDay_6" xml:space="preserve">
+    <value>لا يوجد هناك حاجة للمزامنة التقليدية، إستخدم تحكم خط الوقت لتزامن الأوقات باستخدام الفأرة ؟!!</value>
+  </data>
+  <data name="TipOfTheDay_7" xml:space="preserve">
+    <value>هل تريد تحويل صيغة ملف الترجمة إلى صيغة أخرى ؟ إستخدم AHD Subtitles Converter</value>
+  </data>
+  <data name="TipOfTheDay_8" xml:space="preserve">
+    <value>تريد ترجمة العناوين الثانوية و لكنك لا تملك الوقت لكتابة النصوص، إستخدم خدمة جوجل ترانزليت للقيام بذلك </value>
+  </data>
+  <data name="TipOfTheDay_9" xml:space="preserve">
+    <value>لم يعجبك الترتيب الحالي لواجهة البرنامج ؟ يمكنك تغيير مواضع التحكمات كيفما تريد باستخدام الفأرة كما يمكنك حفظ و تحميل ملفات ترتيب الواجهة، إذهب إلى العرض&gt;ترتيب الواجهة</value>
+  </data>
+  <data name="Title_ChangeMedia" xml:space="preserve">
+    <value>تغيير الوسائط</value>
+  </data>
+  <data name="Title_DataFor" xml:space="preserve">
+    <value>البيانات لأجل</value>
+  </data>
+  <data name="Title_EnterProjectName" xml:space="preserve">
+    <value>أدخل إسم المشروع</value>
+  </data>
+  <data name="Title_ExportTo" xml:space="preserve">
+    <value>التصدير إلى</value>
+  </data>
+  <data name="Title_ImportSubtitlesFormat" xml:space="preserve">
+    <value>إستيراد ملف الترجمة</value>
+  </data>
+  <data name="Title_SubtitlesFormat" xml:space="preserve">
+    <value>ملف الترجمة</value>
+  </data>
+  <data name="ToolTip_ResetTheShiftToZero" xml:space="preserve">
+    <value>صفر التحريك</value>
+  </data>
+  <data name="ToolTip_ShiftLeft" xml:space="preserve">
+    <value>تحريك إلى اليسار</value>
+  </data>
+  <data name="ToolTip_ShiftRight" xml:space="preserve">
+    <value>تحريك إلى اليمين</value>
+  </data>
+  <data name="ToolTip_TheRealTime" xml:space="preserve">
+    <value>الوقت الحقيقي لوقت البدء للعنوان الثانوي أو العنوان الثانوي الأول إذا كان التحريك لكافة العناوين الثانوية</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>النسخة</value>
+  </data>
+  <data name="MessageCaption_DownloadDictionaries" xml:space="preserve">
+    <value>تحميل قواميس</value>
+  </data>
+  <data name="Message_PleaseSelectOneDictionaryAtLeast" xml:space="preserve">
+    <value>الرجاء اختيار قاموس واحد على الأقل</value>
+  </data>
+  <data name="MessageCaption_NoDictionaryToUse" xml:space="preserve">
+    <value>لا يوجد أية قاموس</value>
+  </data>
+  <data name="Message_NoDictionaryToUse" xml:space="preserve">
+    <value>لا يوجد أية قاموس لتستخدمه في البرنامج. هل ترغب بتحميل القاموس المطلوب ؟</value>
+  </data>
+  <data name="Message_PleaseSelectASubtitleFirst" xml:space="preserve">
+    <value>الرجاء إختيار عنوان ثانوي أولاً</value>
+  </data>
+  <data name="Message_PleaseSelectLanguageFirst" xml:space="preserve">
+    <value>الرجاء اختيار قاموس أولاً</value>
+  </data>
+  <data name="Message_PleaseSelectWordFromsuggestions" xml:space="preserve">
+    <value>الرجاء اختيار كلمة من قائمة الكلمات المقترحة، إن لم يكن هناك أية كلمة في القائمة عليك تعديل الكلمة يدوياً</value>
+  </data>
+  <data name="MessageCaption_SubtitleDownload" xml:space="preserve">
+    <value>تحميل ملف ترجمة</value>
+  </data>
+  <data name="Message_PleaseEnterSearchName" xml:space="preserve">
+    <value>الرجاء إدخال إسم البحث</value>
+  </data>
+  <data name="Message_PleaseSelectAResult" xml:space="preserve">
+    <value>الرجاء إختيار نتيجة أولاً</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitleLanguagesFirst" xml:space="preserve">
+    <value>الرجاء إنتقاء اللغات</value>
+  </data>
+  <data name="Message_NoResult" xml:space="preserve">
+    <value>لم يتم العثور على أي ملف مطابق</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOpenSubtitlesorg" xml:space="preserve">
+    <value>تحميل ملف ترجمة من OpenSubtitles.org</value>
+  </data>
+  <data name="Message_ErrorNoResultReturnedFromServerPleaseTryAgainLater" xml:space="preserve">
+    <value>حصل خطأ !! المخدم لم يعطي أية نتيجة الرجاء المحاولة لاحقاً.</value>
+  </data>
+  <data name="Message_PleaseEnterMovieName" xml:space="preserve">
+    <value>الرجاء إدخال إسم الفيلم. يجب بأن يكون الإسم خالياً من الرموز</value>
+  </data>
+  <data name="Message_PleaseEnterTheMovieHashFirst" xml:space="preserve">
+    <value>الرجاء إدخال قيمة هاش الفيلم أولاً</value>
+  </data>
+  <data name="Message_PleaseEnterTheMovieSizeInBytesFirst" xml:space="preserve">
+    <value>الرجاء إدخال قيمة حجم الفيلم بالبايتات أولاً</value>
+  </data>
+  <data name="Title_OpenMovieFile" xml:space="preserve">
+    <value>فتح ملف فيلم</value>
+  </data>
+  <data name="Title_OpenSubtitlesFile" xml:space="preserve">
+    <value>فتح ملف ترجمة</value>
+  </data>
+  <data name="MessageCaption_UploadSubtitlesToOpenSubtitlesorg" xml:space="preserve">
+    <value>التحميل إلى OpenSubtitles.org</value>
+  </data>
+  <data name="Message_CantFindMovieIMDB" xml:space="preserve">
+    <value>لا يمكن تحديد  IMDB الخاص بالملف.
+عليك تحديد القيمة يدوياً، للحصول على القيمة قم بزيارة الموقع
+OpenSubtitles.org
+ثم قم بالبحث عن الفيلم هناك، يجب أن تكون القيمة موجودة في نتيجة البحث</value>
+  </data>
+  <data name="Message_LinkToYourSubtitlesFile" xml:space="preserve">
+    <value>الرابط للملف الخاص بك</value>
+  </data>
+  <data name="Message_PleaseBrowseForMovieFirst" xml:space="preserve">
+    <value>الرجاء تحديد ملف الفيلم أولاً</value>
+  </data>
+  <data name="Message_PleaseBrowseForSubtitlesFileFirst" xml:space="preserve">
+    <value>الرجاء تحديد ملف الترجمة أولاً</value>
+  </data>
+  <data name="Message_PleaseTryAgainLater" xml:space="preserve">
+    <value>الرجاء المحاولة لاحقاً</value>
+  </data>
+  <data name="Message_ThisSubtitleFileIsAlreadyInOpenSubtitlesorgDatabase" xml:space="preserve">
+    <value>هذا الملف الترجمة موجود سابقاً في قاعدة البيانات</value>
+  </data>
+  <data name="Message_UnableToConnectToOSServer" xml:space="preserve">
+    <value>لم يتمكن من الإتصال بالمخدم</value>
+  </data>
+  <data name="Message_UploadDone" xml:space="preserve">
+    <value>تم التحميل بنجاح !</value>
+  </data>
+  <data name="Message_LinkCopiedToClipboard" xml:space="preserve">
+    <value>"تم نسخ الرابط إلى الذاكرة"</value>
+  </data>
+  <data name="Title_EnterMovieIMDB" xml:space="preserve">
+    <value>الرجاء إدخال قيمة IMDB</value>
+  </data>
+  <data name="Message_NoResultMovieNameOSSearch" xml:space="preserve">
+    <value>لم يتم العثور على أية نتيجة.. </value>
+  </data>
+  <data name="Message_NoResultNormalOSSearch" xml:space="preserve">
+    <value>لم يتم العثور على أية نتيجة، قد يكون الملف الخاص بالفيلم غير موجود بقاعدة البيانات. الرجاء استخدام البحث عن طريق الإسم</value>
+  </data>
+  <data name="Message_InvailedUserrNameOrPassword" xml:space="preserve">
+    <value>إسم المستخدم أو كلمة المرور غير صالحة</value>
+  </data>
+  <data name="Message_CanceldByUser" xml:space="preserve">
+    <value>تم الإلغاء من قبل المستخدم</value>
+  </data>
+  <data name="Message_PleaseEnterIMDBFirst" xml:space="preserve">
+    <value>الرجاء إدخال قيمة IMDB أولاً</value>
+  </data>
+  <data name="Message_ThisIMDBIsInvailed" xml:space="preserve">
+    <value>قيمة IMDB ليست صالحة،الرجاء تغيير القيمة</value>
+  </data>
+  <data name="TipOfTheDay_14" xml:space="preserve">
+    <value>إبحث و حمّل الترجمة مباشرةً من OpenSubtitles.org دون الحاجة لإغلاق البرنامج !
+إذهب إلى الأدوات&lt;حمّل الترجمة من OpenSubtitles.org</value>
+  </data>
+  <data name="TipOfTheDay_15" xml:space="preserve">
+    <value>شارك عملك على الترجمة على OpenSubtitles.org مباشرةً
+إذهب إلى الأدوات&lt;حمّل الترجمة إلى OpenSubtitles.org</value>
+  </data>
+  <data name="Message_BitcoinAddressCopiedToClipboard" xml:space="preserve">
+    <value>تم نسخ عنوان Bitcoins إلى الذاكرة</value>
+  </data>
+  <data name="Title_OpenPreparedTextFile" xml:space="preserve">
+    <value>فتح ملف يحوي نصوص معدة سابقاً ككلمات أغنية أو ترجمة لفلم ....</value>
+  </data>
+  <data name="Message_PleaseAddAtLeastOneStyle" xml:space="preserve">
+    <value>الرجاء إدخال نمط واحد على الاقل</value>
+  </data>
+  <data name="Message_PleaseSelectAStyleFirst" xml:space="preserve">
+    <value>الرجاء اختيار نمط اولا</value>
+  </data>
+  <data name="Title_PleaseEnterTheStyleName" xml:space="preserve">
+    <value>الرجاء إدخال إسم النمط</value>
+  </data>
+  <data name="Word_Default" xml:space="preserve">
+    <value>افتراضي</value>
+  </data>
+  <data name="Message_PleaseEnterSurroundingChar" xml:space="preserve">
+    <value>الرجاء ادخل حرف واحد في كلا الحقلين</value>
+  </data>
+  <data name="Message_0" xml:space="preserve">
+    <value>الرجاء اختيار احد الخيارات اولا</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>الرجاء ادخال علامة ترقيم واحدة على الاقل</value>
+  </data>
+  <data name="Message_PleaseEnterPassword" xml:space="preserve">
+    <value>الرجاء ادخال كلمة المرور اولا</value>
+  </data>
+  <data name="Message_PleaseEnterUsername" xml:space="preserve">
+    <value>الرجاء ادخال اسم المستخدم اولا</value>
+  </data>
+</root>

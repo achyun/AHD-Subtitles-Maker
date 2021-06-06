@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>取消(&amp;C)</value>
+  </data>
+  <data name="Button_DontSave" xml:space="preserve">
+    <value>不保存(&amp;D)</value>
+  </data>
+  <data name="Button_DownloadNow" xml:space="preserve">
+    <value>现在下载 !</value>
+  </data>
+  <data name="Button_Insert" xml:space="preserve">
+    <value>插入(&amp;I)</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>否(&amp;N)</value>
+  </data>
+  <data name="Button_OnTime" xml:space="preserve">
+    <value>按时(&amp;O)</value>
+  </data>
+  <data name="Button_ResetSettings" xml:space="preserve">
+    <value>重置设置(&amp;R)</value>
+  </data>
+  <data name="Button_RetryLoading" xml:space="preserve">
+    <value>重新加载(&amp;T)</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="Button_ViewDetails" xml:space="preserve">
+    <value>查看详细信息</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>是(&amp;Y)</value>
+  </data>
+  <data name="CheckBox_AskEveryTimeBeforeDeletingSubtitle" xml:space="preserve">
+    <value>每次删除字幕前都要询问.</value>
+  </data>
+  <data name="CheckBox_CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>自动检查更新.</value>
+  </data>
+  <data name="Filter_Settings" xml:space="preserve">
+    <value>设置文件(*.set)|*.set</value>
+  </data>
+  <data name="History_ColorSetForSelected" xml:space="preserve">
+    <value>选定字幕的颜色设置</value>
+  </data>
+  <data name="History_DefaultRTLChanged" xml:space="preserve">
+    <value>默认 RTL 已改变</value>
+  </data>
+  <data name="History_ErrorsAutoFix" xml:space="preserve">
+    <value>错误自动修复</value>
+  </data>
+  <data name="History_FontSetForSelected" xml:space="preserve">
+    <value>选定字幕的字体设置</value>
+  </data>
+  <data name="History_ID3Managed" xml:space="preserve">
+    <value>ID3 已管理</value>
+  </data>
+  <data name="History_ImportSubtitlesFormat" xml:space="preserve">
+    <value>导入字幕格式</value>
+  </data>
+  <data name="History_MarkAddedAt" xml:space="preserve">
+    <value>添加标记位于</value>
+  </data>
+  <data name="History_MarkEdit" xml:space="preserve">
+    <value>标识编辑</value>
+  </data>
+  <data name="History_MarkRemoved" xml:space="preserve">
+    <value>标记已移除</value>
+  </data>
+  <data name="History_MatroskaSubtitlesTrackRip" xml:space="preserve">
+    <value>Matroska 字幕轨抓取</value>
+  </data>
+  <data name="History_MediaChanged" xml:space="preserve">
+    <value>媒体已更改</value>
+  </data>
+  <data name="History_PostitionSetforSelectedSubtitles" xml:space="preserve">
+    <value>选定字幕的位置设置</value>
+  </data>
+  <data name="History_PreparedTextChanged" xml:space="preserve">
+    <value>就绪文本已改变</value>
+  </data>
+  <data name="History_ProjectNameChange" xml:space="preserve">
+    <value>项目名称更改</value>
+  </data>
+  <data name="History_ProjectOpened" xml:space="preserve">
+    <value>项目已打开</value>
+  </data>
+  <data name="History_RTLValueChanged" xml:space="preserve">
+    <value>RTL 值已更改</value>
+  </data>
+  <data name="History_SetAlignmentForSelectedSubtitles" xml:space="preserve">
+    <value>选定字幕的对齐设置</value>
+  </data>
+  <data name="History_SetCurrentTimeAsEndTimeForSubtitleAt" xml:space="preserve">
+    <value>将当前时间设置为字幕的结束时间位于</value>
+  </data>
+  <data name="History_SetLeftToRightForSelectedSubtitle" xml:space="preserve">
+    <value>选定字幕设置为从左向右</value>
+  </data>
+  <data name="History_SetRightToLeftForSelectedSubtitle" xml:space="preserve">
+    <value>选定字幕设置为从右向左</value>
+  </data>
+  <data name="History_SpellCheck" xml:space="preserve">
+    <value>拼写检查</value>
+  </data>
+  <data name="History_StylesEdited" xml:space="preserve">
+    <value>项目风格已编辑.</value>
+  </data>
+  <data name="History_StyleSetForSelected" xml:space="preserve">
+    <value>选定字幕的样式设置.</value>
+  </data>
+  <data name="History_SubtitleAddedAt" xml:space="preserve">
+    <value>添加字幕于</value>
+  </data>
+  <data name="History_SubtitleFillSpace" xml:space="preserve">
+    <value>字幕填充空间</value>
+  </data>
+  <data name="History_SubtitleInsertedAt" xml:space="preserve">
+    <value>插入字幕于</value>
+  </data>
+  <data name="History_SubtitlePropertiesChanged" xml:space="preserve">
+    <value>字幕属性已改变</value>
+  </data>
+  <data name="History_SubtitlesCut" xml:space="preserve">
+    <value>个字幕剪切.</value>
+  </data>
+  <data name="History_SubtitlesDelete" xml:space="preserve">
+    <value>个字幕删除.</value>
+  </data>
+  <data name="History_SubtitleShift" xml:space="preserve">
+    <value>字幕偏移</value>
+  </data>
+  <data name="History_SubtitlesMergeAt" xml:space="preserve">
+    <value>字幕合并位于</value>
+  </data>
+  <data name="History_SubtitlesPasted" xml:space="preserve">
+    <value>个字幕粘贴</value>
+  </data>
+  <data name="History_SubtitleSplited" xml:space="preserve">
+    <value>字幕已分割</value>
+  </data>
+  <data name="History_SubtitlesReplaced" xml:space="preserve">
+    <value>字幕已替换</value>
+  </data>
+  <data name="History_SubtitlesTrackAdded" xml:space="preserve">
+    <value>字幕轨已添加</value>
+  </data>
+  <data name="History_SubtitlesTrackCaptionsSplit" xml:space="preserve">
+    <value>字幕轨标题分割.</value>
+  </data>
+  <data name="History_SubtitlesTrackDuplicate" xml:space="preserve">
+    <value>字幕轨重复</value>
+  </data>
+  <data name="History_SubtitlesTrackRemove." xml:space="preserve">
+    <value>重复移除.</value>
+  </data>
+  <data name="History_SubtitlesTrackRenamed" xml:space="preserve">
+    <value>重复已移除</value>
+  </data>
+  <data name="History_SubtitlesTrackShift" xml:space="preserve">
+    <value>字幕轨偏移</value>
+  </data>
+  <data name="History_SubtitlesTrackSynchronised" xml:space="preserve">
+    <value>字幕轨已同步.</value>
+  </data>
+  <data name="History_SubtitlesTrackTextsClone" xml:space="preserve">
+    <value>字幕轨文本克隆.</value>
+  </data>
+  <data name="History_SubtitlesTrackTimingsClone" xml:space="preserve">
+    <value>字幕轨时间轴克隆.</value>
+  </data>
+  <data name="History_SubtitlesTrackTranslated" xml:space="preserve">
+    <value>字幕轨已翻译</value>
+  </data>
+  <data name="History_SubtitleStretchToNext" xml:space="preserve">
+    <value>字幕延伸到下一个</value>
+  </data>
+  <data name="History_SubtitleStretchToPrevious" xml:space="preserve">
+    <value>字幕延伸到上一个</value>
+  </data>
+  <data name="History_SubtitleTracksMerge" xml:space="preserve">
+    <value>字幕轨合并</value>
+  </data>
+  <data name="History_VobSubRip" xml:space="preserve">
+    <value>VobSub 抓取</value>
+  </data>
+  <data name="Message_ANewerVersionAvailable" xml:space="preserve">
+    <value>AHD subtitles Maker 有一个可用的新版本 !!</value>
+  </data>
+  <data name="Message_AreYouSure" xml:space="preserve">
+    <value>你确定吗 ?</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteSelected" xml:space="preserve">
+    <value>询问确实要删除选定的内容</value>
+  </data>
+  <data name="Message_CantDeleteNoSubtitlesTrackSelected" xml:space="preserve">
+    <value>无法删除, 没有选定的字幕轨.</value>
+  </data>
+  <data name="Message_DoYouWantToDownloadSubtitlesFromOSForThisMovie" xml:space="preserve">
+    <value>你想从 OpenSubtitles.org 下载这部电影的字幕吗 ?</value>
+  </data>
+  <data name="Message_DoYouWantToExportSubtitlesFirst" xml:space="preserve">
+    <value>你想先导出字幕然后上传吗 ?</value>
+  </data>
+  <data name="Message_DoYouWantToSaveProjectFirst" xml:space="preserve">
+    <value>您想先保存项目吗 ?</value>
+  </data>
+  <data name="Message_ErrorWhenLoadingProject" xml:space="preserve">
+    <value>尝试加载时出错, 系统消息:</value>
+  </data>
+  <data name="Message_ErrorWhenSavingProject" xml:space="preserve">
+    <value>尝试保存时出错, 系统消息</value>
+  </data>
+  <data name="Message_FaildToImportGTText" xml:space="preserve">
+    <value>无法导入GT文本, 该文件不是Gt文本格式文件或不适用该字幕轨</value>
+  </data>
+  <data name="Message_ID3Detected" xml:space="preserve">
+    <value>此媒体文件包含ID3标签信息, 要管理该文件的同步歌词吗 ?</value>
+  </data>
+  <data name="Message_MediaNotLoaded" xml:space="preserve">
+    <value>无法加载媒体文件 (持续时间 &lt;= 0)
+文件损坏, 或你的系统忽略了运行此媒体类型的匹配DirectShow筛选器.
+请先安装媒体编解码包, 或必需的dircetshow筛选器后再试一次. (谷歌媒体编解码包)</value>
+  </data>
+  <data name="Message_MKVDetected" xml:space="preserve">
+    <value>此媒体文件是Matroska文件可能包括字幕轨. 你想把字幕从Matroska文件提取出来吗 ?</value>
+  </data>
+  <data name="Message_NameAlreadyTaken" xml:space="preserve">
+    <value>名称已被占用</value>
+  </data>
+  <data name="Message_NoMediaDoYouWantToChangeMedia" xml:space="preserve">
+    <value>尚未分配给该项目的媒体, 现在是否要浏览媒体 ?</value>
+  </data>
+  <data name="Message_NoMediaLoaded" xml:space="preserve">
+    <value>吴媒体载入 !!</value>
+  </data>
+  <data name="Message_NoSubtitlesTrackToExport" xml:space="preserve">
+    <value>没有字幕轨导出 !!</value>
+  </data>
+  <data name="Message_PleaseSelectMoreThanOneSubtitle" xml:space="preserve">
+    <value>请选择一个以上的字幕</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitleFirst" xml:space="preserve">
+    <value>请先选择字幕</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitlesTrackFirst" xml:space="preserve">
+    <value>请先选择字幕轨.</value>
+  </data>
+  <data name="Message_SelectedTracksHaveNotTheSameCountOfSubtitles" xml:space="preserve">
+    <value>选定的轨道没有相同的字幕计数，字幕计数必须相同才能完成此操作</value>
+  </data>
+  <data name="Message_SelectSubtitlesTrackFirst" xml:space="preserve">
+    <value>先选择字幕轨 !</value>
+  </data>
+  <data name="Message_SettingsLoadError" xml:space="preserve">
+    <value>试图加载设置时出错, 您想做什么 ?</value>
+  </data>
+  <data name="Message_Subtitles" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="Message_TheBaseFramerateMustBeNotZero" xml:space="preserve">
+    <value>基础帧率必须是非零的值</value>
+  </data>
+  <data name="Message_TheMediaDurationMustBeLargerThanZero" xml:space="preserve">
+    <value>媒体持续时间必须大于0</value>
+  </data>
+  <data name="Message_TheProjectMustHave2TracksOrMore" xml:space="preserve">
+    <value>该项目必须有2个轨道或更多</value>
+  </data>
+  <data name="Message_TheSubtitlesMustBeInOneQueue" xml:space="preserve">
+    <value>此字幕必须在一个队列中才能完成此操作</value>
+  </data>
+  <data name="Message_TheTargetFramerateMustBeNotZero" xml:space="preserve">
+    <value>目标帧率必须是非零的值</value>
+  </data>
+  <data name="Message_ThisProjectIsMissing" xml:space="preserve">
+    <value>该项目丢失 !!</value>
+  </data>
+  <data name="Message_ThisShortcutKeyAlreadyTakenBy" xml:space="preserve">
+    <value>这个快捷键已被赋值给</value>
+  </data>
+  <data name="Message_ThisWillDiscardCurrentChangesContinue" xml:space="preserve">
+    <value>这将放弃任何更改, 继续吗 ?</value>
+  </data>
+  <data name="Message_ThisWillSaveCurrentSettingsContinue" xml:space="preserve">
+    <value>这将保存当前设置, 继续吗 ?</value>
+  </data>
+  <data name="Message_UnapleToDownloadTheUpdate" xml:space="preserve">
+    <value>无法下载更新 !!</value>
+  </data>
+  <data name="Message_WhereToPasteSubtitles" xml:space="preserve">
+    <value>在媒体时间或选定字幕后粘贴字幕吗 ?\n请注意这将替换/删除具有相同的新字幕时间的任何字幕</value>
+  </data>
+  <data name="Message_WouldYouLikeTodownloadTheVersion" xml:space="preserve">
+    <value>您想现在下载更新吗 (您需要先关闭程序) ?</value>
+  </data>
+  <data name="Message_YouMustRestartTheProgramToApplyLanguage" xml:space="preserve">
+    <value>你必须重新启动程序以应用选定的语言文本值</value>
+  </data>
+  <data name="Message_YouMustSelectAtLeastOneSubtitle" xml:space="preserve">
+    <value>你必须至少选择一个字幕才能做到这一点</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToFillSpaceFor" xml:space="preserve">
+    <value>您必须选择一个字幕来填充空间为</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToSplit" xml:space="preserve">
+    <value>你必须选择一个字幕分割</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToStretch" xml:space="preserve">
+    <value>你必须选择一个字幕做延伸</value>
+  </data>
+  <data name="Message_YouMustSelectSubtitleToShift" xml:space="preserve">
+    <value>你必须选择一个字幕做移动 (或者所有字幕轨的字幕)</value>
+  </data>
+  <data name="MessageCaption_AddSubtitle" xml:space="preserve">
+    <value>添加字幕</value>
+  </data>
+  <data name="MessageCaption_ApplyLanguage" xml:space="preserve">
+    <value>应用语言文字</value>
+  </data>
+  <data name="MessageCaption_AutoUpdater" xml:space="preserve">
+    <value>自动升级</value>
+  </data>
+  <data name="MessageCaption_CantExport" xml:space="preserve">
+    <value>无法导出</value>
+  </data>
+  <data name="MessageCaption_CantFindProject" xml:space="preserve">
+    <value>无法找到项目</value>
+  </data>
+  <data name="MessageCaption_CantRename" xml:space="preserve">
+    <value>无法重命名</value>
+  </data>
+  <data name="MessageCaption_ChangeKey" xml:space="preserve">
+    <value>改变热键</value>
+  </data>
+  <data name="MessageCaption_ChangeMedia" xml:space="preserve">
+    <value>载入媒体</value>
+  </data>
+  <data name="MessageCaption_ClearLog" xml:space="preserve">
+    <value>清除日志</value>
+  </data>
+  <data name="MessageCaption_Clone" xml:space="preserve">
+    <value>克隆</value>
+  </data>
+  <data name="MessageCaption_DeleteSelectedSubtitlesTrack" xml:space="preserve">
+    <value>删除选定的字幕轨</value>
+  </data>
+  <data name="MessageCaption_DeleteSubtitles" xml:space="preserve">
+    <value>删除字幕</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOS" xml:space="preserve">
+    <value>从OpenSubtitles.org下载字幕</value>
+  </data>
+  <data name="MessageCaption_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="MessageCaption_ExportGT" xml:space="preserve">
+    <value>导出 GT</value>
+  </data>
+  <data name="MessageCaption_FaildToImportGTText" xml:space="preserve">
+    <value>导入GT文本失败</value>
+  </data>
+  <data name="MessageCaption_FillSpace" xml:space="preserve">
+    <value>填充空白</value>
+  </data>
+  <data name="MessageCaption_FindSubtitle" xml:space="preserve">
+    <value>查找字幕</value>
+  </data>
+  <data name="MessageCaption_ID3Detected" xml:space="preserve">
+    <value>已检测 ID3</value>
+  </data>
+  <data name="MessageCaption_ImportGT" xml:space="preserve">
+    <value>导入 GT</value>
+  </data>
+  <data name="MessageCaption_InsertSubtitle" xml:space="preserve">
+    <value>插入字幕</value>
+  </data>
+  <data name="MessageCaption_LoadError" xml:space="preserve">
+    <value>加载出错</value>
+  </data>
+  <data name="MessageCaption_Merge" xml:space="preserve">
+    <value>合并</value>
+  </data>
+  <data name="MessageCaption_MKVDetected" xml:space="preserve">
+    <value>已检测 Matroska</value>
+  </data>
+  <data name="MessageCaption_NoMedia" xml:space="preserve">
+    <value>无媒体</value>
+  </data>
+  <data name="MessageCaption_NosubtitleSelected" xml:space="preserve">
+    <value>无已选字幕</value>
+  </data>
+  <data name="MessageCaption_PasteSubtitles" xml:space="preserve">
+    <value>粘贴字幕</value>
+  </data>
+  <data name="Messagecaption_PreviewwithAHDSynchronisedLyricsViewer" xml:space="preserve">
+    <value>用AHD同步歌词查看器预览</value>
+  </data>
+  <data name="MessageCaption_RemoveMark" xml:space="preserve">
+    <value>移除标记</value>
+  </data>
+  <data name="MessageCaption_SaveError" xml:space="preserve">
+    <value>保存错误</value>
+  </data>
+  <data name="MessageCaption_SaveProject" xml:space="preserve">
+    <value>保存项目</value>
+  </data>
+  <data name="MessageCaption_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="MessageCaption_ShiftTime" xml:space="preserve">
+    <value>偏移时间</value>
+  </data>
+  <data name="MessageCaption_SpellCheck" xml:space="preserve">
+    <value>拼写检查</value>
+  </data>
+  <data name="MessageCaption_Split" xml:space="preserve">
+    <value>分割</value>
+  </data>
+  <data name="MessageCaption_StretchToNext" xml:space="preserve">
+    <value>拉伸下一个</value>
+  </data>
+  <data name="MessageCaption_StretchToPrevious" xml:space="preserve">
+    <value>拉伸上一个</value>
+  </data>
+  <data name="MessageCaption_Synchronise" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="MessageCaption_Translate" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="MessageCaption_UploadSubtitles" xml:space="preserve">
+    <value>上传字幕</value>
+  </data>
+  <data name="MessageCheckBox_AlwaysWarnMeWhenID3Detected" xml:space="preserve">
+    <value>当检测到ID3时总是提醒我(&amp;A)</value>
+  </data>
+  <data name="MessageCheckBox_AlwaysWarnMeWhenMKVDetected" xml:space="preserve">
+    <value>当打开Matroska文件时总是警告我(&amp;A)</value>
+  </data>
+  <data name="MessageCheckBox_AskEveryTimeBeforeUploadSubtitles." xml:space="preserve">
+    <value>每次上传字幕前都要询问这个问题.</value>
+  </data>
+  <data name="MessageCheckBox_AskToDownloadFromOS" xml:space="preserve">
+    <value>每次更换媒体都要询问这个问题</value>
+  </data>
+  <data name="Status_AddingNewSubtitle" xml:space="preserve">
+    <value>添加新字幕</value>
+  </data>
+  <data name="Status_CantCopyOrCutNoSubtitleSelected" xml:space="preserve">
+    <value>无法复制或剪切, 没有选择字幕.</value>
+  </data>
+  <data name="Status_CantDeleteNoSubtitleSelected" xml:space="preserve">
+    <value>无法删除, 没有选择字幕.</value>
+  </data>
+  <data name="Status_CantPasteNoSubtitesTrackSelected" xml:space="preserve">
+    <value>无法粘贴, 没有选择字幕轨.</value>
+  </data>
+  <data name="Status_CheckingForUpdates" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="Status_CloningTexts" xml:space="preserve">
+    <value>正在克隆文本..</value>
+  </data>
+  <data name="Status_CloningTimings" xml:space="preserve">
+    <value>正在克隆时间..</value>
+  </data>
+  <data name="Status_Done" xml:space="preserve">
+    <value>完成 !</value>
+  </data>
+  <data name="Status_Duration" xml:space="preserve">
+    <value>持续时间</value>
+  </data>
+  <data name="Status_End" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="Status_FindAllDone" xml:space="preserve">
+    <value>所以查找完成</value>
+  </data>
+  <data name="Status_FindDone" xml:space="preserve">
+    <value>查找完成</value>
+  </data>
+  <data name="Status_LeftToRightSet" xml:space="preserve">
+    <value>从左到右设置</value>
+  </data>
+  <data name="Status_LoadingMainWindow" xml:space="preserve">
+    <value>载入主窗口</value>
+  </data>
+  <data name="Status_Merging" xml:space="preserve">
+    <value>正在合并 ...</value>
+  </data>
+  <data name="Status_ProjectDidntLoad" xml:space="preserve">
+    <value>项目没有加载.</value>
+  </data>
+  <data name="Status_ProjectDidntSave" xml:space="preserve">
+    <value>项目没有保存.</value>
+  </data>
+  <data name="Status_ProjectLoadedSuccessfuly" xml:space="preserve">
+    <value>项目加载成功.</value>
+  </data>
+  <data name="Status_ProjectSavedSuccessfuly" xml:space="preserve">
+    <value>项目保存成功.</value>
+  </data>
+  <data name="Status_ReplaceAllDone" xml:space="preserve">
+    <value>所有替换完成</value>
+  </data>
+  <data name="Status_ReplaceDone" xml:space="preserve">
+    <value>替换完成</value>
+  </data>
+  <data name="Status_RightToLeftSet" xml:space="preserve">
+    <value>从右到左设置</value>
+  </data>
+  <data name="Status_SelectTrack" xml:space="preserve">
+    <value>选择轨道</value>
+  </data>
+  <data name="Status_SplittingCaptions" xml:space="preserve">
+    <value>分割字幕 ...</value>
+  </data>
+  <data name="Status_Start" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="Status_SubtitlesCopied" xml:space="preserve">
+    <value>字幕已复制</value>
+  </data>
+  <data name="Status_subtitlesFound" xml:space="preserve">
+    <value>字幕已发现</value>
+  </data>
+  <data name="Status_Synchronising" xml:space="preserve">
+    <value>正在同步 ...</value>
+  </data>
+  <data name="SubtitlesTrack" xml:space="preserve">
+    <value>字幕轨</value>
+  </data>
+  <data name="Text_AvailableVersion" xml:space="preserve">
+    <value>可用版本</value>
+  </data>
+  <data name="Text_CurrentVersion" xml:space="preserve">
+    <value>当前版本</value>
+  </data>
+  <data name="Title_ChangeMedia" xml:space="preserve">
+    <value>改变媒体</value>
+  </data>
+  <data name="Title_DefaultFontAndColor" xml:space="preserve">
+    <value>默认字体和颜色</value>
+  </data>
+  <data name="Title_Editors" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Title_EnterProjectName" xml:space="preserve">
+    <value>输入项目名称</value>
+  </data>
+  <data name="Title_ExportSettingsToFile" xml:space="preserve">
+    <value>导出设置到文件</value>
+  </data>
+  <data name="Title_General" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="Title_HotKeys" xml:space="preserve">
+    <value>热键</value>
+  </data>
+  <data name="Title_ID3" xml:space="preserve">
+    <value>ID3 标签 (针对同步歌词)</value>
+  </data>
+  <data name="Title_ImportSettingsToFile" xml:space="preserve">
+    <value>导入设置文件</value>
+  </data>
+  <data name="Title_ImportSubtitlesFormat" xml:space="preserve">
+    <value>导入字幕格式</value>
+  </data>
+  <data name="Title_LoadLayout" xml:space="preserve">
+    <value>载入布局</value>
+  </data>
+  <data name="Title_MediaPlayer" xml:space="preserve">
+    <value>媒体播放器</value>
+  </data>
+  <data name="Title_NewSubtitle" xml:space="preserve">
+    <value>&lt;新建字幕&gt;</value>
+  </data>
+  <data name="Title_OpenProject" xml:space="preserve">
+    <value>打开项目</value>
+  </data>
+  <data name="Title_PlayBack" xml:space="preserve">
+    <value>回放</value>
+  </data>
+  <data name="Title_SaveLayout" xml:space="preserve">
+    <value>保存布局</value>
+  </data>
+  <data name="Title_SaveLog" xml:space="preserve">
+    <value>保存日志</value>
+  </data>
+  <data name="Title_SaveProject" xml:space="preserve">
+    <value>保存项目</value>
+  </data>
+  <data name="Title_Subtitle" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="Title_SubtitleFormats" xml:space="preserve">
+    <value>字幕格式</value>
+  </data>
+  <data name="Title_SystemMessage" xml:space="preserve">
+    <value>系统消息:</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>未命名</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="Button_Abort" xml:space="preserve">
+    <value>中止(&amp;A)</value>
+  </data>
+  <data name="History_LineBreakApplied" xml:space="preserve">
+    <value>应用于字幕的自动换行</value>
+  </data>
+  <data name="MessageCaption_ChangePlayer" xml:space="preserve">
+    <value>改变球员</value>
+  </data>
+  <data name="Message_VLCPlayerMustBeInstalled" xml:space="preserve">
+    <value>请注意，必须安装VLC媒体播放器版本3或更高版本（32位版本）才能使此播放器正常工作。
+
+64位系统中的VLC路径应为：
+C：\ Program Files（x86）\ VideoLAN \ VLC
+32位系统中的VLC路径应为：
+C：\ Program Files \ VideoLAN \ VLC</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOpenSubtitlesorg" xml:space="preserve">
+    <value>从OpenSubtitles.org下载字幕</value>
+  </data>
+  <data name="Message_PleaseEnterPassword" xml:space="preserve">
+    <value>请先输入密码。</value>
+  </data>
+  <data name="Message_PleaseEnterUsername" xml:space="preserve">
+    <value>请先输入一个用户名。</value>
+  </data>
+</root>

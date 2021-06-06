@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>إل&amp;غاء الأمر</value>
+  </data>
+  <data name="Button_DontSave" xml:space="preserve">
+    <value>&amp;لا تحفظ</value>
+  </data>
+  <data name="Button_Insert" xml:space="preserve">
+    <value>إ&amp;قحام</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>&amp;لا</value>
+  </data>
+  <data name="Button_OnTime" xml:space="preserve">
+    <value>&amp;على الوقت</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>&amp;حفظ</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>&amp;نعم</value>
+  </data>
+  <data name="History_DefaultRTLChanged" xml:space="preserve">
+    <value>من اليمين إلى اليسار الإفتراضي تغير</value>
+  </data>
+  <data name="History_ErrorsAutoFix" xml:space="preserve">
+    <value>تصحيح أوتوماتيكي للأخطاء</value>
+  </data>
+  <data name="History_ID3Managed" xml:space="preserve">
+    <value>تعديل ID3</value>
+  </data>
+  <data name="History_ImportSubtitlesFormat" xml:space="preserve">
+    <value>إستيراد ملف ترجمة</value>
+  </data>
+  <data name="History_MarkAddedAt" xml:space="preserve">
+    <value>علامة وضعت في</value>
+  </data>
+  <data name="History_MarkEdit" xml:space="preserve">
+    <value>تحرير علامة</value>
+  </data>
+  <data name="History_MarkRemoved" xml:space="preserve">
+    <value>علامة حُذفت</value>
+  </data>
+  <data name="History_MediaChanged" xml:space="preserve">
+    <value>تغيير ملف الوسائط</value>
+  </data>
+  <data name="History_ProjectNameChange" xml:space="preserve">
+    <value>تغيير إسم المشروع</value>
+  </data>
+  <data name="History_ProjectOpened" xml:space="preserve">
+    <value>فتح مشروع</value>
+  </data>
+  <data name="History_RTLValueChanged" xml:space="preserve">
+    <value>تغيير قيمة من اليمين إلى اليسار</value>
+  </data>
+  <data name="History_SetCurrentTimeAsEndTimeForSubtitleAt" xml:space="preserve">
+    <value>تم وضع وقت الوسائط كوقت إنتهاء للعنوان الثانوي في</value>
+  </data>
+  <data name="History_SubtitleAddedAt" xml:space="preserve">
+    <value>إضافة عنوان ثانوي في</value>
+  </data>
+  <data name="History_SubtitleFillSpace" xml:space="preserve">
+    <value>ملئ الفراغ لعنوان ثانوي</value>
+  </data>
+  <data name="History_SubtitleInsertedAt" xml:space="preserve">
+    <value>إقحام عنوان ثانوي في</value>
+  </data>
+  <data name="History_SubtitlePropertiesChanged" xml:space="preserve">
+    <value>تغيير خصائص لعنوان ثانوي</value>
+  </data>
+  <data name="History_SubtitlesCut" xml:space="preserve">
+    <value>قص عنوان/عناوين ثانوية</value>
+  </data>
+  <data name="History_SubtitlesDelete" xml:space="preserve">
+    <value>حذف عنوان/عناوين ثانوية</value>
+  </data>
+  <data name="History_SubtitleShift" xml:space="preserve">
+    <value>تحريك عنوان ثانوي</value>
+  </data>
+  <data name="History_SubtitlesPasted" xml:space="preserve">
+    <value>لصق عنوان/عناوين ثانوية</value>
+  </data>
+  <data name="History_SubtitleSplited" xml:space="preserve">
+    <value>تقسيم عنوان ثانوي</value>
+  </data>
+  <data name="History_SubtitlesReplaced" xml:space="preserve">
+    <value>عنوان ثانوي تم غستبداله</value>
+  </data>
+  <data name="History_SubtitlesTrackAdded" xml:space="preserve">
+    <value>إضافة مسار عنواين ثانوية</value>
+  </data>
+  <data name="History_SubtitlesTrackDuplicate" xml:space="preserve">
+    <value>إنشاء نسخة مضاعفة لمسار</value>
+  </data>
+  <data name="History_SubtitlesTrackRemove." xml:space="preserve">
+    <value>حذف مسار عناوين ثانوية</value>
+  </data>
+  <data name="History_SubtitlesTrackRenamed" xml:space="preserve">
+    <value>إعادة تسمية مسار</value>
+  </data>
+  <data name="History_SubtitlesTrackShift" xml:space="preserve">
+    <value>تحريك مسار عناوين ثانوية</value>
+  </data>
+  <data name="History_SubtitlesTrackSynchronised" xml:space="preserve">
+    <value>مزامنة مسار عناوين ثانوية</value>
+  </data>
+  <data name="History_SubtitlesTrackTextsClone" xml:space="preserve">
+    <value>نسخ نصوص مسار</value>
+  </data>
+  <data name="History_SubtitlesTrackTimingsClone" xml:space="preserve">
+    <value>نسخ أوقات مسار</value>
+  </data>
+  <data name="History_SubtitlesTrackTranslated" xml:space="preserve">
+    <value>ترجمة مسار عناوين ثانوية</value>
+  </data>
+  <data name="History_SubtitleStretchToNext" xml:space="preserve">
+    <value>تمطيط عنوان ثانوي للتالي</value>
+  </data>
+  <data name="History_SubtitleStretchToPrevious" xml:space="preserve">
+    <value>تمطيط عنوان ثانوي للسابق</value>
+  </data>
+  <data name="MessageCaption_AddSubtitle" xml:space="preserve">
+    <value>إضافة عنوان ثانوي</value>
+  </data>
+  <data name="MessageCaption_ApplyLanguage" xml:space="preserve">
+    <value>تفعيل نصوص اللغة</value>
+  </data>
+  <data name="MessageCaption_CantExport" xml:space="preserve">
+    <value>لا يمكن التصدير</value>
+  </data>
+  <data name="MessageCaption_CantFindProject" xml:space="preserve">
+    <value>لا يمكن إيجاد المشروع</value>
+  </data>
+  <data name="MessageCaption_CantRename" xml:space="preserve">
+    <value>لا يمكن إعادة التسمية</value>
+  </data>
+  <data name="MessageCaption_ClearLog" xml:space="preserve">
+    <value>حذف السجل</value>
+  </data>
+  <data name="MessageCaption_Clone" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="MessageCaption_DeleteSelectedSubtitlesTrack" xml:space="preserve">
+    <value>حذف المسار المختار</value>
+  </data>
+  <data name="MessageCaption_Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="MessageCaption_ExportGT" xml:space="preserve">
+    <value>تصدير GT</value>
+  </data>
+  <data name="MessageCaption_FaildToImportGTText" xml:space="preserve">
+    <value>فشل في تحميل GT</value>
+  </data>
+  <data name="MessageCaption_FillSpace" xml:space="preserve">
+    <value>ملئ الفراغ</value>
+  </data>
+  <data name="MessageCaption_FindSubtitle" xml:space="preserve">
+    <value>إيجاد عنوان ثانوي</value>
+  </data>
+  <data name="MessageCaption_ImportGT" xml:space="preserve">
+    <value>إستيراد GT</value>
+  </data>
+  <data name="MessageCaption_InsertSubtitle" xml:space="preserve">
+    <value>إقحام عنوان ثانوي</value>
+  </data>
+  <data name="MessageCaption_LoadError" xml:space="preserve">
+    <value>خطأ في التحميل</value>
+  </data>
+  <data name="MessageCaption_PasteSubtitles" xml:space="preserve">
+    <value>لصق عناوين ثانوية</value>
+  </data>
+  <data name="MessageCaption_RemoveMark" xml:space="preserve">
+    <value>حذف علامة</value>
+  </data>
+  <data name="MessageCaption_SaveError" xml:space="preserve">
+    <value>خطأ في الحفظ</value>
+  </data>
+  <data name="MessageCaption_SaveProject" xml:space="preserve">
+    <value>حفظ المشروع</value>
+  </data>
+  <data name="MessageCaption_ShiftTime" xml:space="preserve">
+    <value>تحريك الوقت</value>
+  </data>
+  <data name="MessageCaption_Split" xml:space="preserve">
+    <value>تقسيم</value>
+  </data>
+  <data name="MessageCaption_StretchToNext" xml:space="preserve">
+    <value>تمطيط غلى التالي</value>
+  </data>
+  <data name="MessageCaption_StretchToPrevious" xml:space="preserve">
+    <value>تمطيط إلى السابق</value>
+  </data>
+  <data name="MessageCaption_Synchronise" xml:space="preserve">
+    <value>مزامنة</value>
+  </data>
+  <data name="MessageCaption_Translate" xml:space="preserve">
+    <value>ترجمة</value>
+  </data>
+  <data name="Message_AreYouSure" xml:space="preserve">
+    <value>هل أنت متأكد ؟</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteSelected" xml:space="preserve">
+    <value>هل أنت متأكد من حذف المختار</value>
+  </data>
+  <data name="Message_CantDeleteNoSubtitlesTrackSelected" xml:space="preserve">
+    <value>لا يمكن الحذف، لم يتم إختيار أي مسار</value>
+  </data>
+  <data name="Message_DoYouWantToSaveProjectFirst" xml:space="preserve">
+    <value>هل تريد حفظ المشروع أولاً؟</value>
+  </data>
+  <data name="Message_ErrorWhenLoadingProject" xml:space="preserve">
+    <value>حدث خطأ أثناء المحاولة لفتح المشروع، رسالة النظام</value>
+  </data>
+  <data name="Message_ErrorWhenSavingProject" xml:space="preserve">
+    <value>حدث خطأ أثناء المحاولة لحفظ المشروع، رسالة النظام</value>
+  </data>
+  <data name="Message_FaildToImportGTText" xml:space="preserve">
+    <value>فشل في إستيراد الGT-Text، إما أن هذا الملف ليس من صيغة GT-Text أو ليس لهذا المسار</value>
+  </data>
+  <data name="Message_NameAlreadyTaken" xml:space="preserve">
+    <value>الإسم موجود سابقاً</value>
+  </data>
+  <data name="Message_NoSubtitlesTrackToExport" xml:space="preserve">
+    <value>لا يوجد أي مسار للتصدير</value>
+  </data>
+  <data name="Message_PleaseSelectSubtitlesTrackFirst" xml:space="preserve">
+    <value>إختر مسار عناوين ثانوية أولاً رجاءاً</value>
+  </data>
+  <data name="Message_SelectedTracksHaveNotTheSameCountOfSubtitles" xml:space="preserve">
+    <value>المسارات التي إخترتها لا تحوي على نفس العدد من العناوين الثانوية، يجب بأن تحوي نفس العدد من العناوين الثانوية لإكمال هذه العملية</value>
+  </data>
+  <data name="Message_SelectSubtitlesTrackFirst" xml:space="preserve">
+    <value>إختر مساراً أولاً !!</value>
+  </data>
+  <data name="Message_Subtitles" xml:space="preserve">
+    <value>عنولن/عناوين ثانوية</value>
+  </data>
+  <data name="Message_TheBaseFramerateMustBeNotZero" xml:space="preserve">
+    <value>نسبة الأطر للقاعدة يجب ألا يساوي الصفر</value>
+  </data>
+  <data name="Message_TheMediaDurationMustBeLargerThanZero" xml:space="preserve">
+    <value>مدة الوسائط يجب بان يكون أكبر من الصفر</value>
+  </data>
+  <data name="Message_TheProjectMustHave2TracksOrMore" xml:space="preserve">
+    <value>يجب بأن يحوي المشروع مسارين أو اكثر</value>
+  </data>
+  <data name="Message_TheTargetFramerateMustBeNotZero" xml:space="preserve">
+    <value>نسبة الأطر للهدف يجب ألا يساوي الصفر</value>
+  </data>
+  <data name="Message_ThisProjectIsMissing" xml:space="preserve">
+    <value>هذا المشروع ليس موجود</value>
+  </data>
+  <data name="Message_WhereToPasteSubtitles" xml:space="preserve">
+    <value>لصق العناوين الثانوية على الوقت أم بعد العنوان الثانوي المختار ؟
+ملاحظة: العناوين الثانوية التي تصادف العناوين التي ستلصق سيتم حذفها</value>
+  </data>
+  <data name="Message_YouMustRestartTheProgramToApplyLanguage" xml:space="preserve">
+    <value>عليك إعادة تشغيل البرنامج ليتم تطبيق نصوص اللغة المختارة</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToFillSpaceFor" xml:space="preserve">
+    <value>عليك إختيار عنوان ثانوي واحد لملئ الفراغات</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToSplit" xml:space="preserve">
+    <value>عليك إختيار عنوان ثانوي واحد للتقسيم</value>
+  </data>
+  <data name="Message_YouMustSelectOneSubtitleToStretch" xml:space="preserve">
+    <value>عليك إختيار عنوان ثانوي واحد للتمطيط</value>
+  </data>
+  <data name="Message_YouMustSelectSubtitleToShift" xml:space="preserve">
+    <value>عليك إختيار عنوان ثانوي واحد للتحريك أو كن العناوين الثانوية للمسار</value>
+  </data>
+  <data name="Status_AddingNewSubtitle" xml:space="preserve">
+    <value>جاري إضافة عنوان ثانوي جديد</value>
+  </data>
+  <data name="Status_CantCopyOrCutNoSubtitleSelected" xml:space="preserve">
+    <value>لا يمكن النسخ أو القص، لم يتم إختيار أي عنوان ثانوي</value>
+  </data>
+  <data name="Status_CantDeleteNoSubtitleSelected" xml:space="preserve">
+    <value>لا يمكن الحذف، لم يتم إختيار أي عنوان ثانوي</value>
+  </data>
+  <data name="Status_CantPasteNoSubtitesTrackSelected" xml:space="preserve">
+    <value>لا يمكن اللصق، لم يتم إختيار أي مسار للعناوين الثانوية</value>
+  </data>
+  <data name="Status_CloningTexts" xml:space="preserve">
+    <value>جاري نسخ النصوص</value>
+  </data>
+  <data name="Status_CloningTimings" xml:space="preserve">
+    <value>جاري نسخ الأوقات</value>
+  </data>
+  <data name="Status_Done" xml:space="preserve">
+    <value>تمّ !</value>
+  </data>
+  <data name="Status_Duration" xml:space="preserve">
+    <value>المدّة</value>
+  </data>
+  <data name="Status_End" xml:space="preserve">
+    <value>نهاية</value>
+  </data>
+  <data name="Status_FindAllDone" xml:space="preserve">
+    <value>تمت عملية إيجاد الكل</value>
+  </data>
+  <data name="Status_FindDone" xml:space="preserve">
+    <value>تم عملية البحث</value>
+  </data>
+  <data name="Status_LeftToRightSet" xml:space="preserve">
+    <value>تم وضع من اليسار إلى اليمين</value>
+  </data>
+  <data name="Status_ProjectDidntLoad" xml:space="preserve">
+    <value>لم يتم فتح المشروع</value>
+  </data>
+  <data name="Status_ProjectDidntSave" xml:space="preserve">
+    <value>لم يتم حفظ المشروع</value>
+  </data>
+  <data name="Status_ProjectLoadedSuccessfuly" xml:space="preserve">
+    <value>تم فتح المشروع بنجاح</value>
+  </data>
+  <data name="Status_ProjectSavedSuccessfuly" xml:space="preserve">
+    <value>تم حفظ المشروع بنجاح</value>
+  </data>
+  <data name="Status_ReplaceAllDone" xml:space="preserve">
+    <value>تم إستبدال الكل</value>
+  </data>
+  <data name="Status_ReplaceDone" xml:space="preserve">
+    <value>تم الإستبدال</value>
+  </data>
+  <data name="Status_RightToLeftSet" xml:space="preserve">
+    <value>تم وضع من اليمين إلى اليسار</value>
+  </data>
+  <data name="Status_SelectTrack" xml:space="preserve">
+    <value>مسار عناوين ثانوية</value>
+  </data>
+  <data name="Status_Start" xml:space="preserve">
+    <value>بداية</value>
+  </data>
+  <data name="Status_SubtitlesCopied" xml:space="preserve">
+    <value>عنوان ثانوي تم نسخه</value>
+  </data>
+  <data name="Status_subtitlesFound" xml:space="preserve">
+    <value>عنوان ثانوي تم إيجاده</value>
+  </data>
+  <data name="Status_Synchronising" xml:space="preserve">
+    <value>جاري المزامنة ...</value>
+  </data>
+  <data name="SubtitlesTrack" xml:space="preserve">
+    <value>مسار عنواين ثانوية</value>
+  </data>
+  <data name="Title_ChangeMedia" xml:space="preserve">
+    <value>تغيير الوسائط</value>
+  </data>
+  <data name="Title_EnterProjectName" xml:space="preserve">
+    <value>أدخل إسم المشروع</value>
+  </data>
+  <data name="Title_General" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="Title_ID3" xml:space="preserve">
+    <value>بيانات الأي دي ثري لأجل كلمات الأغنية المتزامنة</value>
+  </data>
+  <data name="Title_ImportSubtitlesFormat" xml:space="preserve">
+    <value>إستيراد ملف ترجمة</value>
+  </data>
+  <data name="Title_LoadLayout" xml:space="preserve">
+    <value>فتح ترتيب الواجهة</value>
+  </data>
+  <data name="Title_NewSubtitle" xml:space="preserve">
+    <value>&lt;عنوان ثانوي جديد&gt;</value>
+  </data>
+  <data name="Title_OpenProject" xml:space="preserve">
+    <value>فتح مشروع</value>
+  </data>
+  <data name="Title_PlayBack" xml:space="preserve">
+    <value>الوسائط</value>
+  </data>
+  <data name="Title_SaveLayout" xml:space="preserve">
+    <value>حفظ ترتيب الواجهة</value>
+  </data>
+  <data name="Title_SaveLog" xml:space="preserve">
+    <value>حفظ السجل</value>
+  </data>
+  <data name="Title_SaveProject" xml:space="preserve">
+    <value>حفظ المشروع</value>
+  </data>
+  <data name="Title_Subtitle" xml:space="preserve">
+    <value>عنوان ثانوي</value>
+  </data>
+  <data name="Title_SubtitleFormats" xml:space="preserve">
+    <value>صيغ ملفات الترجمة</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>غير معنون</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>النسخة</value>
+  </data>
+  <data name="History_ColorSetForSelected" xml:space="preserve">
+    <value>تغيير اللون للعناوين الثانوية المختارة</value>
+  </data>
+  <data name="History_FontSetForSelected" xml:space="preserve">
+    <value>تغيير الخط للعناوين الثانوية المختارة</value>
+  </data>
+  <data name="History_PostitionSetforSelectedSubtitles" xml:space="preserve">
+    <value>تغيير المكان للعناوين الثانوية المختارة</value>
+  </data>
+  <data name="History_SetAlignmentForSelectedSubtitles" xml:space="preserve">
+    <value>تغيير الموضع للعناوين الثانوية المختارة</value>
+  </data>
+  <data name="History_SetLeftToRightForSelectedSubtitle" xml:space="preserve">
+    <value>وضع من اليسار إلى اليمين للعناوين الثانوية المختارة</value>
+  </data>
+  <data name="History_SetRightToLeftForSelectedSubtitle" xml:space="preserve">
+    <value>وضع من اليمين إلى اليسار للعناوين الثانوية المختارة</value>
+  </data>
+  <data name="MessageCaption_NosubtitleSelected" xml:space="preserve">
+    <value>لم يتم إختيار أي عنوان ثانوي</value>
+  </data>
+  <data name="Message_YouMustSelectAtLeastOneSubtitle" xml:space="preserve">
+    <value>عليك إختيار على الأقل عنوان ثانوي واحد </value>
+  </data>
+  <data name="Message_PleaseSelectSubtitleFirst" xml:space="preserve">
+    <value>إختر عنواناً ثانوياً رجاءاً</value>
+  </data>
+  <data name="Title_Editors" xml:space="preserve">
+    <value>المحررات</value>
+  </data>
+  <data name="MessageCaption_NoMedia" xml:space="preserve">
+    <value>لا يوجد ملف الوسائط</value>
+  </data>
+  <data name="Message_NoMediaDoYouWantToChangeMedia" xml:space="preserve">
+    <value>لا يوجد ملف وسائط مرتبط بهذا المشروع، هل تريد تعيين ملف الوسائط ؟</value>
+  </data>
+  <data name="MessageCaption_ID3Detected" xml:space="preserve">
+    <value>وجد الأي دي ثري</value>
+  </data>
+  <data name="MessageCaption_MKVDetected" xml:space="preserve">
+    <value>ملف ماتروسكا</value>
+  </data>
+  <data name="MessageCheckBox_AlwaysWarnMeWhenID3Detected" xml:space="preserve">
+    <value>حذرني دائماً عند إيجاد الأي دي ثري</value>
+  </data>
+  <data name="MessageCheckBox_AlwaysWarnMeWhenMKVDetected" xml:space="preserve">
+    <value>حذرني دائماً عند فتح ملف ماتروسكا</value>
+  </data>
+  <data name="Message_ID3Detected" xml:space="preserve">
+    <value>تم إيجاد بيانات الأي دي ثري ضمن ملف الوسائط، هل تريد إستخراج عناصر كلمات الأغنية المتزامنة ؟</value>
+  </data>
+  <data name="Message_MKVDetected" xml:space="preserve">
+    <value>ملف الوسائط هذا من نوع ماتروسكا و قد يحوي عناوين ثانوية. هل تريد إستخراج العناوين الثانوية من هذا الملف؟</value>
+  </data>
+  <data name="MessageCaption_Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="Message_SettingsLoadError" xml:space="preserve">
+    <value>حدث خطأ أثناء محاولة البرنامج تحميل الإعدادات، ما الذي تريد فعله ؟</value>
+  </data>
+  <data name="Title_SystemMessage" xml:space="preserve">
+    <value>رسالة النظام:</value>
+  </data>
+  <data name="Button_Abort" xml:space="preserve">
+    <value>&amp;خروج</value>
+  </data>
+  <data name="Button_ResetSettings" xml:space="preserve">
+    <value>أستعادة الإ&amp;فتراضيات</value>
+  </data>
+  <data name="Button_RetryLoading" xml:space="preserve">
+    <value>&amp;حاول مجدداً</value>
+  </data>
+  <data name="History_SpellCheck" xml:space="preserve">
+    <value>تفحص الأخطاء الإملائية</value>
+  </data>
+  <data name="MessageCaption_SpellCheck" xml:space="preserve">
+    <value>تفحص الأخطاء الإملائية</value>
+  </data>
+  <data name="MessageCaption_Merge" xml:space="preserve">
+    <value>دمج</value>
+  </data>
+  <data name="Status_Merging" xml:space="preserve">
+    <value>جاري الدمج ...</value>
+  </data>
+  <data name="History_SubtitleTracksMerge" xml:space="preserve">
+    <value>دمج مسارين</value>
+  </data>
+  <data name="History_MatroskaSubtitlesTrackRip" xml:space="preserve">
+    <value>استيراد من ماتروسكا</value>
+  </data>
+  <data name="History_VobSubRip" xml:space="preserve">
+    <value>VobSub استيراد من</value>
+  </data>
+  <data name="History_SubtitlesMergeAt" xml:space="preserve">
+    <value>دمج عناوين ثانوية عند</value>
+  </data>
+  <data name="Message_PleaseSelectMoreThanOneSubtitle" xml:space="preserve">
+    <value>الرجاء اختيار أكثر من عنوان ثانوي واحد</value>
+  </data>
+  <data name="Message_TheSubtitlesMustBeInOneQueue" xml:space="preserve">
+    <value>يجب على العناوين الثانوية يأن تكون بصف واحد لإتمام هذه العملية</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOS" xml:space="preserve">
+    <value>تحميل ملف ترجمة من OpenSubtitles.org</value>
+  </data>
+  <data name="MessageCheckBox_AskToDownloadFromOS" xml:space="preserve">
+    <value>إظهار هذا السؤال كل مرة أغير الوسائط</value>
+  </data>
+  <data name="Message_DoYouWantToDownloadSubtitlesFromOSForThisMovie" xml:space="preserve">
+    <value>هل تريد تحميل ملف الترجمة من OpenSubtitles.org لهذا الفيلم ؟</value>
+  </data>
+  <data name="MessageCaption_UploadSubtitles" xml:space="preserve">
+    <value>تحميل ملف ترجمة</value>
+  </data>
+  <data name="MessageCheckBox_AskEveryTimeBeforeUploadSubtitles." xml:space="preserve">
+    <value>إسألني كل مرة قبل التحميل</value>
+  </data>
+  <data name="Message_DoYouWantToExportSubtitlesFirst" xml:space="preserve">
+    <value>هل تريد تصدير إلى ملف الترجمة أولاً قبل التحميل ؟</value>
+  </data>
+  <data name="Title_HotKeys" xml:space="preserve">
+    <value>مفاتيح اختصارات</value>
+  </data>
+  <data name="MessageCaption_ChangeKey" xml:space="preserve">
+    <value>تغيير مفتاح</value>
+  </data>
+  <data name="Message_ThisShortcutKeyAlreadyTakenBy" xml:space="preserve">
+    <value>هذا الاختصار مخصص مسبقاً ل</value>
+  </data>
+  <data name="CheckBox_AskEveryTimeBeforeDeletingSubtitle" xml:space="preserve">
+    <value>السؤال في كل مرة عند حذف عناوين ثانوية</value>
+  </data>
+  <data name="MessageCaption_DeleteSubtitles" xml:space="preserve">
+    <value>حذف عناوين ثانوية</value>
+  </data>
+  <data name="Filter_Settings" xml:space="preserve">
+    <value>ملف الإعدادات(*.set)|*.set</value>
+  </data>
+  <data name="Title_ExportSettingsToFile" xml:space="preserve">
+    <value>تصدير الإعدادات إلى ملف</value>
+  </data>
+  <data name="Title_ImportSettingsToFile" xml:space="preserve">
+    <value>إستيراد الإعدادات من ملف</value>
+  </data>
+  <data name="Message_ThisWillDiscardCurrentChangesContinue" xml:space="preserve">
+    <value>كل التغيرات التي قمت بها ستضيع، هل تريد الإكمال ؟</value>
+  </data>
+  <data name="Message_ThisWillSaveCurrentSettingsContinue" xml:space="preserve">
+    <value>سيقوم البرنامج بحفظ الإعدادات الحالية أولاً، هل تريد الإكمال ؟</value>
+  </data>
+  <data name="Title_DefaultFontAndColor" xml:space="preserve">
+    <value>الخط و اللون الإفتراضي</value>
+  </data>
+  <data name="History_PreparedTextChanged" xml:space="preserve">
+    <value>تغيير في النصّ المعد مسبقاً</value>
+  </data>
+  <data name="Button_DownloadNow" xml:space="preserve">
+    <value>التنزيل الأن</value>
+  </data>
+  <data name="Button_ViewDetails" xml:space="preserve">
+    <value>عرض التفاصيل</value>
+  </data>
+  <data name="CheckBox_CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>تفحص التحديثات تلقائيا عند تشغيل البرنامج</value>
+  </data>
+  <data name="MessageCaption_AutoUpdater" xml:space="preserve">
+    <value>التحديث التلقائي</value>
+  </data>
+  <data name="Message_ANewerVersionAvailable" xml:space="preserve">
+    <value>هناك نسخة من البرنامج متوفرة في الانترنت احدث من النسخة الحالية !!</value>
+  </data>
+  <data name="Message_UnapleToDownloadTheUpdate" xml:space="preserve">
+    <value>لم يتمكن من التنزيل !!</value>
+  </data>
+  <data name="Message_WouldYouLikeTodownloadTheVersion" xml:space="preserve">
+    <value>هل تريد تنزيل هذه النسخة ؟</value>
+  </data>
+  <data name="Text_AvailableVersion" xml:space="preserve">
+    <value>النسحة المتوفرة</value>
+  </data>
+  <data name="Text_CurrentVersion" xml:space="preserve">
+    <value>النسخة الحالية</value>
+  </data>
+  <data name="Status_CheckingForUpdates" xml:space="preserve">
+    <value>جاري التحقق من التحديثات</value>
+  </data>
+  <data name="Status_LoadingMainWindow" xml:space="preserve">
+    <value>جاري تحميل النافذة الأساسية</value>
+  </data>
+  <data name="Messagecaption_PreviewwithAHDSynchronisedLyricsViewer" xml:space="preserve">
+    <value>استعرض مع AHD Synchronised Lyrics Viewer</value>
+  </data>
+  <data name="Message_NoMediaLoaded" xml:space="preserve">
+    <value>لم يتم تحميل ملف وسائط !!</value>
+  </data>
+  <data name="History_StylesEdited" xml:space="preserve">
+    <value>تم تعديل الأنماط</value>
+  </data>
+  <data name="History_StyleSetForSelected" xml:space="preserve">
+    <value>تم تحديد النمط للعناوين الثانوية المختارة</value>
+  </data>
+  <data name="MessageCaption_ChangeMedia" xml:space="preserve">
+    <value>تحميل وسائط</value>
+  </data>
+  <data name="Message_MediaNotLoaded" xml:space="preserve">
+    <value>لم يتمكن من تحميل ملف الوسائط.
+الملف متضرر أو النظام لديك يفتقد للفلاتر المطلوبة لتشغيل هذا النوع من الوسائط.
+الرجاء قم بتنصيب الفلاتر المطلوبة ثم حاول مجددا
+DircetShow Filters</value>
+  </data>
+  <data name="Title_MediaPlayer" xml:space="preserve">
+    <value>مشغل الوسائط</value>
+  </data>
+  <data name="History_SubtitlesTrackCaptionsSplit" xml:space="preserve">
+    <value>فصل الكابشن عن مسار عناوين ثانوية</value>
+  </data>
+  <data name="Status_SplittingCaptions" xml:space="preserve">
+    <value>جاري الفصل ...</value>
+  </data>
+  <data name="History_LineBreakApplied" xml:space="preserve">
+    <value>تم تفعيل كسر السطور لمجموعة من العناوين الثانوية</value>
+  </data>
+  <data name="MessageCaption_ChangePlayer" xml:space="preserve">
+    <value>تغيير المشغل</value>
+  </data>
+  <data name="Message_VLCPlayerMustBeInstalled" xml:space="preserve">
+    <value>الرجاء التاكد من انا البرنامج VLC منصب في جهازك, النسخة 3 او احدث, لمعالجات 32 بت حصرا
+
+مسار VLC لاجهزة 64 بت يجب ان يكون في:
+C:\Program Files (x86)\VideoLAN\VLC
+مسار VLC لاجهزة 32 بت يجب ان يكون في:
+C:\Program Files\VideoLAN\VLC</value>
+  </data>
+  <data name="MessageCaption_DownloadSubtitlesFromOpenSubtitlesorg" xml:space="preserve">
+    <value>تحميل ملف ترجمة من الموقع OpenSubtitles.org</value>
+  </data>
+  <data name="Message_PleaseEnterPassword" xml:space="preserve">
+    <value>الرجاء ادخال كلمة المرور اولا</value>
+  </data>
+  <data name="Message_PleaseEnterUsername" xml:space="preserve">
+    <value>الرجاء ادخال اسم المستخدم اولا</value>
+  </data>
+</root>

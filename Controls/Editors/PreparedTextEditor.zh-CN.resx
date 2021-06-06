@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton_rtl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAtBJREFUOE9joCrQmnKFJ2Xlo511u1+8m7b/yd8J+1/+rNj+/H384vun5cvPK0CV
+        4QfKvTc8ao6+uXns6bf/Rx9/++8w884q+fyzmgwM/xmhSvCA//8Z9SfcmDj74oePVpNuLsrZ8uyiRfv1
+        RVKxJ4WhKvAD+YYriRtvvvmlVXelXzrjjEXVlme3XSdc3yKZc9lavenmHPPeOweNOm7vNmq9vdus9dZB
+        zZKry6BaGRiUaq6qlux8cXXm6VdvZNJPm8nEnNKZdPD1a7/Jtw9IZV10Viq/Mdlr3v3P2Rtf/M9c8+K/
+        Vun1deIx58ug2hkYDJqvztx85fWfeYfffeg68OrFlP0v3x64+el/zIy7ZyR9DsvpNdxaHzD99j/7rrt3
+        E5c9+S8efa5ZK/QKGwND/X4W6YxTsfNPvvvsN+XWXsnQo5ES/geDxf0O5E3Z8+Jtysy7lyXiz2bELHn6
+        36bt7mXR2AvuEXMf/5eOOtcLtlk6+axexprHlybtefVKKvioIVgQCITd96onzrh1MW3GzQduk2+8d5tw
+        76Vo1Hlr0fCzQZEzH/5Xjj8P8X/Hpuffpx189b9+3f0vydNvbQOJibjtMw7qvnZy2aE3/6Mn3fufuOTJ
+        f7Hw07VguZDT3uFT7//XSr6wBcTHC8TizsdEz3/8P3nRk/8xcx7+9+279z988r3/KXMf/teKvbCFNwBP
+        9IpHnjezrrl52a3t2je5yPPTRfxPFAj5nshRjzy3Lnnmg/968ecPCrsd1YAqxwSamZfWJMx79F80+ESz
+        pM8ZLqgwg5DnkWCXyisf9KLPH+B3PqwEFUYAkdCzxsIhp4vd669+cGy78VXI53gwg/EZVpAcv+tBRX7X
+        ww32Rde+WmdceszrfDAerAkZuDTd/eTbd/e/b8+d/z4dd/4bpVw4JhNyjBMkZ5Jy/qJXzcV/XjU3/ntV
+        3/jvUHDtJ1gT+YCBAQBIBlxZePVODQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton5.Text" xml:space="preserve">
+    <value>显示 / 隐藏风格选择栏</value>
+  </data>
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAl5JREFUOE+NkO1LU3EUx4P+AiESLdYTkYhoD4YpwiqHaJhoMmtjmlO2xNJm07Yu
+        pdmaXp0Pc6nzVmqprFoEVmTRgiJQAtebStvm1t3ututs0fsi+nbvvG+qZX7gvPh9z/md8z1n3Z9o7/jR
+        YGNQN+aHyvrhsyCvnXpb6EHnFAP9/QgqhkO1grx2VJQHVcP0+KnxKMoGQzmCvDaqbzKoMH98LaPCG44P
+        hFHUxTQJqf9TNbrUXWtdQJnxbVfJpVmxbIBBfjs9IaRXRzGynKG0uHCsbe4Q/9a8VN2uvNuJPIP3Taxg
+        NeTW8JDUwqDUOI+j5kii5lXNmHmOhGnWgNLrbZDapesLemXhw/1+3UEz48jp5sLE2LM7Amqhxe/UPT/Z
+        Q85cxrR3ChefNSPfRH4/MhSCciKCXBMDxSiLs/eWUU6FkHHlU/wmcltpFzHdCPPMNKQ3WKgmIzhAMiSf
+        yzTQpHKMxYnhMFIJry72IR55/eJv5x69QOWtCLJan/7M7Qgk8Hp6C00pORfFlgB26r3xHRT2isNiYzay
+        iD3YS7Qi9ULfj/Q22pHWQqPEEkT74yhSdF6I9CtN48JP3H+VdpRzVssGebs+567zi/aaERb13Eoijdsp
+        lMaHO5BTRrGQWkNIITyxXbdqPbqi7gAKTQFsOu369/67DT6JpIcB+eQL0ogVq9zE7cln5n2NkywyOS1Z
+        5ZYI5X/DXVdd1BeA4WEUxf1B7NB6kNLkQQHph2Z8CYprQexrXkSycj5+E37itiYPtUXjxuYGN2/XmVTr
+        0iWpXbqNyoWvfCRWv6dE8ncJvwAiuUXE7GeTUQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton3.Text" xml:space="preserve">
+    <value>小写字母</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAp5JREFUOE+Nk+1LU3EUx4P+gXxbFGQFYWTJipgEo2ZgBZKuS7V8Guh05cPUzbkh
+        YszpmnvWme7Bp7zLrYReiIQmvaoXtRc955zX6/3t3ruHSCIS8oFOd7dBFEz7wHnzO+d8f+f8zu/sSlE4
+        EMMuOGmioC8KJW4WxFYEJ/WkkXfuhHggnl00yILIhIizPVTWKQNprBxhIUcbmUuHbI/YSmXnm9GcsHtF
+        k9e1rMntWA7dGKThkCryfxUITRR2Wk8Q58wU5OiIUN39GOTfWYa9deGCdMj2nLdSkNsRXj3atiQ4rI5g
+        ZUEnXPYY1rEgtjsdsj2Yi4YjTeHV/Y2LGsmE+Zv9lRF6X+ih2Cd7lhIpdIiotoeMSROkHS0B+r0qwKL6
+        cQY1jFL9vMBBVYQ4oAzDvtsLoZLRrpfG550ws/QY2p+oQWwWrQkNgs3WCTqmmiS/O+eS0DebgLvTMVAM
+        r8R5gX+R+otNupkmmFrwA/5uGPJ0x7aUj+LZSj+z0egltlxPV0EdSIJiLJ75jcQO0fr4Ww/4XrvghDLn
+        R72fjdzyoHXFCJrtmf4Czf4EVPsyCFy0ihiRQQhndHmpZLjU3b3ZHqRB7iXf1IzGtNpgElonE1DpZjTp
+        lMw04J8FzRMM1HrIjWovK6nyxjQt3O3NeBxKXTsIKPCvWbUjbLQzGIWqvsgUFgR+rGX3GGjlRK470RAf
+        mImaMdaoxSkotS6syeyL8+WcSS0f5+vcJGgfJOCqHWX+6nIfK1fjXOmDBFRaPh1PH/Ncs0dBxwmUWFAo
+        ffQHBU5l8X1yPVb0fvhZZlsKVNjIPSmflNsZzBbV1LoZ0E8lobyfhiIT9fckZB5WLuPWuZzr82Y/Aim3
+        3piDEqR8EhsaklgQFJsRXDH9tiITGvoFpQB907U+JR8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton2.Text" xml:space="preserve">
+    <value>大写字母</value>
+  </data>
+  <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="cutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="fontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="fontToolStripMenuItem.Text" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="colorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="colorToolStripMenuItem.Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="backgroundColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="backgroundColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="leftToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="leftToolStripMenuItem.Text" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="centerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="centerToolStripMenuItem.Text" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="rightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="rightToolStripMenuItem.Text" xml:space="preserve">
+    <value>右对齐</value>
+  </data>
+  <data name="alignementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="alignementToolStripMenuItem.Text" xml:space="preserve">
+    <value>对齐方式</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 198</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>行字符数=0, 总字符数=0</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAtpJREFUOE+NzltI0wEUBvClEElBBIKm5o2IQE2FpS4Ma5a4MhN0mkruYahYEzMv
+        MzMn5tSl09k0dTB7sAuITLOlVuYNzZzpNje36Ta2edu8NiduDtOT2T9KMO33ch7O98GH+s3puepI+As1
+        /Wn/wsKrYb0hgzstwhRJE5D3/8HUKrOYI8srVV8W57HlsjqH1M9WyOtgZwskfuS2WeG5XHFaSK2iPqhs
+        vN7xnhiLpivzMXQlzbdISfPMkVGR+G42aYKjSU1TH37O98oURjziTPdEV8u5tgl8vH+FWhPP0UIIQ6O3
+        JwpLkMpumLyxlKKOucU7LMX72FJJM+uTbpFQKXvrEj9MwlVrVgJoiv5AmlJuHc7zRip/uKaM4Cit2uXQ
+        QsmzYwFd1lZ+Hfb4YlFzIluluUgfV3uTZRWn4viRWIp8ls1MzJW9vAXyN1QQsINAUOUWh8pvmeEyu3Uy
+        QuVECYpCsXCO6gsisdQ9yWzlVghDpfclS8N9MsfSKdXV69pOMuhHuQCrM/BttBF6nwTrUA0NYLkzBeDQ
+        zsU3WDomioi4SrU5uHB84kKGhEdhsPTzojwwT7WAtrsEjCIOfFf3Ab8mwbTT+ZtNpMD9ClWucE8ebTxx
+        nefeXhcYM/s1Z2vT2AdGJQmWeMkgrSeCgBW1OMgMO4PUtlHA4mQ0P8zjrrAztFQJdhFD9xUcJ9yy6AFs
+        mgZgTUEA02QsGCTZoKry1/HLr3ohzV/wFPHhS3kTr68VK8ZubE9PTk1v0g6RkXIcmDQxsCJ+CAom1iAt
+        O49Gant7V2AbLmknmTeNvWBSEWF98jbot5eIqwKN0nJfZyS2N3aSA3GsNRuEbQyYHsTDmioWlgRZIGEE
+        zI2XoV2R2L810AIBDGqQsSKgM9sO+mtw0JWPnhFQ0e5IZH+PCac3zAOVYB6sgEHqZagnOKy2k908kffB
+        bvocNxURXDZai3EbH+nYHm6Wxz6zUagffQOMp+0/b4QAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>编辑风格</value>
+  </data>
+  <data name="cutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>将选定文本剪切到剪贴板</value>
+  </data>
+  <data name="toolStripButton_rtl.ToolTipText" xml:space="preserve">
+    <value>从右到左对齐</value>
+  </data>
+  <data name="toolStripButton_strikeout.ToolTipText" xml:space="preserve">
+    <value>删除线</value>
+  </data>
+  <data name="toolStripButton_underline.ToolTipText" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="copyToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>将选定文本复制到剪贴板</value>
+  </data>
+  <data name="toolStripButton_centerAlign.ToolTipText" xml:space="preserve">
+    <value>居中对齐</value>
+  </data>
+  <data name="toolStripButton_rightAlign.ToolTipText" xml:space="preserve">
+    <value>右对齐</value>
+  </data>
+  <data name="colorToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>更改文本颜色</value>
+  </data>
+  <data name="fontToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>更改字体</value>
+  </data>
+  <data name="toolStripButton_italic.ToolTipText" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="toolStripTextBox_fontSize.ToolTipText" xml:space="preserve">
+    <value>字体大小</value>
+  </data>
+  <data name="toolStripButton_bold.ToolTipText" xml:space="preserve">
+    <value>粗体</value>
+  </data>
+  <data name="toolStripButton_leftAlign.ToolTipText" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="toolStripButton9.ToolTipText" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="pasteToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>从剪贴板粘贴文本</value>
+  </data>
+  <data name="toolStripButton8.ToolTipText" xml:space="preserve">
+    <value>使用字体对话框更改字体</value>
+  </data>
+  <data name="ComboBox_font.ToolTipText" xml:space="preserve">
+    <value>字体名称</value>
+  </data>
+</root>

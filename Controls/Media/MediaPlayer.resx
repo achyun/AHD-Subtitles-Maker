@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="trackBar1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="&gt;&gt;subtitleTextEditor1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mediaSeeker1.Type" xml:space="preserve">
+    <value>AHD.SM.Controls.MediaSeeker, Controls, Version=5.4.6852.40228, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Button_playPause.Name" xml:space="preserve">
+    <value>Button_playPause</value>
+  </data>
+  <data name="EndSetButon.Text" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="&gt;&gt;label_info.Name" xml:space="preserve">
+    <value>label_info</value>
+  </data>
+  <data name="&gt;&gt;panel_surface.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="showSubtitleFormattingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="EndSetButon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAilJREFUOE9jwAdUcucYOtWtXMiQNpMVKkQacKxentm+4eQDmZBeTqgQGGiF1rNB
+        mfiBe8PK/P7157/Lx/cLQIUYlDKm6Xg3rDwN5eIHXk1rStefvPdfIWmKPIgvEjtZrXL+4dfJEzYRZ0BA
+        +7qag1ef/5dNmaItFNcr3bzkyPO5e64+TJq4LQmqBD8I7tzYcu7+u/8KKdNTKxYeurV//4W/fk0rq6HS
+        hEF496bOK48+/u9be/TLg9df/3vVLZ0LlcIP6hkYmEB0VO+WCXdfffu/5ezD/7G9G/eDJfGBbgEG+WVq
+        UjN3mWidmSMt0Jk5Y/eZCw8+/I/r23ZUPKabG6oMOwBp3mmqef28m83/U3aGn6772P+ftefG/4dAF0RO
+        3LlfMnmSNQPDf0aockywQl12zhk36/8TBTmsJgixBV/xsP4/Z+/t/8vOvPt/z8fh/0Vnq/8zJPgyocox
+        wSEbvTdr9RTXg9grVKRmXgpw+l/atenfNX/H/4sUxOYesNC5sttC+369JAMXWAM62Gupf++kvenTjQbK
+        h+562f9foyV/aJOeyuljNoafVjEwMM+RFiw/4Wj+v5+fXQGqBRVMl+RPPm5m9OM8UNFKDbkNXVwMElt0
+        Fdfvtzf9C2IvV5eeetTM5EcPD4MIVAsm6BbgkO/hZVMD2Qjiz5IWKrjp7fB/v6nm3Yvutv9XqsouASsk
+        FoD8u0xNev5Jff3v63WVdnZwMshApaCAgQEAwyncXVxgGqcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;panel_video_host.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EndSetButon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel_video_host.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="subtitleTextEditor1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="status_time.Text" xml:space="preserve">
+    <value>00:00:00.000</value>
+  </data>
+  <data name="mediaSeeker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 18</value>
+  </data>
+  <data name="mediaSeeker1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="status_time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 26</value>
+  </data>
+  <data name="toolStripButton_fastForward.ToolTipText" xml:space="preserve">
+    <value>+ 0.100</value>
+  </data>
+  <data name="panel_video_host.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAedJREFUOE+tU13LMVEUnR/lP7miJF4xGD9ACoXcuXDjwoUrpcyFlETEIRcufH8O
+        xkeE7Oes00hTeuupZ9dqZs45a+219z4j/Xn0+30Lh8Kh9no9jTGmdTodtd1uK41Gw2Ic+x6DwcDKiWyz
+        2dDlcqHn8ylwPp9puVxSvV5nHFbjuDlA5ln02+1GCDyPxyPpuk7X61WsQbRWq+nVatUsYthmb/J+v6fV
+        akWapglst1uaz+diDyLlcplxfMpBzbCNeJP9fr+JLMuyWEcMh0MqFAqKQZekbrerQhlWUavb/U8IQHQ2
+        m5HdbhcC2EM/drsd5XI51aBLEu+uhmZhw+VycbgFAZltNhuHnXw+n/iGi/v9TplMRjPoH4HD4UDBoEJO
+        p1MIQNDj8ZDD4SCv1yvcvF2YBFqtloqOo4z1ek2BQJCXEKDFYiEIEJNlP02nUzGZ0WhE6XTaVIKCzdfr
+        JQiwGQqFREYA1hVFofF4TI/Hg/gYKZVKfZrIZ2upVCoMJSBAQnaITiYTQcQTCfDOySyZTJpvZalUshaL
+        RR1jw8HT6STcQAiXCZlhnZP1aDT6/Tbm83lrNptlzWZT2EZPUDPmrqoqxWIxFolEvpPfwQUsvEFKIpFQ
+        4/G4xrNpnKSGw2GFC/z/Z/p9SNIP2JY15eKAVo4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton_fastForward.Text" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="&gt;&gt;label_info.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AddButton.Name" xml:space="preserve">
+    <value>AddButton</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="showSubtitleFormattingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Use subtitle formatting</value>
+  </data>
+  <data name="Button_playPause.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_surface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mediaSeeker1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="panel_video_host.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 445</value>
+  </data>
+  <data name="&gt;&gt;trackBar_sound.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="toolStripButton_sub_edit.ToolTipText" xml:space="preserve">
+    <value>Edit subtitle that is currently shown.</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton_sub_edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="&gt;&gt;panel_video_host.Name" xml:space="preserve">
+    <value>panel_video_host</value>
+  </data>
+  <data name="subtitleTextViewer1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
+    <value>trackBar1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;status_time.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enableSubtitlePreviewToolStripMenuItem.Name" xml:space="preserve">
+    <value>enableSubtitlePreviewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;subtitleTextViewer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="panel_surface.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel_surface.Parent" xml:space="preserve">
+    <value>panel_video_host</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="mediaSeeker1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="subtitleTextEditor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 331</value>
+  </data>
+  <data name="&gt;&gt;subtitleTextEditor1.Type" xml:space="preserve">
+    <value>AHD.SM.Controls.SubtitleTextEditor, Controls, Version=5.4.6852.40228, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="subtitleTextViewer1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="subtitleTextViewer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 34</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 445</value>
+  </data>
+  <data name="AddButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAnhJREFUOE+tk/1LU1EYx+/fMosgVpBoVCT4QpRgJF4qX1vkS+rSTV3k1LtpU+eu
+        OfHtulFmQVu5TUa66ebcaIqZOF3pIvU6lGijCIJy+Ou3e+uaiRYEfeD57fl8zznPOYf479BeRVybW05p
+        HBVs46hkS/Gcq2EJW22VUBVPr8UJbQdDe6pIrasq+mSxF/PRaYQ+B7H4aQ6usB1qdwXKTFeixYNZpNC+
+        F15WD5fGPOt2bH5bh/fDGEzsfTxaZWDfMGHm4wvQU0pImMxYvjFjb4jWIxc1O+WR8TUL1r+uYGClGz0L
+        bdAHmsGE2tEXoqFf0mB80w7KLQVpuBDJYtJEgs4FuGSq/tkWvPuyxK3Yh95lGrpXauzQsqBEw7QUqlkZ
+        nBs2XH14DhldySpBJwh+YGNhG7dVM+7NN6F1rgFKb6WgA+W2PNyZvI6aiXwY37Sje6YR5/VnWUEnCNVI
+        4bbv/Rj637Zzcp2g7UfuyoHKXwZLaACp6qPbgk4QdfbC7dHwEOgghabAbaF9P3wA5bsJa+gBkn4PUNgk
+        rCFAg1nWoe6lFHJ/IYqtlwXtp8hXtTsP/YEWdPjqcVpzfPcIsqECVamVhCNsgdJfhCqf5MeZd+DlSmc2
+        FOP5cKyZkdZ5CglN4t0hlplyRSWPyQjlLscI++zXwHhR5uSLl/MwumrCLUsuEu6KI8fUh3evkefG4CWy
+        gLkYq3UUwcmFGAJaUJMlaJgogmG+FQ5OllqykaAWxU5QRw5+jTnGdJLsSY1mGlPQOUXB/JqBOchA56tF
+        asdJThZH/yjvkNmVEpeuT6LS6DNssi5xK1Ebv5XIDSy+UUzF1x/6+2f6dwjiO8B3zyKE8PtmAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton_sub_edit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAopJREFUOE+tkO1LU2EYxs9/0Pe+BBF9iepvyKASiiwKIst9EEV6IYh8aaXYUObL
+        TGNLl7ZUTFOZa9pqTXM6N51Hw87edJpzOl/mdpqbU3ecJlfnnM5YQkRBF1w8cD/P9bvv+yH+i1qG1ooa
+        TeHFxsEQVEYa9Z9o1PYGINf7UfN+BbKeJZS99aFEPY/iDg8KW2chbp4ZE+IE0Wii6U1mF//iB02j20Kc
+        IF4NfOOLra6XaHYooaIUUE7UQD5eiaekFOUjEpSYi1BsEuOxMY9/e6/BCSFOEA39NF/8W3Fvb9XZkgAl
+        uy9XbDMH/uiP/V1wt17D1+5SUKozoJ4fy+ABCvazEgBOHZZV/kxIbV3F1ko3/MZ8ROw6YGMZYbsaQxXn
+        VnlAtW4Z0dgOOkcCUHO2BtFlDUBDBqBlbTS1IeR6gvhiD/yDlYg5NPg+b8GX6myGB8i6F7HOAjRkkO+o
+        FU5ODG1CyFmIvZgFMc8dhMbuYqolE+SLLJDytKM8QKpZQGRzBz3jQbz7nPSARYs1x0PsMVZszYrA+NIR
+        nRRjrikNt6Xq5CdKOr0Ib8Shn/jZuY+i4Z9kdx7PF8IZYBauY935CHP15+GmxiCqGk0Cito9PKCXDXJh
+        g/4NXIY8duwhMN5MbPtuIsJOMlOXCsOwE25fBDcqRpIA8etprLEAo53G9DAb/iCGTV+DJfIqtrzpCFEF
+        8KguYSeyxE/IAUSyXwC5zVMIRbcRjDDoLD8NROfhrr8Co/gghpWpMMvOYspO8cGEL1QM7Alxgrivclly
+        ah2bObU2SLJPIG5VIE4+A1l6Cm3ZR5AlacflEvM+p+QatEJ8vy6ePMBIRYd2u8pSd/uqUky6guOHhavf
+        iCB+AOAhm9bGE48RAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;panel_surface.Name" xml:space="preserve">
+    <value>panel_surface</value>
+  </data>
+  <data name="toolStripButton_fastForward.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripButton_mute.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel_video_host.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;showSubtitleFormattingToolStripMenuItem.Name" xml:space="preserve">
+    <value>showSubtitleFormattingToolStripMenuItem</value>
+  </data>
+  <data name="toolStripButton_mute.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAfxJREFUOE/Nkt1L21AYhwP+CQMHg115MYSubKIMUiSyUqFOUenCZruRtElss5oW
+        o6OBrhRJu6itaL3TYkFlQgvD+9Krebl/QJhgTsFCwdx6+1ualrLuA3bpAy+c9+Wc57zng7q/bG19Xsrl
+        9Jte+v/UarWh7e1NPZvN3un6BnrlAcyYKpJI/JGTFItF+tewF/84Oirj/PwrstlPfwhINJm+lRVcs8J3
+        p7CzU8D+fgml0i729nZxenqMarWKk5NjaKmPAwJTTErNdzFXKyjACoVh+gJxqlDYxMXFNzQaDdTrdVQq
+        Fei6bgtLUFcTfYEpKOKtFAdhOc2cfZuwAkEQz6tLyjDyODv7AsMwkM/nkclkoKqqPc5BUWRHcDMbvDJD
+        y972Uhhk5o1TI/QMyJgXVOeiyuUDSJIEjuMQCATg9/shy1E7lp3J7bmgZc6HvO0Fe9ep+a7g2UuQUQ+o
+        dFrD4eEBNC2FZDKBxcUFMAxjy94jGhX6RyDTr2VrjgWZmNZM91TC8vhAHj+/pNbXV7G2lrQXx52WV1Zk
+        RxIOc3ZX4b6gQ3Pc96HpZlwt9ySsCQbmw6dxSlUUWpZlOyRakng6EuGvOqJUSoUo8gOCDmTkxYY1Nonr
+        4dHuM/4Oy7JDgsDlBYG/+5ugAxl2xciDJ92P9C9EMRLieb7VS+8tFPUTHakNyeY71kcAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="&gt;&gt;subtitleTextViewer1.Type" xml:space="preserve">
+    <value>AHD.SM.Controls.SubtitleTextViewer, Controls, Version=5.4.6852.40228, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="toolStripButton_sub_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="status_duration.Text" xml:space="preserve">
+    <value>00:00:00.000</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="mediaSeeker1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;status_time.Name" xml:space="preserve">
+    <value>status_time</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton_sub_edit.Name" xml:space="preserve">
+    <value>toolStripButton_sub_edit</value>
+  </data>
+  <data name="mediaSeeker1.Text" xml:space="preserve">
+    <value>mediaSeeker1</value>
+  </data>
+  <data name="&gt;&gt;status_duration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="&gt;&gt;toolStripSplitButton1.Name" xml:space="preserve">
+    <value>toolStripSplitButton1</value>
+  </data>
+  <data name="trackBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 19</value>
+  </data>
+  <data name="toolStripButton_mute.ToolTipText" xml:space="preserve">
+    <value>Sound On</value>
+  </data>
+  <data name="subtitleTextViewer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="toolStripSplitButton1.Text" xml:space="preserve">
+    <value>Edit subtitle view settings</value>
+  </data>
+  <data name="&gt;&gt;showSubtitleFormattingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MediaPlayer</value>
+  </data>
+  <data name="EndSetButon.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="label_info.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;status_duration.Name" xml:space="preserve">
+    <value>status_duration</value>
+  </data>
+  <data name="toolStripButton_mute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="label_info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="subtitleTextEditor1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="toolStripButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;subtitleTextViewer1.Parent" xml:space="preserve">
+    <value>panel_surface</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subtitleTextEditor1.Parent" xml:space="preserve">
+    <value>panel_video_host</value>
+  </data>
+  <data name="&gt;&gt;customFormatToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_surface.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trackBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mediaSeeker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="trackBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;enableSubtitlePreviewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="enableSubtitlePreviewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Enable subtitle preview</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 48</value>
+  </data>
+  <data name="&gt;&gt;label_info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 24</value>
+  </data>
+  <data name="label_info.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="useCustomFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Use custom style</value>
+  </data>
+  <data name="label_info.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAbtJREFUOE+tk02rAVEYx+dDzXeywlcYrKVQyM7CxsLCSilnISURccjCwvvrwXiJ
+        kOee/2nO1ZR769Z96t9o5vz+z9th/Hv0+31TypJivV5PcM5Fp9Nh7XbbajQapnPscwwGA48E+Wazocvl
+        Qs/nU+l8PtNyuaR6vc6lPM5xdwCWWezb7UYIPI/HI9m2TdfrVb2Daa1Ws6vVqtvEKZtreL/f0263IyGE
+        0na7JVSFgEm5XOZS73bQsz7wE7xarZQQw+GQCoWC5eCG0e12GZxRqgb9fr+Sz+ejUCikYMwB80CCXC7H
+        HNww5HQFhnU4HBSMjAC1YLBYLGg+nyuj+/1OmUxGOPjbAOUDXq/X37DX66VgMEiz2UxJV+EyaLVaDBNH
+        G7pXZAUIBQIBBU+nU7WZ0WhE6XTa1YKFj6/XS2XQ5eqs+DaZTGg8HtPj8SC5RkqlUu8hyt2alUqFYwaI
+        TyCyIgF+S5gnk0n3rSyVSp5isWhjbTh4Op2+q8FlQmaYSNiORqOfb2M+n/dks1nebDZVC5gJesbeGWMU
+        i8V4JBL5DOuQBqYckJVIJFg8Hhcym5AQC4fDljT4/c/09zCML0hJQDerCP0jAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>toolStripButton4</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddButton.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="AddButton.ToolTipText" xml:space="preserve">
+    <value>Add subtitle
+(Quick mode, hold for desired duration)</value>
+  </data>
+  <data name="&gt;&gt;mediaSeeker1.Name" xml:space="preserve">
+    <value>mediaSeeker1</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton_mute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSplitButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 493</value>
+  </data>
+  <data name="toolStripButton_sub_edit.Text" xml:space="preserve">
+    <value>Edit subtitle in view.</value>
+  </data>
+  <data name="useCustomFormatToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="Button_playPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="Button_playPause.ToolTipText" xml:space="preserve">
+    <value>Play / Pause</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton_fastForward.Name" xml:space="preserve">
+    <value>toolStripButton_fastForward</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="label_info.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel_video_host.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStripButton_fastForward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="customFormatToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="toolStripButton4.ToolTipText" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;panel_video_host.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_video_host.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;useCustomFormatToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trackBar_sound.ToolTip" xml:space="preserve">
+    <value>الصوت: 100%</value>
+  </data>
+  <data name="enableSubtitlePreviewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 18</value>
+  </data>
+  <data name="toolStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button_playPause.Text" xml:space="preserve">
+    <value>toolStripButton3</value>
+  </data>
+  <data name="subtitleTextEditor1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;trackBar_sound.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EndSetButon.ToolTipText" xml:space="preserve">
+    <value>Set current time as end time for displayed subtitle</value>
+  </data>
+  <data name="&gt;&gt;trackBar_sound.Name" xml:space="preserve">
+    <value>trackBar_sound</value>
+  </data>
+  <data name="panel_surface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 256</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label_info.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="status_duration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 26</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 6</value>
+  </data>
+  <data name="trackBar_sound.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 24</value>
+  </data>
+  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
+    <value>- 0.100</value>
+  </data>
+  <data name="&gt;&gt;label_info.Parent" xml:space="preserve">
+    <value>panel_video_host</value>
+  </data>
+  <data name="&gt;&gt;AddButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_playPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trackBar1.ToolTip" xml:space="preserve">
+    <value>Volume: 100%</value>
+  </data>
+  <data name="label_info.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="trackBar_sound.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton4.Name" xml:space="preserve">
+    <value>toolStripButton4</value>
+  </data>
+  <data name="&gt;&gt;customFormatToolStripMenuItem.Name" xml:space="preserve">
+    <value>customFormatToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;subtitleTextEditor1.Name" xml:space="preserve">
+    <value>subtitleTextEditor1</value>
+  </data>
+  <data name="toolStripButton_sub_edit.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton4.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="EndSetButon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="toolStripSplitButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 26</value>
+  </data>
+  <data name="&gt;&gt;EndSetButon.Name" xml:space="preserve">
+    <value>EndSetButon</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 6</value>
+  </data>
+  <data name="subtitleTextViewer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripButton_mute.Text" xml:space="preserve">
+    <value>toolStripButton3</value>
+  </data>
+  <data name="toolStripSplitButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 29</value>
+  </data>
+  <data name="subtitleTextEditor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 99</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mediaSeeker1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="toolStripButton_fastForward.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAd9JREFUOE+tU03LOXEUnQ/lO9k/4+VhNV9ACoXsLGwsLKyUMgspiYgfWSDvr4Px
+        EiH3uefX+GtK/3rquXXSTPecc8+9Q/nz6nQ6DobG0NvttiGEMJrNpt5oNLRqteqw2j5Xt9t1MlGs12s6
+        n8/0eDwkTqcTLRYLqlQqguG02u0FMruY1+uVUPg9HA5kmiZdLhf5DqLlctkslUp2EWts8SJPJhPabrdk
+        GIbEaDQiTIWCSKFQEIx3HGR+Nex2O/J6vUwaS/JmsyG320ODwYCWy6Xs6fV6lM1mNYuuKK1WS4cyRgXJ
+        4/EyPDQcDmm1WrGAW6Lf78t9YLp0Oq1bdEXh7RpY1n6/lwJwBPx+P43HY3K53AwXfX/75PPtdqNkMmlY
+        9LcAxkcUkH0+n3SFqKq6ZCxVVeUzprAJ1Ot1HRtHDOQEGa5ons1m/8gwQB+iJRIJWwQNm38+n/LeGBfk
+        6XQq8fWlyty4xv1+Jz4jxePx9xL5to5isShAQsEJRIgiM8hwhQFEmCxisZj9q8zn885cLmfibGg8Ho9y
+        mvl8Lj8mOEOEyWYoFPr8NWYyGWcqlRK1Wk1mx06QGXfXdZ3C4bAIBoOfya9iAQcvSItGo3okEjHYzWCS
+        HggENBb4/5/p96UoP1zKNUpIsjKLAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton_mute.Name" xml:space="preserve">
+    <value>toolStripButton_mute</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="panel_surface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 53</value>
+  </data>
+  <data name="toolStripButton_fastForward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="customFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit custom style</value>
+  </data>
+  <data name="&gt;&gt;useCustomFormatToolStripMenuItem.Name" xml:space="preserve">
+    <value>useCustomFormatToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;trackBar_sound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;subtitleTextViewer1.Name" xml:space="preserve">
+    <value>subtitleTextViewer1</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar-SY</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>33</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 17</value>
+  </metadata>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

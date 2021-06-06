@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Ignore" xml:space="preserve">
+    <value>&amp;تجاهل</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>&amp;لا</value>
+  </data>
+  <data name="Button_Ok" xml:space="preserve">
+    <value>&amp;موافق</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>&amp;نعم</value>
+  </data>
+  <data name="CheckBox_AlwaysAskThisWhenChangingRtl" xml:space="preserve">
+    <value>إ&amp;سأل دائماً عند تغيير من اليمين إلى اليسار</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>المدّة</value>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>وقت الإنتهاء</value>
+  </data>
+  <data name="ErrorType_EndTime" xml:space="preserve">
+    <value>وقت الإنتهاء</value>
+  </data>
+  <data name="ErrorType_StartAndEndTime" xml:space="preserve">
+    <value>وقت البدء و وقت الإنتهاء</value>
+  </data>
+  <data name="ErrorType_StartTime" xml:space="preserve">
+    <value>وقت البدء</value>
+  </data>
+  <data name="ErrorType_TextError" xml:space="preserve">
+    <value>خطأ نصّي</value>
+  </data>
+  <data name="Error_EndTimeIsLessThan0" xml:space="preserve">
+    <value>وقت الإنتهاء أقل من الصفر</value>
+  </data>
+  <data name="Error_EndTimeIsoverAnotherSubtitleAt" xml:space="preserve">
+    <value>وقت الإنتهاء فوق عنوان ثانوي آخر في</value>
+  </data>
+  <data name="Error_StartTimeIsEqualTheEndTime" xml:space="preserve">
+    <value>وقت البدء يساوي وقت الإنتهاء</value>
+  </data>
+  <data name="Error_StartTimeIsLargerThanTheEndTime" xml:space="preserve">
+    <value>وقت البدء أكبر من وقت الإنتهاء</value>
+  </data>
+  <data name="Error_StartTimeIsLessThan0" xml:space="preserve">
+    <value>وقت البدء أقل من الصفر</value>
+  </data>
+  <data name="Error_StartTimeIsOverAnotherSubtitleAt" xml:space="preserve">
+    <value>وقت البدء فوق عنوان ثانوي في</value>
+  </data>
+  <data name="Error_ThisSubtitleEndTimeIsLessOrEqual0" xml:space="preserve">
+    <value>وقت الإنتهاء أقل أو يساوي الصفر</value>
+  </data>
+  <data name="Error_ThisSubtitleEndTimeIsOverAnotherOne" xml:space="preserve">
+    <value>وقت الإنتهاء فوق عنوان ثانوي آخر في</value>
+  </data>
+  <data name="Error_ThisSubtitleHasNoText" xml:space="preserve">
+    <value>هذا العنوان الثانوي ليس لديه نصّ</value>
+  </data>
+  <data name="Error_ThisSubtitleIsInsideAnotherOne" xml:space="preserve">
+    <value>هذا العنوان الثانوي داخل عنوان ثانوي آخر</value>
+  </data>
+  <data name="Error_ThisSubtitleIsOverAnotherOne" xml:space="preserve">
+    <value>هذا العنوان الثانوي فوق عنوان ثانوي آخر</value>
+  </data>
+  <data name="Error_ThisSubtitlesDurationIs0OrLess" xml:space="preserve">
+    <value>المدّة أقل أو تساوي الصفر</value>
+  </data>
+  <data name="Error_ThisSubtitleStartTimeIsLessOrEqual0" xml:space="preserve">
+    <value>وقت البدء أقل أو تساوي الصفر</value>
+  </data>
+  <data name="Error_ThisSubtitleStartTimeIsOverAnotherOne" xml:space="preserve">
+    <value>وقت البدء فوق عنوان ثانوي</value>
+  </data>
+  <data name="Error_YouMustWriteAText" xml:space="preserve">
+    <value>عليك أن تكتب نصّاً</value>
+  </data>
+  <data name="Mark" xml:space="preserve">
+    <value>علامة</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>الوسائط</value>
+  </data>
+  <data name="MessageCaption_CheckForErrors" xml:space="preserve">
+    <value>تفحص الأخطاء</value>
+  </data>
+  <data name="MessageCaption_Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="MessageCaption_RightToLeftChanged" xml:space="preserve">
+    <value>من اليمين إلى اليسار تغيّر</value>
+  </data>
+  <data name="MessageCaption_Warning" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="Message_ApplyRightToLeftAlignementValueToAllSubtitleOfThisSubtitlesTrack" xml:space="preserve">
+    <value>تطبيق الخيار الحالي لكافة العناوين الثانوية الموجودة في نفس المسار ؟</value>
+  </data>
+  <data name="Message_SelectSubtitlesTrackFirst" xml:space="preserve">
+    <value>إختر مساراً أولاً</value>
+  </data>
+  <data name="Message_TheNewDurationWillBeLessOrEqual0" xml:space="preserve">
+    <value>المدّة الجديدة ستكون أقل أو تساوي الصفر</value>
+  </data>
+  <data name="Message_TheTimeYouSetWillMakeTheSubtitlesTrackEndAtAPositionMoreThanTheMediaDuration" xml:space="preserve">
+    <value>الوقت الذي حددته سيجعل المسار ينتهي في وقت أكبر من مدّة ملف الوسائط</value>
+  </data>
+  <data name="Message_TheTimeYouSetWillMakeTheSubtitlesTrackStartAtAPositionLessThan0" xml:space="preserve">
+    <value>الوقت الذي حددته سيجعل المسار يبدأ في وقت أصغر أو يساوي الصفر</value>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value>تحريك</value>
+  </data>
+  <data name="ShiftTime" xml:space="preserve">
+    <value>تحريك الوقت</value>
+  </data>
+  <data name="SoundOff" xml:space="preserve">
+    <value>الصوت مطفأ</value>
+  </data>
+  <data name="SoundOn" xml:space="preserve">
+    <value>الصوت مفعل</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>وقت البدء</value>
+  </data>
+  <data name="Status_CheckingForBasicErrors" xml:space="preserve">
+    <value>جاري تفحص الأخطاء الأساسية</value>
+  </data>
+  <data name="Status_Done" xml:space="preserve">
+    <value>تمّ</value>
+  </data>
+  <data name="Status_ErrorsFound" xml:space="preserve">
+    <value>خطأ وجد</value>
+  </data>
+  <data name="Status_Fixing" xml:space="preserve">
+    <value>جاري الإصلاح ...</value>
+  </data>
+  <data name="SubtitlesTrack" xml:space="preserve">
+    <value>مسار العناوين الثانوية</value>
+  </data>
+  <data name="SUBTITLETEXTS" xml:space="preserve">
+    <value>&lt;نصوص العناوين الثانوية&gt;</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>الصوت</value>
+  </data>
+  <data name="Status_LineCharsCount" xml:space="preserve">
+    <value>عدد الأحرف في السطر</value>
+  </data>
+  <data name="Status_TotalCharsCount" xml:space="preserve">
+    <value>عدد الأحرف الإجمالي</value>
+  </data>
+  <data name="Status_Line" xml:space="preserve">
+    <value>الخطّ</value>
+  </data>
+  <data name="Unit_Second" xml:space="preserve">
+    <value>ثانية</value>
+  </data>
+  <data name="Message_PleaseCheckTracksToPreview" xml:space="preserve">
+    <value>الرجاء وضع علامة بجانب المسار الذي ترغب بأن يظهر هنا.
+قد يكون ذلك مفيداً لاستعراض عناوين ثانوية لمسارات متعددة بنفس الوقت.</value>
+  </data>
+  <data name="Text_DoubleClickToShowWaveForm" xml:space="preserve">
+    <value>double-click to show waveform</value>
+  </data>
+  <data name="Status_GeneratingWaveFormPleaseWait" xml:space="preserve">
+    <value>Generating waveform, please wait ...</value>
+  </data>
+</root>

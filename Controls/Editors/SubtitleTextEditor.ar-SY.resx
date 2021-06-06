@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toolStripButton2.ToolTipText" xml:space="preserve">
+    <value>غيّر مكان العنوان الثانوي</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton_rtl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton_rtl.ToolTipText" xml:space="preserve">
+    <value>من اليمين إلاليسار</value>
+  </data>
+  <data name="toolStripButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALQSURBVDhPY6Aq0JpyhSdl5aOddbtfvJu2//rfCftf/izf
+        /vx9/OL7p+XLzytAleEHyr03PGqOvrl57Om3/0cff/vvMPPOKvn8s5oMDP8ZoUrwgP//GfUn3Jg46+KH
+        j1aTbi7K2fLsokX79UVSsSeFoSrwA/mGK4kbbz79pVV3pV8644xF1ZZnt10nXN8imXPZWr3p5hzz3jsH
+        jTpu7zZqvb3brPXWQc2Sq8ugWhkYlGquqpbsfHF15ulXb2TST5vJxJzSmXTw9Wu/ybcPSGVddFYqvzHZ
+        a979z9kbX/zPXPPiv1bp9XXiMefLoNoZGAyar87cfOXen3mH333oOvDqxZT9L98euPnpf8yMu2ckfQ7L
+        6TXcWh/Qde6ffdfdu4nLnvwXjz7XrBV6hY2BoX4/i3TGqdj5J9999ptya69k6NFICf+DweJ+B/Km7Hnx
+        NmXm3csS8WczYpY8/W/TdveyaOwF94i5j/9LR53rBdssnXxWL2PN40uT9rx6JRV81BAsCATC7nvVE2fc
+        upg24+YDt8nX37tNuPdSNOq8tWj42aDImQ//K8efh/i/Y/3z79MOvvpfv/bOl+Tpt7aBxETc9hkHdV87
+        uezQm//Rk+79T1zy5L9Y+OlasFzIae/wqff/ayVf2ALi4wVicedjouc//p+86Mn/mDkP//v23fsfPvne
+        /5S5D/9rxV7YwhuAJ3rFI8+bWdfcvOxWf+WbXOT56SL+JwqEfE/kqEeeW5c888F/vfjzB4XdjmpAlWMC
+        zcxLaxLmPfovGnyiWdLnDBdUmEHI80iwS+WVD3rR5w/wOx9WggojgEjoWWPhkNPF7vVXPti33fgq5HM8
+        mMH4DCtIjt/1oCK/6+EG+6JrX60zLj3mdT4YD9aEDFzq737y7bv737fnzn+fjjv/jVIuHJMJOcYJkjNJ
+        OX/Rq+bIP6+aG/+9qm/8t8+69hOsiXzAwAAAfRZb8bFWgCgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton5.Text" xml:space="preserve">
+    <value>اظهار / اخفاء ادوات الانماط</value>
+  </data>
+  <data name="toolStripButton_line_break_tools.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJLSURBVDhPYxicwL79uoNz141Wj95bU5w7b/bbt9yY4NBy
+        fZZl0aUuq6QjvAwM/xmhSrED25brwRnLHt2buOfl//5dz/93b3/+P2n+/d8Odde2Gaed4YIqww3M6i/K
+        hE29vSt72cNPRUtvfM1f8vC7XfnlGfbx+zmgSvAD6/Ir5fnLHn13bb+11rHm6oKmdU/+W+WcmwmVxg9M
+        Ci4pJc+89yh68u37xlnnQkwzzzfUrHwENODCUqgS3CA0dBWzU/21VVkTLnw3STubBvKvUeKZjsplD//H
+        z3f8nTrf8D9UKXZgknk+Jnn2lW8B3bcuGsad8jOIPqFlnn52QRXQgKQ+23+Nm6P+h8/QwG6IQeI5UaCz
+        X1Uuf/Tfo+nG5fyltv9zJlv+S59k+i9prtH/mvWh/1ednvi/ZLX/f9d+8d8M/xmQo/I/o13Jpdkgv5qm
+        ngYHVvZi8/8bzk37v/bsFLDGFacn/J+wp+T/wuNd/zOWuv1Xa2eHGALyp0HsKZfSJQ//h/fceqMbfMQW
+        ZEAy0L8gzX278v937sj+37ot7X/D5sT/TVvT/8841Pw/ZoHNf7EChp8M5hnn1sU2nP6XMOH2f9/m62+1
+        /Q/3ytvvF4ierfl/5akJ/5ee6P2/8FjX/3lHO4CGZP2ffqjpf9pSj/+KNQzXZQoZOEGWYQVO0xX/2k+U
+        /mvfL/rXupv/b9x8q//TDjb8T1rs9l+uhuGiSi4DO1QpcUC7mfF1/ELn//JVDGe06hnYoMLEA/lKhtdy
+        1cz/GeoZWKBCQMDAAAD3/h8McEqOrgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton_line_break_tools.Text" xml:space="preserve">
+    <value>ادوات السطور</value>
+  </data>
+  <data name="toolStripButton8.ToolTipText" xml:space="preserve">
+    <value>غيّر الخط باستخدام نافذة الحوار</value>
+  </data>
+  <data name="ComboBox_font.ToolTipText" xml:space="preserve">
+    <value>اسم الخط</value>
+  </data>
+  <data name="toolStripTextBox_fontSize.ToolTipText" xml:space="preserve">
+    <value>حجم الخط</value>
+  </data>
+  <data name="toolStripButton_bold.ToolTipText" xml:space="preserve">
+    <value>بولد</value>
+  </data>
+  <data name="toolStripButton_italic.ToolTipText" xml:space="preserve">
+    <value>إيتاليك</value>
+  </data>
+  <data name="toolStripButton_underline.ToolTipText" xml:space="preserve">
+    <value>أندر لاين</value>
+  </data>
+  <data name="toolStripButton_strikeout.ToolTipText" xml:space="preserve">
+    <value>سترايك أوت</value>
+  </data>
+  <data name="toolStripButton_leftAlign.ToolTipText" xml:space="preserve">
+    <value>موضع يساري</value>
+  </data>
+  <data name="toolStripButton_centerAlign.ToolTipText" xml:space="preserve">
+    <value>موضع متوسط</value>
+  </data>
+  <data name="toolStripButton_rightAlign.ToolTipText" xml:space="preserve">
+    <value>موضع يميني</value>
+  </data>
+  <data name="toolStripButton9.ToolTipText" xml:space="preserve">
+    <value>اللون</value>
+  </data>
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJdSURBVDhPjZDtS1NxFMeD/gIhElesJ6Ihoj0YpgjrQUTD
+        RJNZEzWnbA1Lm6ltjXKtNb06tbnU7Va6Upm1CKxIogVFoASuN9Vsm1t3u3twtuh9EX27d9431bJ94Lz4
+        fc/5nfM9Z92ftE8H0Gqj0WwNQGr+8JmTU6fFFn7YO0ND9SCGOktYzsmpIyW9aLBQE6cn4qgaCRdwcmo0
+        3qZRZ/z4WkxGNpwYjqCsj+7gUv+nYXy5X25eRJX+bV/F5XmheJhGcTc1yaXXpnZsJUdicuO4duEQ+1a8
+        lN6tv9eLIzrfm0TBWtSYI6MiE41KvQvHjLF0xasmq3GBgGFeh8qbWojsovUlg+LI4aGA8qCRdhT0M2Gg
+        7fk9QRnX4nean58aIOauYNY3g0vPOlGs0Xw/OhqGZDKGQgON2vEozt1fQTUZRs7VT8mb1Ngq+9SzbTDO
+        zUJ0KwrpVAwHCJpgc7k6ipBYozhpiSBT7VMmPiRDOCT8dv7xC9TfiSFPM/2zsCeYxurZXRQpYVyUm4LY
+        qfIld1A6KIwI9fnIU+/BXrUGmRc1P7K1lCOri0KFKYTuJ3EIlD7wVatNk8JO3H+NclQzVqtGWLt+564L
+        S/amsShamJX4Co+TK00OcyCnmIxCZA5DoPYmdt3a7lWW9QdRaghi0xn3v/ffrfMXFQ3QIJ5+QZZ61Soz
+        cTvvrMvfNhVFLqPxpJ4irvxvmOvKyq4HoXsUR/lQCDvavRB0eFFCBKCYWEbtjRD2dS6BJ3Elb8JO3Nbh
+        JbcoPNjc6mHtOjPkbmWGzK3cKFn8ykZ643uSX/Mu7Re+2EWLIK2eSgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton3.Text" xml:space="preserve">
+    <value>حرف صغير</value>
+  </data>
+  <data name="toolStripButton3.ToolTipText" xml:space="preserve">
+    <value>حرف صغير</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKeSURBVDhPjZPrS1NxGMeD/oF8WxSkBTXIEotQgkNpYL2Q
+        dB3KlZeBTldelm4eN8SMOV2n3d1Mp/OWZ7mV0AuR0KRX9qL2oouUczvO89s5Z5dIIhLyQk9naxAF0z7w
+        e/Ncvr/f8zy/Z0+Cor4IftHG0oW9YSh18lBgQnBKG9InnbtR0BfNLO7nASMRfa6HyTitC+mrRngQqQNz
+        qZCdKTAxmfkGNJfXvUrkdK0Q2R0rvrJ+FrKUgf97QR7J4Ge0NH3ewIBIQ/vqH0Ug/94K7K/3F6ZCduaC
+        iYHsDv/asbZg7hFVAC/32gCz6zZwL743FbIzuIOFowr/2sGmZUI8YfhmeaOHB6+0UOKSvkyIFFkxpu0J
+        RxJe1triYReVHh41jHOocZSxJwUOKwP0IYUfDtxe8pWOdr3WL3TCTPAZtD9XAWbA1o/rsrZaJ9iIcjL4
+        3TYXh97ZGNyfjoB8eDWaFPgXibuE1MzcgaklN1AfhoW+iLYVT6OZCje32WRY3Ha8WAOVJw7ysWj6HmFW
+        bGP8/SC43jrgpEL0o8HNB27Z0YZ8BM32TH+BZncMalxpBC6ZMA7T5cFZTU4iGS53d2+1e1mQDYXe1Y5G
+        1GpvHFonY1Dl5IhUSnoaqc+5zRMc1A2GNmuGeHH1UIRoEW5vpqJw07GLgJz6mlE3woc7vWGo7g1M4V5I
+        jrX8IQetgsh1GxpIBqajdozXqykGygxL61LL8nyFcCTGj/P1zhCoH8fgqgWl/+oyFy9TUcLT+2moMn46
+        kTInuWYJg0YQKDUiX8r0BznFZCTrFGqsvLvws9wc9FSaQ/sSPomwM7g5TNQ5OdBOxaHCzkIxyfw9Cekg
+        L5MK61wh1HnDjkAirDduZXITPrEZDYiNCEoMCK6Qv08xiQZ+AaGafUsJh3c8AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>حرف كبير</value>
+  </data>
+  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
+    <value>حرف كبير</value>
+  </data>
+  <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="copyToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>نسخ النص المختار</value>
+  </data>
+  <data name="cutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>قص</value>
+  </data>
+  <data name="cutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>قص النص المختار</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="pasteToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 6</value>
+  </data>
+  <data name="fontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="fontToolStripMenuItem.Text" xml:space="preserve">
+    <value>الخط</value>
+  </data>
+  <data name="fontToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>تغيير الخط</value>
+  </data>
+  <data name="colorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="colorToolStripMenuItem.Text" xml:space="preserve">
+    <value>اللون</value>
+  </data>
+  <data name="colorToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>تغيير الخط للنص المختار</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 6</value>
+  </data>
+  <data name="leftToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="leftToolStripMenuItem.Text" xml:space="preserve">
+    <value>يسار</value>
+  </data>
+  <data name="centerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="centerToolStripMenuItem.Text" xml:space="preserve">
+    <value>منتصف</value>
+  </data>
+  <data name="rightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="rightToolStripMenuItem.Text" xml:space="preserve">
+    <value>يمين</value>
+  </data>
+  <data name="alignementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="alignementToolStripMenuItem.Text" xml:space="preserve">
+    <value>التموضع</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 6</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>اختيار الكل</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 176</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>591, 183</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALaSURBVDhPjc5bLNthGAbwjmSZbMmyRMIwzMWyBEPSDYvF
+        VpvoZiahDJleNAgjZg41MxVT1VGtVWealAs7ZCKYddhmTmGmQlutHrRNW6c6lFVFqzHemf2XTWLsd/Nd
+        vM/z5UH95lKnPhLxQkN7OrC4+GrEYMzmTov8KdJE5Px//GtUuczR5RXWV/0Chi6rdcr4YoOcDna2WOJH
+        bJ8VnisQZ4bWKOuDK+T1zvfEGDRNVeRPU1F9KSqqV76MjMR3s8sUHE1unvr4c753jjDyUdN0b0y1gmuf
+        yMcFVGq0CU06CGVoDY4EYRlS2c2/cDyd0jmvT2ErP8SVS1rYn+f0+CrZu9MJI6nYau1KIFU5EERVKWwj
+        eD5I5Q+39FEsqU23HFYieXYssNvWxq/TEVcqakniqLWXaHKND1FWeSqeH4UhKWY5zKQC2cvboHhLBgEn
+        GAQs93hUUesMl9kzJ8NXTZShSCQr1+j+4FS2pjeNIdgKZagNvkRpxIWc8SxSdfW6rosIhjEuwOoMfBtr
+        hL4nIXOohgaw3pkCcGjnxTVYOyeJCIFVGktIiXziYraER2KwDQuiQrBMtYKupwxMoib4rukHPj3RvNP5
+        m12UwOMqWaH0SBtrPHGD59FRGxQr787f2jT1g0mVCku8NJDWE0DAjtYPMcPPILVtJLA6GcMP97wr7Aor
+        V4FD5PB9ZZMLdln0ADbNg7CmxIN5Mg6MkjxQswLm+PRr3kjzFxxJfPhy4cTr66XK8Zvb09Myspp1w0Sk
+        HA9mbSysiB+CkokxSivOo5Ha3t4X20dIOlIsm6Y+MKsJsD55BwzbS8SsIJOU7uuKxPbGSXYijLflgbCd
+        AdNDOFhTx8GSIBckjMB5eQXaDYn9WwM1CMCoARk7ErryHGDgORa6i9AzAjLaA4ns7zHeZcMyWAWWoUoY
+        Il+BOrzTagfR3Qs5H+yW13EzZfuTN6XYjU80TC8313Of2SjUD9q1jD9AmRQuAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>تحرير الانماط</value>
+  </data>
+  <data name="toolStripButton6.ToolTipText" xml:space="preserve">
+    <value>وضع  النمط الاول
+(Alt+1)</value>
+  </data>
+  <data name="toolStripButton7.ToolTipText" xml:space="preserve">
+    <value>وضع النمط الثاني
+(Alt+2)</value>
+  </data>
+  <data name="toolStripButton10.ToolTipText" xml:space="preserve">
+    <value>وضع النمط الثالث
+(Alt+3)</value>
+  </data>
+  <data name="toolStripButton11.ToolTipText" xml:space="preserve">
+    <value>وضع النمط الرابع
+(Alt+4)</value>
+  </data>
+  <data name="toolStripButton12.ToolTipText" xml:space="preserve">
+    <value>وضع النمط الخامس
+(Alt+5)</value>
+  </data>
+  <data name="toolStripButton13.ToolTipText" xml:space="preserve">
+    <value>وضع النمط السادس
+(Alt+6)</value>
+  </data>
+  <data name="toolStripButton14.ToolTipText" xml:space="preserve">
+    <value>وضع النمط السابع
+(Alt+7)</value>
+  </data>
+  <data name="toolStripButton15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJLSURBVDhPYxicwL79uoNz141Wj95bU5w7b/bbt9yY4NBy
+        fZZl0aUuq6QjvAwM/xmhSrED25brwRnLHt2buOfl//5dz/93b3/+P2n+/d8Odde2Gaed4YIqww3M6i/K
+        hE29vSt72cNPRUtvfM1f8vC7XfnlGfbx+zmgSvAD6/Ir5fnLHn13bb+11rHm6oKmdU/+W+WcmwmVxg9M
+        Ci4pJc+89yh68u37xlnnQkwzzzfUrHwENODCUqgS3CA0dBWzU/21VVkTLnw3STubBvKvUeKZjsplD//H
+        z3f8nTrf8D9UKXZgknk+Jnn2lW8B3bcuGsad8jOIPqFlnn52QRXQgKQ+23+Nm6P+h8/QwG6IQeI5UaCz
+        X1Uuf/Tfo+nG5fyltv9zJlv+S59k+i9prtH/mvWh/1ednvi/ZLX/f9d+8d8M/xmQo/I/o13Jpdkgv5qm
+        ngYHVvZi8/8bzk37v/bsFLDGFacn/J+wp+T/wuNd/zOWuv1Xa2eHGALyp0HsKZfSJQ//h/fceqMbfMQW
+        ZEAy0L8gzX278v937sj+37ot7X/D5sT/TVvT/8841Pw/ZoHNf7EChp8M5hnn1sU2nP6XMOH2f9/m62+1
+        /Q/3ytvvF4ierfl/5akJ/5ee6P2/8FjX/3lHO4CGZP2ffqjpf9pSj/+KNQzXZQoZOEGWYQVO0xX/2k+U
+        /mvfL/rXupv/b9x8q//TDjb8T1rs9l+uhuGiSi4DO1QpcUC7mfF1/ELn//JVDGe06hnYoMLEA/lKhtdy
+        1cz/GeoZWKBCQMDAAAD3/h8McEqOrgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton15.ToolTipText" xml:space="preserve">
+    <value>وضع السطور الجديد مستخدما الاعدادات المجاورة
+(ALT+B)</value>
+  </data>
+  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 22</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>النمط</value>
+  </data>
+  <data name="toolStripComboBox_line_break_mode.Items" xml:space="preserve">
+    <value>الحرف الكبير</value>
+  </data>
+  <data name="toolStripComboBox_line_break_mode.Items1" xml:space="preserve">
+    <value>عدد محدد للاحرف كل سطر</value>
+  </data>
+  <data name="toolStripComboBox_line_break_mode.Items2" xml:space="preserve">
+    <value>علامات الترقيم</value>
+  </data>
+  <data name="toolStripComboBox_line_break_mode.Items3" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="toolStripLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 22</value>
+  </data>
+  <data name="toolStripLabel2.Text" xml:space="preserve">
+    <value>عدد الاحرف</value>
+  </data>
+  <data name="toolStripTextBox_brk_chars_limit.ToolTipText" xml:space="preserve">
+    <value>ادخل هنا رجاءا عدد الاحرف الذي يجب تحديده لكل سطر
+اقصى قيمة = 100</value>
+  </data>
+  <data name="toolStripLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 22</value>
+  </data>
+  <data name="toolStripLabel3.Text" xml:space="preserve">
+    <value>علامات الترقيم</value>
+  </data>
+  <data name="toolStripTextBox_punctuation.ToolTipText" xml:space="preserve">
+    <value>ادخل هنا رجاءا علامات الترقيم التي يجب للبرنامج وضع سطر بعدها
+الرجاء الفصل بين كل علامة ترقيم بفراغ</value>
+  </data>
+</root>
