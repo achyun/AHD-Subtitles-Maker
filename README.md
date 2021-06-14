@@ -5,7 +5,7 @@ A program that create and edit subtitles with no scripts !
 **Please note that this is the official repository of the program, that means official updates on source and releases will be commited/published here.**
 
 ### [Download Latest Release](https://github.com/alaahadid/AHD-Subtitles-Maker/releases)
-### [New to ASM ? Getting Started (Workflow Of ASM)](https://github.com/alaahadid/AHD-Subtitles-Maker/wiki/Getting-Started-(Workflow-Of-ASM))
+### [New to ASM ? Getting Started (Workflow And Tutorials)](https://github.com/alaahadid/AHD-Subtitles-Maker/wiki/Workflow-And-Tutorials)
 
 
 ## Introduction
