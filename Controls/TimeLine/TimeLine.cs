@@ -215,9 +215,10 @@ namespace AHD.SM.Controls
             if (timeLine_Panel1.ShowWaveForm)
                 timeLine_Panel1.CalculateWaveFormBuffers();
         }
-        void UpdateViewport()
+        void UpdateViewport(bool scrollToCurrentTime = true)
         {
             isZooming = true;
+            UpdateZoomingMax();
             MilliPixel = trackBar_zoom.Maximum - trackBar_zoom.Value;
             if (MilliPixel < 5)
                 MilliPixel = 5;
@@ -230,10 +231,12 @@ namespace AHD.SM.Controls
 
             numericUpDown1.Maximum = trackBar_zoom.Maximum;
             numericUpDown1.Value = MilliPixel;
-
             UpdateHScroll();
+            if (scrollToCurrentTime)
+            {
+                ScrollToCurrentTime();
+            }
 
-            ScrollToCurrentTime();
 
             timelineZoomingView1.SetParameters(MilliPixel, TimeSpace,
               timeLine_Panel1.Width, (int)((timeLine_Panel1.MediaObjectDuration * 1000) / MilliPixel));
@@ -369,50 +372,7 @@ namespace AHD.SM.Controls
                 //in case we have no media :
                 if (value != null)
                 {
-                    if (value.Subtitles.Count > 0)
-                    {
-                        double trackDuration = value.Subtitles[value.Subtitles.Count - 1].EndTime;
-                        if (!hasMedia)
-                        {
-                            if (mediaDuration != trackDuration && trackDuration >= 10)
-                            {
-                                mediaDuration = trackDuration;
-                                trackBar_zoom.Maximum = (int)((mediaDuration * 1000) + 10000) / timeLine_Panel1.Width;
-                                trackBar_zoom.Value = 5;
-                                UpdateViewport();
-                                hScrollBar1.Value = 0;
-                                ViewPortOffset = 0;
-                                //update scroll values
-                                timeLine_TicksPanel1.ViewPortOffset = 0;
-                                //timeLine_TicksPanel1.Invalidate();
-                                timeLine_Panel1._mediaObjectDuration = 0;
-                                timeLine_Panel1.ViewPortOffset = 0;
-                                //timeLine_Panel1.Invalidate();
-                            }
-                        }
-                        else
-                        {
-                            if (timeLine_Panel1.MediaObjectDuration < trackDuration)
-                            {
-                                mediaDuration = trackDuration;
-                                trackBar_zoom.Maximum = (int)((mediaDuration * 1000) + 10000) / timeLine_Panel1.Width;
-                                trackBar_zoom.Value = 5;
-                                UpdateViewport();
-                                hScrollBar1.Value = 0;
-                                ViewPortOffset = 0;
-                                //update scroll values
-                                timeLine_TicksPanel1.ViewPortOffset = 0;
-                                //timeLine_TicksPanel1.Invalidate();
-                                timeLine_Panel1._mediaObjectDuration = 0;
-                                timeLine_Panel1.ViewPortOffset = 0;
-                                //timeLine_Panel1.Invalidate();
-                            }
-                            else
-                            {
-                                MediaDuration = timeLine_Panel1.MediaObjectDuration;
-                            }
-                        }
-                    }
+                    UpdateZoomingMax();
                 }
 
                 //timeLine_Panel1.Invalidate();
@@ -486,7 +446,7 @@ namespace AHD.SM.Controls
                 }
                 trackBar_zoom.Maximum = (int)((mediaDuration * 1000) + 10000) / timeLine_Panel1.Width;
 
-                trackBar_zoom.Value = 5;
+                /*trackBar_zoom.Value = 5;
                 trackBar_zoom_Scroll(this, new EventArgs());
                 hScrollBar1.Value = 0;
                 ViewPortOffset = 0;
@@ -495,7 +455,7 @@ namespace AHD.SM.Controls
                 //timeLine_TicksPanel1.Invalidate();
 
                 timeLine_Panel1.ViewPortOffset = 0;
-                //timeLine_Panel1.Invalidate();
+                //timeLine_Panel1.Invalidate();*/
             }
         }
 
@@ -507,6 +467,37 @@ namespace AHD.SM.Controls
         public void UpdateSubtitlesReview()
         {
             timelineZoomingView1.RefreshTrack();
+        }
+        public void UpdateZoomingMax()
+        {
+            if (timeLine_Panel1 == null)
+                return;
+            if (timeLine_Panel1.SubtitlesTrack == null)
+                return;
+            if (timeLine_Panel1.SubtitlesTrack.Subtitles.Count > 0)
+            {
+                double trackDuration = timeLine_Panel1.SubtitlesTrack.Subtitles[timeLine_Panel1.SubtitlesTrack.Subtitles.Count - 1].EndTime;
+                if (!hasMedia)
+                {
+                    if (mediaDuration != trackDuration && trackDuration >= 10)
+                    {
+                        mediaDuration = trackDuration;
+                        trackBar_zoom.Maximum = (int)((mediaDuration * 1000) + 10000) / timeLine_Panel1.Width;
+                    }
+                }
+                else
+                {
+                    if (timeLine_Panel1.MediaObjectDuration < trackDuration)
+                    {
+                        mediaDuration = trackDuration;
+                        trackBar_zoom.Maximum = (int)((mediaDuration * 1000) + 10000) / timeLine_Panel1.Width;
+                    }
+                    else
+                    {
+                        MediaDuration = timeLine_Panel1.MediaObjectDuration;
+                    }
+                }
+            }
         }
         /// <summary>
         /// Refresh all marks on the list
@@ -632,7 +623,7 @@ namespace AHD.SM.Controls
         }
         private void trackBar_zoom_Scroll(object sender, EventArgs e)
         {
-            UpdateViewport();
+            UpdateViewport(false);
         }
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
@@ -726,6 +717,8 @@ namespace AHD.SM.Controls
             for (int i = 0; i < SubtitlesTrack.Subtitles.Count; i++)
                 if (timeLine_Panel1.IsSelectedSubtitle(SubtitlesTrack.Subtitles[i]))
                     timelineZoomingView1.OnSubtitlePropertiesChanged(SubtitlesTrack.Subtitles[i], i, true);
+
+            UpdateViewport(false);
         }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -966,7 +959,7 @@ namespace AHD.SM.Controls
         private void timelineZoomingView1_ViewPortXChangeRequest(object sender, ViewPortCoordinateChangeArgs e)
         {
             ViewPortOffset = e.NewValue;
-            if (e.NewValue < hScrollBar1.Maximum)
+            if (e.NewValue < hScrollBar1.Maximum && e.NewValue >= 0)
                 hScrollBar1.Value = e.NewValue;
 
             //ViewPortOffset = hScrollBar1.Value = e.NewValue;
@@ -1031,13 +1024,13 @@ namespace AHD.SM.Controls
         }
         private void timeLine_Panel1_Resize(object sender, EventArgs e)
         {
-            int old = trackBar_zoom.Value;
+            /*int old = trackBar_zoom.Value;
             trackBar_zoom.Maximum = (int)((mediaDuration * 1000) + 10000) / timeLine_Panel1.Width;
             //trackBar_zoom.Value = 5;
             if (old < trackBar_zoom.Maximum)
-                trackBar_zoom.Value = old;
+                trackBar_zoom.Value = old;*/
 
-            UpdateViewport();
+            UpdateViewport(false);
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1069,7 +1062,7 @@ namespace AHD.SM.Controls
             {
                 trackBar_zoom.Value = trackBar_zoom.Maximum;
             }
-            UpdateViewport();
+            UpdateViewport(false);
         }
         private void timeLine_Panel1_MoreScroll(object sender, EventArgs e)
         {
@@ -1104,7 +1097,7 @@ namespace AHD.SM.Controls
             {
                 trackBar_zoom.Value = trackBar_zoom.Minimum;
             }
-            UpdateViewport();
+            UpdateViewport(false);
         }
         private void timeLine_Panel1_LessScroll(object sender, EventArgs e)
         {

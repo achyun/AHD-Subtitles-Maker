@@ -152,31 +152,13 @@
 جميع الحقوق محفوظة © علاء ابراهيم حديد 2009 - 2021</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 663</value>
+    <value>540, 532</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 40</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>إ&amp;غلاق</value>
-  </data>
-  <data name="linkLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>501, 529</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 476</value>
-  </data>
-  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>375, 53</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>تحميل، بحث و ترفيع الترجمة من\إلى OpenSubtitles.org مقواة من OpenSubtitles.org</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 459</value>
   </data>
   <data name="linkLabel4.Location" type="System.Drawing.Point, System.Drawing">
     <value>249, 400</value>
@@ -195,12 +177,6 @@
   </data>
   <data name="linkLabel7.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 663</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>التحقق من ال&amp;تحديثات</value>
   </data>
   <data name="linkLabel8.Location" type="System.Drawing.Point, System.Drawing">
     <value>481, 400</value>
@@ -235,16 +211,10 @@
     <value>برنامج ينشئ و يعدل العنواين الثانوية</value>
   </data>
   <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>444, 197</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 663</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>التبرع</value>
+    <value>374, 204</value>
   </data>
   <data name="linkLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 581</value>
+    <value>264, 450</value>
   </data>
   <data name="linkLabel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -254,7 +224,7 @@
 https://github.com/alaahadid/AHD-Subtitles-Maker</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>726, 717</value>
+    <value>726, 613</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1831,7 +1801,7 @@ https://github.com/alaahadid/AHD-Subtitles-Maker</value>
 </value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>حول AHD Subtitles Maker</value>

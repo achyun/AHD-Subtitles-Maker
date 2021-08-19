@@ -60,7 +60,6 @@ namespace AHD.SM
             this.label6 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.numericUpDown_playerTimer = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_AskToDownloadFromOS = new System.Windows.Forms.CheckBox();
             this.checkBox_auto_generate_wave = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -78,6 +77,7 @@ namespace AHD.SM
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
+            this.toolTip1.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
             // 
             // numericUpDown_NewSubtitleDuration
             // 
@@ -100,6 +100,7 @@ namespace AHD.SM
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
+            this.toolTip1.SetToolTip(this.label2, resources.GetString("label2.ToolTip"));
             // 
             // numericUpDown_ShiftTime
             // 
@@ -116,16 +117,19 @@ namespace AHD.SM
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
+            this.toolTip1.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
+            this.toolTip1.SetToolTip(this.label5, resources.GetString("label5.ToolTip"));
             // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
+            this.toolTip1.SetToolTip(this.label6, resources.GetString("label6.ToolTip"));
             // 
             // numericUpDown_playerTimer
             // 
@@ -148,13 +152,6 @@ namespace AHD.SM
             0,
             0});
             // 
-            // checkBox_AskToDownloadFromOS
-            // 
-            resources.ApplyResources(this.checkBox_AskToDownloadFromOS, "checkBox_AskToDownloadFromOS");
-            this.checkBox_AskToDownloadFromOS.Name = "checkBox_AskToDownloadFromOS";
-            this.toolTip1.SetToolTip(this.checkBox_AskToDownloadFromOS, resources.GetString("checkBox_AskToDownloadFromOS.ToolTip"));
-            this.checkBox_AskToDownloadFromOS.UseVisualStyleBackColor = true;
-            // 
             // checkBox_auto_generate_wave
             // 
             resources.ApplyResources(this.checkBox_auto_generate_wave, "checkBox_auto_generate_wave");
@@ -166,33 +163,39 @@ namespace AHD.SM
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
+            this.toolTip1.SetToolTip(this.label4, resources.GetString("label4.ToolTip"));
             // 
             // label8
             // 
             resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
+            this.toolTip1.SetToolTip(this.label8, resources.GetString("label8.ToolTip"));
             // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
+            this.toolTip1.SetToolTip(this.label7, resources.GetString("label7.ToolTip"));
             // 
             // checkBox_wanrMeWhenMKVLoaded
             // 
             resources.ApplyResources(this.checkBox_wanrMeWhenMKVLoaded, "checkBox_wanrMeWhenMKVLoaded");
             this.checkBox_wanrMeWhenMKVLoaded.Name = "checkBox_wanrMeWhenMKVLoaded";
+            this.toolTip1.SetToolTip(this.checkBox_wanrMeWhenMKVLoaded, resources.GetString("checkBox_wanrMeWhenMKVLoaded.ToolTip"));
             this.checkBox_wanrMeWhenMKVLoaded.UseVisualStyleBackColor = true;
             // 
             // checkBox_warnWhenID3Detected
             // 
             resources.ApplyResources(this.checkBox_warnWhenID3Detected, "checkBox_warnWhenID3Detected");
             this.checkBox_warnWhenID3Detected.Name = "checkBox_warnWhenID3Detected";
+            this.toolTip1.SetToolTip(this.checkBox_warnWhenID3Detected, resources.GetString("checkBox_warnWhenID3Detected.ToolTip"));
             this.checkBox_warnWhenID3Detected.UseVisualStyleBackColor = true;
             // 
             // checkBox_scrollTimeLine
             // 
             resources.ApplyResources(this.checkBox_scrollTimeLine, "checkBox_scrollTimeLine");
             this.checkBox_scrollTimeLine.Name = "checkBox_scrollTimeLine";
+            this.toolTip1.SetToolTip(this.checkBox_scrollTimeLine, resources.GetString("checkBox_scrollTimeLine.ToolTip"));
             this.checkBox_scrollTimeLine.UseVisualStyleBackColor = true;
             // 
             // sc_PlayBack
@@ -201,7 +204,6 @@ namespace AHD.SM
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.checkBox_auto_generate_wave);
             this.Controls.Add(this.checkBox_scrollTimeLine);
-            this.Controls.Add(this.checkBox_AskToDownloadFromOS);
             this.Controls.Add(this.checkBox_wanrMeWhenMKVLoaded);
             this.Controls.Add(this.checkBox_warnWhenID3Detected);
             this.Controls.Add(this.label7);
@@ -217,6 +219,7 @@ namespace AHD.SM
             this.Controls.Add(this.numericUpDown_NewSubtitleDuration);
             this.Controls.Add(this.label1);
             this.Name = "sc_PlayBack";
+            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_NewSubtitleDuration)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AdvanceTime)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_ShiftTime)).EndInit();
@@ -243,7 +246,6 @@ namespace AHD.SM
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox checkBox_wanrMeWhenMKVLoaded;
         private System.Windows.Forms.CheckBox checkBox_warnWhenID3Detected;
-        private System.Windows.Forms.CheckBox checkBox_AskToDownloadFromOS;
         private System.Windows.Forms.CheckBox checkBox_scrollTimeLine;
         private System.Windows.Forms.CheckBox checkBox_auto_generate_wave;
     }

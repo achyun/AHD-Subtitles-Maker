@@ -1,9 +1,9 @@
 ## Changelog
 
-Version 5.23.7818.13246
+Version 5.24.7901.42251
 
-Built at 28 May, 2021 07:21
+Built at 19 August, 2021 23:28
 
-- Updated: copyright information and links.
-- Removed: Rip from MKV and VOB subtitle features.
-- Removed: ability to auto detect encoding.
+- Fixed: reseting view port settings when resizing and/or editing subtitles.
+- Fixed: bug when scrolling timeline control to a value less than 0.
+- Removed: ability to download/upload subtitles from/into OpenSubtitles.org. 

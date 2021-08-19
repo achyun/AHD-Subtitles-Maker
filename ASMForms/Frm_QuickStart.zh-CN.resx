@@ -142,12 +142,6 @@
   <data name="label5.Text" xml:space="preserve">
     <value>导入字幕格式文件并直接启动新的项目</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>从 Opensubtitles.org 数据库搜索字幕, 用直接下载文件的方式下载并开始.</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>从 Matroska 媒体文件 (.mkv) 抓取字幕然后直接从抓取的字幕开始操作.</value>
-  </data>
   <data name="label8.Text" xml:space="preserve">
     <value>检查最新更新, 访问 AHD Subtitles Maker 官网以获得最新的更新和新闻.</value>
   </data>

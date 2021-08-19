@@ -28,15 +28,12 @@ The beauty of this extensive list of formats is that it is classified by tool, n
 
 AHD Subtitles Maker can get and save the ID3 tags (Synchronized Lyric). you can extract Synchronized Lyric to your project as subtitles track, work with it, and export it to another format as well. Also you can add a subtitles track as an ID3 tags (Synchronized Lyric) item and SAVE IT DIRECTLY INTO MP3 MEDIA FILE.
 
-Also, you can rip subtitles from Matroska files (.mkv) using AHD Subtitles Maker, with auto rip technology, rip mkv subtitle pictures (sub-pictures or Vobsub) in minutes !
-
 ## Features
 - Create the most common text-based subtitle formats in minutes without writing scripts !!.
 - Ability to generate and show WaveForm of loaded media to line subtitles perfectly with media audio.
 - Include AHD Customized Subtitles format, which allows to export and import user customized subtitles formats.
 - Edit subtitles using the mouse !! don't enter numbers if you want and edit subtitle timings using the TimeLine control.
 - Get access to mp3's ID3 Tag (Synchronized Lyrics) frames and manage them, load them to your project and save them to the same mp3 file.
-- OpenSubtitles.org integration, ability to search, download and upload subtitles from/to OpenSubtitles.org.
 - Use multi-tracks projects by storing subtitles data in subtitle tracks.
 - Use the time format (Second, Millisecond) to guarantee the most accuracy.
 - Translate subtitles using Google Translate® service.
@@ -44,7 +41,6 @@ Also, you can rip subtitles from Matroska files (.mkv) using AHD Subtitles Maker
 - Supports all encoding that installed Windows® version may support.
 - Convert between formats by importing them to your project, then export them to your desired format. Also convert using AHD Subtitles Convertor
 - Convert subtitle formats and any text file encoding easily using AHD Encoding Converter tool.
-- Download/Upload subtitle files directly into the internet using AHD Subtitles Downloader tool.
 - Synchronize subtitle timings using the synchronization tool inside the program or stand alone program "Synchronization Tool "
 - Use your system's media codecs to be playable for any media kind (Audio and Video) available.
 - Editable user-interface layout with save and load.
@@ -76,7 +72,6 @@ Please make sure your pc meet these requirements to ensure the program work corr
   
   Also, VLC media player with ASM may play not smoothly. This is normal, since ASM uses milliseconds while VLC uses frames for playback. 
   This won't effect accuracy (in adding subtitles, editing ...etc) though.
-- Subtitles search, download and upload to/from OpenSubittles.org service is powered by OpenSubtitles.org. Please register an account in OpenSubtitles.org before using AHD Subtitles Maker if you don't have one. To register a new OpenSubtitles.org account, please follow this link <https://www.opensubtitles.org/en/newuser> 
 - Generating wave files from media files is powered by ffmpeg. See "ffmpeg readme.txt" and "Copyright Notices - Credits.txt" files for more details.
 - When generating WaveForm for a file, a new file under extension .wfpd will be added next to the media file, with the same name. 
 - If the media file is edited (edited audio and/or video) please delete .wfpd file (if presented) to regenerate the wave form data again.

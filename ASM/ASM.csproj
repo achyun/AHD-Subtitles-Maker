@@ -61,12 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\FormLogIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormLogIn.Designer.cs">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\SettingControls\sc_Subtitle.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -159,24 +153,6 @@
     <Compile Include="Types\LayoutPresent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\FormLogIn.ar-SY.resx">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormLogIn.de-DE.resx">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormLogIn.pt-BR.resx">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormLogIn.pt-PT.resx">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormLogIn.resx">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormLogIn.zh-CN.resx">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Frm_FirstRun.zh-CN.resx">
       <DependentUpon>Frm_FirstRun.cs</DependentUpon>
     </EmbeddedResource>

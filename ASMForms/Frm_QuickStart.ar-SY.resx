@@ -158,18 +158,6 @@
   <data name="label5.Text" xml:space="preserve">
     <value>إستورد ملفاً للترجمة و إبدأ العمل مباشرةً</value>
   </data>
-  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>إبحث عن ملف ترجمة في OpenSubtitles.org ثم حمل ملف الترجمة وإبدأ العمل مع ذلك الملف مباشرةً</value>
-  </data>
-  <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value> إستورد الترجمة من ملفات الماتروسكا (.mkv) و ابدأ مشروعاً جديداً مع الترجمة المستوردة.</value>
-  </data>
   <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>

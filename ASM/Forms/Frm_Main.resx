@@ -171,7 +171,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_media.Size" type="System.Drawing.Size, System.Drawing">
-    <value>710, 878</value>
+    <value>709, 876</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tabPage_media.TabIndex" type="System.Int32, mscorlib">
@@ -202,7 +202,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabControl_top_left.Size" type="System.Drawing.Size, System.Drawing">
-    <value>718, 911</value>
+    <value>717, 909</value>
   </data>
   <data name="tabControl_top_left.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -241,7 +241,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_subitltesData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>868, 878</value>
+    <value>867, 876</value>
   </data>
   <data name="tabPage_subitltesData.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -271,7 +271,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabControl_top_middle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>876, 911</value>
+    <value>875, 909</value>
   </data>
   <data name="tabControl_top_middle.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -301,10 +301,10 @@
     <value>1</value>
   </data>
   <data name="splitContainer4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1600, 911</value>
+    <value>1598, 909</value>
   </data>
   <data name="splitContainer4.SplitterDistance" type="System.Int32, mscorlib">
-    <value>718</value>
+    <value>717</value>
   </data>
   <data name="splitContainer4.SplitterWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -355,7 +355,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_TimeLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>716, 125</value>
+    <value>715, 127</value>
   </data>
   <data name="tabPage_TimeLine.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -385,7 +385,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_errors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>716, 125</value>
+    <value>715, 127</value>
   </data>
   <data name="tabPage_errors.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -477,7 +477,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="richTextBox_Log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>708, 115</value>
+    <value>707, 117</value>
   </data>
   <data name="richTextBox_Log.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -507,7 +507,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>716, 125</value>
+    <value>715, 127</value>
   </data>
   <data name="tabPage_log.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -537,7 +537,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabControl_down_left.Size" type="System.Drawing.Size, System.Drawing">
-    <value>724, 158</value>
+    <value>723, 160</value>
   </data>
   <data name="tabControl_down_left.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -576,7 +576,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_multipleSubtitleTrackViewer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>862, 125</value>
+    <value>861, 127</value>
   </data>
   <data name="tabPage_multipleSubtitleTrackViewer.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -606,7 +606,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabControl_down_middle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>870, 158</value>
+    <value>869, 160</value>
   </data>
   <data name="tabControl_down_middle.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -636,10 +636,10 @@
     <value>1</value>
   </data>
   <data name="splitContainer5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1600, 158</value>
+    <value>1598, 160</value>
   </data>
   <data name="splitContainer5.SplitterDistance" type="System.Int32, mscorlib">
-    <value>724</value>
+    <value>723</value>
   </data>
   <data name="splitContainer5.SplitterWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -672,10 +672,10 @@
     <value>1</value>
   </data>
   <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1600, 1075</value>
+    <value>1598, 1075</value>
   </data>
   <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
-    <value>911</value>
+    <value>909</value>
   </data>
   <data name="splitContainer3.SplitterWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -921,7 +921,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="treeView_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 814</value>
+    <value>332, 812</value>
   </data>
   <data name="treeView_subtitleTracks.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -973,16 +973,16 @@
   <data name="toolStripButton29.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIASURBVDhPnZFda9NQGMeLIAS/gkhAveniLDLxZpoQwW2W
-        qWW6Lm22xL7YbXV92VpSstVWvVDwk/h1lHolWMYuhg6na7ekTZP8PSdLV0ZbRH9w4Eme/P45zzmBfwWZ
-        zCW/HMYtlVhX0zj/cYiukuY6slwwonHefzWAyqhsw9V0uMXiUEhXUbhOIo3uWhZHkacfW+FI0G8NZNTe
-        wCXL2Syjm82ehXiymkQvVwCqNdD6cPZhAfX6Be8DUjB70Zjjbr8C3n+Ao1fRW98A3bInKwlYG3mA9E01
-        gS/cTRtTUxc9uQ/UOrP7Mm875Qrw9h3skoZOMg1z5TmsbA7Qd7y6MTFpNwWB8bXzQFWZb6mM3csVyTiv
-        gZ0aEatARYe5rBD5xni5Dw35Ktx3oJNxZAWQZKCsoSEIzl9lSltSOFNeAchtIBoDni0BxS38npnDz+np
-        sVfs0ZYkzogvw0qvAltlIpaAPBmHHKC5uITDewL2Q6HRIZ4ck2GlMgC5RkOKk5kn7E93eef4UQRYXcPJ
-        4wgObt/BfjB4PsSTyaxW8gX56yYMsnUq05nponXrwSyQTOF4LozvkyHsXrk2CGkvLIgnUQlWIgVjUTqT
-        /XagyZ6GHAkijPA8foRuYe8yK/rtU37NhMXW/BN85kefdpNlmcbV6/ZIuc8Bz4uj5D40ZKz8fwQCfwDl
-        70bJWZrlrQAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIASURBVDhPnZFda9NQGMeLIAS/gkhAvWnjKDLxZpqQC7dZ
+        ppZpu6zZEvtiN7v1ZWtJyVZb9ULBT+LHUeyVIPXlYuhwunZL2jTJ33OydGW0RfQHB57kye+f85wT+FeQ
+        zV7wy1Hccpl1NY3zH0foKRmuK8tFI57g/VdDqIzqDlxNh1sqjYT0FIXrJjPoredwGH34th2JBv3WUEb9
+        BVyynK0KerncaYgnqyn080WgVgetD+buFtFonPM+IAXzNSY57s4z4PUbOHoN/aeboFv2ZCUJa7MAkL6p
+        JtEMTdmYnj7vyQOgNpjPGwXbqVSBl69glzV0UxmYq49h5fKAvuvVzdA1uyUIjK+dBarKfEpn7X6+RMZ5
+        DuzWiVgDqjrMFYXI3GR5AA35KIgOdDKOrACSDFQ0fBAE568ypSMpnCmvAuQ2EF8GHi0BpW38np3Hz5mZ
+        iVfs0ZEkzkiswMqsAdsVIpaBAhmHHKAZW8LBbQF74fD4EE9elmGlswC5RkNKkJlD9rtbvHN0LwqsreP4
+        fhT7N25iLxg8G+LJZFYr9YT8dQsG2TqV6cx00bp9Zw5IpXE0H8H3qTC+XLoyDOksLorHcQlWMg0jJp3K
+        fjvQYk9CDgURRmQBP8LX8e0iK/rtE37NRsT2wgO858efdotlmeblq/ZYecA+z4vj5AE0ZKL8fwQCfwDB
+        oEa6A8Wf5QAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton29.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1042,7 +1042,7 @@ left alignment by default</value>
     <value>0, 0, 3, 0</value>
   </data>
   <data name="toolStrip_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 34</value>
+    <value>332, 34</value>
   </data>
   <data name="toolStrip_subtitleTracks.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1072,7 +1072,7 @@ left alignment by default</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 858</value>
+    <value>340, 856</value>
   </data>
   <data name="tabPage_subtitleTracks.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1102,7 +1102,7 @@ left alignment by default</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="richTextBox_description.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 836</value>
+    <value>332, 834</value>
   </data>
   <data name="richTextBox_description.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1132,7 +1132,7 @@ left alignment by default</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_ProjectDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 846</value>
+    <value>340, 844</value>
   </data>
   <data name="tabPage_ProjectDescription.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1165,7 +1165,7 @@ left alignment by default</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="listBox_history.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 836</value>
+    <value>332, 834</value>
   </data>
   <data name="listBox_history.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1192,7 +1192,7 @@ left alignment by default</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_history.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 846</value>
+    <value>340, 844</value>
   </data>
   <data name="tabPage_history.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1222,7 +1222,7 @@ left alignment by default</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabControl_top_right.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 891</value>
+    <value>348, 889</value>
   </data>
   <data name="tabControl_top_right.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1261,7 +1261,7 @@ left alignment by default</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_Properties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 145</value>
+    <value>340, 147</value>
   </data>
   <data name="tabPage_Properties.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1378,7 +1378,7 @@ use in the subtitle text.</value>
     <value>0, 0, 3, 0</value>
   </data>
   <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 34</value>
+    <value>332, 34</value>
   </data>
   <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1408,7 +1408,7 @@ use in the subtitle text.</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabPage_preparedText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 145</value>
+    <value>340, 147</value>
   </data>
   <data name="tabPage_preparedText.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1438,7 +1438,7 @@ use in the subtitle text.</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="tabControl_down_Right.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 178</value>
+    <value>348, 180</value>
   </data>
   <data name="tabControl_down_Right.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1468,10 +1468,10 @@ use in the subtitle text.</value>
     <value>1</value>
   </data>
   <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 1075</value>
+    <value>348, 1075</value>
   </data>
   <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
-    <value>891</value>
+    <value>889</value>
   </data>
   <data name="splitContainer2.SplitterWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1507,7 +1507,7 @@ use in the subtitle text.</value>
     <value>1952, 1075</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>1600</value>
+    <value>1598</value>
   </data>
   <data name="splitContainer1.SplitterWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1619,22 +1619,22 @@ use in the subtitle text.</value>
   <data name="toolStripButton13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANnSURBVDhPVZLtT1tlGMbPJ/03/LZkmZAZk31Y/IK2Ojft
-        XMJ0kq3QlhcRFCPLAGnKKC4USqW8mEXMpBBYeBGQAQdoTy3rCm1HQVlPobQrFOZ0hQr05ZzSc+rlade5
-        eCe/PJ+uX577eh7ixYjqFwovtNqNEq39b7HKzggnm6EtfTpYSesS+77G5j573ao/mT/8Sjb2cs59+8Aa
-        irD7btrLh2MJhKMv2Y+kYbH+NALl5A6uaDfi71XOvJqNPp/zzbaQe93HL20n4QhycOxwsG9zsG0dY8GX
-        wKwnhgQHTG0wUE4EIe9wM/+TXFD1J/RUCxrIGtRMVeObe7XQzH4P0h3EfX8C8564IEjB9ZSH448kmmZ2
-        kFdrHsyEJR3vFrZRSqzsUlj5axVkYB0j9G/osg7i66EqDDsfweRlsPUsllklynJ4dhCHSHqfI85r8t7S
-        /lp+vHZgxmrEBfMTN/p9PjRZN6G1/o7RtUGU/aTA6EMvjMItpt1R3Fs7wqHQk7jxAUvI+vInFrbvYuTI
-        iPl9B36gN1Bn8aDUROIrTyf0W61oJ+tw3XArswq1ycAo9HAQS0KsXmSJhl/KwxNPDND+aQAVolE+tYwb
-        dhsKfEqINqUosBZhxNkBmV6BdMHWx8cZUVgQiBoFgWq2mun1t6PW243GRSeuDLpQZbKgYnUU+XM/4tKA
-        AsOOdlzVXcPyLoelrSQWBUKRJPIaBEHNWOnuz/7bUNMTkI/Z8fGIDxcNjyDSWCDRW1DSr0avRQ1pWzFc
-        Ozwepp9YICIUmfuljSU+1L3dedfVjnpbNcqnh/HJAI3LQ0F8cNuEy4YWNE/Wo7LnKpR93VgWBA7hb9gF
-        AZtMCYIFljhz48xr0q6LwX7nLeic4/hibAVlo16UDvShZa4S6qFKnG2ogGRsDx9NspBkiR/zgmCczfyD
-        05+dyjmnyv+neVqDjnkSOpJCj+UOKu58ikutVdC5DtHtAbpooNMNFJs5xNIrlGYF6Tkp72Hqem/inZtS
-        5KkKIG5SQPxdN4rmIpBRPOQUhyITh0IzD5mJh9cfSL0unYpm4wTxRpkpEDyKRyyujVRgj0EgxMCfZS+a
-        zJBuPsryoL2PUwzDHJ64RtLZOEG8WTb3ea5i1nS6xBjOLRln/6P4OTkvUIyzJxTkwSkZSeUUzcj/BRhH
-        uur87AtYAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANoSURBVDhPVZLtT1pnGMbPp+3f2LcmTafpsqQfmn1xg61r
+        N9omtutMiwK+zOnmMpuqk2DFNaLIxJelmUsnGm18mTqrHhUOxVIUqOhqD4hCVbTrVpSpvJyDnMOuHShd
+        szv55fl0/fLc1/MQr0ZUO5d/rtlulGjtf4tVdkY42TQtqdPBSpoX2I81Nvr0dav+eO7gG5nY6znz/UNr
+        MMzu0bSXD0XjCEVesxdOwWL1eRjK8W1c0XpjH5VPvZmJvpyzjbYg7VnnF7YScAQ4OLY52Lc42DaPMOeL
+        Y9oTRZwDJrwMlGMByNto5n+Sc6reuJ5qQh1ZhaqJSnx3rxqa6R9B0gE88Mcx64kJgiRcz3k4/kigYWob
+        OdXm/nRY0vZhfgulxNIOhaW/lkFurGLI/Ts6rP34dqACg84nMK0x2HwRTa8SYTm82I9BJH3AEWc1Oe9p
+        75cereybsRx2wfyMRq/PhwbrOrTWxxhe6UfJLwoMP1qDUbjFJB3BvZVDHAg9iesfsoSsJ3dsbusuhg6N
+        mN1z4Ce3FzUWD4pNJL7xtEO/2YxWsgbXDbfSq1DrDIxCD/vRBMTqeZao+600NPbMAO2fBlBBN0onFnHD
+        bkOeTwnRuhR51gIMOdsg0yuQKtj69CgtCgkCUb0gUE1XMt3+VlSvdaJ+3okr/S5UmCwoWx5G7szPuNin
+        wKCjFVd117C4w2FhM4F5gWA4gZw6QVA1Urzzq/821O4xyEfsuDzkw3nDE4g0Fkj0FhT1qtFtUUPaUgjX
+        No9HqScWCAtFZn9tY4lPde+333W1otZWidLJQXzW58algQA+uW3CJUMTGsdrUd51FcqeTiwKAofwN+yC
+        gE0kBcEcS5y6ceotacf5QK/zFnTOUXw1soSS4TUU9/WgaaYc6oFynK4rg2RkFxfGWUgyxI54QTDKpv/B
+        yS9OZJ1R5f7TOKlB2ywJHUmhy3IHZXc+x8XmCuhcB+j0AB1uoJ0GCs0coqkVijOC1ByXdzE13TfxwU0p
+        clR5EDcoIP6hEwUzYcgoHnKKQ4GJQ76Zh8zEw+t7mnxbOhHJxAninRLTRuAwFr6/uJrc2GWwEWTgz7Ab
+        SaRJNR9hedBef5JhmINj10h3Jk4Q75bMfJmtmDadLDKGsotG2f8ofEnWKxSj7DEFuX9CRlJZBVPyfwEG
+        ALrdct2JbgAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton13.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1780,15 +1780,15 @@ use in the subtitle text.</value>
   <data name="toolStripSplitButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHxSURBVDhPzZD/TxJxHMbv7+AfqBatudasMM9O00mKsLTd
-        tHBmudGFC5uSO0G9oRcDvx14SoA7zXBp/VCbrcj5pZgm1yrC6v4Z9vgBb3NF6NZPvX593s/zfr8f6v/E
-        uXWH45J2zfHOjq7VNnS+YrX2ly2cLpeGS902dK+1q+KnAcxnZSxrCpZ+ziHyZRKPkg/Q8rRJZWMWgz5e
-        jJOYg2kBK9o8FvYiSPyIYXEviug3CXMZGf1vXbBG6lR9/Hec6x3cyA6P578OtiqZGQxvuuFd68XM53FE
-        v4YwSy5xrHSgbryq+J175Od4Jgzlu1zYVrVM59iEVbihNAh0jM6N7YwirAbh2/SgerRC022HdL25Sc6N
-        YSEbgXe9D+yiVdAlqnG61m2WGNSO0WD8JlT6LkCXDiFNk+JmC9v5ZA+ayWZdouqnmGLDn9hf2DRp14+Q
-        GoCUDoB+QueuTVcn8trVYCWuiJeODmlN2LieVQdkUlg+ZCL9GHeXbqEmcBl2hUVrvBkXPeeODrHGzarr
-        tQMTuyJ8KQ/82wLE1CB8H70QPvC4Ljei7KGxdIglVGMwTzJq57M28O97MVIwDmBoqx/eDTeaJDPOdJ86
-        vg9GNHEVQnnWNHge5XwZbOEGWKbqifnk8ea/cdZ1GkbnP5rzGO+fKGGmqH0+lhPbCswZygAAAABJRU5E
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHxSURBVDhPzZD/TxJxHMbv7+AfqBatudasMK9O00mKsLTd
+        tHBmueGFC5uhO8G6oRcDvx14SoA7zXD55QfbbEXONJlfuFYRVvfPsKcPdJsrQrd+6vXr836e9/v9UP8n
+        zq27HJe0a463dnSutaJjldXaVpo5XS4Nl7pj6F5vU8W9AcxmZSxqCha+zyDyaRx9yQdoft6osjGLQR8v
+        xknMwbSAJW0WcwcRJL7FMH8QRfSLhJmMjP43Llgjtao+/jvOjXZuaJfHyx+/tiqZKTzZdMO73oupj6OI
+        fg5hmlziWGpH7eiV4ne6yM/xTBjKV7mwjV6kc2zCKtxU6gU6RudGdocRVoPwbXpQNVyh6bZDOl/fIufG
+        MJeNwLvxCOy8VdAlqmGyxm2WGNSM0GD8JlT6LkCXDiFNk+KmC9v5ZA+ayGZdouommGLDn9iXbZq070dI
+        DUBKB0A/o3PXJ6sSee1asBJXxUtHh7QkbFzPmgMyKSwfMpZ+insLt1EduAy7wqIl3oSLnnNHh1jjZtX1
+        yoGxfRG+lAf+HQFiahC+bS+EDzxuyA0oe2gsHWIJVRvM44za8aIV/LteDBWMA3i81Q/vezcaJTPOdJ86
+        vg9GNHEVQnnWNHge5XwZbOF6WCbqiPnk8ea/cdZ1GkbnP5rzGO+fKGGmqJ88JRPaFoVotwAAAABJRU5E
         rkJggg==
 </value>
   </data>
@@ -1822,129 +1822,6 @@ use in the subtitle text.</value>
   <data name="&gt;&gt;toolStrip_edit.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="toolStrip_marks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1128, 17</value>
-  </metadata>
-  <data name="toolStrip_marks.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="toolStripButton20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALgSURBVDhPrZFLTxNRGIbnH7iVjWs3RNlgjMaFMSQao4nE
-        oCYiKAppgYSbXCrBRm5CoYCWohDLpVxaBGxDIC13AhUIUNpCpVBaSpFrqdOWtjAIrzNlMBpduPBJvpxz
-        Mud5v3POEP+dvqbiq5rW7L4pRcbOjJJHTSmzqGFZ0oaqJulTe1XGRXbb3xlqya8cUHP27aYxbK0vweVy
-        giQdWF3WQz/SgrbK2F1ZaXw2u/13Blryys2TYji3bTDZnPjYb0Vl2xwq5LNo6DZjemEDVpMGXdVxkOTG
-        pLHaMT11hZeVylTKsWnFsHYN7QNWmO0uOFwebLt2YVpxoUFtRseQBfPabkhf3fPWFMSFsDpBqOvSuxbp
-        D1+WdyDvs4DBSZJY+LoOPz1nynMEVHWaMaKzoUeaAjHvfgOrE4SqPmF9zWaAVLUII93Ze3AEj9cL0QcJ
-        Nukg994e2lT9GF4gUdysg2FChmpeuJXVCaKjLt7vdKyiqFGHTR8F594h9umumS/5kLYrkJ7Dh1ozDgNJ
-        IVk0jhXrOB0Q5mN1OkAY63dsLYEv0WLFQ9Ehh7CTbuQKSgLysFaP7QNg0kEhoewzbEtDqM78JaCtNNKy
-        ZOhGmVyHoUUSa/Sl7W4KXYOjsOy4sPEdkGnakSSOwrPS23hUcA2J6ZdIVieI2rxIyaAsAxrdAgrlJmzT
-        D+akAPchXfS8dbQF/NZodM6KMLOmhrCHgwhhMEK5QYJAgCSXc746J8I3P1mPxu4pvJbPQ2v9Bg/9Hh4v
-        heii61AYyqAwVjA/CILepxD2xuIc95Q/EMDwjh+d0VR4F8axSgxMTCJfMobnFaNIKRvBTV4IumZrAvIJ
-        Sr0IF7hBYPVj3r54mP0+9YZHIX6A6b48WIxSWOZqcSXxDIrVj1GgjgrIBaqoP09wgjjrSWh52p3mN8m3
-        bOLUMB9TUYnBrnDBWZSoYwKdmZFZ/3yDfyGUc7owhBvkZo7NjMyaIAjiB2ioMPmrxyvxAAAAAElFTkSu
-        QmCC
-</value>
-  </data>
-  <data name="toolStripButton20.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="toolStripButton20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
-  </data>
-  <data name="toolStripButton20.Text" xml:space="preserve">
-    <value>toolStripButton20</value>
-  </data>
-  <data name="toolStripButton20.ToolTipText" xml:space="preserve">
-    <value>Add mark</value>
-  </data>
-  <data name="toolStripButton21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALzSURBVDhPrZFdSJNRGMffmt4X3XTThV1EBUXdBEFBqXkR
-        1IUSZqAQCorphd9TE5PUTNPUcrPUpjk/Np2mpHPq/EpNRV3bcjndh3Pm1+Z8t7mpr7p/7+ZLHxB00w8e
-        OHDO7/885xzivyOtL/AdbcqQTrWxN760p1NT7WnUkCBuVVIZ96GlnH2VOfZ3BhtzOf3d0btG9RjWV7Sw
-        Wi0gSTOWFhRQDDdCxIncEhTFZDDH/6S/MadEM8mFxWSA2mBBc58eHNEMSoVfUSvWYHpuFXr1KDorosDL
-        jkhitEN6avKutbcnUuY1PYZky2jp10NjtMJstcNk3YJ60Yrabg1aB3WYlYnBf3rfUfks6jKjE0R3TUrn
-        PL3xbWEDQqkObiwkibnvK9im1+6yu4DyjxoMyw3o4SeAmx5Sy+gEIXkfu7JsUIIvmYeK7uzYc8HucKDs
-        HQ9rdJBtZwciSR+G5kgUNMihnBCgIj1Iz+gE0VoTs20xLyG/To41JwXLzgF26a6pT7LAb2lDSmYWukfH
-        oSQpxJeNY1E/TgcEOBmdDngZuW1e1yKLJ8OinaJDDmAkbch+UeiRh2QKmPaASTOF2OLPMGgHUZH6W4Co
-        KEynVYpRLJRjcJ7EMn1po41C58AIdBtWrO4DiqYy9IWeRa+vN3qDTqAm9BzJ6ARRnRPGGxCwMSqfQ55Q
-        DRP9YBYKsB3QRa/nWzlQJF/HdkchXKouOBrj0fzogqvHzyvWE8DLjr5UkRnsnJ18jzrxFJ4LZyHTb8JO
-        v4fdQaE35DSctIzSO0DKcSDXB6b8G+i4ydJ5Aty8yXrIrs+7B9UYB/0Tk8jljSG5dAQJxcOesV1TLe7f
-        /clm5klU+Xq5GP2Q149DM94m3ra3cR9gWpoDnYoP3Uw1egKPYasqHKClnWQCFroMUSx03WItMeovuGnh
-        V0qSAhtexd81cBMDnO4ShZ4nBRFnXMspPlhP9YY24gikF732xf5H0xjt33wKPsWW+LH07rEl/izjoUwQ
-        PwCk8S8p0mJO1wAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="toolStripButton21.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="toolStripButton21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
-  </data>
-  <data name="toolStripButton21.Text" xml:space="preserve">
-    <value>toolStripButton21</value>
-  </data>
-  <data name="toolStripButton21.ToolTipText" xml:space="preserve">
-    <value>Remove selected mark</value>
-  </data>
-  <data name="ComboBox_marks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 33</value>
-  </data>
-  <data name="toolStripButton22.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMDSURBVDhPrZBdTFJhHIffPlbrrptaFy5Xa+vjqrqo1eyi
-        j7HmRS1b69tWVprlnIlLBaeoFGkplgGFExEooNC00sTQZEamIqGlgighpRlEIOEHTn8d6GzV1kUXPdu7
-        vTvnfZ7/eQ/5r+juF+4yPMzSGWvSv76tZQWNtZlBvSrlc0NZyuMqUfo2+tjfaVFeFTRrE6edljZ8GR2E
-        z+eB1+vGxw/d6G5VQiOI/64qupRFH/+TZiW3xNYphMflgMXhwaMmOwSa97ilfgdZvQ1d1s+wWwyoEydA
-        kn82jdZ+0ijlRdXWMoPuMTv0phFUNdthc/rg9vnh8n2HZdgHmdaG6pYh9JvqIc87Eii7lrCJ1gnRSq/U
-        DVAv+j58hVo3hBAerxfWT6OYpPah5Z8DRE9taDU70ChPhZB1VEbrhDRUJo2OOHogbxhALzU5MDMHfyCA
-        O+USjFGh8akpaBqaoLd6UfjAjJ52FcSsg3ZaJ6RaemnS4/6IAoUZYxNBeKZmMU1NzcjhQF5VgyvZHGgN
-        b5CqYuCcZBOG7W+oAGOC1qlAcfyk+8sgOBIThv1BKjILp3cc+TduhmW9qRuuGeCiYic4T47hsGgdxBm/
-        BTRFsUODPfXgq81oGfBihLq0czyIZMUOJMu340LlFsSVbwa7+hDUHSVgPtwPRvEKEJB54UAFN1byUpUO
-        g9kKntoCF/XDPEFqomwrHncJoDGWhkVlBx/8F0xIXxcgQcFA5LXFM+GIJD9xozj78ER/ZyUU9UZcV/fD
-        ZP+GOOq+IblIm4zrzy+CW3ceOU9OI/dZPET6PJyoiMKyRDId/oq7nNPp93mH0NsmQHN7J65K2nBcvB6q
-        dj4UbTchNRSg/BWPiiRCqM/FecVerGKTvogUsiQcCFHKPpl1jxntrxEeQ5eOixjhakTfisCe4uWIKlyK
-        WMl2CFpycEbGwEo2Ma9JIotp9RfCzLgtJWkxD25f3ucQMhkToRXaFzMPqNbmzf92SrobkZmkc0M2WUQr
-        /05kBnGtZC0AySYL6UcUhPwAzU4RWv5Vv8MAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="toolStripButton22.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="toolStripButton22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
-  </data>
-  <data name="toolStripButton22.Text" xml:space="preserve">
-    <value>toolStripButton22</value>
-  </data>
-  <data name="toolStripButton22.ToolTipText" xml:space="preserve">
-    <value>Jump into this mark</value>
-  </data>
-  <data name="toolStrip_marks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 66</value>
-  </data>
-  <data name="toolStrip_marks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 33</value>
-  </data>
-  <data name="toolStrip_marks.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_marks.Name" xml:space="preserve">
-    <value>toolStrip_marks</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_marks.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_marks.Parent" xml:space="preserve">
-    <value>toolStripContainer1.TopToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;toolStrip_marks.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <metadata name="toolStrip_main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>248, 17</value>
   </metadata>
@@ -1954,12 +1831,12 @@ use in the subtitle text.</value>
   <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAENSURBVDhPlZPrjoIwEEZZn0MT30HCe24I4eXgL4RbuN/R
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAENSURBVDhPlZPrjoIwEEZZn0MT30HCe24I4eHgN4RbuN/R
         2fkaWruCESc5kbTzHadVjLXOzI2xPnBlTsymbl3XFZ7n3ZdloT2GYSDbtn+5d1diIdw0DbVtqyjLkvI8
         pyiKhCQMQ3IcZyP5YSw09H1P4ziKT1DXNRVFQXEcCwFPSfgS13WlRJQSICyBAIGqqihJkn/HAcis2adg
         nmfVgGecWx4lTVMxSRAE7wWv6BJMgvvIsuy4AEgJjoM7gQjrhwVgmiZxL5AArH0lwBTycjEN1j4KEJJg
-        AoDw1wIZ1jkkAPoUOtjbCHzff7wK3sG991WgyuSfp8XGXkAHPfx3rjmDt1fVhTEZWI+AMGcM4w/pU4mh
-        rZEXugAAAABJRU5ErkJggg==
+        AoDw1wIZ1jkkAPoUOtjbCHzff7wK3sG991WgyuSfp8XGXkAHPfx3rjmDt1fVhTEZWI+AMGcM4w/NZomP
+        WR4ncQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2025,16 +1902,16 @@ use in the subtitle text.</value>
   <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIQSURBVDhP3Y/LaxNBHMfn4L03/wQP1tRHbFQ8eBFEELyI
-        HtSTCFoCSoSCImgPaSNCpDR6EFGkpYKtFR8I4iF4amxsd9tsm82jtWlr6AabfT+yr6+z7SqNB6+Cw3yY
-        mcPn+/0N+U/WwvsoW3t7yl75g8qHw4vVV107F19GO9r4FO3IZo/tCHVCcsMxy/c9AD7dAVt3x2xgLdvT
-        Wp08b/2iPn3NrE0mavybA2dDnRDudbfkuyastTT0pUHoy89g1MbhOyLN0uC7KkXeejtNCILQ4idiXKgT
-        Uh7dr3i2TOUMtOoQlPk+bEz1oJGPQywkIc7dhcjeQpPppSToZALKEwfVUKcBY922Y6xD5DJozqQgfL4B
-        Q/hCW5WwPTil3xME32PG9pqhHkxwyN78v2dRDMDVN0XX4GHVMzBXkzC+9UKvXIHGX4CrFcGMbA/IxFq+
-        a8BVcnDEj7B/jKO1/oSK92Es34ZRjUMvXYS2cBpq4ThclQXzYFtA7nHM8mwF9sY7tIQR2voQ5gptXQpa
-        L0MrnoPKnYQyexTyzD44ytf2gODh2yKVn8P6Pgiz1kflBPTyJSqfoa0noLBHIE93QcrvogFT7QGle5G6
-        IXHSfPaFp1WeQi0/gsqnoRb7oXB3oBRuQp5LQGbjkJmrKOWHfS4dlUKdEL6/8zqf2jPKDexuMKmI+VcG
-        IuZsKiLzyc6hUP+ni5Cfeo7nNryzTi4AAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAISSURBVDhP3Y/NaxNBHIbn4L03/wQP1tSP2Kh48CKIIHgR
+        PagnEbQElAgFRdAe0kaESGnsQcRSLRVsrfiBIB6Cp8bUdrfN2myTtHbbGrrBZr8/srvZ19l2lcaDV8Fh
+        Hmbm8Lzvb8h/subfRVnhzSln5Q/K7w8vVl527Fx8EW1r4WO0LZs9tiPUCck9i9m+3wTg0x2wdXetGtay
+        XY3VyfP2L6rT1yxhMiHwrw+cDXVCuFedsu9ZsNfSMJb6YSwPwRTG4bsSzdLhexpF2Xq7dYii2OAnYlyo
+        E1Ia3a82HYXKGeiVAahfe7CR70JtKg6pkIQ0dxcSewt1ppuSoJOJKE0c1EKdBox1Oq65DonLoD6Tgvjp
+        BkzxM21Vw/bglH9PEHyPGdtrhXowwSFn8/9Nm2ICnrEpeiYPu5qBtZqE+a0bRvkKdP4CPL0IZmR7QCbW
+        8D0TnpqDK32A82McjfXHVLwPc/k2zEocxsJF6POnoRWOw9NYMA+2BeQexeymo8LZeIuGOEJbH8Jaoa1L
+        Qetl6MVz0LiTUGePQpnZB1f90hoQPHxHovIw7O/9sIQeKidglC5R+QxtPQGVPQJlugPy1C4akG8NWLgX
+        qZoyJ3PZ5029/ARaaRAan4ZW7IXK3YFauAllLgGFjUNhroLPP/W5dFQOdUL43vbrfGrPKNe3u8akItZf
+        6YtYs6mIwifbB0L9ny5CfgJ3LecySh/iVQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2052,18 +1929,18 @@ use in the subtitle text.</value>
   <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
         AABJRU5ErkJggg==
 </value>
   </data>
@@ -2094,10 +1971,10 @@ use in the subtitle text.</value>
         /6Zzpw9fufIHyLaGShMGwZ2bOi8/+vi/b/P5b3defv1vVrYoBypFCEBCObJ/a/ddoMYtZx/9T5yyfQFY
         Ch8QdkmSMsqYs9qxbuMl7Yx5S9Kn7Tp74cGH/3F9244y2NezQJVhB6L2WRJO1WtvJ6y6899r3snPqZtf
         /Z+568b/h69//A9tX7uH2yrMEaoUOzDKnL3Gfun+vxJ++XZiXrn+CWuf/J+9987/pWff/0/f/v5/7LIb
-        /2U8U1OgyjGBS9euTw51K8Dxa5Q7bXrahuf/S5pX/0vf+PS/dsykg7692y5bZqz9wmBvzwHWgA5cmrY+
-        j1pw7YV949qjadve/DfLXnbDPGfNa6+pRz6D5NXCysocKrb/F7IIkQZrQAeywWVhgdMPvYlq3/nPLGfJ
+        /2U8U1OgyjGBS9euTw51K8Dxa5Q7bXrahuf/S5pW/Uvf+PS/dsykg7692y5bZqz9wmBvzwHWgA5cmrY+
+        j1pw7YV949qjadve/DfLXnbDPGfNa6+pRz6D5NXCysocKrb/F7IIkQZrQAeywWVhgdMPvYlq2/HPLGfJ
         aS7TUAnTjKUPfRZc/MWh5SJnktU3R6t0yx9+fX8BqBZMAApIcfd0BSiXQS9u3rHkTc//+/ftf5q0+u5/
-        w7gFN6BSRAIVD3b9xAXX9fPXfzdJXfCAx9hHBCoDBQwMAFyB6xmRw1Z2AAAAAElFTkSuQmCC
+        w7gFN6BSRAIVD3b9xAXX9fPXfzdJXfCAx9hHBCoDBQwMAFjT6xVECa6wAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton4.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2144,18 +2021,18 @@ use in the subtitle text.</value>
   <data name="toolStripButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJzSURBVDhPfZLdT1JxGMdd/0VbEy666qKLbrpOlBBKxLMR
-        sKLOORJQZjZHba1FbZTs2CyneGjmC1OytLklb2vV3LqotWbmKyqEVApyE6AXWFt+O+cH4ms922f7bef5
-        fp7nnPMr2SyeLj3iZqXYzaNzBzOFlv3LfaH0WActGRGb+23HsZEOYi1yhyCePfVHiYinpd4OppQqxLbK
-        zR6Kv2m/trE0ehuLXVX48zOAzLSNIJ5jnSrE/fVY9F365T4vWSvEtkq0L43aERuxYqFTiShfjmiHTKAM
-        UVcZIq4TmO3WCM/ryCaF2FYRwdtb+DpsQnSIwcIzI+YHzu4g3FODuT7m34Ifr28iMkhj3mtAuJcigd38
-        V/D91XUyaa5fRwQz3RSeN9PwOGvhaapF730WPU1W3LUoYbVaObPZzJlMJo6maZYIvoUaEe47kw93VWP8
-        cQ1etNuwvr6O1dXVPWSzWSwvL/82Go0OIogHGsias0+qMe2uwphLjcHWRtIYCoUQDAaLBAIBgigwGAx5
-        waLvCmaE8JQQnmhX4VPrKQy0NBBBKpUirKysFEkmk0Sg1WrzgtjLy5jiT2OyTYUvDxX4+EAJb/NVItg+
-        1e/3FxEFFEXlBdFhKybalCT8uVmOD86T6HPWIZPJ7Ji6HVGgVqsLgiELxlvy4bEmGd47yuG5ZyGC7VM3
-        8fl8RKBSqQQBI3kX9ooXyIT5p7XCr2Qw0cOgv8WGdDq9Z3IikSCIgsrKSkcJz0qUPCMdFzfZxMUehrNR
-        h1wuR7bYD1FQUVHhKFynnWW32w/o9fobOp2OEz4Up9FoOOF9OWFlTpjKKRQKTi6XczKZ7OJfwkRlYJ/W
-        lTAAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ0SURBVDhPfZLdT1JxGMdd/0VbEy+66qKLbrpOhHgpEdkI
+        WVHnAAFlZmPU1lzURsmOjXKK0MwXpmRpc0ve1lxz66LWmpn5ggiJlfJyE4gXWlt+O+fHEfGlnu2z/bbz
+        fD/Pc875VWyXh6o85tVXYS+PLxzO8y0Hl/dS5YkuSjDGNQ/aTmIrF8Z6/C6BO/uajhORh6ryd9GVKj62
+        U179keXxjhtbKxN3kOypxZ+fIeRnbQTuvNQtx3KwCcnAlV/ei4J1PrZTnH1lwo6lMQsWu2VIeGqQ6BKy
+        VCPhrkbcfQrzvUr2eSPZhI/tFBG8acHXUSMSIzQWn+sQGzq/i2hfPRYG6H8LfozfRnyYQsyvRbRfRQJ7
+        +a/g++ubZNLCoIYI5npVeNFGwec0wNdqQP8DPfpaLbhnlsFisTAmk4kxGo0MRVF6IvgWsSI6cK4Y7qnD
+        1JN6vOy0YXNzE4VCYR9ra2tYXV39rdPpHESwHGoma84/rcOstxaTbgWG262kMRKJIBwOlwiFQgROoNVq
+        i4Jk4Brm2PAMG57ulONj+xkMuZqJIJvNEjKZTIl0Ok0EarW6KFh6dRUznrP40iHH50cSfHgog7/tOhGU
+        Tw0GgyU4gUqlKgoSoxZMd8hI+FObGO+dpzHgbEQ+n981tRxOoFAoeMGIGVOuYniyVYh3jhr47puJoHzq
+        NoFAgAjkcjkroAVvo37uAhkRe2ZgfyWN6T4agy4bcrncvsmpVIrACaRSqaPCoxfIPHTVFLfJNm79UTit
+        GmxsbJAtDoITiEQiB3+ddpfdbj/U0NBwS6PRMOyHYpRKJcO+L8OuzLBTGYlEwojFYkYoFF7+C7szZV6C
+        f/jWAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton6.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2179,17 +2056,17 @@ use in the subtitle text.</value>
   <data name="toolStripButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI2SURBVDhPzZLbT9JxGMbZ+ju6Ihsj11aWBRXCGJYnKEsU
-        jDRCQPHwM8ETIAIihjjAwxwLRSSIgRrMClPDiYec1Wqug9mdl/4P7QndbzHiIi773D1793zf933eL+X/
-        4fGmHERShtY1KVSr9VAuSdDwqhbcWNGv2jn+kThUGa/xC4jqacFp0pIJsS5D9GcQLw6CmP/hR2R/FqHv
-        XgS+ejD1eRz2LTPUL5shcPOi5WNcBmlL05KQYuEggLmUMbzvw/Nv0yfm2S9uePcmMfHRDvcnF7RLHeA5
-        WNFi+43MSZqW66B4fR+yRRHqF4SQhO9CFLwNoa8CREwJ584QJj6MYPT9MGQBCYoGrhKk9d/wJ3mOUhfn
-        cGjDCMumHprFVjD1BXGynBs8O8uhisgwuGmAMdGDwt4LR2QpTVW46lS1n68lZQZsK9OhCD2EKamFbrUT
-        Fzvo2Q8I/Xxv5dOyPVL+gW1hOhiGwkPtigZdbwk0Rh4hv42WuYLQVz7WFlNANS9D2TgXNx1scG3XwbYw
-        IJ66h95lNQzrPdCvdUHgKsU51dl0iMKZCltrVI7RXRucu08wsjMI27YZ1q1+DGz0wZgaW73SAl2iE5IZ
-        EeiqvCi1kZo+4x1PyUDTnDRltGD4nQVD26aTsExJHfpTXbvftKMhVAe+qwR0ZV6UJqdmf6RbLo5T+kyM
-        B74asMxXwOy7dJw0CjTnQW+nH+U30+I05Rkio/PfcKwMzzXD5awQc+b4jAx9QTcpc4BC+Q3ByCtE1yvt
-        FgAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI2SURBVDhPzZLbT9JxGMbZ+ju6Ihsj11aUBRVCjMoTlCUK
+        RhohoCj+TPAEiJyEEAd4mGOhiCQxT8GsMDWdiOasVnMdzO689H9oT+h+ixEXednn7tm75/u+7/N+Kf8P
+        j1MKEEk5NKsyqJdroVqQou5VNa7HC39VzwgOJNHyRFVYSFSOCU+SlmyINTliPyN4sRfB7I8wpncnEP0e
+        xOTXAEY/D8G9YYX2ZSOEfn6sdJDHJG0ZmlZkmNubxEzaOLUbwvNvY0fmiS9+BHdGMPzRDf8nH/QLreB7
+        2LEb7mvZkzQs1kD5+j7k82LUzokgnboLceQ2RKEyEHEVvFtODH/ox8D7PsgnpSi0XSZI678RjPA9xT7u
+        vnPdDHvKCN28BiwjI0GWjwffzfaop+XoTZlgXulEQde5A7KUoWKq4kRlWKAnZRYcB8ujjD6EJamHYbkN
+        51vpuQ+IwoJg+dOSHVL+gWNneZimgn39kg7tbwnUTz9CfjMtewVRqHSwOa6EelaOkiEebno44LmugmNn
+        QjJ6D12LWpjWOmFcbYfQV4wz6tOZEEXjZS5NTIGBbRe820/Qv9UL16YVjo0e2Na7YU6PrV1qgmGlDdJx
+        MejqvBi1npo5451Aka1hRpY22tH3zg7npuUoLEvSgJ501443LaiL1kDgKwJdlRejKai5H+mWj+uVPZPg
+        QagKbOslsLovHCYNhu4s6C30g/xGWoKmOkVkdf4broMZuGK6mBPisTk8I9PI6CDlMaBQfgO+WytDwSE9
+        HQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton7.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2210,17 +2087,17 @@ use in the subtitle text.</value>
   <data name="toolStripButton8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI6SURBVDhPvZHvT1JhGIbZ+jtolaWT6VxWIDMoY8o0wswQ
-        gxHE1DDTjqKAoGLiyURNEERRxB9YlnPrVDMkMYfL2sxBqNV3P/I/tLtDnuUatOWXrm/33l33877vw/qv
-        KBdvmGSLsmNMPDryWclOpf+qj4mp1Ec07IZ3akL3VhWspRQJLSXH7aWbUC5UQB6QovlNPR68rIPELXIw
-        yiENq1q+LqSmyE0LPNEhzO6O4+lXH+b2vJjeGcPUFze8MSfc20O4+1wNUX9hL6PSk1c07KQ8sv0YL77P
-        YGbXg8DeJF3ihT/uwWTMBW/UgVFadm7ZoQ0oISR5dkZnsXQrKqJ304yFb/5fUydiIzCsNEI2I0GFrxTS
-        sRKUjVxBzTMV7gQUENp4LkY9oGZZEXRt2zEVd2Ei6kT1XNk+LQ8zx78pIgt3hDbuNBMP0VLVCV/cTV93
-        FNawAZX+0hQ5ycUenkUmS7NG5ZI0MU6/MflJ5lALrnvFaQv+imK+PNi3YYVjqw+DH0mUOYv2xU8u/3tJ
-        1ew1gnitg+vzAF3SDzLSBc3cLVwiC1DYfQEFlnycN+bhrD4HuU3Z4DRkglEPKPeXsKWeYsqw3ISBTySs
-        ERMefbCiZ6MD3ZF2dK0bYV5rhWmtBW2rBLLqMv4sSCIeFvGLB4WUhl4T8eoeOsJt6Fw3oeO9Ae20bAw3
-        o5WW9aFGnNaeSC1IIrAJ2IKHXILfeS7I1XMS+VW5P/IIDnLuZyG7/gwya08hg5ZPqo+nLzg6LNZPBoQt
-        cirShqIAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI6SURBVDhPvZFtT5JhGIbZ+h20ytLJdC4rkJGUMWUSYWaE
+        wQhiahBpj2+AgmLqk4mavImiiC9UlnOLaoak5nBZmzEItPruR/5DO3vIZ7kGbfml49u5e8d53fd9Mf4r
+        isVrJumi9AgdD49sTpys8V/20TETXUTN1L9TEdq3ylB9UJ7SBGW4tXQdioVqyAISNL/R4f7LBojdAjut
+        HKBf1XC1YVWQ3DLDExvB3M4Enn71YX7Xi5nkOKa/uOGNO+COjuDOcxUEg7x+WqUmr6iZadkZfYQX32cx
+        u+NBYHeKKvHCn/BgKu6CN2bHGCU7tm3QBBTgkxwbrTMY2hUl0b/ViYVv/l9TJ+NOGFYaIZ0Vo9pXCcl4
+        BUTOS6h7psTtgBz8Po6LVvepW5aHXFEbphMuTMYcqJ0X7VHyKH38mzKSl+T3sWfoeIAmWJvyJdzUdcdg
+        XTOgxl+ZIac538sxS6VZ1qhYkqQmqDemP6kz3IKrXmHWgr8if1IVGti0wr49gOGPJESOsj3h44v/XnJj
+        7gpBvNbC9XmIKhkEGemGev4mLpAl4PWcQ4m5GGeNRTjdWoDCpnyw9Lmg1X2q/BVMiac8aFhuwtAnEtaI
+        CQ8/WNG7aUFPpAPdG0Z0rrfBtN6C9lUCeQ05fxakEY4KuOXD/KCaWhPx6i4sa+3o2jDB8t6ADko2rjWj
+        jZJbw404qTmWWZCmtK+UWfqATXC7zoTYraxUsbTwRxHBQsG9POTrTiG3/gRyKPm46mj2gsPDYPwEBiAt
+        cd4q48gAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton8.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2241,17 +2118,17 @@ use in the subtitle text.</value>
   <data name="toolStripButton12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJeSURBVDhPrZJdaFJhGMfHYKKo4BgTFKbIhhdOHKKmKH7M
-        ISpuUyZTzPZhZy0NmXMFiygOwm67ikERRMguY5fDFmXLbQW6PBvuI2tsubrJoovqsHnh0ysdOBdH7/rB
-        c/PAD973/3/a/hvJZLKUSCR+xePxY2rFYGxs7MBqtV643e5DakWD5HMkP47FYhAMBpvOyMgIuFyu+0ND
-        Q/uURoNkQPKP4eHhGpb5St7KfCexTJXE1qrkTh4nv5Vw0ul01ux2e8FsNgOl0czOzu7OzMwsRSKR0qUs
-        DrGtY5h/A3A9C/AsvwoXp1EYHBw8MJlMcb1eT1AaDYZhJ1NTU7lQKEQ4Nr2gXPfA9MsjuLoOcO05wL0X
-        HwHJezqdLqdWq08ojWZiYqIcDofT6K/FK3kv3DkMwo1dO0y+nQdfZg2sq3nQaDTEwMBAWqlUlimNBsml
-        QCCQQknvPKkswMrZXXh6dhuWTzFY/nwZHlTGQaVSEf39/Sm5XF6iNBq/318ZHR0lotFo0wYao1AoyN7e
-        XkIikVQojcbn85U8Hk8KJV2Y2z6HxXcAC1sA8U2A4tFDqH55BDKZ7L1UKk2JxWLmC1C/ZYfDkUZJF1u1
-        0NPTQyA5LRQKmRmg4zix2Ww5g8HQsgWRSLTX1dWV6+zsZLZgsViIRsco6f1WLXR3dx8KBII4n89n3oHR
-        aGzUtI0S/oO/nqsvbSzW8Y2bdfzVZB3PjqPx1blc7m8ej7fC4XCYl6jVamuo4wg6lKYNNAb9H1gslrej
-        o+MnpdGgjo/QH2t9fX0FasWAzWZ/QDK0t7d/+rdpa/sLnHRWAHRFZyEAAAAASUVORK5CYII=
+        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
 </value>
   </data>
   <data name="toolStripButton12.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2272,17 +2149,17 @@ use in the subtitle text.</value>
   <data name="toolStripButton25.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJaSURBVDhPhZBNaxNRFIYH/4fiykVrlBKSorgSpCBCuxCk
-        gopWBLELqW5cFRdt46aSJhooQS3aqFgQbBAFQUQoAW0Sm8QkkyY2JYZ8NJ3JfM9kMq93Jh+movEwD9zL
-        3Pe551yqTx0gOAjONsM964OEfYS+5SiXy6qu6+hFURR4PB43+f9fidMMyLIMnufBMAwqlYolkSQJPp+v
-        I/lnWQLzRjPAcRyq1eqebswzraN/L0vQaDQsiSiKlqRWq3U7Mc9Q34P2aP7NGW37D5ZdA4XOTR2J2Uln
-        nK4g9NSpGEYTgEE+k9Z67fO7bqsdiaqqlkQQhN+C+GsHa+gylMI8xJwb4tZjSPkVhNY+7BGYaJpmScyH
-        7QrowBCnqyyErAd8ZgG767dRCI4hsXgc2aVT2HxyEhn/CQLZB04juzyCreB4j+CVQ2tIJTBxL3bDLpQ/
-        3YLK0hAFnoxiTmV06dSPl2O9HQxr1vxNhSABughD58ElL0PMXINIT/RwxRLlXoya78ATgZ2ivU7V0CXo
-        XAgN5j20nRWoJT+qsRsohidQCl8iXCCcR/HrOTA7BaxO2w0rTFH7qdCiU2lqHLTaKtTyMyjFB5C3ZyBu
-        TpIbr0JMX4SQGoeQPAs+MYqmWgbtd2gk3KrI/aOyoTEkvATlpxty/i6k3JTVshWKjYCLHkN9/QjYL4fI
-        pHnQXofajlNU+p6tKLFxNvHxeVPIPAJPPwSfmgefnAUXnwYXu4P6xhTq0UnUI9eR2XhrpBeGuHacolKz
-        gzdTrsOB+NxAJeKyyX2Zs8nfXLZ6ambQ00pT1C+laIqVjxFThwAAAABJRU5ErkJggg==
+        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
 </value>
   </data>
   <data name="toolStripButton25.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2362,50 +2239,20 @@ use in the subtitle text.</value>
   <data name="toolStripSeparator71.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 33</value>
   </data>
-  <data name="toolStripSeparator67.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 33</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Download subtitles from OpenSubtitles.org</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Upload subtitles to OpenSubtitles.org</value>
-  </data>
-  <data name="toolStripSplitButton3.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="toolStripSplitButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 28</value>
-  </data>
-  <data name="toolStripSplitButton3.Text" xml:space="preserve">
-    <value>toolStripSplitButton3</value>
-  </data>
-  <data name="toolStripSplitButton3.ToolTipText" xml:space="preserve">
-    <value>Download subtitles from OpenSubtitles.org</value>
-  </data>
-  <data name="toolStripSeparator46.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 33</value>
-  </data>
   <data name="toolStripButton23.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJMSURBVDhPhZPdS5NRHMdX/0AX3RQldF0iwdZybGNLSMdo
-        ijWntpyk9ZjrRYNJC3uRlkOmoTXmJLroohdogXVTjugikKDLSC8G28W6cMxtbLr3F/t2fid7dLbwB5+b
-        5/y+n/M753keybY6zJAy5LtwhLGX8U9Jc7lcKhgMblQqFdSiUCjA7XY/Zr01JXIKZzIZZLNZkbW1NSST
-        SUSjUS6JRCLweDzVErvTub/fai0K10fwfTmA3oEh9AlXkc/nkU6nkUqlsLq6ygVsStAmXq/3j0QQbu0b
-        m/JOO6afQXfmLBa/fkOLwYhR5wzcs3N8gvX1dcRisarjEEwgl4xOeepMlt70kH0cylN63J3wQKs3weZ4
-        Am1LG8Lhn+JR4vE4n2RlZWVLIFWoxw1GM2aev0N7zyAu25xo7erHxNwb6NvP44HjIb88ktAkdB+JRGJL
-        YOoUkl0XB6FrM0GnN8DlmoRCpYWqqRnSRjWOHqtHuVzmEjo/3QmJRIHZPFKY9y/i0dPXsN8Zw4+lJVgu
-        XcOL+U+YnHuFtvZzvLlUKqFYLHIJIQp6r9yE78MXCMO30d3Th48LC+gRbuDl+8+w2u6h4biUN9MUJCBo
-        GlFgNPfz3S0Dw1BqT8Pne4vWjgu475qFySLgwMFDPEwTEBSuEjSqNQGFpjlQ33Ai3NHZjQW/HwqlGmpN
-        E2Tyk1CqVGJ4O6Jgs/Yw5PRwJ7R7LWiNMjzNigtCodCvnYL/wXo3KMPTmyVjrydLC7UC26Ee9jmnWYb+
-        XrHqGDLG3992N1hYUvcby5Nq610RkoEAAAAASUVORK5CYII=
+        ijWntpyk9ZjrRYNJC3uRlkOmoTXmJLroohdogXVTjugikKDLSC/GdrMuHHMbm+79xb6d38kenS38wefm
+        Ob/v5/zOeZ5Hsq0OM6QM+S4cYexl/FPSXC6XCgaDG5VKBbUoFApwu92PWW9NiZzCmUwG2WxWZG1tDclk
+        EtFolEsikQg8Hk+1xO507u+3WovC9RF8Xw6gd2AIfcJV5PN5pNNppFIprK6ucgGbErSJ1+v9IxGEW/vG
+        przTjuln0J05i8Wv39BiMGLUOQP37ByfYH19HbFYrOo4BBPIJaNTnjqTpTc9ZB+H8pQedyc80OpNsDme
+        QNvShnD4p3iUeDzOJ1lZWdkSSBXqcYPRjJnn79DeM4jLNidau/oxMfcG+vbzeOB4yC+PJDQJ3UcikdgS
+        mDqFZNfFQejaTNDpDXC5JqFQaaFqaoa0UY2jx+pRLpe5hM5Pd0IiUWA2jxTm/Yt49PQ17HfG8GNpCZZL
+        1/Bi/hMm516hrf0cby6VSigWi1xCiILeKzfh+/AFwvBtdPf04ePCAnqEG3j5/jOstntoOC7lzTQFCQia
+        RhQYzf18d8vAMJTa0/D53qK14wLuu2Zhsgg4cPAQD9MEBIWrBI1qTUChaQ7UN5wId3R2Y8Hvh0KphlrT
+        BJn8JJQqlRjejijYrD0MOT3cCe1eC1qjDE+z4oJQKPRrp+B/sN4NyvD0ZsnY68nSQq3AdqiHfc5plqG/
+        V6w6hozx97fdDRaW1P0Gr+5q2Q3RLqQAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton23.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2432,10 +2279,10 @@ use in the subtitle text.</value>
         aycu+1/SMgUsx8XFUwXUygg2oL5+P8uUueseLlq3639ueRMYV09c9X/K8l3/65ds+tU4fcP/2t75/6Nz
         m/+HJxeCXcjMwvIAqJUZbMDMmTNZQTZPW7zxf3Zp/X+Qn1Nyy/9HJ+f8V9PSA9sIcglMPC69AOS1f0DM
         CjYgLS2N1d4+5qeFrdN/r8CI/8YWtv+19Y3/SygoPRUVFTWQlJHdKiYh9V9BSfW/qLjkf14+/v+MjIzv
-        gFohYQACXkFRh0EBt+vwmf+rthz43z1j2X9jS7sVIDkVdZ0VlS0T/q/dcQgsB4oRPj6+w2CNMKCla/In
+        gFohYQACXkFRh0EBt+vwmf+rthz43z1j2X9jS7sVIDkVdZ0VlS0T/q/dcQgsB4oRPj6+w2CNMKClY/wn
         v6IZbEBaQeX/+IzC/7rG5ldBcgqKqldBMQAyIDW/4n96YfV/Dk6uP2CNMODo7vsfZgBMkai2/k+gFKOY
         mNg7UMDBDACFBSsrGziK4cDa0Q0cz6AEBFIACkxdI7P/gkpK/AqqaldABoBiCSYHDANUA0AJxMDEEhx4
-        qpo6/xVV1P9Lyyr8FxYWluLiF7zNycX9n42dHRR9II0wPCgAAwMAKc0g/+o32qoAAAAASUVORK5CYII=
+        qpo6/xVV1P9Lyyr8FxYWluLiF7zNycX9n42dHRR9II0wPCgAAwMAJs4g/RAJhmgAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton9.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2485,18 +2332,18 @@ use in the subtitle text.</value>
   <data name="toolStripButton27.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ/SURBVDhPtY5tSJNRGIbfoBJLs7kMRuLIDFJYP1Ih+nBq
-        KtNNG6nkV25+IK5Y4TJc+bFSczWwjIQpLlfmmrplOUlNJYu0LLRShtIvoQxCcCG5KVPfu3d2ggLtT3TB
-        Dc/h3Nd5DvVfOB26o7RasHW+RrgdGoEXFHwPe9oBn0py/XfygllFqgQW3ZDijXomtxNZUMd5oSBsGy3k
-        sa+Q2vpohV7QM6KGkdTMrBaycFXkgwsR3sjguc+R2vqowzzQoy3BdLcGw7oCnA33gSKKgzPR/hAdZjlv
-        yQVupLo2tRnc2YWvHzE3pMWXvhsYa1Vh6sl12KZGYczdNWdtS95MqmtTkx44aHv7ADMjJjg+GJm0rM62
-        USPqsngjpLYOwfWb9h6SNRnlIVgc0WHB+mg1jvcGtBeGgHck/6HvwWp30v6TAEGXG1tgkPkK+mH9NI/W
-        4gS0FMevxjW/nPgO35hn8I7UneOI6rcQ7RfY4BndJuWKBjEx7UDzNKCwArI3QM5zQNIFXH4BvJp0gBs7
-        BA/+HRnFV20kMkUFntCLo5I0MA0vo24MkL+mkT9AI/cpjcwOGqktNJLuruBSN/NQK41I8TUExWukRKeo
-        dyX7lmc6laht7ISUKeUwG7MsNE6ZGdlAI7FxBQlaGseqgfKb/ZjtKYOlkOMkOkVZSgNpW285UvL0qOyz
-        I90MpDFbTzYxso5G8n1ArAeU7YuIy2zGt/4KmIqCaKJT1HiT/OKohLskkVQthUoHkMV8Pfu3uM6uBMR2
-        QJ6qsA+X7V8cvyevIPpPJh9neyqVVWw/cWcdN1z/2Z9vsHNizE5OlMm5O6LB4XdUP7PnuKX3fL5qp6tL
-        tH+Fon4AF+txOYKd34QAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ+SURBVDhPtY5rSNNRGMb/QSWWZtMMRuLIDFJYH1Ihujg1
+        lemmjVTylpsXxBUrXIYrLys1VwPLSJjicmWuectSSU0li7QstFKG0iehDEJwIbkpU8/Tf3aCAu1L9IMH
+        3sN5fuc9zH/hdNCOogrh1vlK0XZohW5QClysyQc8y+j138kO4OSrYzmkNtEdNWxux3GgiXZDbvA2IuJ7
+        XKG19dGJ3GBgRS0radhZI+LgqtgTF0Ldkcp3nqO19dEEu6BHV4jpbi2G9bk4G+IJZTgXZyJ8ID7Msd9S
+        CJ1odW2qUnmzC18/Ym5Ihy99NzDWpMbUk+uwTI3ClLVrztycsJlW16YyxW/Q8vYBZkZaYPtgYtO4OltG
+        TahO54/Q2joE1Gzae0heb1IEYnFEjwXzo9XY3hvRlhcI/pGch14HK5xp+098hV1OHkKj3EvYD/OneTQV
+        xKKxIGY1jvnlxHd4RT6De5j+HFdcs4Vqv8AG14hmGU88iIlpGxqmAaUZkL8BMp8D0i7g8gvg1aQNvKgh
+        uAjuyBmBeiOVGcbvhEESHq9Fy/AyqscAxWuCnAGCrKcEae0ESY0E8XdXcKmbfaiJIExyDf4xWhnVGeZd
+        4b7lmU4Vquo6IWNLmezG9A6CU62sbCSIq1tBrI7gWAVQcrMfsz3F6Mjj2qnOMO1FfsTSW4LEbAPK+qxI
+        aQWS2a0n61lZT5BwH5AYAFXbIqLTGvCtvxTN+f6E6gwzXq+4OCrlLUml5UtBsgGks1/P+C2OsyO+Ue1Q
+        JCmtw8X7F8fvKUqp/pPJxxmuKlW5h7eks5oXYvjsIzBauZGtdm54i313aK3N+6hhZs/xjt7zOeqdji7V
+        /hWG+QEWIXE3j9zBGAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton27.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -2542,10 +2389,10 @@ use in the subtitle text.</value>
     <value>View Help</value>
   </data>
   <data name="toolStrip_main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 33</value>
+    <value>4, 66</value>
   </data>
   <data name="toolStrip_main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>905, 33</value>
+    <value>848, 33</value>
   </data>
   <data name="toolStrip_main.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2560,6 +2407,129 @@ use in the subtitle text.</value>
     <value>toolStripContainer1.TopToolStripPanel</value>
   </data>
   <data name="&gt;&gt;toolStrip_main.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="toolStrip_marks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1128, 17</value>
+  </metadata>
+  <data name="toolStrip_marks.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripButton20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALgSURBVDhPrZFLTxNRGIbnH7iVjWs3RNlgjMaFMSQao4nE
+        oCYiKAppgYSbXCrBRm5CoYCWohDLpVxaBGxDIC13AhUIUNpCpVBaSpFrqdOWtjAIrzNlMBpduPBJvpxz
+        Mud5v3POEP+dvqbiq5rW7L4pRcbOjJJHTSmzqGFZ0oaqJulTe1XGRXbb3xlqya8cUHP27aYxbK0vweVy
+        giQdWF3WQz/SgrbK2F1ZaXw2u/13Blryys2TYji3bTDZnPjYb0Vl2xwq5LNo6DZjemEDVpMGXdVxkOTG
+        pLHaMT11hZeVylTKsWnFsHYN7QNWmO0uOFwebLt2YVpxoUFtRseQBfPabkhf3fPWFMSFsDpBqOvSuxbp
+        D1+WdyDvs4DBSZJY+LoOPz1nynMEVHWaMaKzoUeaAjHvfgOrE4SqPmF9zWaAVLUII93Ze3AEj9cL0QcJ
+        Nukg994e2lT9GF4gUdysg2FChmpeuJXVCaKjLt7vdKyiqFGHTR8F594h9umumS/5kLYrkJ7Dh1ozDgNJ
+        IVk0jhXrOB0Q5mN1OkAY63dsLYEv0WLFQ9Ehh7CTbuQKSgLysFaP7QNg0kEhoewzbEtDqM78JaCtNNKy
+        ZOhGmVyHoUUSa/Sl7W4KXYOjsOy4sPEdkGnakSSOwrPS23hUcA2J6ZdIVieI2rxIyaAsAxrdAgrlJmzT
+        D+akAPchXfS8dbQF/NZodM6KMLOmhrCHgwhhMEK5QYJAgCSXc746J8I3P1mPxu4pvJbPQ2v9Bg/9Hh4v
+        heii61AYyqAwVjA/CILepxD2xuIc95Q/EMDwjh+d0VR4F8axSgxMTCJfMobnFaNIKRvBTV4IumZrAvIJ
+        Sr0IF7hBYPVj3r54mP0+9YZHIX6A6b48WIxSWOZqcSXxDIrVj1GgjgrIBaqoP09wgjjrSWh52p3mN8m3
+        bOLUMB9TUYnBrnDBWZSoYwKdmZFZ/3yDfyGUc7owhBvkZo7NjMyaIAjiB2ioMPmrxyvxAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="toolStripButton20.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="toolStripButton20.Text" xml:space="preserve">
+    <value>toolStripButton20</value>
+  </data>
+  <data name="toolStripButton20.ToolTipText" xml:space="preserve">
+    <value>Add mark</value>
+  </data>
+  <data name="toolStripButton21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALySURBVDhPrZFdSJNRGMffmt4X3XTThV1EBULdBEFBqXUR
+        1IUSZqAQCorphd9TE5PUTNPUcrO05nTqNpumpHPqnJqairo205zuwzmbH5vznXNTX3X/3s2XPiDoph88
+        cOCc3/95zjnEf0feUBQw3JQln2hlr39py6Qm2jKoAVHCiqw64UNzJfsyc+zv9AvzOYqu2F2TZgRryzrY
+        7TaQpBVLC2qoB4WQcKK3RCVxWczxP1EI88q041zYLEZojDa87zWAI5lGufgr6qRaTM6twKAZRkdVDHi5
+        USmMdkg3v+BKW1syZV01YEBpRrPCAK3JDqvdAYt9C5pFO+q6tGjp12NWKYXgyT1n9dOYi4xOEF38tI55
+        euPbwjrEcj082EgSc9+XsU2vPeVwA5UftRhUGdEtSAI3M6yO0QlCVhu/bDZOQSCbxwzd2bnnhsPpRMU7
+        HlbpoM2dHUhkvRiYI1HUqMLUmAhVmSEGRieIFn7cts26hMJ6FVZdFGw7B9ilu6Y/zoGguRVp2TnoGh7F
+        FEkhsWIUi4ZROuCmi9HpgBfR29Y1HXJ4Siw6KDrkACZyE7nPi73ygFINyx4wbqUQX/oZRl0/qtJ/C5CU
+        ROh1U1KUilXonydhpi9t2qTQ0TcE/bodK/uAuqkCveFn0RPgi56QE+CHnyMZnSBq8iJ4fSI2hlVzKBBr
+        YKEfzEYBmwd00ev5Fg7UqVex3V4M90wnnMJEND30d3cH+sR7A3i5sReqskNds+O1qJdO4Jl4FkrDBhz0
+        ezicFHrCTsNFyyi/DaQdB/L9YCm8hvbrLL03wMPrnAfshoK7mBnhQDE2jnzeCFLLh5BUOugd2z3R7Pnd
+        n2xkn0R1gI+b0Q959Sg8603yLUcr9z4m5XnQzwign65Bd/AxbL2NBGhpJ5WAjS5jDAudN1hLjPoLbkbk
+        pbKU4MaXiXeM3OSbLk9Jws+TwqgzbnOaH9bSfaGLOgK5v8++NOhoBqP9m0+hp9iyQJbBM7YsiGU6lAni
+        B6IsLyTCYP8gAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton21.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="toolStripButton21.Text" xml:space="preserve">
+    <value>toolStripButton21</value>
+  </data>
+  <data name="toolStripButton21.ToolTipText" xml:space="preserve">
+    <value>Remove selected mark</value>
+  </data>
+  <data name="ComboBox_marks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 33</value>
+  </data>
+  <data name="toolStripButton22.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMDSURBVDhPrZBdTFJhHIffPlbrrptaFy5Xa+vjqrqo1eyi
+        j7HmRS1b69tWVprlnIlLBaeoFGkplgGFExEooNC00sTQZEamIqGlgighpRlEIOEHTn8d6GzV1kUXPdu7
+        vTvnfZ7/eQ/5r+juF+4yPMzSGWvSv76tZQWNtZlBvSrlc0NZyuMqUfo2+tjfaVFeFTRrE6edljZ8GR2E
+        z+eB1+vGxw/d6G5VQiOI/64qupRFH/+TZiW3xNYphMflgMXhwaMmOwSa97ilfgdZvQ1d1s+wWwyoEydA
+        kn82jdZ+0ijlRdXWMoPuMTv0phFUNdthc/rg9vnh8n2HZdgHmdaG6pYh9JvqIc87Eii7lrCJ1gnRSq/U
+        DVAv+j58hVo3hBAerxfWT6OYpPah5Z8DRE9taDU70ChPhZB1VEbrhDRUJo2OOHogbxhALzU5MDMHfyCA
+        O+USjFGh8akpaBqaoLd6UfjAjJ52FcSsg3ZaJ6RaemnS4/6IAoUZYxNBeKZmMU1NzcjhQF5VgyvZHGgN
+        b5CqYuCcZBOG7W+oAGOC1qlAcfyk+8sgOBIThv1BKjILp3cc+TduhmW9qRuuGeCiYic4T47hsGgdxBm/
+        BTRFsUODPfXgq81oGfBihLq0czyIZMUOJMu340LlFsSVbwa7+hDUHSVgPtwPRvEKEJB54UAFN1byUpUO
+        g9kKntoCF/XDPEFqomwrHncJoDGWhkVlBx/8F0xIXxcgQcFA5LXFM+GIJD9xozj78ER/ZyUU9UZcV/fD
+        ZP+GOOq+IblIm4zrzy+CW3ceOU9OI/dZPET6PJyoiMKyRDId/oq7nNPp93mH0NsmQHN7J65K2nBcvB6q
+        dj4UbTchNRSg/BWPiiRCqM/FecVerGKTvogUsiQcCFHKPpl1jxntrxEeQ5eOixjhakTfisCe4uWIKlyK
+        WMl2CFpycEbGwEo2Ma9JIotp9RfCzLgtJWkxD25f3ucQMhkToRXaFzMPqNbmzf92SrobkZmkc0M2WUQr
+        /05kBnGtZC0AySYL6UcUhPwAzU4RWv5Vv8MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton22.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="toolStripButton22.Text" xml:space="preserve">
+    <value>toolStripButton22</value>
+  </data>
+  <data name="toolStripButton22.ToolTipText" xml:space="preserve">
+    <value>Jump into this mark</value>
+  </data>
+  <data name="toolStrip_marks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="toolStrip_marks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 33</value>
+  </data>
+  <data name="toolStrip_marks.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_marks.Name" xml:space="preserve">
+    <value>toolStrip_marks</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_marks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_marks.Parent" xml:space="preserve">
+    <value>toolStripContainer1.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_marks.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Name" xml:space="preserve">
@@ -4407,7 +4377,7 @@ of the subtitles.</value>
     <value>False</value>
   </data>
   <data name="iD3TagsSynchronizedLyricsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
+    <value>454, 34</value>
   </data>
   <data name="iD3TagsSynchronizedLyricsToolStripMenuItem.Text" xml:space="preserve">
     <value>ID3 Tags (Synchronized Lyrics)</value>
@@ -4416,40 +4386,25 @@ of the subtitles.</value>
     <value>False</value>
   </data>
   <data name="previewWithAHDSynchronisedLyricsViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
+    <value>454, 34</value>
   </data>
   <data name="previewWithAHDSynchronisedLyricsViewToolStripMenuItem.Text" xml:space="preserve">
     <value>Preview with AHD Synchronised Lyrics View</value>
   </data>
   <data name="toolStripSeparator60.Size" type="System.Drawing.Size, System.Drawing">
-    <value>457, 6</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Text" xml:space="preserve">
-    <value>Download subtitles from &amp;OpenSubtitles.org</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Text" xml:space="preserve">
-    <value>Upload subtitles to OpenSubtitles.org</value>
-  </data>
-  <data name="toolStripSeparator66.Size" type="System.Drawing.Size, System.Drawing">
-    <value>457, 6</value>
+    <value>451, 6</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
+    <value>454, 34</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Language</value>
   </data>
   <data name="toolStripSeparator57.Size" type="System.Drawing.Size, System.Drawing">
-    <value>457, 6</value>
+    <value>451, 6</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
+    <value>454, 34</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Settings</value>
@@ -6598,6 +6553,30 @@ of the subtitles.</value>
   <data name="&gt;&gt;setLeftToRightToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;toolStripButton20.Name" xml:space="preserve">
+    <value>toolStripButton20</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton21.Name" xml:space="preserve">
+    <value>toolStripButton21</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBox_marks.Name" xml:space="preserve">
+    <value>ComboBox_marks</value>
+  </data>
+  <data name="&gt;&gt;ComboBox_marks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton22.Name" xml:space="preserve">
+    <value>toolStripButton22</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
     <value>toolStripButton1</value>
   </data>
@@ -6736,36 +6715,6 @@ of the subtitles.</value>
   <data name="&gt;&gt;toolStripSeparator71.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator67.Name" xml:space="preserve">
-    <value>toolStripSeparator67</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator67.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSplitButton3.Name" xml:space="preserve">
-    <value>toolStripSplitButton3</value>
-  </data>
-  <data name="&gt;&gt;toolStripSplitButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Name" xml:space="preserve">
-    <value>downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Name" xml:space="preserve">
-    <value>uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator46.Name" xml:space="preserve">
-    <value>toolStripSeparator46</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator46.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStripButton23.Name" xml:space="preserve">
     <value>toolStripButton23</value>
   </data>
@@ -6812,30 +6761,6 @@ of the subtitles.</value>
     <value>toolStripButton10</value>
   </data>
   <data name="&gt;&gt;toolStripButton10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton20.Name" xml:space="preserve">
-    <value>toolStripButton20</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton21.Name" xml:space="preserve">
-    <value>toolStripButton21</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ComboBox_marks.Name" xml:space="preserve">
-    <value>ComboBox_marks</value>
-  </data>
-  <data name="&gt;&gt;ComboBox_marks.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton22.Name" xml:space="preserve">
-    <value>toolStripButton22</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton22.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;addSubtitleToolStripMenuItem.Name" xml:space="preserve">
@@ -7880,24 +7805,6 @@ of the subtitles.</value>
     <value>toolStripSeparator60</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator60.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Name" xml:space="preserve">
-    <value>downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Name" xml:space="preserve">
-    <value>uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator66.Name" xml:space="preserve">
-    <value>toolStripSeparator66</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator66.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">

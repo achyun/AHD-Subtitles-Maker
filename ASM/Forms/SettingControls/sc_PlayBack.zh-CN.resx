@@ -117,12 +117,54 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="checkBox_AskToDownloadFromOS.Text" xml:space="preserve">
-    <value>每次改变媒体时询问是否从Opensubtitles.org下载字幕</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
   </data>
-  <data name="checkBox_AskToDownloadFromOS.ToolTip" xml:space="preserve">
-    <value>如果启用, 程序会询问你每次改变媒体时是
-否从Opensubtitles.org下载字幕</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>新字幕持续时间</value>
+  </data>
+  <data name="numericUpDown_NewSubtitleDuration.ToolTip" xml:space="preserve">
+    <value>通过手动添加字幕时编辑新建字幕
+的持续时间.</value>
+  </data>
+  <data name="numericUpDown_AdvanceTime.ToolTip" xml:space="preserve">
+    <value>编辑用于向前/向后按钮的时间.</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>提前时间</value>
+  </data>
+  <data name="numericUpDown_ShiftTime.ToolTip" xml:space="preserve">
+    <value>编辑在偏移时间对话框中使用的时间.</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>偏移时间</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="numericUpDown_playerTimer.ToolTip" xml:space="preserve">
+    <value>小的值使程序更精确但需要适当的更大的PC值对
+较慢的PC可能会提高性能, 但编辑/查看字幕时
+使用它会使程序失去准确性时.</value>
+  </data>
+  <data name="checkBox_auto_generate_wave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 24</value>
   </data>
   <data name="checkBox_auto_generate_wave.Text" xml:space="preserve">
     <value>当我改变媒体时自动生成/显示波形.</value>
@@ -131,53 +173,44 @@
     <value>如果设置, 程序将在每次媒体更改或项目打开时
 询问是否生成/显示波形.</value>
   </data>
-  <data name="checkBox_scrollTimeLine.Text" xml:space="preserve">
-    <value>在使用媒体控件更改时间时, 用时间轴中的 
-滚动时间轴控制媒体位置.</value>
-  </data>
-  <data name="checkBox_wanrMeWhenMKVLoaded.Text" xml:space="preserve">
-    <value>当加载Matroska媒体文件时提醒我</value>
-  </data>
-  <data name="checkBox_warnWhenID3Detected.Text" xml:space="preserve">
-    <value>当ID3标签检测时警告我</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>新字幕持续时间</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>提前时间</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>偏移时间</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 20</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>秒</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>毫秒</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>毫秒</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>毫秒</value>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 20</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>播放器计时器</value>
   </data>
-  <data name="numericUpDown_AdvanceTime.ToolTip" xml:space="preserve">
-    <value>编辑用于向前/向后按钮的时间.</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
   </data>
-  <data name="numericUpDown_NewSubtitleDuration.ToolTip" xml:space="preserve">
-    <value>通过手动添加字幕时编辑新建字幕
-的持续时间.</value>
+  <data name="label7.Text" xml:space="preserve">
+    <value>毫秒</value>
   </data>
-  <data name="numericUpDown_playerTimer.ToolTip" xml:space="preserve">
-    <value>小的值使程序更精确但需要适当的更大的PC值对
-较慢的PC可能会提高性能, 但编辑/查看字幕时
-使用它会使程序失去准确性时.</value>
+  <data name="checkBox_wanrMeWhenMKVLoaded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 24</value>
   </data>
-  <data name="numericUpDown_ShiftTime.ToolTip" xml:space="preserve">
-    <value>编辑在偏移时间对话框中使用的时间.</value>
+  <data name="checkBox_wanrMeWhenMKVLoaded.Text" xml:space="preserve">
+    <value>当加载Matroska媒体文件时提醒我</value>
+  </data>
+  <data name="checkBox_warnWhenID3Detected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 24</value>
+  </data>
+  <data name="checkBox_warnWhenID3Detected.Text" xml:space="preserve">
+    <value>当ID3标签检测时警告我</value>
+  </data>
+  <data name="checkBox_scrollTimeLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 44</value>
+  </data>
+  <data name="checkBox_scrollTimeLine.Text" xml:space="preserve">
+    <value>在使用媒体控件更改时间时, 用时间轴中的 
+滚动时间轴控制媒体位置.</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 368</value>
   </data>
 </root>

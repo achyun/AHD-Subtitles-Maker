@@ -19,13 +19,6 @@
 // Author email: mailto:alaahadidfreeware@gmail.com
 //
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.IO;
 using System.Windows.Forms;
 using System.Reflection;
 using System.Resources;
@@ -69,7 +62,7 @@ namespace AHD.SM.Forms
         }
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("mailto:alahadid@hotmail.com");
+            System.Diagnostics.Process.Start("mailto:alaahadidfreeware@gmail.com");
         }
 
         private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

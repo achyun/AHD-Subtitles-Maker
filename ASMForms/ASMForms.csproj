@@ -120,35 +120,11 @@
     <Compile Include="Frm_SplitCaptions.Designer.cs">
       <DependentUpon>Frm_SplitCaptions.cs</DependentUpon>
     </Compile>
-    <Compile Include="OpenSubtitles\Frm_OSIMDBSet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_OSIMDBSet.Designer.cs">
-      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_UploadToOS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_UploadToOS.Designer.cs">
-      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_SubSearchResultDetails.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_SubSearchResultDetails.Designer.cs">
-      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
-    </Compile>
     <Compile Include="SpellCheck\Frm_DictionariesDownload.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SpellCheck\Frm_DictionariesDownload.Designer.cs">
       <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.Designer.cs">
-      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
     </Compile>
     <Compile Include="ImportExport\Frm_Export.cs">
       <SubType>Form</SubType>
@@ -185,12 +161,6 @@
     </Compile>
     <Compile Include="Frm_QuickStart.Designer.cs">
       <DependentUpon>Frm_QuickStart.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_SelectMovieResult.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OpenSubtitles\Frm_SelectMovieResult.Designer.cs">
-      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
     </Compile>
     <Compile Include="Editors\Frm_SetAlignment.cs">
       <SubType>Form</SubType>
@@ -622,90 +592,6 @@
     <EmbeddedResource Include="LanguageResources\Resource.pt-BR.resx" />
     <EmbeddedResource Include="LanguageResources\Resource.pt-PT.resx" />
     <EmbeddedResource Include="LanguageResources\Resource.zh-CN.resx" />
-    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.ar-SY.resx">
-      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.de-DE.resx">
-      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.pt-BR.resx">
-      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.pt-PT.resx">
-      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.zh-CN.resx">
-      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.ar-SY.resx">
-      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.de-DE.resx">
-      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.pt-BR.resx">
-      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.pt-PT.resx">
-      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.resx">
-      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_OSIMDBSet.zh-CN.resx">
-      <DependentUpon>Frm_OSIMDBSet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.ar-SY.resx">
-      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.de-DE.resx">
-      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.pt-BR.resx">
-      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.pt-PT.resx">
-      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.zh-CN.resx">
-      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.ar-SY.resx">
-      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.de-DE.resx">
-      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.pt-BR.resx">
-      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.pt-PT.resx">
-      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.zh-CN.resx">
-      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.ar-SY.resx">
-      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.de-DE.resx">
-      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.pt-BR.resx">
-      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.pt-PT.resx">
-      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.resx">
-      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SubSearchResultDetails.resx">
-      <DependentUpon>Frm_SubSearchResultDetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_UploadToOS.zh-CN.resx">
-      <DependentUpon>Frm_UploadToOS.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SpellCheck\Frm_DictionariesDownload.ar-SY.resx">
       <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
     </EmbeddedResource>
@@ -720,9 +606,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SpellCheck\Frm_DictionariesDownload.resx">
       <DependentUpon>Frm_DictionariesDownload.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_DownloadSubtitlesFromOS.resx">
-      <DependentUpon>Frm_DownloadSubtitlesFromOS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ImportExport\Frm_Export.resx">
       <DependentUpon>Frm_Export.cs</DependentUpon>
@@ -741,9 +624,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_QuickStart.resx">
       <DependentUpon>Frm_QuickStart.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenSubtitles\Frm_SelectMovieResult.resx">
-      <DependentUpon>Frm_SelectMovieResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Editors\Frm_SetAlignment.resx">
       <DependentUpon>Frm_SetAlignment.cs</DependentUpon>
@@ -834,10 +714,6 @@
     <ProjectReference Include="..\ID3Tag\ID3Tag.csproj">
       <Project>{cf94e1ec-89cf-4363-a4ad-370b71a1058e}</Project>
       <Name>ID3Tag</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenSubtitlesHandler\OpenSubtitlesHandler.csproj">
-      <Project>{9259f70f-3687-4996-aed3-e58dd26ac74b}</Project>
-      <Name>OpenSubtitlesHandler</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

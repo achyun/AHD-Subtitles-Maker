@@ -130,6 +130,11 @@ namespace AHD.SM
             this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
             this.setRightToLeftToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.setLeftToRightToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStrip_marks = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
+            this.ComboBox_marks = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip_main = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
@@ -154,11 +159,6 @@ namespace AHD.SM
             this.toolStripButton_id3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_preview = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator71 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator67 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSplitButton3 = new System.Windows.Forms.ToolStripSplitButton();
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator46 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator48 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
@@ -167,11 +167,6 @@ namespace AHD.SM
             this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip_marks = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
-            this.ComboBox_marks = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
             this.contextMenuStrip_subtitlesData = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.addSubtitleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.insertSubtitleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -348,9 +343,6 @@ namespace AHD.SM
             this.iD3TagsSynchronizedLyricsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.previewWithAHDSynchronisedLyricsViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator60 = new System.Windows.Forms.ToolStripSeparator();
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator66 = new System.Windows.Forms.ToolStripSeparator();
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator57 = new System.Windows.Forms.ToolStripSeparator();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -409,8 +401,8 @@ namespace AHD.SM
             this.tabPage_preparedText.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.toolStrip_edit.SuspendLayout();
-            this.toolStrip_main.SuspendLayout();
             this.toolStrip_marks.SuspendLayout();
+            this.toolStrip_main.SuspendLayout();
             this.contextMenuStrip_subtitlesData.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -431,8 +423,8 @@ namespace AHD.SM
             // toolStripContainer1.TopToolStripPanel
             // 
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip_edit);
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip_marks);
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip_main);
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip_marks);
             // 
             // splitContainer1
             // 
@@ -1091,6 +1083,46 @@ namespace AHD.SM
             resources.ApplyResources(this.setLeftToRightToolStripMenuItem1, "setLeftToRightToolStripMenuItem1");
             this.setLeftToRightToolStripMenuItem1.Click += new System.EventHandler(this.setLeftToRightToolStripMenuItem_Click);
             // 
+            // toolStrip_marks
+            // 
+            resources.ApplyResources(this.toolStrip_marks, "toolStrip_marks");
+            this.toolStrip_marks.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.toolStrip_marks.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton20,
+            this.toolStripButton21,
+            this.ComboBox_marks,
+            this.toolStripButton22});
+            this.toolStrip_marks.Name = "toolStrip_marks";
+            this.toolStrip_marks.ParentChanged += new System.EventHandler(this.toolStrip_marks_ParentChanged);
+            // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton20, "toolStripButton20");
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.Click += new System.EventHandler(this.addMarkToolStripMenuItem_Click);
+            // 
+            // toolStripButton21
+            // 
+            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton21, "toolStripButton21");
+            this.toolStripButton21.Name = "toolStripButton21";
+            this.toolStripButton21.Click += new System.EventHandler(this.deleteSelectedToolStripMenuItem_Click);
+            // 
+            // ComboBox_marks
+            // 
+            this.ComboBox_marks.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ComboBox_marks.Name = "ComboBox_marks";
+            resources.ApplyResources(this.ComboBox_marks, "ComboBox_marks");
+            this.ComboBox_marks.DropDownClosed += new System.EventHandler(this.ComboBox_marks_DropDownClosed);
+            // 
+            // toolStripButton22
+            // 
+            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton22, "toolStripButton22");
+            this.toolStripButton22.Name = "toolStripButton22";
+            this.toolStripButton22.Click += new System.EventHandler(this.jumpIntoSelectedTimeToolStripMenuItem_Click);
+            // 
             // toolStrip_main
             // 
             resources.ApplyResources(this.toolStrip_main, "toolStrip_main");
@@ -1116,9 +1148,6 @@ namespace AHD.SM
             this.toolStripButton_id3,
             this.toolStripButton_preview,
             this.toolStripSeparator71,
-            this.toolStripSeparator67,
-            this.toolStripSplitButton3,
-            this.toolStripSeparator46,
             this.toolStripButton23,
             this.toolStripSeparator48,
             this.toolStripButton9,
@@ -1282,39 +1311,6 @@ namespace AHD.SM
             this.toolStripSeparator71.Name = "toolStripSeparator71";
             resources.ApplyResources(this.toolStripSeparator71, "toolStripSeparator71");
             // 
-            // toolStripSeparator67
-            // 
-            this.toolStripSeparator67.Name = "toolStripSeparator67";
-            resources.ApplyResources(this.toolStripSeparator67, "toolStripSeparator67");
-            // 
-            // toolStripSplitButton3
-            // 
-            this.toolStripSplitButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripSplitButton3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1,
-            this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1});
-            this.toolStripSplitButton3.Image = global::AHD.SM.Properties.Resources.favicon;
-            resources.ApplyResources(this.toolStripSplitButton3, "toolStripSplitButton3");
-            this.toolStripSplitButton3.Name = "toolStripSplitButton3";
-            this.toolStripSplitButton3.ButtonClick += new System.EventHandler(this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem_Click);
-            // 
-            // downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1
-            // 
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Name = "downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1";
-            resources.ApplyResources(this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1, "downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1");
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Click += new System.EventHandler(this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem_Click);
-            // 
-            // uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1
-            // 
-            this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Name = "uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1";
-            resources.ApplyResources(this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1, "uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1");
-            this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Click += new System.EventHandler(this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator46
-            // 
-            this.toolStripSeparator46.Name = "toolStripSeparator46";
-            resources.ApplyResources(this.toolStripSeparator46, "toolStripSeparator46");
-            // 
             // toolStripButton23
             // 
             this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1366,46 +1362,6 @@ namespace AHD.SM
             resources.ApplyResources(this.toolStripButton10, "toolStripButton10");
             this.toolStripButton10.Name = "toolStripButton10";
             this.toolStripButton10.Click += new System.EventHandler(this.viewHelpToolStripMenuItem_Click);
-            // 
-            // toolStrip_marks
-            // 
-            resources.ApplyResources(this.toolStrip_marks, "toolStrip_marks");
-            this.toolStrip_marks.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.toolStrip_marks.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton20,
-            this.toolStripButton21,
-            this.ComboBox_marks,
-            this.toolStripButton22});
-            this.toolStrip_marks.Name = "toolStrip_marks";
-            this.toolStrip_marks.ParentChanged += new System.EventHandler(this.toolStrip_marks_ParentChanged);
-            // 
-            // toolStripButton20
-            // 
-            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton20, "toolStripButton20");
-            this.toolStripButton20.Name = "toolStripButton20";
-            this.toolStripButton20.Click += new System.EventHandler(this.addMarkToolStripMenuItem_Click);
-            // 
-            // toolStripButton21
-            // 
-            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton21, "toolStripButton21");
-            this.toolStripButton21.Name = "toolStripButton21";
-            this.toolStripButton21.Click += new System.EventHandler(this.deleteSelectedToolStripMenuItem_Click);
-            // 
-            // ComboBox_marks
-            // 
-            this.ComboBox_marks.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBox_marks.Name = "ComboBox_marks";
-            resources.ApplyResources(this.ComboBox_marks, "ComboBox_marks");
-            this.ComboBox_marks.DropDownClosed += new System.EventHandler(this.ComboBox_marks_DropDownClosed);
-            // 
-            // toolStripButton22
-            // 
-            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton22, "toolStripButton22");
-            this.toolStripButton22.Name = "toolStripButton22";
-            this.toolStripButton22.Click += new System.EventHandler(this.jumpIntoSelectedTimeToolStripMenuItem_Click);
             // 
             // contextMenuStrip_subtitlesData
             // 
@@ -2633,9 +2589,6 @@ namespace AHD.SM
             this.iD3TagsSynchronizedLyricsToolStripMenuItem,
             this.previewWithAHDSynchronisedLyricsViewToolStripMenuItem,
             this.toolStripSeparator60,
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem,
-            this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem,
-            this.toolStripSeparator66,
             this.languageToolStripMenuItem,
             this.toolStripSeparator57,
             this.settingsToolStripMenuItem});
@@ -2662,24 +2615,6 @@ namespace AHD.SM
             // 
             this.toolStripSeparator60.Name = "toolStripSeparator60";
             resources.ApplyResources(this.toolStripSeparator60, "toolStripSeparator60");
-            // 
-            // downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem
-            // 
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Image = global::AHD.SM.Properties.Resources.favicon;
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Name = "downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem";
-            resources.ApplyResources(this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem, "downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem");
-            this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Click += new System.EventHandler(this.downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem_Click);
-            // 
-            // uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem
-            // 
-            this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Name = "uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem";
-            resources.ApplyResources(this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem, "uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem");
-            this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Click += new System.EventHandler(this.uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator66
-            // 
-            this.toolStripSeparator66.Name = "toolStripSeparator66";
-            resources.ApplyResources(this.toolStripSeparator66, "toolStripSeparator66");
             // 
             // languageToolStripMenuItem
             // 
@@ -2860,10 +2795,10 @@ namespace AHD.SM
             this.toolStrip1.PerformLayout();
             this.toolStrip_edit.ResumeLayout(false);
             this.toolStrip_edit.PerformLayout();
-            this.toolStrip_main.ResumeLayout(false);
-            this.toolStrip_main.PerformLayout();
             this.toolStrip_marks.ResumeLayout(false);
             this.toolStrip_marks.PerformLayout();
+            this.toolStrip_main.ResumeLayout(false);
+            this.toolStrip_main.PerformLayout();
             this.contextMenuStrip_subtitlesData.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -3083,7 +3018,6 @@ namespace AHD.SM
         private System.Windows.Forms.ToolStripMenuItem selectAllToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem jumpIntoSelectedErrorSubtitlesToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator45;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator46;
         private System.Windows.Forms.ToolStripMenuItem iD3TagsSynchronizedLyricsToolStripMenuItem;
         private System.Windows.Forms.ToolStripButton toolStripButton_id3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator44;
@@ -3156,13 +3090,6 @@ namespace AHD.SM
         private System.Windows.Forms.ToolStripMenuItem mergeToolStripMenuItem2;
         private System.Windows.Forms.ToolStripButton toolStripButton32;
         private System.Windows.Forms.ToolStripMenuItem mergeToolStripMenuItem3;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator66;
-        private System.Windows.Forms.ToolStripMenuItem downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator67;
-        private System.Windows.Forms.ToolStripMenuItem uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton3;
-        private System.Windows.Forms.ToolStripMenuItem downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1;
         private System.Windows.Forms.Timer timer_autosave;
         private System.Windows.Forms.TabPage tabPage_multipleSubtitleTrackViewer;
         private System.Windows.Forms.ToolStripMenuItem multipleSubtitleTracksViewerToolStripMenuItem;

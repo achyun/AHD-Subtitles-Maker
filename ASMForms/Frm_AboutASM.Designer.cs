@@ -54,9 +54,6 @@ namespace AHD.SM.Forms
             this.label_version = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
@@ -72,41 +69,27 @@ namespace AHD.SM.Forms
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
+            this.toolTip1.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
             // 
             // label_version
             // 
             resources.ApplyResources(this.label_version, "label_version");
             this.label_version.Name = "label_version";
+            this.toolTip1.SetToolTip(this.label_version, resources.GetString("label_version.ToolTip"));
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
+            this.toolTip1.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
             // 
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
+            this.toolTip1.SetToolTip(this.button1, resources.GetString("button1.ToolTip"));
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // linkLabel6
-            // 
-            resources.ApplyResources(this.linkLabel6, "linkLabel6");
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
-            // 
-            // label8
-            // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
-            // 
-            // label5
-            // 
-            this.label5.Image = global::AHD.SM.Forms.Properties.Resources.OSLogoTransparent;
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
             // 
             // imageList1
             // 
@@ -135,23 +118,27 @@ namespace AHD.SM.Forms
             resources.ApplyResources(this.linkLabel8, "linkLabel8");
             this.linkLabel8.Name = "linkLabel8";
             this.linkLabel8.TabStop = true;
+            this.toolTip1.SetToolTip(this.linkLabel8, resources.GetString("linkLabel8.ToolTip"));
             this.linkLabel8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel8_LinkClicked);
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
+            this.toolTip1.SetToolTip(this.label2, resources.GetString("label2.ToolTip"));
             // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
+            this.toolTip1.SetToolTip(this.label6, resources.GetString("label6.ToolTip"));
             // 
             // linkLabel1
             // 
             resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;
+            this.toolTip1.SetToolTip(this.linkLabel1, resources.GetString("linkLabel1.ToolTip"));
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
             // linkLabel2
@@ -159,6 +146,7 @@ namespace AHD.SM.Forms
             resources.ApplyResources(this.linkLabel2, "linkLabel2");
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.TabStop = true;
+            this.toolTip1.SetToolTip(this.linkLabel2, resources.GetString("linkLabel2.ToolTip"));
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // Frm_AboutASM
@@ -166,10 +154,7 @@ namespace AHD.SM.Forms
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.linkLabel6);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.linkLabel8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.linkLabel7);
@@ -184,6 +169,7 @@ namespace AHD.SM.Forms
             this.MinimizeBox = false;
             this.Name = "Frm_AboutASM";
             this.ShowInTaskbar = false;
+            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,9 +183,6 @@ namespace AHD.SM.Forms
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.LinkLabel linkLabel6;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel linkLabel7;
         private System.Windows.Forms.LinkLabel linkLabel4;

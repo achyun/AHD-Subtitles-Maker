@@ -28,7 +28,6 @@ namespace AHD.SM
             checkBox_auto_generate_wave.Checked = Program.Settings.TimelineAutoGenerateWaveform;
             checkBox_warnWhenID3Detected.Checked = Program.Settings.WarnMeWhenID3Detected;
             checkBox_wanrMeWhenMKVLoaded.Checked = Program.Settings.WarnMeWhenMKVDetected;
-            checkBox_AskToDownloadFromOS.Checked = Program.Settings.AskToDownloadFromOS;
             checkBox_scrollTimeLine.Checked = Program.Settings.ScrollTimelineToMediaOnMediaSlide;
             numericUpDown_AdvanceTime.Value = (int)(Program.Settings.AdvanceTime * 1000);
             numericUpDown_NewSubtitleDuration.Value = Program.Settings.NewSubtitleDuration;
@@ -40,7 +39,6 @@ namespace AHD.SM
             Program.Settings.TimelineAutoGenerateWaveform = checkBox_auto_generate_wave.Checked;
             Program.Settings.WarnMeWhenID3Detected = checkBox_warnWhenID3Detected.Checked;
             Program.Settings.WarnMeWhenMKVDetected = checkBox_wanrMeWhenMKVLoaded.Checked;
-            Program.Settings.AskToDownloadFromOS = checkBox_AskToDownloadFromOS.Checked;
             Program.Settings.ScrollTimelineToMediaOnMediaSlide = checkBox_scrollTimeLine.Checked;
             Program.Settings.AdvanceTime = ((double)numericUpDown_AdvanceTime.Value / 1000);
             Program.Settings.NewSubtitleDuration = (int)numericUpDown_NewSubtitleDuration.Value;
@@ -57,7 +55,6 @@ namespace AHD.SM
             checkBox_auto_generate_wave.Checked = true;
             checkBox_warnWhenID3Detected.Checked = true;
             checkBox_wanrMeWhenMKVLoaded.Checked = true;
-            checkBox_AskToDownloadFromOS.Checked = true;
             checkBox_scrollTimeLine.Checked = true;
             numericUpDown_AdvanceTime.Value = 500;
             numericUpDown_NewSubtitleDuration.Value = 2;
@@ -69,7 +66,7 @@ namespace AHD.SM
             stream.Write(Program.Settings.TimelineAutoGenerateWaveform);
             stream.Write(Program.Settings.WarnMeWhenID3Detected);
             stream.Write(Program.Settings.WarnMeWhenMKVDetected);
-            stream.Write(Program.Settings.AskToDownloadFromOS);
+            stream.Write(false);
             stream.Write(Program.Settings.ScrollTimelineToMediaOnMediaSlide);
             stream.Write(Program.Settings.AdvanceTime);
             stream.Write(Program.Settings.NewSubtitleDuration);
@@ -81,7 +78,7 @@ namespace AHD.SM
             Program.Settings.TimelineAutoGenerateWaveform = stream.ReadBoolean();
             Program.Settings.WarnMeWhenID3Detected = stream.ReadBoolean();
             Program.Settings.WarnMeWhenMKVDetected = stream.ReadBoolean();
-            Program.Settings.AskToDownloadFromOS = stream.ReadBoolean();
+            stream.ReadBoolean();// For compatibility with older versions
             Program.Settings.ScrollTimelineToMediaOnMediaSlide = stream.ReadBoolean();
             Program.Settings.AdvanceTime = stream.ReadDouble();
             Program.Settings.NewSubtitleDuration = stream.ReadInt32();
@@ -91,7 +88,6 @@ namespace AHD.SM
             checkBox_auto_generate_wave.Checked = Program.Settings.TimelineAutoGenerateWaveform;
             checkBox_warnWhenID3Detected.Checked = Program.Settings.WarnMeWhenID3Detected;
             checkBox_wanrMeWhenMKVLoaded.Checked = Program.Settings.WarnMeWhenMKVDetected;
-            checkBox_AskToDownloadFromOS.Checked = Program.Settings.AskToDownloadFromOS;
             checkBox_scrollTimeLine.Checked = Program.Settings.ScrollTimelineToMediaOnMediaSlide;
             numericUpDown_AdvanceTime.Value = (int)(Program.Settings.AdvanceTime * 1000);
             numericUpDown_NewSubtitleDuration.Value = Program.Settings.NewSubtitleDuration;

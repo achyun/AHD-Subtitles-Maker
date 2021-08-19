@@ -122,9 +122,6 @@
     <Setting Name="ID3V2_WriteFooter" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="AskToDownloadFromOS" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
-    </Setting>
     <Setting Name="AutoCreateSubtitlesTrackAfterCreatingNewProject" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>

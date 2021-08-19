@@ -186,10 +186,6 @@ HelpNavigator.KeywordIndex, "Workflow"); break;
                         }
                         break;
                     }
-                case QuickStartResult.SearchOS:
-                    haltOSMessage = true;
-                    downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem_Click(this, null);
-                    break;
             }
             Program.Settings.Save();
         }
@@ -742,28 +738,6 @@ HelpNavigator.KeywordIndex, "Workflow"); break;
                         {
                             iD3TagsSynchronizedLyricsToolStripMenuItem_Click(this, null);
                         }
-                    }
-                }
-                if (Program.Settings.AskToDownloadFromOS)
-                {
-                    if (haltOSMessage)
-                    {
-                        haltOSMessage = false;
-                        return;
-                    }
-                    MessageDialogResult result = MessageDialog.ShowMessage(this,
-                        Program.ResourceManager.GetString("Message_DoYouWantToDownloadSubtitlesFromOSForThisMovie"),
-                        Program.ResourceManager.GetString("MessageCaption_DownloadSubtitlesFromOS"),
-                        MessageDialogButtons.OkNo | MessageDialogButtons.Checked,
-                        MessageDialogIcon.Question, Program.Settings.AskToDownloadFromOS,
-                        Program.ResourceManager.GetString("Button_Yes"),
-                         Program.ResourceManager.GetString("Button_No"),
-                        "",
-                        Program.ResourceManager.GetString("MessageCheckBox_AskToDownloadFromOS"));
-                    Program.Settings.AskToDownloadFromOS = ((result & MessageDialogResult.Checked) == MessageDialogResult.Checked);
-                    if ((result & MessageDialogResult.Ok) == MessageDialogResult.Ok)
-                    {
-                        downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem_Click(this, null);
                     }
                 }
                 if (Program.Settings.TimelineAutoGenerateWaveform)
@@ -1596,7 +1570,8 @@ HelpNavigator.KeywordIndex, "Workflow"); break;
                                     Program.Settings.AskBeforeDeletingSubtitle = (result & MessageDialogResult.Checked)
                                         == MessageDialogResult.Checked;
                                     subtitlesDataEditor1.RefreshSubtitles();
-                                    timeLine1.UpdateSubtitlesReview(); timeLine1.Invalidate();
+                                    timeLine1.UpdateSubtitlesReview();
+                                    timeLine1.Invalidate();
                                     subtitleEditor1.Clear();
                                     Save = true;
                                     AddHistory(Program.ResourceManager.GetString("History_SubtitlesDelete"));
@@ -1610,7 +1585,8 @@ HelpNavigator.KeywordIndex, "Workflow"); break;
                                     selectedTrack.Subtitles.Remove(item.Subtitle);
                                 }
                                 subtitlesDataEditor1.RefreshSubtitles();
-                                timeLine1.UpdateSubtitlesReview(); timeLine1.Invalidate();
+                                timeLine1.UpdateSubtitlesReview(); 
+                                timeLine1.Invalidate();
                                 subtitleEditor1.Clear();
                                 Save = true;
                                 AddHistory(Program.ResourceManager.GetString("History_SubtitlesDelete"));
@@ -4343,121 +4319,6 @@ HelpNavigator.KeywordIndex, "Workflow"); break;
                     Program.ProjectManager.Project.PreparedTextRTF = frm.PreparedTextRTFAfterChange;
                     preparedTextEditor.RefreshText(Program.ProjectManager.Project.PreparedTextRTF);
                 }
-            }
-        }
-        private void downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            mediaPlayer1.Pause();
-            try
-            {
-                FormLogIn ff = new FormLogIn();
-                if (ff.ShowDialog(this) == DialogResult.OK)
-                {
-                    if (File.Exists(Program.ProjectManager.Project.MediaPath))
-                    {
-                        if (Frm_DownloadSubtitlesFromOS.CheckLogIn(ff.UserName, ff.Password))
-                        {
-                            Frm_DownloadSubtitlesFromOS frm = new Frm_DownloadSubtitlesFromOS(Program.ProjectManager.Project.MediaPath, ff.UserName, ff.Password);
-
-                            if (frm.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
-                            {
-                                ImportFormat(frm.DownloadedFile);
-                            }
-                        }
-                    }
-                    else
-                    {
-                        OpenFileDialog op = new OpenFileDialog();
-                        op.Title = Program.ResourceManager.GetString("Title_ChangeMedia");
-                        op.Filter = Filters.Media;
-                        if (op.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
-                        {
-                            if (Frm_DownloadSubtitlesFromOS.CheckLogIn(ff.UserName, ff.Password))
-                            {
-                                Frm_DownloadSubtitlesFromOS frm = new Frm_DownloadSubtitlesFromOS(op.FileName, ff.UserName, ff.Password);
-
-                                if (frm.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
-                                {
-                                    // Import the file
-                                    ImportFormat(frm.DownloadedFile);
-                                    // Change the media !
-                                    ChangeMedia(op.FileName);
-                                    Save = true;
-                                    AddHistory(Program.ResourceManager.GetString("History_MediaChanged"));
-                                }
-                            }
-                        }
-                        else
-                        {
-                            if (Frm_DownloadSubtitlesFromOS.CheckLogIn(ff.UserName, ff.Password))
-                            {
-                                Frm_DownloadSubtitlesFromOS frm = new Frm_DownloadSubtitlesFromOS(op.FileName, ff.UserName, ff.Password);
-                                if (frm.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
-                                {
-                                    // Import the file
-                                    ImportFormat(frm.DownloadedFile);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageDialog.ShowErrorMessage(ex.Message,
-                    Program.ResourceManager.GetString("MessageCaption_Error"));
-            }
-        }
-        private void uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            mediaPlayer1.Pause();
-            string subFileName = "";
-            string movieFileName = Program.ProjectManager.Project.MediaPath;
-
-            if (Program.ProjectManager.Project.SubtitleTracks.Count > 0)
-            {
-                if (Program.Settings.AskToExportBeforeUpload)
-                {
-                    MessageDialogResult result = MessageDialog.ShowMessage(
-                        this, Program.ResourceManager.GetString("Message_DoYouWantToExportSubtitlesFirst"),
-                     Program.ResourceManager.GetString("MessageCaption_UploadSubtitles"),
-                     MessageDialogButtons.OkNoCancel | MessageDialogButtons.Checked,
-                        MessageDialogIcon.Question, Program.Settings.AskToExportBeforeUpload,
-                        Program.ResourceManager.GetString("Button_Yes"), Program.ResourceManager.GetString("Button_No"),
-                        Program.ResourceManager.GetString("Button_Cancel"),
-                           Program.ResourceManager.GetString("MessageCheckBox_AskEveryTimeBeforeUploadSubtitles."));
-                    Program.Settings.AskToExportBeforeUpload = (result & MessageDialogResult.Checked) == MessageDialogResult.Checked;
-                    if ((result & MessageDialogResult.Ok) == MessageDialogResult.Ok)
-                    {
-                        Frm_Export export = new Frm_Export(Program.ProjectManager.Project, Program.Settings.FavoriteFormat);
-                        if (export.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
-                        {
-                            subFileName = export.ExportedFilePath;
-                        }
-                    }
-                    else if ((result & MessageDialogResult.No) == MessageDialogResult.No)
-                    {
-                        // Do nothing, just send no file name so user has to browse for it manually
-                    }
-                    else if ((result & MessageDialogResult.Cancel) == MessageDialogResult.Cancel)
-                    {
-                        return;
-                    }
-                }
-            }
-            // try
-            {
-                FormLogIn ff = new FormLogIn();
-                if (ff.ShowDialog(this) == DialogResult.OK)
-                {
-                    Frm_UploadToOS frm = new Frm_UploadToOS(movieFileName, subFileName, ff.UserName, ff.Password);
-                    frm.ShowDialog(this);
-                }
-            }
-            // catch (Exception ex)
-            {
-                //     MessageDialog.ShowErrorMessage(ex.Message,
-                //         Program.ResourceManager.GetString("MessageCaption_Error"));
             }
         }
         private void mediaPlayer1_Enter(object sender, EventArgs e)
