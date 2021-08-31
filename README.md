@@ -6,14 +6,6 @@ A program that create and edit subtitles with no scripts !
 
 ### [Download Latest Release](https://github.com/alaahadid/AHD-Subtitles-Maker/releases)
 ### [New to ASM ? Getting Started (Workflow And Tutorials)](https://github.com/alaahadid/AHD-Subtitles-Maker/wiki/Workflow-And-Tutorials)
-### Donate:
-
-Donation to the developer can be considered as appreciation to the work has been put to develop such a program.
-
-- Please follow [this link](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=alahadid@gmail.com&item_name=Donation&bn=PP-DonationsBF) to place a donation using [paypal.com](https://www.paypal.com).
-- Gift codes can be sent as well into [this email](mailto:alaahadidfreeware@gmail.com). Accepted gift codes are: **Steam Wallet Code Euro** and **Amazon Balance Code Germany**.
-
-Thanks for your generosity.
 
 ## Introduction
 AHD Subtitles Maker is a powerful tool designed to work with Windows®. It permits you to create the most common text-based subtitle formats in minutes.
