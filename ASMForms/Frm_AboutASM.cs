@@ -1,7 +1,7 @@
 ﻿// This file is part of AHD Subtitles Maker.
 // A program can make and edit subtitle.
 // 
-// Copyright © Alaa Ibrahim Hadid 2009 - 2021
+// Copyright © Alaa Ibrahim Hadid 2009 - 2022
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -73,6 +73,11 @@ namespace AHD.SM.Forms
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/alaahadid/AHD-Subtitles-Maker");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.paypal.com/donate?hosted_button_id=KV25VFRMVKLM2");
         }
     }
 }

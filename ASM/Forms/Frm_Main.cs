@@ -1,7 +1,7 @@
 ﻿// This file is part of AHD Subtitles Maker.
 // A program can make and edit subtitle.
 // 
-// Copyright © Alaa Ibrahim Hadid 2009 - 2021
+// Copyright © Alaa Ibrahim Hadid 2009 - 2022
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -173,8 +173,14 @@ namespace AHD.SM
                 case QuickStartResult.OpenProject: openToolStripMenuItem_Click(this, null); break;
                 case QuickStartResult.OpenRecentProject: LoadProject(qq.OpenRecentPath); break;
                 case QuickStartResult.GettingStarted:
-                    Help.ShowHelp(this, Program.StartUpPath + "\\Help.chm",
-HelpNavigator.KeywordIndex, "Workflow"); break;
+                    {
+                        try
+                        {
+                            System.Diagnostics.Process.Start("https://github.com/alaahadid/AHD-Subtitles-Maker/wiki/Workflow-And-Tutorials");
+                        }
+                        catch { }
+                        break;
+                    }
                 case QuickStartResult.Import://import subtitles format file
                     {
                         OpenFileDialog op = new OpenFileDialog();
@@ -1585,7 +1591,7 @@ HelpNavigator.KeywordIndex, "Workflow"); break;
                                     selectedTrack.Subtitles.Remove(item.Subtitle);
                                 }
                                 subtitlesDataEditor1.RefreshSubtitles();
-                                timeLine1.UpdateSubtitlesReview(); 
+                                timeLine1.UpdateSubtitlesReview();
                                 timeLine1.Invalidate();
                                 subtitleEditor1.Clear();
                                 Save = true;
@@ -3964,11 +3970,11 @@ HelpNavigator.KeywordIndex, "Workflow"); break;
         }
         private void viewHelpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string helpPath = Program.StartUpPath + "\\" + Program.CultureInfo.Name + "\\Help.chm";
-            if (File.Exists(helpPath))
-                Help.ShowHelp(this, helpPath, HelpNavigator.TableOfContents);
-            else
-                Help.ShowHelp(this, Program.StartUpPath + "\\en-US\\Help.chm", HelpNavigator.TableOfContents);
+            try
+            {
+                System.Diagnostics.Process.Start("https://github.com/alaahadid/AHD-Subtitles-Maker/wiki");
+            }
+            catch { }
         }
         private void languageToolStripMenuItem_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
@@ -5044,6 +5050,10 @@ HelpNavigator.KeywordIndex, "Workflow"); break;
         private void wikiOnlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Process.Start("https://github.com/alaahadid/AHD-Subtitles-Maker/wiki");
+        }
+        private void donateToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://www.paypal.com/donate?hosted_button_id=KV25VFRMVKLM2");
         }
     }
     public enum ActiveMode

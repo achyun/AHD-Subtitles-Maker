@@ -1,7 +1,7 @@
 ﻿// This file is part of AHD Subtitles Maker.
 // A program can make and edit subtitle.
 // 
-// Copyright © Alaa Ibrahim Hadid 2009 - 2021
+// Copyright © Alaa Ibrahim Hadid 2009 - 2022
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -48,14 +48,13 @@ namespace AHD.SM.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_AboutASM));
             this.label1 = new System.Windows.Forms.Label();
             this.label_version = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.imageList1 = new System.Windows.Forms.ImageList();
+            this.toolTip1 = new System.Windows.Forms.ToolTip();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel7 = new System.Windows.Forms.LinkLabel();
             this.linkLabel8 = new System.Windows.Forms.LinkLabel();
@@ -63,6 +62,7 @@ namespace AHD.SM.Forms
             this.label6 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -149,10 +149,19 @@ namespace AHD.SM.Forms
             this.toolTip1.SetToolTip(this.linkLabel2, resources.GetString("linkLabel2.ToolTip"));
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.toolTip1.SetToolTip(this.button2, resources.GetString("button2.ToolTip"));
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Frm_AboutASM
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.linkLabel8);
@@ -190,5 +199,6 @@ namespace AHD.SM.Forms
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Button button2;
     }
 }

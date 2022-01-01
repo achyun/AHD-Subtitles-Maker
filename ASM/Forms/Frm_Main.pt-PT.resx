@@ -119,83 +119,77 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="tabControl_top_left.Size" type="System.Drawing.Size, System.Drawing">
-    <value>725, 925</value>
+    <value>724, 958</value>
   </data>
   <data name="tabControl_top_middle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>883, 925</value>
+    <value>882, 958</value>
   </data>
   <data name="splitContainer4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1614, 925</value>
+    <value>1612, 958</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="splitContainer4.SplitterDistance" type="System.Int32, mscorlib">
-    <value>725</value>
+    <value>724</value>
   </data>
   <data name="tabControl_down_left.Size" type="System.Drawing.Size, System.Drawing">
-    <value>731, 144</value>
+    <value>730, 146</value>
   </data>
   <data name="tabControl_down_middle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>877, 144</value>
+    <value>876, 146</value>
   </data>
   <data name="splitContainer5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1614, 144</value>
+    <value>1612, 146</value>
   </data>
   <data name="splitContainer5.SplitterDistance" type="System.Int32, mscorlib">
-    <value>731</value>
+    <value>730</value>
   </data>
   <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1614, 1075</value>
+    <value>1612, 1110</value>
   </data>
   <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
-    <value>925</value>
+    <value>958</value>
   </data>
   <data name="tabControl_top_right.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 905</value>
+    <value>334, 938</value>
   </data>
   <data name="tabControl_down_Right.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 164</value>
+    <value>334, 166</value>
   </data>
   <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 1075</value>
+    <value>334, 1110</value>
   </data>
   <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
-    <value>905</value>
+    <value>938</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>1614</value>
-  </data>
-  <data name="toolStrip_main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 66</value>
-  </data>
-  <data name="toolStrip_marks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 33</value>
+    <value>1612</value>
   </data>
   <data name="tabPage_media.Size" type="System.Drawing.Size, System.Drawing">
-    <value>717, 892</value>
+    <value>716, 925</value>
   </data>
   <data name="tabPage_media.Text" xml:space="preserve">
     <value>Mídia</value>
   </data>
   <data name="tabPage_subitltesData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>875, 892</value>
+    <value>874, 925</value>
   </data>
   <data name="tabPage_subitltesData.Text" xml:space="preserve">
     <value>Dados da Legenda</value>
   </data>
   <data name="tabPage_TimeLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>723, 111</value>
+    <value>722, 113</value>
   </data>
   <data name="tabPage_TimeLine.Text" xml:space="preserve">
     <value>Linha de Tempo</value>
   </data>
   <data name="tabPage_errors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>723, 111</value>
+    <value>722, 113</value>
   </data>
   <data name="tabPage_errors.Text" xml:space="preserve">
     <value>Erros</value>
   </data>
   <data name="tabPage_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>723, 111</value>
+    <value>722, 113</value>
   </data>
   <data name="tabPage_log.Text" xml:space="preserve">
     <value>Registo</value>
@@ -204,7 +198,7 @@
     <value>156, 68</value>
   </data>
   <data name="richTextBox_Log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>715, 101</value>
+    <value>714, 103</value>
   </data>
   <data name="saveToolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -270,13 +264,13 @@
     <value>Limpar</value>
   </data>
   <data name="tabPage_multipleSubtitleTrackViewer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>869, 111</value>
+    <value>868, 113</value>
   </data>
   <data name="tabPage_multipleSubtitleTrackViewer.Text" xml:space="preserve">
     <value>Visualizador de Múltiplas Faixas de Legendas</value>
   </data>
   <data name="tabPage_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 872</value>
+    <value>326, 905</value>
   </data>
   <data name="tabPage_subtitleTracks.Text" xml:space="preserve">
     <value>Faixas de Legenda</value>
@@ -285,7 +279,7 @@
     <value>316, 398</value>
   </data>
   <data name="treeView_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 828</value>
+    <value>318, 861</value>
   </data>
   <data name="addSubtitlesTrackToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -465,23 +459,23 @@
     <value>Misturar</value>
   </data>
   <data name="toolStrip_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 34</value>
+    <value>318, 34</value>
   </data>
   <data name="toolStripButton28.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ6SURBVDhPrZP9S1NRGMfv3zKLoFaQaFQk+EKUYCReKl9b
-        5Evq0k1d5NS7q+mcu+bEt+tGmQVt5TYZ6aabLyMVM3G60kXqdSjRRhEE5fDXb/fWtSFaEPSB57fn8z3n
-        POcc4r/DTKpiWjxKqtFZxtUPy7ZVL/galHGVNhlV9ux6jNh2MMx4BalzV4SfLnVjITyDwBc/lj7Pwx10
-        gPaUocR8NVzYn0GK7XsRZHqwODK+4cDW9w1MfhyBmXuAx2ssHJtmzH56CWZaDRmbHsk1pe0N0Y0rJU0u
-        ZWh03YqNb6voW+1E12ILDL4msIFW9AQYGJYbMbrlAOWRgzReDGWwKRJR5wPcCk3vnBbvvy7zK/age4WB
-        /jWNXbSLatTNyKGZU8C1ace1R+eR1pGoEXWCEAY2ErTzW7Xg/kIDmufroJ4sF3Wg1J6DuxM3UDWWC9Pb
-        VnTO1uOC4Rwn6gShGcrf8X4YQe+7Vl6uEbX9KN1Z0EyVwBroQzJ9bEfUCaLGkb8zHBwA46fQ4Lsjtu9H
-        CKC8t2ALPEQCfTQaoLLLOKOPAbuiR80rOZRT+Si0XRG1X6JQlZ4c9Pq0aPPW4kzjiegRFAN5mmIbCWfQ
-        CvVUASq8sp9n3kWQy12ZUI3mwrluQUr7acQ1SKNDLDFnS4qekCHKU4oh7vnvgQmiwiWUIOdgeM2M29Zs
-        xN2Tho7Th6PXKHCz/zKZx16KVDsL4OJDjD4dqIki1I0VwLjQDCcvy62ZiKMlkZPUkYNfY5YplSS7ksPp
-        piS0T1OwvGFh8bPQe6uR3HaKl6XhP8q7pHckxaQaEqgU5iyXqI/fjtfFbsfzA4utl1KxtYf+/pn+HYL4
-        AcKFzyPI+e98AAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ4SURBVDhPrZP9S1NRGMfv3zKLIFaQaFQk+EKUYCReKl9b
+        5Evq0k1d5NS7aVPnrjnx7bpRZkFbuU1Guunm3GiKmThd6SL1OpRoowiCcvjrt3vrmokWBH3g+e35fM85
+        zzmH+O/QXkVcm1tOaRwVbOOoZEvxnKthCVttlVAVT6/FCW0HQ3uqSK2rKvpksRfz0WmEPgex+GkOrrAd
+        ancFykxXosWDWaTQvhdeVg+Xxjzrdmx+W4f3wxhM7H08WmVg3zBh5uML0FNKSJjMWL4xY2+I1iMXNTvl
+        kfE1C9a/rmBgpRs9C23QB5rBhNrRF6KhX9JgfNMOyi0FabgQyWLSRILOBbhkqv7ZFrz7ssSt2IfeZRq6
+        V2rs0LKgRMO0FKpZGZwbNlx9eA4ZXckqQScIfmBjYRu3VTPuzTehda4BSm+loAPltjzcmbyOmol8GN+0
+        o3umEef1Z1lBJwjVSOG27/0Y+t+2c3KdoO1H7sqByl8GS2gAqeqj24JOEHX2wu3R8BDoIIWmwG2hfT98
+        AOW7CWvoAZJ+D1DYJKwhQINZ1qHupRRyfyGKrZcF7afIV7U7D/2BFnT46nFac3z3CLKhAlWplYQjbIHS
+        X4Qqn+THmXfg5UpnNhTj+XCsmZHWeQoJTeLdIZaZckUlj8kI5S7HCPvs18B4Uebki5fzMLpqwi1LLhLu
+        iiPH1Id3r5HnxuAlsoC5GKt1FMHJhRgCWlCTJWiYKIJhvhUOTpZaspGgFsVOUEcOfo05xnSS7EmNZhpT
+        0DlFwfyagTnIQOerRWrHSU4WR/8o75DZlRKXrk+i0ugzbLIucStRG7+VyA0svlFMxdcf+vtn+ncI4jvA
+        d88ihPD7ZgAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton28.ToolTipText" xml:space="preserve">
@@ -490,16 +484,16 @@
   <data name="toolStripButton29.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIISURBVDhPnZFtb9JQGIaJiUnjXzCGRP3CGkMUnC/MNnxw
-        m2RTMh3r6FYEKkwcLxukpBuC+kETf4n/yJiYMNiHZU43ga1AaXt7WouEADHblZzkaU+vu+d5juO8IJG4
-        YpejGPm805Ak2n4coSuIdIfns0oozNivBpgyijswJBlGLjcS0hUEuhMV0d1IoRF8/qUZCLrsrYGM8nsY
-        ZOlbBXRTqX8hlhyJoZfOAqUyzPp47kkWlcol6wNSUA0xqRs7b4FPn6HLJfReb8I8siULUaibGYDstyNR
-        7D+Y0eDxXLbkPohUqJM3GU0vFIEPH6HlJXRiItrrL6Gm0oC8a9X1+z6tyrKUrQ2DSIT6GU9ovXSOtPMO
-        2C0TsQQUZbTXBNTvPZws9zFDDheDOmTSDi8AHA8UJNRZVv+vbNLiBLrNrwPkNhBaBV6sALlt/J6dxy+f
-        b+IVW7Q4jlbCa1DFJLBdIGIeyJB2yADbyys4fsTiwO0eH2LJqzzUeAIg16hwYdS801p1htFPF4NAcgNn
-        T4M48k7jwOUaDrFk0qsae0X+ugWFHL3muWsNzFzfp6a05uM5IBbH6XwAh7fcqF27MQhpLS35z0Ic1Ggc
-        yjKHvTveoWlXnSz1jYQ0WD+UwAJ+uG9j/6rTb2//5WQ24G8uPMMeM37aVaeT+nr9pjZW7nPEMP5xch8z
-        ZKJ8MRyOPwyISFJp0+UXAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIISURBVDhPnZFtb9JQGIaJiUnjXzCGRP3CiCGTOV9Qmn7Y
+        iwQdmY51dGuFYjfZeNkgkG4I6gdN/CX+ImNiIkM/TCXiBlsLpe3taS0SAsTolZzkaU+vu+d5jutfgSRd
+        cMpRzHzebRaLXudxhC6f9HY4LqtEY0Hn1QBLRmkfZlGGmcuNhHR53tuJJ9HdSuEk8uhdKxTxOFsDGZWX
+        MMkydgvoplJ/QmxZSKCXzgLlCqy6uXA/i2r1nP0BKahjUTLM/efAm7cw5DJ6z3ZgHdmW+Ti0nQxA9lUh
+        js+3Ajr8/vO23AdClWpuZ3SjUAJevYaeL6KTSELdeAItlQbkA7uu37yj12iacrRhIAhUQ5T0XjpH2nkB
+        HFSIWAZKMtR1HvXZ25PlPlbI1/CSAZm0w/EAywGFIuo0bfxVtmizvFflNgByG4iuAY9XgdwejucX8SMQ
+        mHjFNm2W9SqxdWjJTWCvQMQ8kCHtkAGqK6to3qNx5POND7HlNQ6aKAHkGhU2hkP/Df3T3aBx+iACbG7h
+        7GEEjZlZHHk8wyG2THrVEk/JX3ehkKMfXp+xB2atj1NTemtuAUiIOF0M4ds1H+qXrgxC2svLzFmUhRYX
+        oaywqE37h6Zdc9PUBxJyQjNQQmF8903jy0U342z/5ud8iGmFl1ALjp92ze2m3l++qo+V+zSCQWac3McK
+        mSj/Hy7XL873SDKzvJc7AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton29.ToolTipText" xml:space="preserve">
@@ -532,37 +526,37 @@ Isto significa que todas as legendas adicionadas a esta faixa terão
 como alinhamento padrão da direita para a esquerda</value>
   </data>
   <data name="tabPage_ProjectDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 860</value>
+    <value>326, 893</value>
   </data>
   <data name="tabPage_ProjectDescription.Text" xml:space="preserve">
     <value>Descrição do Projecto</value>
   </data>
   <data name="richTextBox_description.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 850</value>
+    <value>318, 883</value>
   </data>
   <data name="tabPage_history.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 860</value>
+    <value>326, 893</value>
   </data>
   <data name="tabPage_history.Text" xml:space="preserve">
     <value>Histórico</value>
   </data>
   <data name="listBox_history.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 850</value>
+    <value>318, 883</value>
   </data>
   <data name="tabPage_Properties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 131</value>
+    <value>326, 133</value>
   </data>
   <data name="tabPage_Properties.Text" xml:space="preserve">
     <value>Propriedades</value>
   </data>
   <data name="tabPage_preparedText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 131</value>
+    <value>326, 133</value>
   </data>
   <data name="tabPage_preparedText.Text" xml:space="preserve">
     <value>Texto Preparado</value>
   </data>
   <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 34</value>
+    <value>318, 34</value>
   </data>
   <data name="toolStripButton33.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -636,14 +630,186 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton_prepared_word_wrap.Text" xml:space="preserve">
     <value>Quebra de linha</value>
   </data>
+  <data name="toolStripButton11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAElSURBVDhPlZFNaoRAEIUnyTkSkjOEmTlGzpCd1wkuvEKO
+        4MaNgt7AO6iI4P8fVOoVU+KoHZKCB211va+f3SeuF9aZdTnQK+uR9WudkyQZ5nkm1TRN1HUd2bb9xftv
+        rCeZNNQFJhjiOCbP88h1XYqiiHzfJ8uyvnnmg2VMI4C+7ykIAhrHcUny1zQCgBEArP+bRgA4KQxDAZjS
+        6N4tzQJZADgJ622aqqqoKApK01R6bduS4zgK2QO2aWAoy5KyLJOeCl4jYL0GpGkageR5viTZAfTUNWAN
+        QRL9nUPAUQIVesMwCKSu6zsALgKLK+tThzXNWrhcQHCx+L75pB5YeJIrNo4SaB8QfV6eXwBauzRq3MoE
+        QN2lMYnvoeKZdxhMpWlMYvPp+QfpJ1gWlh3UWAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton11.ToolTipText" xml:space="preserve">
+    <value>Duplicar faixa de legendas</value>
+  </data>
+  <data name="toolStripButton13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANoSURBVDhPVZLtT1pnGMbPp+3f2LcmTafpsqQfmn1xg61r
+        N7omtutMiwK+zOnmMpuqk2DFNaLIxJelmUsnGm18mTqrHhUOxVIUqGhngaowFbSsokzl5RzkHHbtQOma
+        3ckvz6frl+e+nod4NYLaufwLzVa9SG39W6iw0vzJpGlJnTZG1LzAfKyyOM/eMGtP5g6+kYm9nnM/PDIH
+        w8y+1x/gQtE4QpHX7IdTMHgWCEM+7sdV9Wrso/KpNzPRl3O+0RLc2nnBLWwlYPOxsPlZWLdYWDaPMeeJ
+        Y9odRZwFJlZpyMd8kLY56f9JLih641qqCXVkFaomKvH9/Wqopn8C6fThoTeOWXeMFyThCHCwPU+gYcqP
+        nGpjfzosavswv4WSY2mbwtKLZZAbzzDkeoIOcz++G6jAoP0pDGs0Nnej6VUiDIvdgxgEZQ9Z4rwq5z31
+        g9LjlQMjlsMOGHec6PV40GBeh9r8B4ZX+lHyqwzDj9eg528x6Yzg/soRDvmehPWPGELSkzs2t3UPQ0d6
+        zO7b8LNrFTUmN4oNJL51t0O72YxWsgY3dLfTq1DrNPR8DwfRBITKeYao+700NLajg/ovHaigC6UTi7hp
+        tSDPI4dgXYw8cwGG7G2QaGVIFWz+8zgtCvECQT0vUExX0t3eVlSvdaJ+3o6r/Q5UGEwoWx5G7swvuNQn
+        w6CtFdc017G4zWJhM4F5nmA4gZw6XlA1Urz9m/cOlK4xSEesuDLkwUXdUwhUJoi0JhT1KtFtUkLcUgiH
+        n8Pj1BPzhPkis7+xMMSnmvfb7zlaUWupROnkID7vc+HygA+f3DHgsq4JjeO1KO+6BnlPJxZ5gY3/G1Ze
+        wCSSvGCOIc7cPPOWuOOir9d+Gxr7KL4eWULJ8BqK+3rQNFMO5UA5ztaVQTSyh8/GGYgyxI45XjDKpP/B
+        6S9PZZ1T5P7TOKlC2ywJDUmhy3QXZXe/wKXmCmgch+h0Ax0uoN0JFBpZRFMrFGcEqTkp7aJrum/hg1ti
+        5CjyIGyQQfhjJwpmwpBQHKQUiwIDi3wjB4mBQ2B3L/m2eCKSiRPEOyWGDd9RLOxYf57c2KOxEaThzbAX
+        SaRJNR9hOPgDwSRN04cnrpOuTJwg3i2Z+SpbNm04XaQPZReNMv9R+JKsV8hGmRMy8uCUhKSyCqak/wJy
+        Y7u0zwLypgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton13.ToolTipText" xml:space="preserve">
+    <value>Traduzir faixa de legendas</value>
+  </data>
+  <data name="toolStripButton15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJtSURBVDhPldPrS1phHAdwob/DRbO10WTQBcMuc0LWKu2C
+        6SDJfDLDYRdZrGUuu5y08syyUqvVcrVYoxZIwWy3tlKK2qUlg73uXQS9Hb37To8PhdsY6/Pux+98eQ7P
+        9xze/7jzrLxDtaRKouPFyX1FkZJR6Qwd/+7epo5velNnblitCWpW1Mc1zyuhnC2DwieD8YUO9fMa5HZl
+        uenjiUxv68XG19oAE7JgbG8IM988mD3wYmrfDc+nRxjZHcBAuAfV3nIIm9L6aSzu7rqOb3ilCQzv2rHw
+        fRqTX0fweH8M3s8uuPcGwW4zsIdt6N60QO4qhsCQ4qTRuIY1jdn24T7mIpOY2ffAteOAYVGLWw4xcm3Z
+        yGq/gQp3CUpZGVJJ8jiNnatdVgaHQj3cic4wAwlbcFjQJ3LRNSdVL4gIdJf8dEykfHr7qGJKdFo0Kv0p
+        ceSd5PdkM3R1JqWOb+WpeEnapWqini8nVdMlRD4uJYVsPuHJvYWkyCUhEoeYiG3ZJKNdSGKdt27prTR/
+        RjWnYBSe4pPYYaJu0Wl+d8YRXSVq+aj3G9drI3TkKJ+UuhQe2eHwtiPayiDa11qj9yMM0vW55g0ybt+x
+        onfrAbTL1Yh+hYi+Mkwv9WBDDFfp0HYf1BOVuN6cZqaxONM7nZMJW7D4Y5ar1B+ZSKi0b6uTq1S/UIt0
+        05WAQCfg02hcw1pN/8P3bfAf+LhKfV9GMLrnBLtjR+9GJ5pWDKgaK8M1Y2pAUJ8sprFE6jm5uyXQCOMS
+        QSFbgJtMDnKsmchsSz8WNl0NpjVeNv9x8u9iP47UnpdwiRcSq1HcldVBx3/g8X4Bj5QzBMM+BqgAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton15.ToolTipText" xml:space="preserve">
+    <value>Sincronizar</value>
+  </data>
+  <data name="toolStripButton14.ToolTipText" xml:space="preserve">
+    <value>Desvio de tempo</value>
+  </data>
+  <data name="toolStripButton16.ToolTipText" xml:space="preserve">
+    <value>Preencher Espaço</value>
+  </data>
+  <data name="toolStripButton17.ToolTipText" xml:space="preserve">
+    <value>Esticar Para Anterior</value>
+  </data>
+  <data name="toolStripButton18.ToolTipText" xml:space="preserve">
+    <value>Esticar Para Próximo</value>
+  </data>
+  <data name="toolStripButton19.ToolTipText" xml:space="preserve">
+    <value>Dividir</value>
+  </data>
+  <data name="toolStripButton32.ToolTipText" xml:space="preserve">
+    <value>Fundir</value>
+  </data>
+  <data name="toolStripSplitButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHxSURBVDhPzZD/TxJxHMbv7+AfqBatudasMLHDdJIgLG03
+        LZxZbnThwqbkTlBv6MXAbweeEuBOM1xaP9RmK3J+KabJtYqwun+GPX7A21wRuvVTr1+f9/O83++H+j9x
+        bd1h2ZRDdb5zoGu1DZ2vGLX9ZQuryeVh07d13WvtivBpAPM5CcuqjKWfc4h+mcSj1AO0PG1SmLhVp42X
+        4iLmUIbHijqPhb0okj/iWNyLIfZNxFxWQv9bN2zRekUb/x3Xegc7ssPh+a+DrXJ2BsObHvjWejHzeRyx
+        r2HMkkucKx2oH68pfece+TmRjUD+LhW3WZZNeSZp42/IjTwdN+bHdkYRUULwb3phGq1SNdshXW9uknPj
+        WMhF4VvvA7No4zWJskzXecwijboxI+iAAdX+C9CkQ0jTpLjZ4nYu1YNmslmTqIYputTwJ44XdlXcDSCs
+        BCFmgqh5YsxfmzYlC9rVUDWuCJeODmlN2tmeVSckUlghZCLzGHeXbqE2eBkOmUFrohkXveeODrElzIr7
+        tRMTuwL8aS8C2zyE9CD8H33gP3C4LllQ8VBfPsQartWZJ2ml81kbuPe9GCkaBzC01Q/fhgdNohlnuk8d
+        3wctGNgqvjJnGDyPSq4C9kgjrFMNxHzyePPfOOs+Db3rH80F9PdPlDFT1D5w7BPwT9v+3wAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="toolStripSplitButton2.Text" xml:space="preserve">
+    <value>Aplicar alinhamento da direita para a esquerda a todas as legendas da faixa seleccionada</value>
+  </data>
+  <data name="setRightToLeftToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 34</value>
+  </data>
+  <data name="setRightToLeftToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Definir</value>
+  </data>
+  <data name="setLeftToRightToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 34</value>
+  </data>
+  <data name="setLeftToRightToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Definir Esquerda para a Direita</value>
+  </data>
+  <data name="toolStripButton20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALgSURBVDhPrZHJTxNRHMfnP/AqF89eiHLBGI0HY0g0RhOJ
+        QU1EUBTClrDJUgk2AkV20FIUYlnK0mKLbQikAwVKoAIplLaAFEpLAVlLnbaUZRC+zpTBaPTgwU/yy3sv
+        8z7f33tviP+Oprnoqq4tWzOmzNiaUPHoMVUWPSBNWlPXJn1SVGdc5Lb9HW1rflU/Gbu/ZBnGxuo83G4X
+        KMqJ5QUTTIOtkFdFb0tL47O57b/T15pXYdWL4Np0wOJw4WOvHVXyKVTKJtHYZcX47BrsFh06a2Igzo1K
+        47RjuusLLpOqVNq5bseAYQWKPjusS2443V5surdhWXSjkbSiXWvDjKELklf3fLWCmCBOJwiyPr1zjvnw
+        ZWELMo0NLC6KwuzXVewyc7a8R0B1hxWDRge6JSkQ8e43cjpBqBsSVlccZkjUc5hmOvsOjuD1+SD8IMY6
+        E+TZ24Nc3YuBWQpFLUaYR6Wo4YXaOZ0g2uvjd13OZRQ2GbG+Q8O1d4h9pmvmSz4kCiXSc/ggdSMwUzSS
+        hSNYtI8wASE7nM4ElEXvOjfmwRcbsOilmZBDLFEe5BaX+OUBgwmbB4DeSSOh/DMc81rUZP4SIC8Nt82b
+        u1AuM0I7R2GFufSSh0Zn/xBsW26sfQekOgWSRBF4VnobjwTXkJh+ieJ0gqjLCxf3SzOgM86iQGbBJvNg
+        LhrwHDLFzNuGWsFvi0THpBATKyTKumMRVhaI4LiAYn+AODf2fE1O2M6MvgFNXWN4LZuBwf4NXuY9vD4a
+        kYXXoTSXQzldyf4gFPc8RVlPNM7Fndr1B7C840dmNBfcxfRwFfpG9cgXD+N55RBSygdxkxeEzslav3yC
+        yiTEhbgAcPoxb188zH6fesOrFD3AuCYPtmkJbFN1uJJ4BkXkYwjICL8sUEf8eYITRFlPgivS7rS8Sb7l
+        EKWG7LAVkRjoDi0+ixIyyt+ZHdn1zzf4F4JjTxcExQV42GOzI7smCIL4AYQ9MQIs4eLtAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="toolStripButton20.ToolTipText" xml:space="preserve">
+    <value>Adicionar marca</value>
+  </data>
+  <data name="toolStripButton21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALySURBVDhPrZFdSJNRGMffmt4X3XTThV1EBUHdBFFBqXkR
+        1IUSZqAQCorphd9TE5PUTNPUcrO0pjl1m01T0rnp1Jmairo209zch3Pm1+Z8t7mpr7p/7/SlDwi66QcP
+        HDjn93+ecw7x35E3FPkPNWXJx1vZa1/aMqnxtgyqX5iwLK1O+NBcyb7EHPs7CkE+p08Wu23WDGN1SQ+7
+        3QaStGJhTg31gABiTvSGsCQuizn+J72CvDLdGBc2iwkakw3ve4zgiKdQLvqKOokOE9plGDVD6KiKAS83
+        KoXRDuiqLbgia0umrCtG9CsX0dxrhM5sh9XuhMW+Ac28HXUyHVoUBswoJeA/vuuqfhJzgdEJQlab1jFL
+        b3ybW4NIboAXG0lC+30Jm/TaW04PUPlRhwGVCV38JHAzw+oYnSCk7+KXFk2T4EtnMU13du144HS5UPGW
+        hxU6yLG1BbG0B/1aEkWNKkyOClGVGWJkdIJoqY3btFkXUFivwoqbgm1rD9t01/RHOeA3tyItOweyoRFM
+        khQSK0YwbxyhA4LcjE4HPI/etK7qkcNTYt5J0SF7MJMO5D4r3pf7lWpYdoAxK4X40s8w6RWoSv8tQFwS
+        YdBPSlAqUkExS2KRvrTZQaGjbxCGNTuWdwF1UwV6wk+j298X3SHHUBt+hmR0gqjJi+D1CdkYUmlRINLA
+        Qj+YjQIce3TR69kWDtSpV7HZXgzPdCdcgkRIH5zzdAX4xO8H8HJjz1dlh7pnxt6hXjKOp6IZKI3rcNLv
+        4XRR6A47CTcto/wWkHYUyPeDpfAa2q+zDPsBXl7l3Gc3FNzB9DAHvaNjyOcNI7V8EEmlA/tje8abvb/7
+        k/Xs4xD5+3gY/YCXD8OzXiffdLZy72FCngfDNB+GqRp0BR/BxptIgJa2UgnY6DLFsNB5g7XAqL/gZkRe
+        LEsJbnyReNvETQ5ye0scfpbsiDrlWUzzw2q6L/RRhyC/7LMrCTycwWj/5lPoCbY0gGX0ji0NZJkPZIL4
+        AeSHL3OFTkiXAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton21.ToolTipText" xml:space="preserve">
+    <value>Remover marca selecionada</value>
+  </data>
+  <data name="toolStripButton22.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMDSURBVDhPrZBbTFJxHMf/XVbrrZdaD03XZevylD3UavbQ
+        Zaz5UKvmutvKSvMyZ+HE2xQv5SVFy4CiSQgkYHgtCcxUZmSGEloqihJa3iAESVRcfTvQ2aqthx76bP/t
+        v3P+n8/v/A/5rzQ9Ljigq0xr6qxlfXlXl+LtrEv2auXxE+qH8TVVfNYe+tjfaZXd5LZoohZGTe2YGh+C
+        y+WA02nHp4/d6G6TQcmN+Covikmjj/9JsyynxKznwWGzwmR14MlLC7jKD7ijeA+xyoyugQlYTDo0CCIh
+        zL6cQGs/aRTlBmvqmF77pAVawxiqmi0wj7pgd7lhc32FacQFscaM6tZh9BtUkGSdmn14KzKI1gnRiBIb
+        BqkXfR+/QNE0DB8OpxMDn8cxR+19y/0d4D81o81oRaPkBngpp8W0Toi6PHZ8zNoDiXoQvdTk2cXvcM/O
+        4l6ZEJNUaGZ+Hkr1S2gHnCioMKKnQw5BygkLrRNSLYqZc9g/IV9qxKTHC8f8NyxQU5My2JBU1SIxnQ2N
+        7g1uyBm4IgzCiOUNFWB4aJ0KcCLm7FNDYAsNGHF7qcg3jDpnkH270C9rDd2wLQLR0v1g15/BSf5WCJJ+
+        CyiLwoaHelQoVhjROujEGHXp0Rkv4qT7ECfZi2vluxBethOp1aFQvC0Bs/IoGJx1ICBL/IFHOWHCFjkL
+        OuMAchUm2Kgf5vBSE8W7UdPFhbKz1C/K3haj+AUTotf5iJQysOnWykV/RJgdtUOQftLTry+HVNWJPEU/
+        DJZphFP39clFmjjkPY9GTsNVZNRfROazCPC1WTj3KBhrYsmC/yvusy+yHueGoredi+YOPW4K23FWsA3y
+        jmJI2wsh0uWj7FUuFYkCT5uJq9LD2JBK+tbHk1X+gI/S1PNpD5gh7lreGXQ15eA4byNC7qzHIc5aBBes
+        RphwL7itGbgkZiAglRg3x5KVtPoLXnL4rpKE4xV3rx+x8pgMj2/59hzmMfmWrKXTF0QHEZhM9NvTyQpa
+        +XcCk4gtIGUZSDpZTj+iIOQH8VARapkeC0cAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton22.ToolTipText" xml:space="preserve">
+    <value>Saltar para esta marca</value>
+  </data>
   <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEHSURBVDhPlZMJDoIwEEXRc2jiHTDc0xDCDSFsYd/BcX5D
-        axWMMMkLpsx/TgsYS10Yk7H+cGPOzKrMpmmyMAznaZpoi67ryLbtB/duSiyEq6qiuq4VeZ5TmqYUBIGQ
-        +L5PjuOsJCfGQkPbttT3vbiCsiwpyzJiuRDwlIQ/cV1XSkQpAcISCBAoioKiKPrYDkBmyb4F4ziqBvzG
-        vuVW4jgWk3ie91vwjS7BJDiPJEn2C4CUYDs4E4iwvlsAhmEQ5wIJwNohAaaQh4tpsPZXgJAEEwCEDwtk
-        WGeXAOhT6ODeSsAvy/Nb8AvunReBqjs/nho3tgI66OHXueQMvl5VV+bOwLoHhDljGC9wZ4qdB8wwqAAA
+        axWMMMmLpp3/nBYxlrowJmP94cacmVWZTdNkQRDM0zTRFl3XkW3bD+7dlFgIV1VFdV0r8jynNE2J94TE
+        931yHGclOTEWGtq2pb7vxScoy5KyLKMwDIWApyT8iOu6UiJKCRCWQIBAURQURdHHcQAyS/YtGMdRNeA7
+        zi2PEsexmMTzvN+Cb3QJJsF9JEmyXwCkBMfBnUCE9d0CMAyDuBdIANYOCTCFvFxMg7W/AoQkmAAgfFgg
+        wzq7BECfQgd7KwE/4+e34BfcOy8CVXd+PDU2tgI66OG/c8kZvL2qrsydgXUPCHPGMF5UeoqLPnmYugAA
         AABJRU5ErkJggg==
 </value>
   </data>
@@ -692,16 +858,16 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIUSURBVDhP3Y+7a1NRHMfP4N7NP8HBmvpIGxUHF0EctIvo
-        oE4iaAkoEQqKoB3SRoRIaXQQqYilgq2VVhHEITjV9HXT5trcPFqbpsYmtLnvR+7r67ntVZLFVfBwPpxz
-        hs/3+zvkP1nLH4Lp0tRZc32qu4lzZuHjsZXi2469K2+CbS18DrYlkyf3+DohqVchw3UdAC7dHrt3S69h
-        I9nTKE9fMn5Tmb+pl6YjJW7yyAVfJ4R91yW4tg5jIw51dRDq2gtopXG4Fk+zFLi2TBF331Yd9a1qg5sI
-        sb5OSH70sOSYIpUTUIpDkL71YXumB7XZMPhMFPzSA/Dpu6gzvZQInayK/ESn7Os0YKzLtLRN8GwC9YUY
-        ql9uQ6umaKvkt3un8GcC73vM2EHd170Jjpo7/3cMigbY6o5oaxyMSgJ6OQrtey/UwnUo3GXYShbMSHNA
-        ItRwbQ229BUW/wnm1jgam8+p+Aja2j1oxTDU3BUoy92QM6dgy2kwj5sCUs9ChmNKMLffo1Edoa1PoK/T
-        1lWv9RqU7EXI7BlIiycgLhyCJc21BngP1+Sp/BLGj0HopT4qR6Dmr1L5PG09DSl9HOJ8B4TZfTRgpjUg
-        9zBQ0QRWKM+9dpTCMOT8U8hcHHK2HxJ7H1LmDsSlCMR0GCJzAz9zky4bDwq+TgjX336Lix0YZQf215hY
-        QP8rAwF9MRYQuWj7kK//00XIL/Y/55GFrGySAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIWSURBVDhP3Y/NaxNBHIbn4L03/wQP1tSPtFHx4EUQwY+L
+        6EE9iaAloEQoKIL2kDYiREqjBymKWCrYWrWKIB6Cp8bGdtNmbbZJWpu0hm402e+P7G72dbZdJbl4FRzm
+        YWYOz/v+hvwna/FdMFOaOm6Vp062cMIqvD+wXHzZtX35RbCjjY/BjmTy8DZfJyT1LGS6bhOAS7fH1t02
+        qlhP9jbWps+Zv6nMXjVK05ES92bfGV8nhH3VI7qOAXM9Dm1lCNrqE+ilCbi2QLNUuI5Ckbbedh21H3yD
+        mwyxvk5Ifmyv3LQkKiegFochf+1HbaYX1XQYQjYKYeEOhMxN1Jk+SoROxiM/2a34Og0Y77FsfQMCm0B9
+        Lgb+03Xo/GfaKvvt3in+mcD7HjO+2/B1b4L91ub/myZFBxxtU3R0DmYlAWMtCv1bH7TCZajceThqDsxo
+        a0Ai1HAdHY6cgi18gPVzAo2NESreg756C3oxDG3pAtTFU1CyR+AoGTD3WwJSj0Jm05Jh1d6iwY/S1gcw
+        yrR1xWu9BDV3Fgp7DPL8IUhze2DLX9oDvIdrCVR+CvP7EIxSP5Uj0PIXqXyath6FnDkIabYLYnoHDZhp
+        D1i6G6joIiuW08+bauExlPxDKFwcSm4AMnsbcvYGpIUIpEwYEnMFFe61y8aDoq8Twg10XuNiu8bYwZ1V
+        JhYw/spgwJiPBSQu2jns6/90EfIL2BPng2ubD2wAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton2.ToolTipText" xml:space="preserve">
@@ -710,19 +876,19 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKqSURBVDhPjZJZTxNRHMX7hXygy+ASv4WPxrAVugABRGTT
-        aOKDGkGikcgiaCEFCiiy2wE0VYRCxYLBlKUrQinQFeiUbsf/3CpPhDDJyc3M3PM75y4STsOXKzR8k1zL
-        W0gBTjsc57SGNKflQf+YrhRP4VrpNK6W8MgumgheL+UXZZrxGxLx4dR827IrimWXgFgiDYEUPUkhdJzE
-        XigOfyTB3oV4CvvhBJZs3vSA1Zm49cR0wKlH8yWc1mhbdkbxwOBDNE5mmljwbB6BwwT2yBCJJhk4TKPn
-        4AQb3hiM1gCmrQfgyvgYAaZCVgLc791lk0SJAF84jsBRgiWLDXapjX03ho0dAbVdbnxdDUKh1qcJMBy3
-        2I8J4GWTRBU2mOGj8TCWQoxaBY+ScPrEdAFr2wKqdS70mbxQqMZBAEPavHmEez1euKmiqC3/CaUnWfqh
-        kMK2P35qtm1HcfetA90zfyAvGhUBPObWCKDfYdWVlF7UaEbxi0WUkNRNC1DSd/Hff1W2r6PT6Ia8cIQA
-        dEyztgjqurdobSQa67o9qOsS5UaNzk2JTlR1OlDZYUdF+wYq32yidcwOufJjBmBajWTMpIyRRBDRXP3O
-        xSrf6SAAGW+3rZPW8GpoHbKCDxnAzEqIzJ5/cp+mMzMlV3XambmCjOUtNpS1/EZj/ypk+YMiwAjeGkSt
-        zsPO+yIqaf6Fpz0rkOb1Q3KZNnFyKcjqCnRkj7/knSvxTmhe/sSjriVIcw0EKOYxbglQgwzAtPn5XIkA
-        VdMPPOywEKAXkmxtX3pkwU8A14UbKBsWUN9mRlZOc1oiVRkdg9/3MTi7d+Z6z1J96zxqXs8h66bOL1Go
-        Pz1XqCfH5LmTAYVqgq7nGLth8sJhyJRDdFTvIc0foA0zUOU+Su1lyZdy9OGsXP23v1yOENh2wCwZAAAA
-        AElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKsSURBVDhPjZJZTxNRHMX7hXygy+ASv4WPxrAVugABRGTT
+        aOKDGkGiwcgiaEFoQRTZ7QCaKkKhYMGgZSldEEqBrkCndDv+51Z5IoRJTm5m5p7fOXeRcBq+VKHhG+Ra
+        3kLyc9qBGKc1pDgtD/rHdKlwHFeKJ3C5iEdmwWjgajE/J9OMXJOID6fmWxadESw6BUTjKQikyHESwaME
+        doMx+MJx9i7EktgLxTH/ezvVa3XEbzwy7XPqoVwJpzXaFh0R3OvxIhIjM03MezID/0Ecu2QIRxIMHKLR
+        vX+MNU8URqsfE9Z9cCV8lADjQSsB7up32CRRIsAbisF/GGfJYoMdamPfiWJtW0B1hwtflwNQqN+mCDAQ
+        s9iPCOBhk0Tl15nhpfEgmkSUWgUOE3B4xXQBK1sCKnVOGEweKFQjIIAhZV4/xJ1uD1xUUdSm75jSEyz9
+        QEhiyxc7Mdu2Irj9egOdk38gLxgSATymVwjQtc2qKym9oN6MwmdzKCKpG2ahpO/iv/8qb11Fu9EFef4g
+        AeiYpmxh1HRu0tpINNZ0ulHTIcqFKp2LEh2oaN9AeZsdZa1rKH+1juZhO+TKj2mAaTmcNpPSRhJBRHPl
+        GyerfKuNAGS82bJKWkFj/ypkeR/SgMmlIJnd/+Q6SWdmSq5otzNzGRlLm2woafqF+t5lyHL7RIARvDWA
+        ap2bnfd5VPTiJx53L0Ga0wvJRdrEsYUAqyvQkT38knOmxDuhef4DDzoWIM3uIUAhjxGLnxqkAab1z2dK
+        BKga5nG/zUIAPSSZWn1qcNZHAOe5GyjrZlHbYkZGVmNKIlUZN/q+76FvavfU9Z6m2uYZVL2cRsZ1nU+i
+        UH96qlCPDcuzx/wK1Shdz2F2w+T5A5Ap++mo3kOa+442rIcqGyhVz5IvZHWFMrK7vv0FQwAQzme5V+AA
+        AAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton3.ToolTipText" xml:space="preserve">
@@ -734,13 +900,13 @@ ser usado no texto da legenda.</value>
         YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIkSURBVDhPY8AHVNKna9lWLZvHkDaTFSpEGrCvXprZvu70
         E5mQXk6oEATU1zNBWfiBc+3KvLl7TvwQTJvJDxViUEydoevTsm4rlIsfuDWuLll34t5/ybSZciC+VFK/
         +qRtF5+kT9+1DayAEPBpWVN94Mqz/zLJU1QEw3tkp+48f2fKtgsPReOnSECV4Af+7etbzt17+18ufXpy
-        /6Zzpw9fufYHyLaGShMGwZ2bOi8/+vi/b/P5b3defv1vVrYoBypFCEBCObJ/a/ddoMYtZx/9T5yyfQFY
+        /6Zzpw9fufoHyLaGShMGwZ2bOi8/+vi/b/P5b3defv1vVrYoBypFCEBCObJ/a/ddoMYtZx/9T5yyfQFY
         Ch8QdkmSMsqYs9qxbuMl7Yx5S9Kn7Tp74cGH/3F9244y2NezQJVhB6L2WRJO1WtvJ6y6899r3snPqZtf
-        /Z+568b/h69//A9tX7uH2yrMEaoUOzDKnL3Gd+nRvxJ++XZiXrn+CWuf/J+9987/pWff/0/f/v5/7LIb
-        /2U8U1OgyjGBS9euTw51K8Dxa5Q7bXrahuf/Sybu/Je+8el/7ZhJB317t122zFj7hcHengOsAR24NG19
-        HrXg2gv7xrVH07a9+W+WveyGec6a115Tj3wGyauFlZU5VGz/L2QRIg3WgA5kg8vCAqcfehM19fg/s5wl
-        p7lMQyVMM5Y+9Flw8ReHloucSVbfHL3SLX/49f0FoFowASggxd3TFaBcBr24eceSNz3/79+3/2nS6rv/
-        DeMW3IBKEQlUPNj1Exdc189f/90kdcEDHmMfEagMFDAwAAC0/etr2N8ZHAAAAABJRU5ErkJggg==
+        /Z+568b/h69//A9tX7uH2yrMEaoUOzDKnL3GZ+mRvxJ++XZiXrn+CWuf/J+9987/pWff/0/f/v5/7LIb
+        /2U8U1OgyjGBS9euTw51K8Dxa5Q7bXrahuf/Sybs+Je+8el/7ZhJB317t122zFj7hcHengOsAR24NG19
+        HrXg2gv7xrVH07a9+W+WveyGec6a115Tj3wGyauFlZU5VGz/L2QRIg3WgA5kg8vCAqcfehM15dg/s5wl
+        p7lMQyVMM5Y+9Flw8ReHloucSVbfHN3SLX/49f0FoFowASggxd3TFaBcBr24eceSNz3/79+3/2nS6rv/
+        DeMW3IBKEQlUPNj1Exdc189f/90kdcEDHmMfEagMFDAwAACrLetjciX1dQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton4.ToolTipText" xml:space="preserve">
@@ -763,18 +929,18 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ0SURBVDhPfZLdT1JxGMdd/0VbEy666qKLbrpOlHgpEdkM
-        WFHnACllZmPU1lrURsGOjXKK0MwXUrK0uSVva625dVGrZkS+IEJIJYg3gXghteW3c36g4Es922f7bef5
-        fp7nnPOr2iwnVX3IpeVjJw/O7M+VWvYu17nqIz0Ub4JrHjYdxUY2gLXYLQJ3drcdJiInxff00NWKUqxc
-        Lu2B5IfHVzaWJm9isa8ef376kZsxEbhzoleKpK8Ni94Lv1xneWulWLk4+9KkGYkJAxZ6JYg7axHvEbDU
-        IO6oQcxxDHP9cvZ5K9mkFCsXEby+ga/jesTHaCw81SA6cnobkYFGzA/R/xb8eHUdsVEKUY8akUEFCezk
-        v4LvL6+SSfPDSiKY7VfgWQcFt00Ht1WHwbtaDFgNuN0igcFgYJqbmxm9Xs9QFKUlgm9BIyJDp4rhvgaE
-        HjbiebcJhUIB+Xx+F6urq0ilUr81Go2FCJL+drLm3KMGzLjqMeWQYbTTSBqDwSACgcAWfr+fwAnUanVR
-        sOi9hFk2PM2Gw91SfOw8gRF7OxGsrKwQMpnMFsvLy0TQ1NRUFCReXMS08yS+dEnx+b4I7+9J4Om4TASV
-        U30+3xacQKFQFAXxcQPCXRIS/tQhxDvbcQzZWpHL5bZNrYQTyGSykmCsBSF7MTxlFeCtpRbuOy1EUDl1
-        E6/XSwRSqZQV0Lw3EQ93gfSIPtGxv5JGeIDGsN2EbDa7a3I6nSZwArFYbKlyankSJ80PcZts4tAehM2o
-        xPr6OtliLzhBXV2dpXSdtpfZbN6nUqmuKZVKhv1QjFwuZ9j3ZdiVGXYqIxKJGKFQyAgEgvN/ASVBZXx+
-        GZL6AAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJzSURBVDhPfZLdT1JxGMdd/0VbEy666qKLbrpOhBBKRDZC
+        VtQ5RxLKzOaorbmojZIdm+WUl2a+MCVLm1vyttaaWxc114zIF0QIqFTkJhAvsLb8ds4PFFHr2T7bbzvP
+        9/M855xfxXY5qMpjTkaIvTy+cDhbbDm4nJcqT9gpwSTfPGI6ia2MHxvRuwT+7Go5TkQOSui205WqYqxU
+        TuZIctp1Y2t56g4S/bX489OH7JyJwJ/jfXIkvS1IeK78cl4UbBRjpeLty1NmxCeNWOqTIeaoRswu4qhC
+        zFaFqO0UFgaU3PNmskkxVioieNuOrxN6xMZpLD3XITJ6vozwYD0Wh+l/C368uY3oGIWIW4vwkIoE9vJf
+        wffXN8mkxRENEcwPqPCik4LL2ghXRyOGHjAY7DDinkEGo9HINjU1sXq9nqUoiiGCb4E2hIfPFcL9dQg+
+        qcfLXhM2NzeRy+X2sb6+jpWVld86nc5CBElfK1lz4Wkd5py1mLEpMNbdRhoDgQD8fv8OPp+PwAu0Wm1B
+        kPBcwzwXnuXCoV45PnafwWhXKxGk02nC2traDqlUigjUanVBEH91FbOOs/jSI8fnR1JMP5TB3XmdCHZP
+        9Xq9O/AClUpVEMQmjAj1yEj4U6cEH6ynMWxtRjabLZu6G16gUCiKgnEDgl2F8EyHCO8t1XDdNxDB7qnb
+        eDweIpDL5ZyAFrwLu/kLpEfkWSP3K2mEBmmMdJmQyWT2TV5dXSXwgpqaGkuFgxHIHLQwyG+yjY05Cmub
+        Bvl8nmxxELxALBZbitepvMxm86GGhoZbGo2G5T4Uq1QqWe59WW5llpvKSqVSViKRsCKR6PJfHjBleqer
+        csoAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton6.ToolTipText" xml:space="preserve">
@@ -783,17 +949,17 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI2SURBVDhPzZLdT9JxFMbZ+ju6Ihsj11aWBRXhGJlvkJYo
-        GGmEgKL4M8E3RBRBCHGAL3MsFJEghmgwK0wNJ6I5q9VcL2Z3XvI/tCd0v8WIi7zsc/fs7Pmec57zpfw/
-        PE7KQCSkUK1LoFxrgGJZjMZXdaiMFv+qC/NSomBVrNbHJ2pm+KdJSzbEhhSRnwG8OAhg4YcP8/tzCH73
-        wP/VjenPE7BtDUH9sgV8FzdSPs5hkLYMrXEJFg/8CKeNoX0vnn+bOTbPfXHBszeFyY82uD45oV3uANfO
-        ityy3ciepHmlHvLX9yFdEqJhUQBx6C6EgTsQeCtARBVw7Fgw+WEUY+9HIPWLcdN4lSCt/4Y3xbWXOosO
-        LZuDMCV10CypwNQVxMjyyeDaWHblvBTDST0G4z0o7L2QIksZqkPVp2p8PC0ps2CbmXZ58CEMCS361jpx
-        sYOe+4DAx/NUPS3bI+Uf2CamnaEvPNSuatD1lkDT/CPkt9GyVxB4y8fbonIoF6Qom+Cg2M4Gx3odbBMD
-        oul76F1RQ7/RA916F/jOUpxTns2EKJitsKoiMoztWuHYfYLRnWFYt4dg3hqAcbMfg+mx1aut6It3Qjwr
-        BF2ZF6E2UTNnrHSXGJvDkrTRhJF3Jli2DcdhGRJ9GEh37X7TjsZgPXjOEtAVeRGajJr7kW47ixySZyI8
-        8NaCNXQFzP5LR0mjQHMe9HZ6Kr+FFqMpzhBZnf+myMxwX9NfzgnxxBydkaEr6CblCaBQfgMNJStauweV
-        KgAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI1SURBVDhPzZLdT9JxFMbZ+ju6Ihsj11aWBRXBGJZvYJao
+        GGmEiqL4M/EVEHkTQxzgyxwLRSSIARrMClPDiWjOajXXi9mdl/4P7QndbzHiIi773D07e77nnOd8Kf8P
+        j5NNIBJSKNYlkK81QLYsRuOrOlREi37VhflHokBlrMYrIKpnBadJSybEhhSRn368OPBj4YcXof15BL67
+        4fvqwsznSVi3DFC+bIPAyYuUTXAZpC1Ne1yCxQMfwiljcN+D599mT8zzX5xw701j6qMVzk8OqJa7wLOx
+        IkXWG5mTtK7Uo/n1fUiXatGwKIQ4eBe1/goIPeUgojLYd0Yw9WEM4+9HIfWJcdN4lSCt/4Y/zbOVODiH
+        I5s6mJIadC8pwNQUxMhybvCsLJs8JMVwUgtdvB+FAxeOyFKaqmDVqWovX0XKDNhmpq058BD6hArqtR5c
+        7KJnPyD08t2VT0v3SPkHtolpY2gLD1Wr3eh9S6Al9Aj5HbTMFYSesomOaDPkC1KUTnJxy8YG13IdbBMD
+        opl7GFhRQrvRD816LwSOEpyTn02HKJwrtygiTRjftcC++wRjO8OwbBtg3hqCcXMQutTYytV2qOM9EM/V
+        gi7Pi1BbqOkz3nEVG1vDkpTRhNF3Joxs60/C0ifUGEp17XvTicZAPfiOYtBleRFaEzX7I912cOySZyI8
+        8NSAZbgC5uCl46RR0H0e9E76UX4bLUaTnSEyOv8Nx8xwXdNezgoxZ47PyNAU9JEyByiU3wZNK1gqQ7Lp
+        AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton7.ToolTipText" xml:space="preserve">
@@ -802,17 +968,17 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI7SURBVDhPvZHtT1JhGMbZ+jtolaXT6VxWICMoY8okw8wI
-        gxnE0DDTjqKIoGLqyURN3kRRRF4qy7l1qhmQmsNlbcYkX6rvfuR/aFeHPMs1aMsv/b5de/a77ud5btZ/
-        RTl/zSiblx1h4uGRByq2q32XvUxMpyGmZje+UxG6t7XhOkqR1FBy3Fq4DuVcFeQhKVreNOD+y3pUuEQ2
-        RjmgcUnD00VVFLluhntzFIGdSTz96kVw14PZ7QnMfHHBk7DDFR/FnecqiIb4A4xKT46o2SnZEX+EF9/9
-        8O+4Edqdpks88G25MZ1wwrNpwzgt2zes0ISUEJJcK6OzWLpILTGwbsLcN9+vqVMJBwyRJsj8FajylkM6
-        UQaJ4xK0z2pxO6SAsJ/rZNR9tIuKsDNuxcyWE1ObdtQEJXu0PMYc/6aE5G8L+zmzTDxAQ9UkvVsu+rrj
-        sCwbUO0rT5NTnO/jmmWyDGtULkiTk/QbU59kirbiqkecseCvKJ5UhgfXLLBtDGLkIwmJvWRP/Pjiv5fc
-        CFwhiNc6OD8P0yVDIGM9UAdv4gJZDH7vORSbi3C2oxCn9fkoaM5FXmM2GHWfSl8ZW+oupQyLzRj+RMIS
-        M+LhBwv61rrQG+tEz2oHTCttMK60on2JQE591p8FKcRjIl7piJBS02siXt1F13I7uleN6HpvQCctdyy3
-        oI2W9dEmnNQcSy9IIegXsAUPOASv+0yYo89LFmkLfhQSeci/l4PchlPIrjuBLFo+rjqaueDwsFg/AQv8
-        LYAqz/SXAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI6SURBVDhPvZFtT5JhGIbZ+h20ytLJdC4rlBGUOWUSYWaE
+        wQgiNYi0R1FAQDH1yURNeRFFEVEsy7lFNQMSc7iszRjmS/Xdj/yHdvaQz3JN2vJLx7dz947zuu/7YvxX
+        5PPXTJJ5yRE6Hh7ptGir2n/ZR8eDaOMqpu6dktC8VYTrQrKUOiTFrYXrkM9VQRoUo+mNFg9e1kPkLh2m
+        lX10S2qOJqoMkWsWeJKDmN4ew9OvPszseDG1NYrJL254NxxwJwZx97kSpX3cHlqlJkdUzLTsTDzGi+8B
+        BLY9CO5MUCVe+Dc9mNhwwZscxgglO9btUAfl4JNFdlpnMDQRBdGzZsbcN/+vqeMbThgiDZAERKjyVUA8
+        Wg6h8xJqnylwOygDv7vIRat71C7Kwq6EHZObLownHaiZEe5S8hB9/JsSkrvF72ZP0XEfdagm5dt0U9cd
+        gS1mQLW/4oCc5nxXkUUiybBG+YI4NUa9Mf1J5mgzrnoFGQv+imy2Mty7asPwei8GPpIQOkp2BU8u/nvJ
+        jekrBPFaA9fnfqqkD2S8A6qZm7hAFoPbeQ7FlkKcNRbgtD4P+Y25YOmyQat7VPrLmWJPWciw2Ij+TyRs
+        cRMefbCha9WKzngbOlaMMC+3wLTcjNYlAjn1WX8WpBEMlXLKBvghFbUm4tU9WGOtaF8xwfregDZKNsaa
+        0ELJ+mgDTqqPHSxIw+vmMXkP2QSn/UyYrWelCu/k/yggWMi7n4Nc7Slk151AFiUfVx7NXHB4GIyfC5gt
+        f2HrrdIAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton8.ToolTipText" xml:space="preserve">
@@ -821,17 +987,17 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton12.ToolTipText" xml:space="preserve">
@@ -840,17 +1006,17 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton25.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton25.ToolTipText" xml:space="preserve">
@@ -860,17 +1026,17 @@ ser usado no texto da legenda.</value>
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton24.ToolTipText" xml:space="preserve">
@@ -882,41 +1048,20 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton_preview.ToolTipText" xml:space="preserve">
     <value>pré-visualização com AHD Synchronised Lyrics Viewer</value>
   </data>
-  <data name="toolStripButton30.ToolTipText" xml:space="preserve">
-    <value>Extrair legendas de ficheiro Matroska (mkv)</value>
-  </data>
-  <data name="toolStripButton31.ToolTipText" xml:space="preserve">
-    <value>Importar VobSub (IDX/SUB)</value>
-  </data>
-  <data name="toolStripSplitButton3.ToolTipText" xml:space="preserve">
-    <value>Transferir legendas de OpenSubtitles.org</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 34</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Transferir legendas de OpenSubtitles.org</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 34</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Enviar legendas para OpenSubtitles.org</value>
-  </data>
   <data name="toolStripButton23.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJHSURBVDhPhZPdS5NRHMdX/0AX3RQ16LpEgq3l2MaWkI7R
         HNac2tokV49pLxpMWtiLZA6ZhtaYG9FFF71AC6ybUqKLQIIuI73Y5bpw7I29v6p9O7+TPW628Aefm+f8
-        vp/zO+d5HklNHWbIGIpdOMLYy/inZMViMR2LxTY3NjbQiHK5DK/X+5j1NpQoKJzP51EoFEQymQxSqRSi
-        0SiXRCIR+Hy+eonL7d7vGBqqCNdH8X01hL6BYfQLV1EqlZDL5ZBOp8HkXMCmBG3i9/v/SATh1r7xGf/s
-        xOwz6M+cxfLXb2g3mjHmnoN3PsAnyGaziMfjdcchmEAhGZvxSS32vtywaxKqUwbcnfJBZ7DAOfEEunYT
-        wuGf4lESiQSfZG1tbVsgU2omjWYr5p6/Q6dtEJedbnT0ODAVeAND53k8mHjIL48kNAndRzKZ3BZYuoVU
-        z8VB6E0W6A1GeDzTUKp1ULe2QdaiwdFjTVhfX+cSOj/dCYlEgdU6Wl5YWsajp6/hujOOHysrsF+6hhcL
-        nzAdeAVT5zneXK1WUalUuIQQBX1XbiL44QuEkdvotfXj4+IibMINvHz/GUPOe2g+LuPNNAUJCJpGFJit
-        Dr67fWAEKt1pBINv0dF1Afc987DYBRw4eIiHaQKCwnWCFo02pNS2hZqaT4S7unuxuLQEpUoDjbYVcsVJ
-        qNRqMVyLKNiqPQwFPdwJ7d4IWqMMT7PiAvax/Nop+B+sd5MyPL1VcvZ6CrTQKFAL9bDPOccy9PeKJWXI
-        GX9/291gYYn0N063a+er0gCVAAAAAElFTkSuQmCC
+        vp/zO+d5HklNHWbIGIpdOMLYy/inZMViMR2NRjc3NjbQiHK5DK/X+5j1NpQoKJzP51EoFEQymQxSqRTY
+        GpdEIhH4fL56icvt3u8YGqoI10fxfTWEvoFh9AtXUSqVkMvlkE6nEYvFuIBNCdrE7/f/kQjCrX3jM/7Z
+        idln0J85i+Wv39BuNGPMPQfvfIBPkM1mEY/H645DMIFCMjbjk1rsfblh1yRUpwy4O+WDzmCBc+IJdO0m
+        hMM/xaMkEgk+ydra2rZAptRMGs1WzD1/h07bIC473ejocWAq8AaGzvN4MPGQXx5JaBK6j2QyuS2wdAup
+        nouD0Jss0BuM8HimoVTroG5tg6xFg6PHmrC+vs4ldH66ExKJAqt1tLywtIxHT1/DdWccP1ZWYL90DS8W
+        PmE68AqmznO8uVqtolKpcAkhCvqu3ETwwxcII7fRa+vHx8VF2IQbePn+M4ac99B8XMabaQoSEDSNKDBb
+        HXx3+8AIVLrTCAbfoqPrAu575mGxCzhw8BAP0wQEhesELRptSKltCzU1nwh3dfdicWkJSpUGGm0r5IqT
+        UKnVYrgWUbBVexgKergT2r0RtEYZnmbFBewd/9op+B+sd5MyPL1VcvZ6CrTQKFAL9bDPOccy9PeKJWXI
+        GX9/291gYYn0NzMSa9VRIy4IAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton23.ToolTipText" xml:space="preserve">
@@ -930,11 +1075,11 @@ ser usado no texto da legenda.</value>
         WSV1/wuqWsFiVnYuy7W0tHiAUkwgeYb58/dzFFa3eTT1zQY7Fcj+7+Ef9t/FK+B/TlnD/9i0vP8ROU3/
         aycu+1/SMgUsx8XFUwXUygg2oL5+P8uUueseLlq3639ueRMYV09c9X/K8l3/65ds+tU4fcP/2t75/6Nz
         m/+HJxeCXcjMwvIAqJUZbMDMmTNZQTZPW7zxf3Zp/X+Qn1Nyy/9HJ+f8V9PSA9sIcglMPC69AOS1f0DM
-        CjYgLS2N1d4l5qeFrdN/r8CI/8YWtv+19Y3/SygoPRUVFTWQlJHdKiYh9V9BSfW/qLjkf14+/v+MjIzv
-        gFohYQACXkFRh0EBt+vwmf+rthz43z1j2X9jS7sVIDkVdZ0VlS0T/q/dcQgsB4oRPj6+w2CNMGBq7fQn
-        v6IZbEBaQeX/+IzC/7rG5ldBcgqKqldBMQAyIDW/4n96YfV/Dk6uP2CNMODo7vsfZgBMkbi2/k+gFKOY
+        CjYgLS2N1d455qeFrdN/r8CI/8YWtv+19Y3/SygoPRUVFTWQlJHdKiYh9V9BSfW/qLjkf14+/v+MjIzv
+        gFohYQACXkFRh0EBt+vwmf+rthz43z1j2X9jS7sVIDkVdZ0VlS0T/q/dcQgsB4oRPj6+w2CNMGBi5fgn
+        v6IZbEBaQeX/+IzC/7rG5ldBcgqKqldBMQAyIDW/4n96YfV/Dk6uP2CNMODo7vsfZgBMkZi2/k+gFKOY
         mNg7UMDBDACFBSsrGziK4cDa0Q0cz6AEBFIACkxdI7P/gkpK/AqqaldABoBiCSYHDANUA0AJxMDEEhx4
-        qpo6/xVV1P9Lyyr8FxYWluLiF7zNycX9n42dHRR9II0wPCgAAwMAcKwhLWhiRpwAAAAASUVORK5CYII=
+        qpo6/xVV1P9Lyyr8FxYWluLiF7zNycX9n42dHRR9II0wPCgAAwMAaP4hKAmrt50AAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton9.ToolTipText" xml:space="preserve">
@@ -944,14 +1089,14 @@ ser usado no texto da legenda.</value>
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHpSURBVDhPlZBNiFJRGIa/VRRUEKGOmxstomiCQQbxBqGO
-        Pxio19qJ7TOjaFO0akJ06S5k1kEtDKbSnG4xiX9MoMyMkVQEk8y2RZP36v1ZDL555cxCbgzOs3rPx/t8
-        53BoFkaf+RPKxsJtdpwNtbnIKc3Fe0YeblwJK/X5jpG1OndernGzLVOaC1+V5ryo1C6Wte0bGNa5R4Oq
-        vT+onE2wyuEMG5eWtS8J6D/uQ995AnUrjP6H0+rvquUkq5gZti7PjW+tKPUL0LYF6L8yaLwQ0Cnewk71
-        DtT2EqRPxyF9pBWm/J9hjVtWOzfReBmDrusYjUbYepuA9v0u/or0ba9M51jVjNyYs8gVmxiJRNBut6Fp
-        GrrdLqrPw9B/PoRUpoH0nnhWn0Zdt3OD9TPFWCyGZDKJXC6HQqGA8srSWH6M3TXal9Zos1+ip0wxIwjC
-        ROZ5Hj6fD9FoFMpmGHLFDlk8hb0Scaxq5kB2uVzwer2wWq3Gk5/tvhvfXKKrUpE6/deUYvVp4vE4stns
-        RPZ4PLBYLDDmcomuSW9INDJe0bE/q3TdyFOEQiFkMhmTfEB/lYIsmvH7/Uin03A6nXC73Sb5UFKpFHq9
-        HhwOB4LB4NFkA2NBq9VCPp+ffBgbz04gEHhgPNtmsx1dJqJ/IdsLA4YIgPgAAAAASUVORK5CYII=
+        Pxio19qJ7TOjaFO0akJ06S5k1kEtDKbSnG4xiX9MoMyMkVQEk7Nu0eS9en8Wg29eObOQG4PzrN7z8T7f
+        ORyahdFn/oSysXCbHWdDbS5ySnPxnpGHG1fCSn2+Y2Stzp2Xa9xsy5TmwlelOS8qtYtlbfsGhnXu0aBq
+        7w8qZxOscjjDxqVl7UsC+o/70HeeQN0Ko//htPq7ajnJKmaGrctz41srSv0CtG0B+q8MGi8EdIq3sFO9
+        A7W9BOnTcUgfaYUp/2dY45bVzk00Xsag6zpGoxG23iagfb+LvyJ92yvTOVY1IzfmLHLFJkYiEbTbbWia
+        hm63i+rzMPSfDyGVaSC9J57Vp1HX7dxg/UwxFoshmUwil8uhUCigvLI0lh9jd432pTXa7JfoKVPMCIIw
+        kXmeh8/nQzQahbIZhlyxQxZPYa9EHKuaOZBdLhe8Xi+sVqvx5Ge778Y3l+iqVKRO/zWlWH2aeDyObDY7
+        kT0eDywWC4y5XKJr0hsSjYxXdOzPKl038hShUAiZTMYkH9BfpSCLZvx+P9LpNJxOJ9xut0k+lFQqhV6v
+        B4fDgWAweDTZwFjQarWQz+cnH8bGsxMIBB4Yz7bZbEeXiegfHiULAQLy2WMAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton26.ToolTipText" xml:space="preserve">
@@ -960,18 +1105,18 @@ ser usado no texto da legenda.</value>
   <data name="toolStripButton27.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ9SURBVDhPtY5rSNNRGMb/QSWWZtMMRuLIDFJYH1Ihujg1
-        lenURip5S+cF2YoVLsOVt/K2GlhGwhSXM3PNW5ZK3kkjLQutlKH0SSiDEFxIbsrU8/SfnaBA+xL94IH3
-        cJ7feQ/zXzjvtye/XLhzsUK0G2qhExQCB3PCEdcSev13Mn04OaVRHFIT54xqNveiOVCFOyHLfxcR8V1u
-        0NrmaERO0LGimpVU7KwScVAa4Yorgc5I4tsv0NrmqPwd0KPJw2y3GqPaLFwMcIUimIsLIR6IPc6x3pUL
-        7Wh1YyqTePNLXz9iYUSDL/23MdFUiJlnt2CaGYchY9+CsTl2O61uTEWi17Dp7SPMjbXA8sHApnF9No0b
-        UJXKH6O1TfCp3nbwmKzeIPfF8pgWS8Yn67G816Mt2xf8E9LHbkfL7Wn7TzyFXXYuQr3MTTgA46dFNOVG
-        oTE3cj22+eXUd7iFPodzkPYSN6J6B9V+gS2OIc0SXsQwpmYtaJgFFEZA9gZIHwJSuoDrL4BX0xbwwkbg
-        ILgvYwSFW6nMMF5ndOLgGDVaRldRNQHIXxNIBwkyegmS2wniGwli6tZwrZt9qIkgSHwT3pFqCdUZ5l3e
-        odW5TiUqazshYUvp7MbUDoJzraysJ4iuXUOUhuBUOVB0ZwDzPQXoyuZaqc4wQ/lexNRXhLhMHUr6zUhs
-        BRLYrWfrWVlLEPsQEOsAZdsywpMb8G2gGL053oTqDDNZL786LuWtpKSUrfhJBpHKfj3tt9jOtniGtUMe
-        rzCPFhxennwgL6b6T6afpjkqlWUu7uLOKl6A7rOHQG/mhrZaucEt1v2BNRb3k7q5A6c7+i5LC/faulT7
-        VxjmB2pVcXH1v8MMAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ+SURBVDhPtY5rSNNRGMb/QSXWzKYZjMSRGaSwPqRCdHFq
+        KtOpjVTyls4L5ooVLsOVt1JzNVgZCVNcrsw1b1kqXlLJIi0LrZSh9EkogxBcSG7K1PP0n52gQPsS/eCB
+        93Ce33kP818447+jUCPaOl8h3g61yBkKIceSeMCtjF7/nSxfbl5ZNJfUxLugms2dGC5UEc7ICdhGxALX
+        q7S2PlqxM/SsqGYlFTurxFxci3TDxSAXJAsc52htfVQBHPRoCzDdrcawLgfnAt2gCOHhbKgnYg9zbbfl
+        IgdaXZvKZP7swtePmBvS4kvfTYw1FmOq8wbMU6MwZu6aMzXFbabVtalI8h40v32ImZFmWD8Y2TSszuZR
+        I6rSBCO0tg6+1Zv2HpLVGeV+WBzRYcH0eDXW9wa05vpBcCT7kftBjSNt/4mXqMvBVWSQuYv6Yfo0j8b8
+        aDTkR63GPr+c+A73sGdwCdad50VWb6HaL7DBKbRJyo8cxMS0FfXTgMIEyN4AGc+B1C7gygvg1aQV/PAh
+        cIR3ZYyweCOVGcb7hF4SEqtG8/AyqsYA+WuC7AGCzKcEKW0ECQ0EsfdWcLmbfaiRIFhyHT5RainVGeZd
+        wb7lmQ4lKms7IGVLGezGtHaCUy2sbCCIqV1BtJbgmAYoudWP2Z4idObybFRnmIFCb2LuLUF8lh5lfRYk
+        tQCJ7NaTdaysI4h7AEj0gLJ1EREp9fjWX4qePB9CdYYZr5NfGj3NX0pNLV/ylw4gjf16+m+xn+3xCm+D
+        PEFhGS7avzh+X15K9Z9MPkl3UirLXT0kHVX8QP1nT6HBwgtrsfFCmm27g2qsHkf1M3uOt/deyC7eae9S
+        7V9hmB9gbnFrBa99ZwAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton27.ToolTipText" xml:space="preserve">
@@ -997,178 +1142,6 @@ ser usado no texto da legenda.</value>
   </data>
   <data name="toolStripButton10.ToolTipText" xml:space="preserve">
     <value>Ver Ajuda</value>
-  </data>
-  <data name="toolStripButton11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAElSURBVDhPlZFNaoRAEIUnyTkSkjOEmTlGzpCd1wkuvEKO
-        4MaNgt7AO6iI4P8fVOoVU+KoHZKCB211va+f3SeuF9aZdTnQK+uR9WudkyQZ5nkm1TRN1HUd2bb9xftv
-        rCeZNNQFJhjiOCbP88h1XYqiiHzfJ8uyvnnmg2VMI4C+7ykIAhrHcUny1zQCgBEArP+bRgA4KQxDAZjS
-        6N4tzQJZADgJ622aqqqoKApK01R6bduS4zgK2QO2aWAoy5KyLJOeCl4jYL0GpGkageR5viTZAfTUNWAN
-        QRL9nUPAUQIVesMwCKSu6zsALgKLK+tThzXNWrhcQHCx+L75pB5YeJIrNo4SaB8QfV6eXwBauzRq3MoE
-        QN2lMYnvoeKZdxhMpWlMYvPp+QfpJ1gWlh3UWAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="toolStripButton11.ToolTipText" xml:space="preserve">
-    <value>Duplicar faixa de legendas</value>
-  </data>
-  <data name="toolStripButton13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANoSURBVDhPVZLtT1pnGMbPp+3f6LcmTafpsqQfmn2xha1r
-        N7om9mWmRQFf5mRzmU3VSbDiGlFk4svSzKUTjTa+TJ1VjwqHYSkKVHS1QFWsirQ6Uabycg5yDrt2oHTN
-        7uSX59P1y3Nfz0O8GUHVdO7FBptBpLH9LVTaaP5kUjQmTzsjaphlPlFbXWduWXQnsvveScfezvkfHlsC
-        IWbvhX+bC0ZiCIbfshdKwuD5VgiKkU1c1yxFP5aPv5uOvp4LddaA79UON7sRh93Hwr7JwrbBwrp+hGlv
-        DBOeCGIsMLpEQzHsg7TZRf9PclHZFdNR9agmy1E+WobvH1ZAPfETSJcPj1ZjmPJEeUECzi0O9ldx1I5v
-        IqvC1JMKi5o/ym2kFJj3U5j/awHk2nP0u/9Eq6UH3/WWos/xDMZlGus7kdQqYYbFzn4UAvkjlrigzvpQ
-        80fx0eK+CQshJ0wvXejyelFrWYHG8hQDiz0o+lWGgSfLMPC3GHOF8XDxEAd8T8Kaxwwh6cwent54gP5D
-        A6b27PjZvYRKsweFRhLfelqgW29AE1mJW/q7qVWoFRoGvof9SBxC1QxDVP9eHBx+qYdmWw8q4Ebx6Bxu
-        26zI8SogWBEjx5KHfkczJDoZkgVbXhylREFeIKjhBcqJMrpjtQkVy22omXHgeo8TpUYzShYGkD35Cy53
-        y9Bnb8IN7U3M+VnMrscxwxMIxZFVzQvKBwv9v63eg8o9DOmgDVf7vbikfwaB2gyRzoyCLhU6zCqIG/Ph
-        3OTwJPnEPCG+yMxvrAzxmfZsywNnE6qsZSge68O1bjeu9Prw6T0jrujrUTdSBXn7DSg62zDHC+z837Dx
-        Aiae4AXTDHH69ulj4tZLvi7HXWgdQ/h6cB5FA8so7O5E/aQcql45zlSXQDS4i89HGIjSRI84XjDEpP7B
-        qS9PZpxXZv9TN6ZG8xQJLUmh3XwfJfe/wOWGUmidB2jzAK1uoMUF5JtYRJIrFKYFyTkhbacrO+7g3B0x
-        spQ5ENbKIPyxDXmTIUgoDlKKRZ6RRa6Jg8TIYTuwl3hPPBpOxwni/SLjmu8wGpr3biXWdmmsBWisptkN
-        x1Mkmw8zHPzbuwmapg+O3yTd6ThBfFA0+VWmbMJ4qsAQzCwYYv4j/zUZb5ANMcdl5P5JCUll5I1L/wWO
-        t7vEQ+PQzAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="toolStripButton13.ToolTipText" xml:space="preserve">
-    <value>Traduzir faixa de legendas</value>
-  </data>
-  <data name="toolStripButton15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJtSURBVDhPldPrS1phHAdwob/DRbO10WTQBcMuc0LWKu2C
-        6SDJfDLDYRdZrGUuu5y08syyUqvVcrVYoxZIwWy3tlKK2qUlg73uXQS9Hb37To8PhdsY6/Pux+98eQ7P
-        9xze/7jzrLxDtaRKouPFyX1FkZJR6Qwd/+7epo5velNnblitCWpW1Mc1zyuhnC2DwieD8YUO9fMa5HZl
-        uenjiUxv68XG19oAE7JgbG8IM988mD3wYmrfDc+nRxjZHcBAuAfV3nIIm9L6aSzu7rqOb3ilCQzv2rHw
-        fRqTX0fweH8M3s8uuPcGwW4zsIdt6N60QO4qhsCQ4qTRuIY1jdn24T7mIpOY2ffAteOAYVGLWw4xcm3Z
-        yGq/gQp3CUpZGVJJ8jiNnatdVgaHQj3cic4wAwlbcFjQJ3LRNSdVL4gIdJf8dEykfHr7qGJKdFo0Kv0p
-        ceSd5PdkM3R1JqWOb+WpeEnapWqini8nVdMlRD4uJYVsPuHJvYWkyCUhEoeYiG3ZJKNdSGKdt27prTR/
-        RjWnYBSe4pPYYaJu0Wl+d8YRXSVq+aj3G9drI3TkKJ+UuhQe2eHwtiPayiDa11qj9yMM0vW55g0ybt+x
-        onfrAbTL1Yh+hYi+Mkwv9WBDDFfp0HYf1BOVuN6cZqaxONM7nZMJW7D4Y5ar1B+ZSKi0b6uTq1S/UIt0
-        05WAQCfg02hcw1pN/8P3bfAf+LhKfV9GMLrnBLtjR+9GJ5pWDKgaK8M1Y2pAUJ8sprFE6jm5uyXQCOMS
-        QSFbgJtMDnKsmchsSz8WNl0NpjVeNv9x8u9iP47UnpdwiRcSq1HcldVBx3/g8X4Bj5QzBMM+BqgAAAAA
-        SUVORK5CYII=
-</value>
-  </data>
-  <data name="toolStripButton15.ToolTipText" xml:space="preserve">
-    <value>Sincronizar</value>
-  </data>
-  <data name="toolStripButton14.ToolTipText" xml:space="preserve">
-    <value>Desvio de tempo</value>
-  </data>
-  <data name="toolStripButton16.ToolTipText" xml:space="preserve">
-    <value>Preencher Espaço</value>
-  </data>
-  <data name="toolStripButton17.ToolTipText" xml:space="preserve">
-    <value>Esticar Para Anterior</value>
-  </data>
-  <data name="toolStripButton18.ToolTipText" xml:space="preserve">
-    <value>Esticar Para Próximo</value>
-  </data>
-  <data name="toolStripButton19.ToolTipText" xml:space="preserve">
-    <value>Dividir</value>
-  </data>
-  <data name="toolStripButton32.ToolTipText" xml:space="preserve">
-    <value>Fundir</value>
-  </data>
-  <data name="toolStripSplitButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHxSURBVDhPzZD/TxJxHMbv7+AfqBatudasMMmDdJIiLG03
-        LZxZbnThwqbkTlBv6MXAbweeEuBOM1xaP9RmK3J+KabJtYqwun+GPX7A21wRuvVTr1+f9/O83++H+j9x
-        bd1h2ZRDdb5zoGu1DZ2vGLX9ZQuryeVh07d13WvtivBpAPM5CcuqjKWfc4h+mcSj1AO0PG1SmLhVp42X
-        4iLmUIbHijqPhb0okj/iWNyLIfZNxFxWQv9bN2zROkUb/x3Xegc7ssPh+a+DrXJ2BsObHvjWejHzeRyx
-        r2HMkkucKx2oG79S+s498nMiG4H8XSpusy6b80zSxt+QG3hT3Jgf2xlFRAnBv+mFabRK1WyHdL25Sc6N
-        YyEXhW+9D8yijdckqnG61mMRadSOGUEHDKj2X4AmHUKaJsXNFrdzqR40k82aRNVP0aWGP3G8sKvibgBh
-        JQgxE0TNE2P+2rQpWdCuhqpRI1w6OqQ1aWd7Vp2QSGGFkInMY9xdugVz8DIcMoPWRDMues8dHWJLWBT3
-        aycmdgX4014EtnkI6UH4P/rAf+BwXWpExUN9+RBr2KyzTNJK57M2cO97MVI0DmBoqx++DQ+aRAvOdJ86
-        vg9aMLBVfGXOMHgelVwF7JEGWKfqifnk8ea/cdZ9GnrXP5oL6O+fKGOmqH153xP0b/NBbgAAAABJRU5E
-        rkJggg==
-</value>
-  </data>
-  <data name="toolStripSplitButton2.Text" xml:space="preserve">
-    <value>Aplicar alinhamento da direita para a esquerda a todas as legendas da faixa seleccionada</value>
-  </data>
-  <data name="setRightToLeftToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>354, 34</value>
-  </data>
-  <data name="setRightToLeftToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Definir</value>
-  </data>
-  <data name="setLeftToRightToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>354, 34</value>
-  </data>
-  <data name="setLeftToRightToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Definir Esquerda para a Direita</value>
-  </data>
-  <data name="toolStripButton20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALgSURBVDhPrZHJTxNRHMfnP/AqF89eiHLBGI0HY0g0RhOJ
-        QU1EUBTClrDJJsFGlspWQGnREstSoC0CtiGQlrUEKpBCKQWkpbSUIltLnba0wCB8nSmD0ejBg5/kl/de
-        5n2+v/feEP+d/pbSq5q2vP5Jedb2tCKXmlTkUMPSlA1lXcqnjtqsi+y2v6OWFPHVqvh9u3EMW+tLcLtd
-        IEknVpdnMDMiQTs/dkdakZjHbv+dQUlhlVkrgMthg9HmwscBK/jtc6iWzaKpx4wp0wasRg26hXEQFcRk
-        sNoxvQ3cy72KdMq5acWwbg0dg1aY7W443V443DswrrjRpDKjU23Bgq4H4lf3fHXFcSGsThCqhszuRfrD
-        l+VtyPotYHCRJExf17FLz5nyHgG1XWaM6G3oFadBkHu/idUJQtmYtL5mM0CsXMQ83dl3cASvz4eaDyJs
-        0kGevT20KwcwbCJR2qqHYUIKYW64ldUJorMhcdflXEVJsx6bfgquvUPs012zX3Ig7pAjM58DlWYcBpJC
-        as04VqzjdECYn9XpAF7srnNrCRyRDiteig45hJ30oKCsPCAP62bgOAC0TgpJlZ9hW1JDmP1LQHtFpGXJ
-        0INKmR7qRRJr9KXtHgrdQ6OwbLux8R2QajqQIojCs4rbeFR8DcmZl0hWJ4j6wkjRkDQLGr0JXJkRDvrB
-        XBTgOaSLnreNSsBpi0bXbA2m11Tg9cYjgheM0ISgskCAqCD+vDA/wr+gbURzzyReyxags36Dl34Pr49C
-        dMl1yA2VkM9XMz8IZX1PweuLxbmEU7uBAIZ3nOisFu5dzI/xMTihRZFoDM+rR5FWOYKbuSHonq0LyCco
-        ZmpwISEIrH7M2xcP896n3/DKBQ8w1V8Iy7wYlrl6XEk+g1LVYxSrogJysTLqzxOcIMh5ElqVcaf1Teot
-        myA9zM9UVHKwO7zsLMpVMYHOzMisf77BvxAaf5obkhDkYY7NjMyaIAjiB4q9MQSyWMytAAAAAElFTkSu
-        QmCC
-</value>
-  </data>
-  <data name="toolStripButton20.ToolTipText" xml:space="preserve">
-    <value>Adicionar marca</value>
-  </data>
-  <data name="toolStripButton21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALxSURBVDhPrZFdSJNRGMffmt4X3XTThV1EBUHdBIFBqXUR
-        1IUSZqAQCorphd9TE5PUTNPUcrO05sf8mk1T0rnNqVtqKuraTHPfzplfm/Odc1Nfdf/e6UsfEHTTDx44
-        cM7v/zznHOK/I2ssChhuzZJNdLDXvnRmUhOdGZSiJWFZXJ3woa2SfYU59nfkzfkcuSR2x6IZweqSAQ6H
-        HSRpw8KcGurBZgg50ZstJXFZzPE/6W/OK9OPc2G3mqEx2/G+zwSOcBrlgq+oF+kxqV2GSTOM7qoY8HKj
-        UhjtEGltgb+0M5myrZigUC6ird8EvcUBm8MJq2MTmnkH6iV6tMuNmFWKwH9yz1X9NOYSoxOEpDatW0dv
-        fJtbg0BmhBc7SUL7fQlb9NpbTg9Q+VGPQZUZUn4SuJlh9YxOEOK6+KVF8xT4Yh1m6M6uXQ+cLhcq3vGw
-        QgdtbG9DKO6DQkuiqEmFqbEWVGWGmBidINpr47bstgUUNqiw4qZg397HDt01/XEO+G0dSMvOgWR4FFMk
-        hcSKUcybRumAm25GpwNeRG/ZVg3I4Skx76TokH1YyA3kPi8+kBVKNay7wLiNQnzpZ5gNclSl/xYgLIkw
-        GqZEKBWoINeRWKQvbdmg0D0wBOOaA8t7gLq1An3hZ9Eb4IvekBOoDT9HMjpB1ORF8AZa2BhWaVEg0MBK
-        P5idAjb26aLXunYO1KlXsdVVDM9MD1zNiZA8vOCRBvrEHwTwcmMvVmWHumfH69AgmsAzwSyUpnU46fdw
-        uij0hp2Gm5ZRfhtIOw7k+8FaeA1d11nGgwAvr3MesBsL7mJmhIP+sXHk80aQWj6EpNLBg7E9E23e3/3J
-        evZJtAb4eBj9kFePwrPeJN9ydnDvY1KWB+MMH8bpGkiDj2HzbSRAS9upBOx0mWNY6LnBWmDUX3AzIi+X
-        pQQ3vUy8Y+Ym33R7Sxh+nhRFnfEspvlhNd0XhqgjkPn77ImCjmYw2r/5FHqKLQ5kmbxji4NYlkOZIH4A
-        7cwvej7BXowAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="toolStripButton21.ToolTipText" xml:space="preserve">
-    <value>Remover marca selecionada</value>
-  </data>
-  <data name="toolStripButton22.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMDSURBVDhPrZBbTFJxHMf/XZbrrZdaD01Xc+vyVD3UavbQ
-        Zaz5UMvm7GorS80yZ9HE25QUJS3RMrBoEgIlFF5LEzODFXlBCS0TRQkxTUECCVRcfjvQ2aqthx76bP/t
-        v3P+n8/v/A/5r7Q8LNyjfZzZ0lXLmnpXl+7rqkvzaeTJX5ruJ9dUlbF20Mf+jroyj69WJcxZjW2YHB+C
-        y+WA02nH6Kce9LyuhJIf901edDGTPv4nrZWcEpNOAIfNAqPFgScvzeArP+CW4j0kjSZ0D3yB2ahFgzAe
-        otyzV2ntJ81iblhzHdNnnzBDox9DVasZJqsLdpcbNtc3GEdckKhMqFYPo1/fCGnOEc/9/PgttE6ISpzS
-        MEi9+PhpCoqWYfhxOJ0Y+DyOGWrvX+4FoOypCa8NFjRLr0CQflRC64Q0VSSOj1l6IW0aRB812TO/ALfH
-        gzvlIkxQoenZWSibXkIz4EThIwN6O+QQph820zoh1eKLMw77KApkBkx4fXDMfsccNTU1mw1pVS1SsthQ
-        adtxRc7AOdEWjJjbqQDDS+tUgBc3Y58cAlukx4jbR0W+w+qcRu6NmwFZo++BbR64INsNdv0xRJVtgDD1
-        t4CyKHp4qLcRxQoD1INOjFGXtk77kCTbhSTpTpyv2IaY8q3IqI6EorMEzMcHweCtBgFZFAg84ESLXslZ
-        0BoGwFUYYaN+mMNHTZRsR003H8qu0oBY2VmM4hdMiN8WIF7GQGh+0HwgIspN2CzMivL26yoga+zCdUU/
-        9OaviKHu65eLVEm4/vwCOA2xyK4/jWvP4lCmycGJB2FYeYnMBb7iLvs06yE3En1tfLR26JAnasNx4UbI
-        O4oha7sJsbYA5W+4VCQBAs01xMr2Y20G+bgmmSwPBPyUZpzMvMcMd9cKjqG7hYMIwTqE31qDfbxVCCtc
-        gWjRTvDV2TgjYSA4gxhCE0kQrf5CkBazreRqxKPblw9YBEyG17/8ex7zkHx9zuKvp8R7EZJGdJuyyDJa
-        +XdCUoktOH0JSBZZSj+iIOQH+iwRbrs10dkAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="toolStripButton22.ToolTipText" xml:space="preserve">
-    <value>Saltar para esta marca</value>
   </data>
   <data name="contextMenuStrip_subtitlesData.Size" type="System.Drawing.Size, System.Drawing">
     <value>272, 564</value>
@@ -2787,37 +2760,7 @@ os caracteres das legendas.</value>
   <data name="previewWithAHDSynchronisedLyricsViewToolStripMenuItem.Text" xml:space="preserve">
     <value>pré-visualização com AHD Synchronised Lyrics View</value>
   </data>
-  <data name="toolStripSeparator70.Size" type="System.Drawing.Size, System.Drawing">
-    <value>519, 6</value>
-  </data>
-  <data name="matroskaRipperToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>522, 34</value>
-  </data>
-  <data name="matroskaRipperToolStripMenuItem.Text" xml:space="preserve">
-    <value>Extractor &amp;Matroska</value>
-  </data>
-  <data name="importVobSubIDXSUBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>522, 34</value>
-  </data>
-  <data name="importVobSubIDXSUBToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Importar VobSub (IDX/SUB)</value>
-  </data>
   <data name="toolStripSeparator60.Size" type="System.Drawing.Size, System.Drawing">
-    <value>519, 6</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>522, 34</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Text" xml:space="preserve">
-    <value>Transferir legendas de &amp;OpenSubtitles.org</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>522, 34</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Text" xml:space="preserve">
-    <value>Enviar legendas para OpenSubtitles.org</value>
-  </data>
-  <data name="toolStripSeparator66.Size" type="System.Drawing.Size, System.Drawing">
     <value>519, 6</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -2966,20 +2909,13 @@ os caracteres das legendas.</value>
   <data name="quickStartToolStripMenuItem.Text" xml:space="preserve">
     <value>Inciação rápida</value>
   </data>
-  <data name="toolStripSeparator50.Size" type="System.Drawing.Size, System.Drawing">
-    <value>360, 6</value>
-  </data>
-  <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="donateToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>363, 34</value>
   </data>
-  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
+  <data name="donateToolStripMenuItem1.Text" xml:space="preserve">
     <value>&amp;Doar</value>
   </data>
-  <data name="donateToolStripMenuItem.ToolTipText" xml:space="preserve">
-    <value>Apoie o desenvolvimento do programa por doação usando paypal.
-Obrigado pela sua generosidade :)</value>
-  </data>
-  <data name="toolStripSeparator78.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripSeparator46.Size" type="System.Drawing.Size, System.Drawing">
     <value>360, 6</value>
   </data>
   <data name="aboutAHDSubtitlesMakerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">

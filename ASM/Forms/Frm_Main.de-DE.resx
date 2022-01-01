@@ -119,89 +119,83 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="tabControl_top_left.Size" type="System.Drawing.Size, System.Drawing">
-    <value>725, 925</value>
+    <value>724, 958</value>
   </data>
   <data name="tabControl_top_middle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>883, 925</value>
+    <value>882, 958</value>
   </data>
   <data name="splitContainer4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1614, 925</value>
+    <value>1612, 958</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="splitContainer4.SplitterDistance" type="System.Int32, mscorlib">
-    <value>725</value>
+    <value>724</value>
   </data>
   <data name="tabControl_down_left.Size" type="System.Drawing.Size, System.Drawing">
-    <value>731, 144</value>
+    <value>730, 146</value>
   </data>
   <data name="tabControl_down_middle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>877, 144</value>
+    <value>876, 146</value>
   </data>
   <data name="splitContainer5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1614, 144</value>
+    <value>1612, 146</value>
   </data>
   <data name="splitContainer5.SplitterDistance" type="System.Int32, mscorlib">
-    <value>731</value>
+    <value>730</value>
   </data>
   <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1614, 1075</value>
+    <value>1612, 1110</value>
   </data>
   <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
-    <value>925</value>
+    <value>958</value>
   </data>
   <data name="tabControl_top_right.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 905</value>
+    <value>334, 938</value>
   </data>
   <data name="tabControl_down_Right.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 164</value>
+    <value>334, 166</value>
   </data>
   <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 1075</value>
+    <value>334, 1110</value>
   </data>
   <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
-    <value>905</value>
+    <value>938</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>1614</value>
-  </data>
-  <data name="toolStrip_main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 66</value>
-  </data>
-  <data name="toolStrip_marks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 33</value>
+    <value>1612</value>
   </data>
   <data name="tabPage_media.Size" type="System.Drawing.Size, System.Drawing">
-    <value>717, 892</value>
+    <value>716, 925</value>
   </data>
   <data name="tabPage_media.Text" xml:space="preserve">
     <value>Medien</value>
   </data>
   <data name="tabPage_subitltesData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>875, 892</value>
+    <value>874, 925</value>
   </data>
   <data name="tabPage_subitltesData.Text" xml:space="preserve">
     <value>Untertitel-Daten</value>
   </data>
   <data name="tabPage_TimeLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>723, 111</value>
+    <value>722, 113</value>
   </data>
   <data name="tabPage_TimeLine.Text" xml:space="preserve">
     <value>Zeitlinie</value>
   </data>
   <data name="tabPage_errors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>723, 111</value>
+    <value>722, 113</value>
   </data>
   <data name="tabPage_errors.Text" xml:space="preserve">
     <value>Fehler</value>
   </data>
   <data name="tabPage_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>723, 111</value>
+    <value>722, 113</value>
   </data>
   <data name="contextMenuStrip_log.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 68</value>
   </data>
   <data name="richTextBox_Log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>715, 101</value>
+    <value>714, 103</value>
   </data>
   <data name="saveToolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -267,13 +261,13 @@
     <value>Löschen</value>
   </data>
   <data name="tabPage_multipleSubtitleTrackViewer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>869, 111</value>
+    <value>868, 113</value>
   </data>
   <data name="tabPage_multipleSubtitleTrackViewer.Text" xml:space="preserve">
     <value>Mehrere Untertitel-Tracks-Viewer</value>
   </data>
   <data name="tabPage_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 872</value>
+    <value>326, 905</value>
   </data>
   <data name="tabPage_subtitleTracks.Text" xml:space="preserve">
     <value>Untertitel-Tracks</value>
@@ -282,7 +276,7 @@
     <value>330, 398</value>
   </data>
   <data name="treeView_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 828</value>
+    <value>318, 861</value>
   </data>
   <data name="addSubtitlesTrackToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -462,7 +456,7 @@
     <value>Zusammenfügen</value>
   </data>
   <data name="toolStrip_subtitleTracks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 34</value>
+    <value>318, 34</value>
   </data>
   <data name="toolStripButton28.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -487,16 +481,16 @@
   <data name="toolStripButton29.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIISURBVDhPnZFtb9JQGIaJiUnjXzCGRP3CiCGTOV9Qmn7Y
-        iwQdmY51dGuFYjfZeNkgkG4I6gdN/CX+ImNiIkM/TCXiBlsLpe3taS0SAsTolZzkaU+vu+d5jutfgSRd
-        cMpRzHzebRaLXudxhC6f9HY4LqtEY0Hn1QBLRmkfZlGGmcuNhHR53tuJJ9HdSuEk8uhdKxTxOFsDGZWX
-        MMkydgvoplJ/QmxZSKCXzgLlCqy6uXA/i2r1nP0BKahjUTLM/efAm7cw5DJ6z3ZgHdmW+Ti0nQxA9lUh
-        js+3Ajr8/vO23AdClWpuZ3SjUAJevYaeL6KTSELdeAItlQbkA7uu37yj12iacrRhIAhUQ5T0XjpH2nkB
-        HFSIWAZKMtR1HvXZ25PlPlbI1/CSAZm0w/EAywGFIuo0bfxVtmizvFflNgByG4iuAY9XgdwejucX8SMQ
-        mHjFNm2W9SqxdWjJTWCvQMQ8kCHtkAGqK6to3qNx5POND7HlNQ6aKAHkGhU2hkP/Df3T3aBx+iACbG7h
-        7GEEjZlZHHk8wyG2THrVEk/JX3ehkKMfXp+xB2atj1NTemtuAUiIOF0M4ds1H+qXrgxC2svLzFmUhRYX
-        oaywqE37h6Zdc9PUBxJyQjNQQmF8903jy0U342z/5ud8iGmFl1ALjp92ze2m3l++qo+V+zSCQWac3McK
-        mSj/Hy7XL873SDKzvJc7AAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAILSURBVDhPnZFtb9JQGIaJiUnjXzCmifqFEYMbc75Mafph
+        L+KcZDrW0a1IYWzieNkgJd0Q1A+a+Ev8Q8bExMHiB+KWbQ62Fkrb29NaJATIoldykqc9ve6e5zmufwWJ
+        xBWn7MfM5WhTkjzOYx8tIe5p8nxGCYX9zqsulozCDkxJhpnN9oW0BMHTjMbR2kjiNPj8cz0QdDtbXRml
+        dzDJMrbyaCWTf0NsOSKincoAxRKs+njmcQbl8iX7A1JQJ+KaYe68AT5+giEX0X61CevItixEoW2mAbKv
+        RqLYv/tAh8932ZY7IFKmjl6ndSNfAN5/gJ6T0BTjUFdfQkumAHnXrqsT9/UKw1CO1gsiEeogltDbqSxp
+        5y2wWyJiESjIUFcEVO/cGy53sEJqT+YNyKQdXgA4HshLqDKMcaFs0eAEj8qvAuQ2EFoGXiwB2W38mp7F
+        0eTk0Cu2aXCcRwmvQIuvA9t5IuaANGmHDFBdXMLxIwY1r3dwiC0v89BiCYBco8KFURkb178/9BtnT4PA
+        +gbO54M4HJ9Aze3uDbFl0qsmrpG/bkEhR6+M+uyBWevbyIhen5oBxBjOZgP4ecuL/Ws3uiGNhQX2PMRB
+        i8agLHLYuz3WM+0KzVBfScgpw0IJzOHAO4ofV2nW2f7DyXSArc89w55/8LQrNE19uX5THyh3OPT72UFy
+        BytkqPx/uFy/AZF1SBLnKcoeAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton29.ToolTipText" xml:space="preserve">
@@ -528,34 +522,34 @@
 Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird Recht-nach-Links ausgerichtet sein.</value>
   </data>
   <data name="tabPage_ProjectDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 860</value>
+    <value>326, 893</value>
   </data>
   <data name="tabPage_ProjectDescription.Text" xml:space="preserve">
     <value>Projekt Beschreibung</value>
   </data>
   <data name="richTextBox_description.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 850</value>
+    <value>318, 883</value>
   </data>
   <data name="tabPage_history.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 860</value>
+    <value>326, 893</value>
   </data>
   <data name="listBox_history.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 850</value>
+    <value>318, 883</value>
   </data>
   <data name="tabPage_Properties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 131</value>
+    <value>326, 133</value>
   </data>
   <data name="tabPage_Properties.Text" xml:space="preserve">
     <value>Eigenschaften</value>
   </data>
   <data name="tabPage_preparedText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 131</value>
+    <value>326, 133</value>
   </data>
   <data name="tabPage_preparedText.Text" xml:space="preserve">
     <value>Vorbereitetes Text</value>
   </data>
   <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 34</value>
+    <value>318, 34</value>
   </data>
   <data name="toolStripButton33.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -626,15 +620,187 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton_prepared_word_wrap.Text" xml:space="preserve">
     <value>Zeilenumbruch</value>
   </data>
+  <data name="toolStripButton11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAElSURBVDhPlZFNaoRAEIUnyTkSkjOEmTlGzpCd1wkuvEKO
+        4MaNgt7AO6iI4P8fVOoVU+KoHZKCB211va+f3SeuF9aZdTnQK+uR9WudkyQZ5nkm1TRN1HUd2bb9xftv
+        rCeZNNQFJhjiOCbP88h1XYqiiHzfJ8uyvnnmg2VMI4C+7ykIAhrHcUny1zQCgBEArP+bRgA4KQxDAZjS
+        6N4tzQJZADgJ622aqqqoKApK01R6bduS4zgK2QO2aWAoy5KyLJOeCl4jYL0GpGkageR5viTZAfTUNWAN
+        QRL9nUPAUQIVesMwCKSu6zsALgKLK+tThzXNWrhcQHCx+L75pB5YeJIrNo4SaB8QfV6eXwBauzRq3MoE
+        QN2lMYnvoeKZdxhMpWlMYvPp+QfpJ1gWlh3UWAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton11.ToolTipText" xml:space="preserve">
+    <value>Untertitel-Track doppeln</value>
+  </data>
+  <data name="toolStripButton13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANoSURBVDhPVZLtT1pnGMbPp+3f6LcmTafpsqQfmn2xg61r
+        N7omdutMiwK+zOrmMpuqk2DFNqLIxJelmUsnGm18mTqrHhUOxVIUqOhmgYpYEV/aijKVl3OQc9i1A6Vr
+        die/PJ+uX577eh7izQiqZ3IvNFr1IrX1b6HCSvMnk6IpedoYUeMc86nK4jxzw6w9kd3/Tjr2ds7dfmwO
+        hJg9r3+bC0ZiCIbfshdKwuDZixDkoxu4ol6OflI68W46+nrO11sCvs2X3Nx6HDY/C9sGC+s6C4vvCDPe
+        GCbdEcRYYGyZhnzED2mLk/6f5IKiO6alGlBDVqBirBw/PqiEavJnkE4/Hq3GMO2O8oIEHC842LbjqJvY
+        QFalsTcVFrV8nNtEybGwSWHh1SLItWcYcP2JNnMvfugrQ7/9KQweGr6dSGqVMMNiZz8KwfVHLHFelfWh
+        +mHx0dK+EYshB4xbTnR7vagzr0Bt/guDS70o+k2GwSce6PlbjDvDeLB0iAO+J2HtY4aQdGWPzKzfx8Ch
+        HtN7NvziWkaVyY1CA4nv3a3Q+hrRTFbhhu5OahVqhYae72E/EodQOcsQNX8UB0e2dFC/1IEKuFA8No+b
+        VgtyvHIIVsTIMedhwN4CiVaGZMHm50cpUZAXCGp5gWKynO5cbUalpx21s3Zc6XWgzGBCyeIgsqd+xaUe
+        GfptzbiquYb5TRZzvjhmeQKhOLJqeEHFUOHm76t3oXSNQDpkxZcDXlzUPYVAZYJIa0JBtxKdJiXETflw
+        bHB4knxinhBfZOZ3Fob4XHO29b6jGdWWchSP9+OrHhcu9/nx2V0DLusaUD9ajdKOq5B3tWOeF9j4v2Hl
+        BUw8wQtmGOL0zdPHxG0X/d32O9DYh/Ht0AKKBj0o7OlCw1QplH2lOFNTAtHQLr4YZSBKEz3ieMEwk/oH
+        p745mXFOkf1P/bgKLdMkNCSFDtM9lNz7Gpcay6BxHKDdDbS5gFYnkG9kEUmuUJgWJOeEtIOu6ryFj26J
+        kaXIgbBOBuFP7cibCkFCcZBSLPIMLHKNHCQGDtuvAon3xGPhdJwg3i8yrPkPo6F5z1ZibZfGWoDGaprd
+        cDxFsvkww8G/vZOgafrg+DXSlY4TxAdFU9czZZOGUwX6YGbBMPMf+a/JeINsmDkuI/dPSkgqI29C+i9W
+        D7ukdJfqCgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton13.ToolTipText" xml:space="preserve">
+    <value>Untertitel-Track übersetzen</value>
+  </data>
+  <data name="toolStripButton15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJtSURBVDhPldPrS1phHAdwob/DRbO10WTQBcMuc0LWKu2C
+        6SDJfDLDYRdZrGUuu5y08syyUqvVcrVYoxZIwWy3tlKK2qUlg73uXQS9Hb37To8PhdsY6/Pux+98eQ7P
+        9xze/7jzrLxDtaRKouPFyX1FkZJR6Qwd/+7epo5velNnblitCWpW1Mc1zyuhnC2DwieD8YUO9fMa5HZl
+        uenjiUxv68XG19oAE7JgbG8IM988mD3wYmrfDc+nRxjZHcBAuAfV3nIIm9L6aSzu7rqOb3ilCQzv2rHw
+        fRqTX0fweH8M3s8uuPcGwW4zsIdt6N60QO4qhsCQ4qTRuIY1jdn24T7mIpOY2ffAteOAYVGLWw4xcm3Z
+        yGq/gQp3CUpZGVJJ8jiNnatdVgaHQj3cic4wAwlbcFjQJ3LRNSdVL4gIdJf8dEykfHr7qGJKdFo0Kv0p
+        ceSd5PdkM3R1JqWOb+WpeEnapWqini8nVdMlRD4uJYVsPuHJvYWkyCUhEoeYiG3ZJKNdSGKdt27prTR/
+        RjWnYBSe4pPYYaJu0Wl+d8YRXSVq+aj3G9drI3TkKJ+UuhQe2eHwtiPayiDa11qj9yMM0vW55g0ybt+x
+        onfrAbTL1Yh+hYi+Mkwv9WBDDFfp0HYf1BOVuN6cZqaxONM7nZMJW7D4Y5ar1B+ZSKi0b6uTq1S/UIt0
+        05WAQCfg02hcw1pN/8P3bfAf+LhKfV9GMLrnBLtjR+9GJ5pWDKgaK8M1Y2pAUJ8sprFE6jm5uyXQCOMS
+        QSFbgJtMDnKsmchsSz8WNl0NpjVeNv9x8u9iP47UnpdwiRcSq1HcldVBx3/g8X4Bj5QzBMM+BqgAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton15.ToolTipText" xml:space="preserve">
+    <value>Synchronisieren</value>
+  </data>
+  <data name="toolStripButton14.ToolTipText" xml:space="preserve">
+    <value>Zeit verschieben</value>
+  </data>
+  <data name="toolStripButton16.ToolTipText" xml:space="preserve">
+    <value>Raum ausfüllen</value>
+  </data>
+  <data name="toolStripButton17.ToolTipText" xml:space="preserve">
+    <value>Zum vorherigen dehnen</value>
+  </data>
+  <data name="toolStripButton18.ToolTipText" xml:space="preserve">
+    <value>Zum nächsten dehnen</value>
+  </data>
+  <data name="toolStripButton19.ToolTipText" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="toolStripButton32.ToolTipText" xml:space="preserve">
+    <value>Zusammenfügen</value>
+  </data>
+  <data name="toolStripSplitButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHySURBVDhPzZD/TxJxHMbv7+AfqBatudasMMnTdBIiLG03
+        LZyZbnThwmbkTrBu6MnAbweeEuDOL+HS/ME2m5LzS7FMrlWE1f0z7OkD3eYK0a2fev36vJ/n/X4/1P+J
+        c/ceyybtqmPDjq61VnSsMmrbSjOryaVhU3d13ZttivCxH7NZCUuqjMUfM4h8HseT5EM0zzcqTMyi08aL
+        cRJzMM1jWZ3F3EEEie8xLBxEEf0qYiYjoW/dBWukTtHG/8S51c4O7nF4+fP3VjkzhWc7bng3ezH1aRTR
+        LyFMk0scy+2oG71W/M598nM8E4b8TSpsMy/ROSZh5W/JZr4qZsyN7A0hrATh2/GgeqhC1WyHdL25Tc6N
+        YS4bgXfrMZgFK69JVMNkrdsk0qgdMYL2G1DpuwRNOoQ0TYqbLmznkj1oIps1iaqfoIsNf2N/ZVPFfT9C
+        SgBiOgDjc2PuxmR1Iq9dD1aiSrhyfEhLwsb2rDkgkcLyIWPpYXQu3kFN4CrsMoOWeBMuey4cH2KNmxTX
+        awfG9gX4Uh74P/AQUgPwvfeCf8fhptSAskf60iGWUI3ONE4rHS9awb3txWDB2I+nu33wbrvRKJpwrvvM
+        yX3QgoGt4MuzhoGLKOfKYAubYZmoJ+bTJ5uP4rzrLPTOfzTn0T84VcJMUb8AZ/kT7P9L6PYAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="toolStripSplitButton2.Text" xml:space="preserve">
+    <value>Rechrs-nach-Links-Ausrichtung für allen ausgewählten Tracks verwenden</value>
+  </data>
+  <data name="setRightToLeftToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 34</value>
+  </data>
+  <data name="setRightToLeftToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Rechts-nach-Links festlegen</value>
+  </data>
+  <data name="setLeftToRightToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 34</value>
+  </data>
+  <data name="setLeftToRightToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Links-nach-Rechts festlegen</value>
+  </data>
+  <data name="toolStripButton20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALgSURBVDhPrZHJTxNRHMfnP/AqF89eiHLBGI0HY0g0RhOJ
+        QU1EUBTClrDJJsFGoMhaUFq0xLKUpUXAEtKmhVJKoAIBSltACl0oYNlKnbaUZRC+zpTBaPTgwU/yy3sv
+        8z7f33tviP+OuqX0qq49Tz0hy9qa6s6lJrpzqEFJypqyLuVTZ23WRXbb39G2FfE1qvj9ZfMINlat8Hjc
+        IEkXVhaNMA61oYMfuy2pSMxjt/+Opq2wyjIugHvTAbPDjY/9dvA7ZlAtnUaTwoLJ+TXYzTrIhXEQFcRk
+        sNoxvQ3Fl5Xd6ZRr3Y5BvROdGjssyx64PD5serZhXvKgSWVBl9aGOb0C4lf3/HXcuBBWJwhVQ6Z8gf7w
+        ZXELUrUNDG6SxPzXVezSc6Z8R0BtjwVDBgd6xWkQ5N5vYnWCUDYmrTodJoiVC5ilO/sPjuDz+1HzQYR1
+        Osi7t4cOZT8G50mUthpgGpNAmBtuZ3WC6GpI3HW7VlDSbMD6DgX33iH26a7ZLzkQd8qQmc+BSjcKE0kh
+        tWYUS/ZROiBsh9XpgMrYXdeGFRyRHks+ig45xDLpRUFZeUAe1BuxeQCMuygk8T7DYdVCmP1LQEdFpM1q
+        UoAnNUC7QMJJX3rZS0E+MAzblgdr3wGJrhMpgig8q7iNR9xrSM68RLI6QdQXRooGJFnQGeZRLDVjk34w
+        NwV4D+mi5+3DbeC0R6NnugZTThUqe+MRURmM0ISgskCAqCD+vDA/YmduvBHNigm8ls5Bb/8GH/0ePj+F
+        6JLrkJl4kM1WMz8IZX1PUdkXi3MJp3YDAQzvONFZLcV3MTvCh2ZsHEWiETyvHkYabwg3c0Mgn64LyCd0
+        G2twISEIrH7M2xcP896n3/DJBA8wqS6EbVYM20w9riSfQanqMbiqqIDMVUb9eYITBDlPQqsy7rS+Sb3l
+        EKSH7TAVlRzsCS87i3JVTKAzMzLrn2/wL4TGny4OSQjyMsdmRmZNEATxA329MQDImQ63AAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="toolStripButton20.ToolTipText" xml:space="preserve">
+    <value>Marke hinzufügen</value>
+  </data>
+  <data name="toolStripButton21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALzSURBVDhPrZFdSJNRGMffmt4X3XTThV1EBUHdBEVBqXkR
+        1IUSZqAQCorphZ+bmthIzTRNLTdLa5rzY7PNlHROnTrTpaKuzTSn+3DO/Nqc75yb+qr7905f+oCgm37w
+        wIFzfv/nOecQ/x1FXYG/qjFTMdrMWf3SkkGNtqRTfaKEJXllwgdpOecSc+zvKBtyeT0dsdsW3SBWFg1w
+        OOwgSRvmZ7XQ9jdAwoveEBXFZTLH/6SnIadEP8KH3WqGzmzH+24TeJIJlIq/okamx9j0Ekw6FdoqYiDI
+        jkphtAM6q/OuyFuSKduyCX3qBUh7TNBbHLA5nLA6NqCbc6CmQ48mpRFTahmEj++6Kp/EXGB0guioZrfN
+        0BvfZlchVhjhxU6SmP6+iE167S2nByj/qEe/xoxOYRL4GWE1jE4Q8nfxiwvmcQjlM5ikO7t2PHC6XCh7
+        K8AyHbS+tQWJvBt90yQK6jUYHxahIiPExOgE0VQdt2m3zSO/VoNlNwX71h626a5pj7gQSpvBzuKiQzWE
+        cZJCYtkQ5kxDdECQm9HpgOfRm7YVA7gCNeacFB2yBwu5juxnhftyn1oL6w4wYqMQX/wZZoMSFWm/BUiK
+        IoyGcRmKxRooZ0gs0Je2rFNo6x2AcdWBpV1A21iG7vDT6PL3RVfIMVSHnyEZnSCqciIEvSIOVJpp5Il1
+        sNIPZqeA9T266PVMEw/a1KvYbC2EZ7IdroZEtD845+kM8InfDxBkx56vyAp1T428Q61sFE/FU1Cb1uCk
+        38PpotAVdhJuWkbpLYB9FMj1gzX/Glqvs4z7AV5ece9z6vLuYHKQh57hEeQKBpFaOoCk4v79sT2jUu/v
+        /mQt6zhE/j4eRj/g5cPwzNfJN53N/HsYU+TAOCmEcaIKncFHsPEmEqClrVQCdrrMMSy032DNM+ov+OmR
+        F0tSgutfJN4285OD3N6ShJ8lW6NOeRbYflhJ84Uh6hAUl312ZYGH0xnt33wKPcGRB7BM3rHlgSzLgUwQ
+        PwDbQi9saliRGgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton21.ToolTipText" xml:space="preserve">
+    <value>Ausgewählte Marke löschen</value>
+  </data>
+  <data name="toolStripButton22.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMCSURBVDhPrZBbTFJxHMf/XZbrrZdaD66Wa+vyVD3YavbQ
+        Zaz5UMvmLCtbWWlmcybO+xQvectbGVg4EQEVCk0rDUwNZuSd0FJRlFDzBiKIouL024HOVm099NBn+2//
+        nfP/fH7nf8h/pbE8+5TqRUJjV0307OfaOEdXbaxDKQ6fkhWHv6oqij5GH/s7isqH7GZ5yMqYthUzk8Ow
+        Ws2wWEwY/9aDnpZKSNlBC+Lc0AT6+J80V6YV6Do5MBsN0BrMeNmkB1v6FY8lXyCo16F7cAp6rQp13GDw
+        Um9F0tpPGvgZXrJapsM0rYdSPYGqZj10Y1aYrDYYrQvQjlohkOtQrRjBgLoewpRLi8XpwYdpnRA5P6pu
+        iHrR/20WksYRODFbLBj8Poklau9ctnWg6I0OLRoDGoQR4MRdFtA6IbKy+5MThl4IZUPooyYvrq7DtriI
+        pyU8TFOh+eVlSGVNUA5akF2hQW+7GNy4i3paJ6SaH7pkNo0jS6TBtN0B8/IaVqipMUksCKtqEJXIglzV
+        hggxA7d5hzGqb6MCDDutU4G8oCXTzDBYPDVGbQ4qsoYxyzxSH+W4ZKW6B8ZV4J7oJFiv/eFXtB/cmN8C
+        0tyAkeHeeuRLNFAMWTBBXXps3oEw0QmECY/jbpknAkuOIL7aF5KOAjBfnAcjbycIyAZXoDQtgPdBHA2V
+        ZhAZEi2M1A8zO6iJgqN41c2GtKvQJVZ25CP/PRP8T1kIFjHgke626orwUkMOcRP97AOdZRDVdyFTMgC1
+        fg6B1H2dcq48DJnv7iGt7g6SXt9A8tsgFClTcLXUC9tDyYrrK56xbkSXZ/iir5WN5vZOPOS14gr3AMTt
+        +RC15oCvykLJxwwqEgKOMhl3RGexJ570u4eTra6Ak8L4awnPmd62Go4/uhvT4MPxgPdjd5zJ2wGv7G0I
+        4B0HW5GEmwIGdsUTzd77xI1Wf8GJDfQsiPSpePLgnIHDZNidy7nPY14Q70vZOHedfxq7Y0nnwUSyhVb+
+        nd0xxLgrbhNIItlMP6Ig5AfodBFmn+sy/AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton22.ToolTipText" xml:space="preserve">
+    <value>Ins dieser Marke springen</value>
+  </data>
   <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEHSURBVDhPlZMJDoIwEEXRc2jiHTDc0xDCDSFsYd/BcX5D
-        axWMMMmLpp3/nBYxlrowJmP94cacmVWZTdNkQRDM0zTRFl3XkW3bD+7dlFgIV1VFdV0r8jynNE2J94TE
-        931yHGclOTEWGtq2pb7vxScoy5KyLKMwDIWApyT8iOu6UiJKCRCWQIBAURQURdHHcQAyS/YtGMdRNeA7
-        zi2PEsexmMTzvN+Cb3QJJsF9JEmyXwCkBMfBnUCE9d0CMAyDuBdIANYOCTCFvFxMg7W/AoQkmAAgfFgg
-        wzq7BECfQgd7KwE/4+e34BfcOy8CVXd+PDU2tgI66OG/c8kZvL2qrsydgXUPCHPGMF5UeoqLPnmYugAA
-        AABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEISURBVDhPlZMJDoIwEEXRc2jiHSTc0xDCDdkJ+46O8xta
+        q2DESV4wZf5zWsBY6sRcGesHF+bIrOratm0eBMF9nmfaou97sm37xr2bEgvhuq6paRpFURSUZRmFYSgk
+        vu+T4zgryYGx0NB1HQ3DIK6gqirK85yiKBICnpLwJ67rSokoJUBYAgECZVlSHMdv2wHILNmXYJom1YDf
+        2LfcSpIkYhLP874LPtElmATnkabpfgGQEmwHZwIR1ncLwDiO4lwgAVj7S4Ap5OFiGqz9FCAkwQQA4b8F
+        MqyzSwD0KXRwbyXg1/XxKfgG994XgSqTH0+DG1sBHfTw61xxBl+vqjNjMrDuAWHOGMYTOI2KeSRwbVcA
+        AAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton1.ToolTipText" xml:space="preserve">
@@ -682,16 +848,16 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIWSURBVDhP3Y/NaxNBHIbn4L03/wQP1tSPtFHx4EUQwY+L
-        6EE9iaAloEQoKIL2kDYiREqjBymKWCrYWrWKIB6Cp8bGdtNmbbZJWpu0hm402e+P7G72dbZdJbl4FRzm
-        YWYOz/v+hvwna/FdMFOaOm6Vp062cMIqvD+wXHzZtX35RbCjjY/BjmTy8DZfJyT1LGS6bhOAS7fH1t02
-        qlhP9jbWps+Zv6nMXjVK05ES92bfGV8nhH3VI7qOAXM9Dm1lCNrqE+ilCbi2QLNUuI5Ckbbedh21H3yD
-        mwyxvk5Ifmyv3LQkKiegFochf+1HbaYX1XQYQjYKYeEOhMxN1Jk+SoROxiM/2a34Og0Y77FsfQMCm0B9
-        Lgb+03Xo/GfaKvvt3in+mcD7HjO+2/B1b4L91ub/myZFBxxtU3R0DmYlAWMtCv1bH7TCZajceThqDsxo
-        a0Ai1HAdHY6cgi18gPVzAo2NESreg756C3oxDG3pAtTFU1CyR+AoGTD3WwJSj0Jm05Jh1d6iwY/S1gcw
-        yrR1xWu9BDV3Fgp7DPL8IUhze2DLX9oDvIdrCVR+CvP7EIxSP5Uj0PIXqXyath6FnDkIabYLYnoHDZhp
-        D1i6G6joIiuW08+bauExlPxDKFwcSm4AMnsbcvYGpIUIpEwYEnMFFe61y8aDoq8Twg10XuNiu8bYwZ1V
-        JhYw/spgwJiPBSQu2jns6/90EfIL2BPng2ubD2wAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIUSURBVDhP3Y/NaxNBHIbn4L03/wQP1tSP2Kh48CKIUPEi
+        elBPImgJKBEKiqA9pI0IkdLUg4gilgq2tlhFEA/BU2Nqu2mzNtskrd1+hCa02e/vzb7OtqskF6+CwzzM
+        zOF539+Q/2QtfAzn+Mkue3XyXBNddunT8aXyu469S2/DbS18Cbel06f2BDohmdcR0/MaADy6fXbvjlHD
+        errbWpu6bP6mMnPL4KdiPPf+yMVAJ4Sd6BQ914C5noS2PABt5SV0fgyeI9AsFZ6rUKTdt1PHVq1qceMR
+        NtAJKY4clhu2ROUU1PIg5B+92M52ozYdhZCPQ5h/CCF3D3WmhxKjk1VRHD+qBDoNGO20HX0TAptCfTaB
+        6tc70KvfaKsctPun+GcC/3vM6EEj0P0Jjtk7/2+YFB1wtR3R1TmYlRSMtTj0nz3QSjegclfgqgUww80B
+        qYjluTpcOQNH+Ax7awzW5nMqPoa+ch96OQpt8SrUhfNQ8qfhKjkwT5oCMs8iZsOWYW9/gFUdpq1DMFZp
+        67Lfeh1q4RIU9izkuZOQZg/Bkb+3BvgPzxao/ArmxgAMvpfKMWjFa1S+QFvPQM6dgDTTAXF6Hw3ItgYs
+        PgpVdJEV+eybhlp6AaX4FAqXhFLog8w+gJy/C2k+BikXhcTcxEZhwmOTYTHQCeH62m9ziQMjbP/+GpMI
+        GX+lP2TMJUISF28fDPR/ugj5BcGx53gPiY8qAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton2.ToolTipText" xml:space="preserve">
@@ -700,19 +866,19 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKsSURBVDhPjZJZTxNRHMX7hXygy+ASv4WPxrAVugABRGTT
-        aOKDGkGiwcgiaEFoQRTZ7QCaKkKhYMGgZSldEEqBrkCndDv+51Z5IoRJTm5m5p7fOXeRcBq+VKHhG+Ra
-        3kLyc9qBGKc1pDgtD/rHdKlwHFeKJ3C5iEdmwWjgajE/J9OMXJOID6fmWxadESw6BUTjKQikyHESwaME
-        doMx+MJx9i7EktgLxTH/ezvVa3XEbzwy7XPqoVwJpzXaFh0R3OvxIhIjM03MezID/0Ecu2QIRxIMHKLR
-        vX+MNU8URqsfE9Z9cCV8lADjQSsB7up32CRRIsAbisF/GGfJYoMdamPfiWJtW0B1hwtflwNQqN+mCDAQ
-        s9iPCOBhk0Tl15nhpfEgmkSUWgUOE3B4xXQBK1sCKnVOGEweKFQjIIAhZV4/xJ1uD1xUUdSm75jSEyz9
-        QEhiyxc7Mdu2Irj9egOdk38gLxgSATymVwjQtc2qKym9oN6MwmdzKCKpG2ahpO/iv/8qb11Fu9EFef4g
-        AeiYpmxh1HRu0tpINNZ0ulHTIcqFKp2LEh2oaN9AeZsdZa1rKH+1juZhO+TKj2mAaTmcNpPSRhJBRHPl
-        GyerfKuNAGS82bJKWkFj/ypkeR/SgMmlIJnd/+Q6SWdmSq5otzNzGRlLm2woafqF+t5lyHL7RIARvDWA
-        ap2bnfd5VPTiJx53L0Ga0wvJRdrEsYUAqyvQkT38knOmxDuhef4DDzoWIM3uIUAhjxGLnxqkAab1z2dK
-        BKga5nG/zUIAPSSZWn1qcNZHAOe5GyjrZlHbYkZGVmNKIlUZN/q+76FvavfU9Z6m2uYZVL2cRsZ1nU+i
-        UH96qlCPDcuzx/wK1Shdz2F2w+T5A5Ap++mo3kOa+442rIcqGyhVz5IvZHWFMrK7vv0FQwAQzme5V+AA
-        AAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKrSURBVDhPjZJZTxNRHMX7hXygy+ASv4WPxrAVWgoEEJFN
+        o4kPagSJW2QRtDRQiiiy2wE0VYRCxYKBlKV0wVIKdAU6pdvxP7fKEyFMcnIzM/f8zrmLhCvmKxTFfLNc
+        w1tIAU4zGOc0+jSn4UH/mC6VTOBK2SQul/LILhoLXi3j52XFo9ck4sOp+bZFZxSLTgGxRBoCKXqcQugo
+        id1QHP5Igr0L8RT2wglYVjxpg9WRuPHItM+ph/MlnMZoW3REcc/gQzROZppY8GQWgYMEdskQiSYZOEyj
+        e/8Y694YjNYAJq374Mr5GAEmQlYC3NXvsEmiRIAvHEfgMMGSxQY71Ma+E8P6toC6Lhe+LQehUOvSBBiM
+        W+xHBPCySaIKG83w0XgQSyFGrYKHSTh8YrqAVY+AGq0TvSYvFKpREECfNm8c4k6PFy6qKGrLf0zpSZZ+
+        IKTg8cdPzDZPFLffbkI39QfyomERwGNmlQDd26y6ktKLmswoeTaPUpK6eQ5K+i7++6+q9jV0Gl2QFw4R
+        gI5p2hZBvW6L1kaisV7nRn2XKBdqtS5KdKC6cxNVHXZUtq+j6s0GWkfskCs/ZQCm5UjGTMoYSQQRzTXv
+        nKzyrQ4CkPFm2xppFS8H1iAr+JgBTC2FyOz+J9dJOjNTcnWnnZkryVjRYkN5ywqa+pYhy+8XAUbw1iDq
+        tG523udR6avfeNyzBGleHyQXaRPHF4KsrkBH9vBr3pkS70Tx81940LUAaa6BACU8Ri0BapABmDa+nCkR
+        oGr+ifsdFgLoIcnW9KSH5vwEcJ67gbJxDg1tZmTlvEhLpCrjZv+PPfRP75663tPU0DqL2tczyLqu9UsU
+        6s9PFerxEXnueEChGqPrOcJumLxwEDLlAB3VB0jz39OGGahyL6XqWfKFnO5wVm73978pchDEDdJknQAA
+        AABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton3.ToolTipText" xml:space="preserve">
@@ -721,16 +887,16 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIkSURBVDhPY8AHVNKna9lWLZvHkDaTFSpEGrCvXprZvu70
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIjSURBVDhPY8AHVNKna9lWLZvHkDaTFSpEGrCvXprZvu70
         E5mQXk6oEATU1zNBWfiBc+3KvLl7TvwQTJvJDxViUEydoevTsm4rlIsfuDWuLll34t5/ybSZciC+VFK/
         +qRtF5+kT9+1DayAEPBpWVN94Mqz/zLJU1QEw3tkp+48f2fKtgsPReOnSECV4Af+7etbzt17+18ufXpy
-        /6Zzpw9fufoHyLaGShMGwZ2bOi8/+vi/b/P5b3defv1vVrYoBypFCEBCObJ/a/ddoMYtZx/9T5yyfQFY
+        /6Zzpw9fufIHyLaGShMGwZ2bOi8/+vi/b/P5b3defv1vVrYoBypFCEBCObJ/a/ddoMYtZx/9T5yyfQFY
         Ch8QdkmSMsqYs9qxbuMl7Yx5S9Kn7Tp74cGH/3F9244y2NezQJVhB6L2WRJO1WtvJ6y6899r3snPqZtf
-        /Z+568b/h69//A9tX7uH2yrMEaoUOzDKnL3GZ+mRvxJ++XZiXrn+CWuf/J+9987/pWff/0/f/v5/7LIb
-        /2U8U1OgyjGBS9euTw51K8Dxa5Q7bXrahuf/Sybs+Je+8el/7ZhJB317t122zFj7hcHengOsAR24NG19
-        HrXg2gv7xrVH07a9+W+WveyGec6a115Tj3wGyauFlZU5VGz/L2QRIg3WgA5kg8vCAqcfehM15dg/s5wl
-        p7lMQyVMM5Y+9Flw8ReHloucSVbfHN3SLX/49f0FoFowASggxd3TFaBcBr24eceSNz3/79+3/2nS6rv/
-        DeMW3IBKEQlUPNj1Exdc189f/90kdcEDHmMfEagMFDAwAACrLetjciX1dQAAAABJRU5ErkJggg==
+        /Z+568b/h69//A9tX7uH2yrMEaoUOzDKnL3Ge+nhvxJ++XZiXrn+CWuf/J+9987/pWff/0/f/v5/7LIb
+        /2U8U1OgyjGBS9euTw51K8Dxa5Q7bXrahuf/S/q3/0vf+PS/dsykg7692y5bZqz9wmBvzwHWgA5cmrY+
+        j1pw7YV949qjadve/DfLXnbDPGfNa6+pRz6D5NXCysocKrb/F7IIkQZrQAeywWVhgdMPvYmafPSfWc6S
+        01ymoRKmGUsf+iy4+ItDy0XOJKtvjk7plj/8+v4CUC2YABSQ4u7pClAug17cvGPJm57/9+/b/zRp9d3/
+        hnELbkCliAQqHuz6iQuu6+ev/26SuuABj7GPCFQGChgYAKFd61sDbhQVAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton4.ToolTipText" xml:space="preserve">
@@ -753,18 +919,18 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJzSURBVDhPfZLdT1JxGMdd/0VbEy666qKLbrpOhBBKRDZC
-        VtQ5RxLKzOaorbmojZIdm+WUl2a+MCVLm1vyttaaWxc114zIF0QIqFTkJhAvsLb8ds4PFFHr2T7bbzvP
-        9/M855xfxXY5qMpjTkaIvTy+cDhbbDm4nJcqT9gpwSTfPGI6ia2MHxvRuwT+7Go5TkQOSui205WqYqxU
-        TuZIctp1Y2t56g4S/bX489OH7JyJwJ/jfXIkvS1IeK78cl4UbBRjpeLty1NmxCeNWOqTIeaoRswu4qhC
-        zFaFqO0UFgaU3PNmskkxVioieNuOrxN6xMZpLD3XITJ6vozwYD0Wh+l/C368uY3oGIWIW4vwkIoE9vJf
-        wffXN8mkxRENEcwPqPCik4LL2ghXRyOGHjAY7DDinkEGo9HINjU1sXq9nqUoiiGCb4E2hIfPFcL9dQg+
-        qcfLXhM2NzeRy+X2sb6+jpWVld86nc5CBElfK1lz4Wkd5py1mLEpMNbdRhoDgQD8fv8OPp+PwAu0Wm1B
-        kPBcwzwXnuXCoV45PnafwWhXKxGk02nC2traDqlUigjUanVBEH91FbOOs/jSI8fnR1JMP5TB3XmdCHZP
-        9Xq9O/AClUpVEMQmjAj1yEj4U6cEH6ynMWxtRjabLZu6G16gUCiKgnEDgl2F8EyHCO8t1XDdNxDB7qnb
-        eDweIpDL5ZyAFrwLu/kLpEfkWSP3K2mEBmmMdJmQyWT2TV5dXSXwgpqaGkuFgxHIHLQwyG+yjY05Cmub
-        Bvl8nmxxELxALBZbitepvMxm86GGhoZbGo2G5T4Uq1QqWe59WW5llpvKSqVSViKRsCKR6PJfHjBleqer
-        csoAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ0SURBVDhPfZLdT1JxGMdd/0VbAy+66qKLbrpOlHgpEdkM
+        WVHnHEgpMxujttaiNkp2bJZTODRTZEKWNrfkba01ty56WTPyFVFCKhW4CdQLrS2/nfMDFF/q2T7bbzvP
+        9/M855xfWbE4SnTExZRjN4/OHcwVWvYv1wXRMSclHhGavZbj2MyGsDZ/hyCcPc1HiYijyn1OWqQpxLbL
+        xRxKfui7trk4ehsLPdX48zOI3JSFIJwT3UokA81Y8F/65TovXivEtkuwL45akRgxYa5bgThXibhTwlOB
+        uKMC844TmOlV88+byCaF2HYRwZtb+DpsRHyIxtwzPWIDZ3cQddditp/+t+DH65uYH6QQ8+kQ7dOQwG7+
+        K/j+6jqZNOvVEsF0rwbP2yh47AZ4Wg3ou8/A3WrC3UYFTCYT29DQwBqNRpaiKIYIvoXNiPafyYd7ahB5
+        XIsXXRZsbGxgdXV1DysrK1haWvqt1+ttRJAMtpA1Z57UYMpVjTGHCoMdZtIYDocRCoW2CAaDBEGg0+ny
+        ggX/FUzz4Uk+PN6lxKeOUxhobyGCTCZDSKfTW6RSKSKoq6vLCxIvL2OSO42JTiW+PJTh4wMFfG1XiaB0
+        aiAQ2EIQaDSavCA+bMJ4p4KEP7dJ8d5+Ev32JuRyuR1TSxEEKpWqIBhqRKQ9Hx5rleCdrRKee41EUDq1
+        iN/vJwKlUskLaPHbqE+4QEbEnhr4X0lj3E3D225BNpvdM3l5eZkgCORyua2MY8QKji6PCJsUcTCHYTdr
+        sb6+TrbYD0FQVVVlK1ynnWW1Wg/U19ff0Gq1LP+hWLVazfLvy/Irs/xUViaTsVKplJVIJBf/AhcfZXgK
+        HteUAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton6.ToolTipText" xml:space="preserve">
@@ -773,16 +939,16 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI1SURBVDhPzZLdT9JxFMbZ+ju6Ihsj11aWBRXBGJZvYJao
-        GGmEiqL4M/EVEHkTQxzgyxwLRSSIARrMClPDiWjOajXXi9mdl/4P7QndbzHiIi773D07e77nnOd8Kf8P
-        j5NNIBJSKNYlkK81QLYsRuOrOlREi37VhflHokBlrMYrIKpnBadJSybEhhSRn368OPBj4YcXof15BL67
-        4fvqwsznSVi3DFC+bIPAyYuUTXAZpC1Ne1yCxQMfwiljcN+D599mT8zzX5xw701j6qMVzk8OqJa7wLOx
-        IkXWG5mTtK7Uo/n1fUiXatGwKIQ4eBe1/goIPeUgojLYd0Yw9WEM4+9HIfWJcdN4lSCt/4Y/zbOVODiH
-        I5s6mJIadC8pwNQUxMhybvCsLJs8JMVwUgtdvB+FAxeOyFKaqmDVqWovX0XKDNhmpq058BD6hArqtR5c
-        7KJnPyD08t2VT0v3SPkHtolpY2gLD1Wr3eh9S6Al9Aj5HbTMFYSesomOaDPkC1KUTnJxy8YG13IdbBMD
-        opl7GFhRQrvRD816LwSOEpyTn02HKJwrtygiTRjftcC++wRjO8OwbBtg3hqCcXMQutTYytV2qOM9EM/V
-        gi7Pi1BbqOkz3nEVG1vDkpTRhNF3Joxs60/C0ifUGEp17XvTicZAPfiOYtBleRFaEzX7I912cOySZyI8
-        8NSAZbgC5uCl46RR0H0e9E76UX4bLUaTnSEyOv8Nx8xwXdNezgoxZ47PyNAU9JEyByiU3wZNK1gqQ7Lp
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI1SURBVDhPzZLbT9JxGMbZ+ju6Ihsj11aUBRXBGJUnKEs8
+        RRohoCj+TPAEiIAIIQ7xMMdCEQlioAazwtRw4iFntZrrYHbnJf9De0L3W4y4iMs+d8/ePd/3fZ/3S/l/
+        eLwpA5GUQrUmgXK1AYolMRpf1UEY4/+qmxOkakMV8Wq/kKiaFp4kLdkQ61JEfwbx4iCI+R9+RPZnEfru
+        ReCrB1Ofx+HYMkP9sgVCNz9aNsZjkrYMrQkJFg4CmEsbw/s+PP82fWye/eKGd28SEx8dcH9yQbvUAb6T
+        Hb3huJY9SfNyPeSv70O6WIOGBRHE4buoCd6GyFcOIqbAyI4NEx+GMfp+CNKAGNcHLhOk9d8IJvnOEhf3
+        0LZhhGVTD82iCiw9I06W84PvYDuVESkGNw0wJnpQ1HsuRZYyVIYrT1T5BVpSZsGxspzy0EOYklroVjtx
+        voOe+4DIL/BWPC3dI+UfOBaWk2koOtSuaND1lkBT5BEK22jZK4h8ZWNtMTmU81KUjvNw08kBz34VHAsT
+        tVP30LushmG9B/q1LghdJTijPJ0JUTRTbldFZRjdtWNk9wmGdwZh3zbDutWPgY0+GNNjq1daoUt0QjxT
+        A7qyIEptombOeMdTPNA8J0kbLRh6Z4Ft23QclimpQ3+6a/ebdjSG6iFwFYOuKIjSZNTcj3TLxR2RPKvF
+        A1812OZLYPVdOEoaDM1Z0NvpqcIWWpymOEVkdf4brpXpuWK4mBNi3hydkalndJMyDyiU3/9mK1YYihUN
         AAAAAElFTkSuQmCC
 </value>
   </data>
@@ -792,17 +958,17 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI6SURBVDhPvZFtT5JhGIbZ+h20ytLJdC4rlBGUOWUSYWaE
-        wQgiNYi0R1FAQDH1yURNeRFFEVEsy7lFNQMSc7iszRjmS/Xdj/yHdvaQz3JN2vJLx7dz947zuu/7YvxX
-        5PPXTJJ5yRE6Hh7ptGir2n/ZR8eDaOMqpu6dktC8VYTrQrKUOiTFrYXrkM9VQRoUo+mNFg9e1kPkLh2m
-        lX10S2qOJqoMkWsWeJKDmN4ew9OvPszseDG1NYrJL254NxxwJwZx97kSpX3cHlqlJkdUzLTsTDzGi+8B
-        BLY9CO5MUCVe+Dc9mNhwwZscxgglO9btUAfl4JNFdlpnMDQRBdGzZsbcN/+vqeMbThgiDZAERKjyVUA8
-        Wg6h8xJqnylwOygDv7vIRat71C7Kwq6EHZObLownHaiZEe5S8hB9/JsSkrvF72ZP0XEfdagm5dt0U9cd
-        gS1mQLW/4oCc5nxXkUUiybBG+YI4NUa9Mf1J5mgzrnoFGQv+imy2Mty7asPwei8GPpIQOkp2BU8u/nvJ
-        jekrBPFaA9fnfqqkD2S8A6qZm7hAFoPbeQ7FlkKcNRbgtD4P+Y25YOmyQat7VPrLmWJPWciw2Ij+TyRs
-        cRMefbCha9WKzngbOlaMMC+3wLTcjNYlAjn1WX8WpBEMlXLKBvghFbUm4tU9WGOtaF8xwfregDZKNsaa
-        0ELJ+mgDTqqPHSxIw+vmMXkP2QSn/UyYrWelCu/k/yggWMi7n4Nc7Slk151AFiUfVx7NXHB4GIyfC5gt
-        f2HrrdIAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI6SURBVDhPvZFtT5JhGIbZ+h20ytLJdC4rkJGUMWUSYWaE
+        wQhiahBpj2+AgmLqk4mavImiiC9UlnOLaoak5nBZmzEItPruR/5DO3vIZ7kGbfml49u5e8d53fd9Mf4r
+        isVrJumi9AgdD49sTpys8V/20TETXUTN1L9TEdq3ylB9UJ7SBGW4tXQdioVqyAISNL/R4f7LBojdAjut
+        HKBf1XC1YVWQ3DLDExvB3M4Enn71YX7Xi5nkOKa/uOGNO+COjuDOcxUEg7x+WqUmr6iZadkZfYQX32cx
+        u+NBYHeKKvHCn/BgKu6CN2bHGCU7tm3QBBTgkxwbrTMY2hUl0b/ViYVv/l9TJ+NOGFYaIZ0Vo9pXCcl4
+        BUTOS6h7psTtgBz8Po6LVvepW5aHXFEbphMuTMYcqJ0X7VHyKH38mzKSl+T3sWfoeIAmWJvyJdzUdcdg
+        XTOgxl+ZIac538sxS6VZ1qhYkqQmqDemP6kz3IKrXmHWgr8if1IVGti0wr49gOGPJESOsj3h44v/XnJj
+        7gpBvNbC9XmIKhkEGemGev4mLpAl4PWcQ4m5GGeNRTjdWoDCpnyw9Lmg1X2q/BVMiac8aFhuwtAnEtaI
+        CQ8/WNG7aUFPpAPdG0Z0rrfBtN6C9lUCeQ05fxakEY4KuOXD/KCaWhPx6i4sa+3o2jDB8t6ADko2rjWj
+        jZJbw404qTmWWZCmtK+UWfqATXC7zoTYraxUsabwRxHBQsG9POTrTiG3/gRyKPm46mj2gsPDYPwECzQt
+        fhP+D3wAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton8.ToolTipText" xml:space="preserve">
@@ -811,17 +977,17 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton12.ToolTipText" xml:space="preserve">
@@ -830,17 +996,17 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton25.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton25.ToolTipText" xml:space="preserve">
@@ -860,7 +1026,7 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
         Q7eoIc61YaF+DxZb9kFcbMLXphg4P2kUOJXM5ALco9fhqDyA8Ud7oxV0I3RjMqQFE9w2HVyNxzH5LBbj
         7dfIsbshUOkQZ9XgyEkc1fGYKdgUfo1L+pNw1cXBWbMfljuRGDPlwfa6DN8syeQmUsBYc2AvjwFVsBlU
         ripc8Hua7x0BVqcxUXMGnXlb0VudgK7b0fNWbXSk8svfU5i23S+ZKyFZHsOiPYT6tG1r7ZqIKGX730mM
-        2iIUEUlLcYK/4+HhD205u3YoW3+ISvUdF0QwHiSERwsAAAAASUVORK5CYII=
+        2iIUEUlzcYK/4+HhD205u3YoW3+ISvUdFxwwHdwMoEsAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton24.ToolTipText" xml:space="preserve">
@@ -872,41 +1038,20 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton_preview.ToolTipText" xml:space="preserve">
     <value>Vorschau mit AHD Synchronised Lyrics Viewer</value>
   </data>
-  <data name="toolStripButton30.ToolTipText" xml:space="preserve">
-    <value>Untertitel aus Matroska-Datei (mkv) kopieren</value>
-  </data>
-  <data name="toolStripButton31.ToolTipText" xml:space="preserve">
-    <value>VobSub (IDX/SUB) importieren</value>
-  </data>
-  <data name="toolStripSplitButton3.ToolTipText" xml:space="preserve">
-    <value>Untertitel aus OpenSubtitles.org hinterladen</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Untertitel aus OpenSubtitles.org herunterladen</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Untertitel in OpenSubtitles.org hochladen</value>
-  </data>
   <data name="toolStripButton23.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJHSURBVDhPhZPdS5NRHMdX/0AX3RQ16LpEgq3l2MaWkI7R
-        HNac2tokV49pLxpMWtiLZA6ZhtaYG9FFF71AC6ybUqKLQIIuI73Y5bpw7I29v6p9O7+TPW628Aefm+f8
-        vp/zO+d5HklNHWbIGIpdOMLYy/inZMViMR2NRjc3NjbQiHK5DK/X+5j1NpQoKJzP51EoFEQymQxSqRTY
-        GpdEIhH4fL56icvt3u8YGqoI10fxfTWEvoFh9AtXUSqVkMvlkE6nEYvFuIBNCdrE7/f/kQjCrX3jM/7Z
-        idln0J85i+Wv39BuNGPMPQfvfIBPkM1mEY/H645DMIFCMjbjk1rsfblh1yRUpwy4O+WDzmCBc+IJdO0m
-        hMM/xaMkEgk+ydra2rZAptRMGs1WzD1/h07bIC473ejocWAq8AaGzvN4MPGQXx5JaBK6j2QyuS2wdAup
-        nouD0Jss0BuM8HimoVTroG5tg6xFg6PHmrC+vs4ldH66ExKJAqt1tLywtIxHT1/DdWccP1ZWYL90DS8W
-        PmE68AqmznO8uVqtolKpcAkhCvqu3ETwwxcII7fRa+vHx8VF2IQbePn+M4ac99B8XMabaQoSEDSNKDBb
-        HXx3+8AIVLrTCAbfoqPrAu575mGxCzhw8BAP0wQEhesELRptSKltCzU1nwh3dfdicWkJSpUGGm0r5IqT
-        UKnVYrgWUbBVexgKergT2r0RtEYZnmbFBewd/9op+B+sd5MyPL1VcvZ6CrTQKFAL9bDPOccy9PeKJWXI
-        GX9/291gYYn0NzMSa9VRIy4IAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJJSURBVDhPhZPdS5NRHMdX/0AX3RQ16LpEgtlybMMlpGM0
+        ZTWntraR1mOuFw0mLexFModMQ2vMjeiii14gA+umHNFFIEGXkV7scl1sbnPs3b3at/M72aOzhT/43Dzn
+        9/2c3znP80i21WGGjCHfhSOMvYx/Sra+vp5aXV3dqFarqEexWITH43nMeutK5BTO5XLI5/Mi6XQayWQS
+        0WiUSyKRCLxeb63E6XLt77fbS8L1EXxfCcI2MIQ+4SoKhQKy2SxSqRRisRgXsClBm/h8vj8SQbi1b2za
+        NzM+8wzaM2ex9PUb2vVGjLpm4Znz8wkymQzi8XjNcQgmkEtGp71Sk9WWHXJOQHlKh7uTXmh0JjjGn0DT
+        3olQ6Kd4lLW1NT5JOBzeEsgU6gm90YzZ5+9gsAzissOFjp5+TPrfQGc4jwfjD/nlkYQmoftIJBJbAlO3
+        kOy5OAhtpwlanR5u9xQUKg1UrW2QNatx9FgDKpUKl9D56U5IJArM5pHiQmAJj56+hvPOGH4sL8N66Rpe
+        LHzClP8VOg3neHO5XEapVOISQhTYrtzE/IcvEIZvo9fSh4+Li7AIN/Dy/WfYHffQeFzGm2kKEhA0jSgw
+        mvv57taBYSg1pzE//xYdXRdw3z0Hk1XAgYOHeJgmIChcI2hWtwQVLW3BhsYToa7uXiwGAlAo1VC3tKJJ
+        fhJKlUoMb0cUbNYehpwe7oR2rwetUYanWXEB+1x/7RT8D9a7QRme3qwm9nrytFAvsB3qYZ9zlmXo7xVL
+        ymhi/P1td4OFJdLfF21rw6y0JCYAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton23.ToolTipText" xml:space="preserve">
@@ -920,11 +1065,11 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
         WSV1/wuqWsFiVnYuy7W0tHiAUkwgeYb58/dzFFa3eTT1zQY7Fcj+7+Ef9t/FK+B/TlnD/9i0vP8ROU3/
         aycu+1/SMgUsx8XFUwXUygg2oL5+P8uUueseLlq3639ueRMYV09c9X/K8l3/65ds+tU4fcP/2t75/6Nz
         m/+HJxeCXcjMwvIAqJUZbMDMmTNZQTZPW7zxf3Zp/X+Qn1Nyy/9HJ+f8V9PSA9sIcglMPC69AOS1f0DM
-        CjYgLS2N1d455qeFrdN/r8CI/8YWtv+19Y3/SygoPRUVFTWQlJHdKiYh9V9BSfW/qLjkf14+/v+MjIzv
-        gFohYQACXkFRh0EBt+vwmf+rthz43z1j2X9jS7sVIDkVdZ0VlS0T/q/dcQgsB4oRPj6+w2CNMGBi5fgn
-        v6IZbEBaQeX/+IzC/7rG5ldBcgqKqldBMQAyIDW/4n96YfV/Dk6uP2CNMODo7vsfZgBMkZi2/k+gFKOY
+        CjYgLS2N1d4p5qeFrdN/r8CI/8YWtv+19Y3/SygoPRUVFTWQlJHdKiYh9V9BSfW/qLjkf14+/v+MjIzv
+        gFohYQACXkFRh0EBt+vwmf+rthz43z1j2X9jS7sVIDkVdZ0VlS0T/q/dcQgsB4oRPj6+w2CNMGBs6fAn
+        v6IZbEBaQeX/+IzC/7rG5ldBcgqKqldBMQAyIDW/4n96YfV/Dk6uP2CNMODo7vsfZgBMkai2/k+gFKOY
         mNg7UMDBDACFBSsrGziK4cDa0Q0cz6AEBFIACkxdI7P/gkpK/AqqaldABoBiCSYHDANUA0AJxMDEEhx4
-        qpo6/xVV1P9Lyyr8FxYWluLiF7zNycX9n42dHRR9II0wPCgAAwMAaP4hKAmrt50AAAAASUVORK5CYII=
+        qpo6/xVV1P9Lyyr8FxYWluLiF7zNycX9n42dHRR9II0wPCgAAwMAYVAhI4P5IEMAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton9.ToolTipText" xml:space="preserve">
@@ -933,15 +1078,15 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton26.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHpSURBVDhPlZBNiFJRGIa/VRRUEKGOmxstomiCQQbxBqGO
-        Pxio19qJ7TOjaFO0akJ06S5k1kEtDKbSnG4xiX9MoMyMkVQEk7Nu0eS9en8Wg29eObOQG4PzrN7z8T7f
-        ORyahdFn/oSysXCbHWdDbS5ySnPxnpGHG1fCSn2+Y2Stzp2Xa9xsy5TmwlelOS8qtYtlbfsGhnXu0aBq
-        7w8qZxOscjjDxqVl7UsC+o/70HeeQN0Ko//htPq7ajnJKmaGrctz41srSv0CtG0B+q8MGi8EdIq3sFO9
-        A7W9BOnTcUgfaYUp/2dY45bVzk00Xsag6zpGoxG23iagfb+LvyJ92yvTOVY1IzfmLHLFJkYiEbTbbWia
-        hm63i+rzMPSfDyGVaSC9J57Vp1HX7dxg/UwxFoshmUwil8uhUCigvLI0lh9jd432pTXa7JfoKVPMCIIw
-        kXmeh8/nQzQahbIZhlyxQxZPYa9EHKuaOZBdLhe8Xi+sVqvx5Ge778Y3l+iqVKRO/zWlWH2aeDyObDY7
-        kT0eDywWC4y5XKJr0hsSjYxXdOzPKl038hShUAiZTMYkH9BfpSCLZvx+P9LpNJxOJ9xut0k+lFQqhV6v
-        B4fDgWAweDTZwFjQarWQz+cnH8bGsxMIBB4Yz7bZbEeXiegfHiULAQLy2WMAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHoSURBVDhPlZBNiFJRGIa/VRRUEKGOmxuziKIJBhnEG4Q6
+        /mDgX+3E9plRtClaNSG6dDfIrINaGEylOd1iEv+YQJkZI6kIJvctmrzX+7cYfPPKmYXcGJxn9Z6P9/nO
+        4dAsjD7zp5StxTvsOBtqa4lTWkv3jSxvXQ0rjYWukbUGNy/VudmWKa3Fr0prQVDqlyra7k3IDe7xsGYf
+        DKvnk6xyNHLz8or2JQn9xwPoe0+h7oQx+HBW/V2znGYVM3L7ytz41qrSuAhtNwb9VxbNFzF0S7exV7sL
+        tbMM8dNJiB9pjSn/R65zK2r3Fpov49B1HaPRCDtvk9C+38Nfgb7tV+gCq5qRmnMWqWoTIpEIOp0ONE1D
+        r9dD7XkY+s9HECs0FN8Tz+rTqJt2brh5rhSPx5FKpZDP51EsFlFZWx7LT9DfoANxg7YHZXrGFDOxWGwi
+        8zwPn8+HaDQKZTsMqWqHJJzBfpk4VjVzKLtcLni9XlitVuPJq/1345vLdE0sUXfwmtKsPk0ikUAul5vI
+        Ho8HFosFxlwq03XxDQlGxis68Wedbhh5ilAohGw2a5IPGaxTkEUzfr8fmUwGTqcTbrfbJB9JOp1Gv9+H
+        w+FAMBg8nmxgLGi32ygUCpMPY+PZCQQCD41n22y248tE9A8abwr/nJUOwwAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton26.ToolTipText" xml:space="preserve">
@@ -950,18 +1095,18 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   <data name="toolStripButton27.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ+SURBVDhPtY5rSNNRGMb/QSXWzKYZjMSRGaSwPqRCdHFq
-        KtOpjVTyls4L5ooVLsOVt1JzNVgZCVNcrsw1b1kqXlLJIi0LrZSh9EkogxBcSG7K1PP0n52gQPsS/eCB
-        93Ce33kP818447+jUCPaOl8h3g61yBkKIceSeMCtjF7/nSxfbl5ZNJfUxLugms2dGC5UEc7ICdhGxALX
-        q7S2PlqxM/SsqGYlFTurxFxci3TDxSAXJAsc52htfVQBHPRoCzDdrcawLgfnAt2gCOHhbKgnYg9zbbfl
-        IgdaXZvKZP7swtePmBvS4kvfTYw1FmOq8wbMU6MwZu6aMzXFbabVtalI8h40v32ImZFmWD8Y2TSszuZR
-        I6rSBCO0tg6+1Zv2HpLVGeV+WBzRYcH0eDXW9wa05vpBcCT7kftBjSNt/4mXqMvBVWSQuYv6Yfo0j8b8
-        aDTkR63GPr+c+A73sGdwCdad50VWb6HaL7DBKbRJyo8cxMS0FfXTgMIEyN4AGc+B1C7gygvg1aQV/PAh
-        cIR3ZYyweCOVGcb7hF4SEqtG8/AyqsYA+WuC7AGCzKcEKW0ECQ0EsfdWcLmbfaiRIFhyHT5RainVGeZd
-        wb7lmQ4lKms7IGVLGezGtHaCUy2sbCCIqV1BtJbgmAYoudWP2Z4idObybFRnmIFCb2LuLUF8lh5lfRYk
-        tQCJ7NaTdaysI4h7AEj0gLJ1EREp9fjWX4qePB9CdYYZr5NfGj3NX0pNLV/ylw4gjf16+m+xn+3xCm+D
-        PEFhGS7avzh+X15K9Z9MPkl3UirLXT0kHVX8QP1nT6HBwgtrsfFCmm27g2qsHkf1M3uOt/deyC7eae9S
-        7V9hmB9gbnFrBa99ZwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJ+SURBVDhPtY5rSNNRGMb/QSWWZnMZjMSRGaSwPqRCdHFq
+        KtOpjVTyls4L4ooVLsOVt1JzNbCMhCkuV+aatyy11FS0SMtCK2UofRJqQQguJDdl6nn6z05QoH2JfvDA
+        ezjP77yH+S+c9t9RWCHaOl8p3g61yAUKoZMl8YBbGb3+O1m+nLzSaA6pjXdFDZvbMRyoIlyQE7CNiAXc
+        K7S2PhqxC3SsqGYlFTurxBxcjXTDhSBXJAsc52htfVQBTujRFMDUrcaINgdnA92gCOHhTKgnYg5zbLfk
+        IgdaXZuqZP7swtePmBvW4EvfDYw3FWP66XWYp8dgyNw1Z2yO20yra1OZ5D1kfvsAM6MtsH4wsGlcnc1j
+        BlSnCUZpbR18azbtPSSrN8j9sDiqxYLx0Wqs7/Voy/WD4Ej2Q/eDFY60/Sdeoi4Hrkgvcxf1w/hpHk35
+        0WjMj1qNfX45+R3uYQNwDdae40XWbKHaL7DBObRZyo8cwqTJigYToDACsjdAxnMgtQu4/AJ4NWUFP3wY
+        TsI7MkZYvJHKDON9QicJiVWjZWQZ1eOA/DVB9iBB5jOClHaChEaC2LsruNTNPtREECy5Bp8otZTqDPOu
+        YN/yTKcSVXWdkLKlDHZjWgfBqVZW1hPE1K0gWkNwrAIoudmP2Z4iPMnl2ajOMAOF3sTcW4L4LB3K+ixI
+        agUS2a0n61lZSxB3H5DoAGXbIiJSGvCtvxTdeT6E6gwzUS+/OJbFX0pNLV/ylw4ijf16+m+xn+3xCm+H
+        PEFhGSnavzhxT15K9Z9MPU53VirLuR6Szmp+oO6zp1Bv4YW12nghLbbdQbVWj6O6mT3HO3rPZxfvtHep
+        9q8wzA9Wh3Fl0MCA1QAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton27.ToolTipText" xml:space="preserve">
@@ -987,178 +1132,6 @@ Das bedeutet, dass irgend Untertitel, der in diesem Track hinzufügt wird, wird 
   </data>
   <data name="toolStripButton10.ToolTipText" xml:space="preserve">
     <value>Hilfe anzeigen</value>
-  </data>
-  <data name="toolStripButton11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAElSURBVDhPlZFNaoRAEIUnyTkSkjOEmTlGzpCd1wkuvEKO
-        4MaNgt7AO6iI4P8fVOoVU+KoHZKCB211va+f3SeuF9aZdTnQK+uR9WudkyQZ5nkm1TRN1HUd2bb9xftv
-        rCeZNNQFJhjiOCbP88h1XYqiiHzfJ8uyvnnmg2VMI4C+7ykIAhrHcUny1zQCgBEArP+bRgA4KQxDAZjS
-        6N4tzQJZADgJ622aqqqoKApK01R6bduS4zgK2QO2aWAoy5KyLJOeCl4jYL0GpGkageR5viTZAfTUNWAN
-        QRL9nUPAUQIVesMwCKSu6zsALgKLK+tThzXNWrhcQHCx+L75pB5YeJIrNo4SaB8QfV6eXwBauzRq3MoE
-        QN2lMYnvoeKZdxhMpWlMYvPp+QfpJ1gWlh3UWAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="toolStripButton11.ToolTipText" xml:space="preserve">
-    <value>Untertitel-Track doppeln</value>
-  </data>
-  <data name="toolStripButton13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANoSURBVDhPVZLtT1pnGMbPp+3f2LcmTafpsqQfmn1xg61r
-        N7omtutMiwK+zOnmMpuqk2DFNaLIxJelmUsnGm18mTqrHhUOxVIUqGhngaowFbSsokzl5RzkHHbtQOma
-        3ckvz6frl+e+nod4NYLaufwLzVa9SG39W6iw0vzJpGlJnTZG1LzAfKyyOM/eMGtP5g6+kYm9nnM/PDIH
-        w8y+1x/gQtE4QpHX7IdTMHgWCEM+7sdV9Wrso/KpNzPRl3O+0RLc2nnBLWwlYPOxsPlZWLdYWDaPMeeJ
-        Y9odRZwFJlZpyMd8kLY56f9JLih641qqCXVkFaomKvH9/Wqopn8C6fThoTeOWXeMFyThCHCwPU+gYcqP
-        nGpjfzosavswv4WSY2mbwtKLZZAbzzDkeoIOcz++G6jAoP0pDGs0Nnej6VUiDIvdgxgEZQ9Z4rwq5z31
-        g9LjlQMjlsMOGHec6PV40GBeh9r8B4ZX+lHyqwzDj9eg528x6Yzg/soRDvmehPWPGELSkzs2t3UPQ0d6
-        zO7b8LNrFTUmN4oNJL51t0O72YxWsgY3dLfTq1DrNPR8DwfRBITKeYao+700NLajg/ovHaigC6UTi7hp
-        tSDPI4dgXYw8cwGG7G2QaGVIFWz+8zgtCvECQT0vUExX0t3eVlSvdaJ+3o6r/Q5UGEwoWx5G7swvuNQn
-        w6CtFdc017G4zWJhM4F5nmA4gZw6XlA1Urz9m/cOlK4xSEesuDLkwUXdUwhUJoi0JhT1KtFtUkLcUgiH
-        n8Pj1BPzhPkis7+xMMSnmvfb7zlaUWupROnkID7vc+HygA+f3DHgsq4JjeO1KO+6BnlPJxZ5gY3/G1Ze
-        wCSSvGCOIc7cPPOWuOOir9d+Gxr7KL4eWULJ8BqK+3rQNFMO5UA5ztaVQTSyh8/GGYgyxI45XjDKpP/B
-        6S9PZZ1T5P7TOKlC2ywJDUmhy3QXZXe/wKXmCmgch+h0Ax0uoN0JFBpZRFMrFGcEqTkp7aJrum/hg1ti
-        5CjyIGyQQfhjJwpmwpBQHKQUiwIDi3wjB4mBQ2B3L/m2eCKSiRPEOyWGDd9RLOxYf57c2KOxEaThzbAX
-        SaRJNR9hOPgDwSRN04cnrpOuTJwg3i2Z+SpbNm04XaQPZReNMv9R+JKsV8hGmRMy8uCUhKSyCqak/wJy
-        Y7u0zwLypgAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="toolStripButton13.ToolTipText" xml:space="preserve">
-    <value>Untertitel-Track übersetzen</value>
-  </data>
-  <data name="toolStripButton15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJtSURBVDhPldPrS1phHAdwob/DRbO10WTQBcMuc0LWKu2C
-        6SDJfDLDYRdZrGUuu5y08syyUqvVcrVYoxZIwWy3tlKK2qUlg73uXQS9Hb37To8PhdsY6/Pux+98eQ7P
-        9xze/7jzrLxDtaRKouPFyX1FkZJR6Qwd/+7epo5velNnblitCWpW1Mc1zyuhnC2DwieD8YUO9fMa5HZl
-        uenjiUxv68XG19oAE7JgbG8IM988mD3wYmrfDc+nRxjZHcBAuAfV3nIIm9L6aSzu7rqOb3ilCQzv2rHw
-        fRqTX0fweH8M3s8uuPcGwW4zsIdt6N60QO4qhsCQ4qTRuIY1jdn24T7mIpOY2ffAteOAYVGLWw4xcm3Z
-        yGq/gQp3CUpZGVJJ8jiNnatdVgaHQj3cic4wAwlbcFjQJ3LRNSdVL4gIdJf8dEykfHr7qGJKdFo0Kv0p
-        ceSd5PdkM3R1JqWOb+WpeEnapWqini8nVdMlRD4uJYVsPuHJvYWkyCUhEoeYiG3ZJKNdSGKdt27prTR/
-        RjWnYBSe4pPYYaJu0Wl+d8YRXSVq+aj3G9drI3TkKJ+UuhQe2eHwtiPayiDa11qj9yMM0vW55g0ybt+x
-        onfrAbTL1Yh+hYi+Mkwv9WBDDFfp0HYf1BOVuN6cZqaxONM7nZMJW7D4Y5ar1B+ZSKi0b6uTq1S/UIt0
-        05WAQCfg02hcw1pN/8P3bfAf+LhKfV9GMLrnBLtjR+9GJ5pWDKgaK8M1Y2pAUJ8sprFE6jm5uyXQCOMS
-        QSFbgJtMDnKsmchsSz8WNl0NpjVeNv9x8u9iP47UnpdwiRcSq1HcldVBx3/g8X4Bj5QzBMM+BqgAAAAA
-        SUVORK5CYII=
-</value>
-  </data>
-  <data name="toolStripButton15.ToolTipText" xml:space="preserve">
-    <value>Synchronisieren</value>
-  </data>
-  <data name="toolStripButton14.ToolTipText" xml:space="preserve">
-    <value>Zeit verschieben</value>
-  </data>
-  <data name="toolStripButton16.ToolTipText" xml:space="preserve">
-    <value>Raum ausfüllen</value>
-  </data>
-  <data name="toolStripButton17.ToolTipText" xml:space="preserve">
-    <value>Zum vorherigen dehnen</value>
-  </data>
-  <data name="toolStripButton18.ToolTipText" xml:space="preserve">
-    <value>Zum nächsten dehnen</value>
-  </data>
-  <data name="toolStripButton19.ToolTipText" xml:space="preserve">
-    <value>Trennen</value>
-  </data>
-  <data name="toolStripButton32.ToolTipText" xml:space="preserve">
-    <value>Zusammenfügen</value>
-  </data>
-  <data name="toolStripSplitButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHxSURBVDhPzZD/TxJxHMbv7+AfqBatudasMLHDdJIgLG03
-        LZxZbnThwqbkTlBv6MXAbweeEuBOM1xaP9RmK3J+KabJtYqwun+GPX7A21wRuvVTr1+f9/O83++H+j9x
-        bd1h2ZRDdb5zoGu1DZ2vGLX9ZQuryeVh07d13WvtivBpAPM5CcuqjKWfc4h+mcSj1AO0PG1SmLhVp42X
-        4iLmUIbHijqPhb0okj/iWNyLIfZNxFxWQv9bN2zRekUb/x3Xegc7ssPh+a+DrXJ2BsObHvjWejHzeRyx
-        r2HMkkucKx2oH68pfece+TmRjUD+LhW3WZZNeSZp42/IjTwdN+bHdkYRUULwb3phGq1SNdshXW9uknPj
-        WMhF4VvvA7No4zWJskzXecwijboxI+iAAdX+C9CkQ0jTpLjZ4nYu1YNmslmTqIYputTwJ44XdlXcDSCs
-        BCFmgqh5YsxfmzYlC9rVUDWuCJeODmlN2tmeVSckUlghZCLzGHeXbqE2eBkOmUFrohkXveeODrElzIr7
-        tRMTuwL8aS8C2zyE9CD8H33gP3C4LllQ8VBfPsQartWZJ2ml81kbuPe9GCkaBzC01Q/fhgdNohlnuk8d
-        3wctGNgqvjJnGDyPSq4C9kgjrFMNxHzyePPfOOs+Db3rH80F9PdPlDFT1D5w7BPwT9v+3wAAAABJRU5E
-        rkJggg==
-</value>
-  </data>
-  <data name="toolStripSplitButton2.Text" xml:space="preserve">
-    <value>Rechrs-nach-Links-Ausrichtung für allen ausgewählten Tracks verwenden</value>
-  </data>
-  <data name="setRightToLeftToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 34</value>
-  </data>
-  <data name="setRightToLeftToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Rechts-nach-Links festlegen</value>
-  </data>
-  <data name="setLeftToRightToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 34</value>
-  </data>
-  <data name="setLeftToRightToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Links-nach-Rechts festlegen</value>
-  </data>
-  <data name="toolStripButton20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALgSURBVDhPrZHJTxNRHMfnP/AqF89eiHLBGI0HY0g0RhOJ
-        QU1EUBTClrDJUgk2AkV20FIUYlnK0mKLbQikAwVKoAIplLaAFEpLAVlLnbaUZRC+zpTBaPTgwU/yy3sv
-        8z7f33tviP+Oprnoqq4tWzOmzNiaUPHoMVUWPSBNWlPXJn1SVGdc5Lb9HW1rflU/Gbu/ZBnGxuo83G4X
-        KMqJ5QUTTIOtkFdFb0tL47O57b/T15pXYdWL4Np0wOJw4WOvHVXyKVTKJtHYZcX47BrsFh06a2Igzo1K
-        47RjuusLLpOqVNq5bseAYQWKPjusS2443V5surdhWXSjkbSiXWvDjKELklf3fLWCmCBOJwiyPr1zjvnw
-        ZWELMo0NLC6KwuzXVewyc7a8R0B1hxWDRge6JSkQ8e43cjpBqBsSVlccZkjUc5hmOvsOjuD1+SD8IMY6
-        E+TZ24Nc3YuBWQpFLUaYR6Wo4YXaOZ0g2uvjd13OZRQ2GbG+Q8O1d4h9pmvmSz4kCiXSc/ggdSMwUzSS
-        hSNYtI8wASE7nM4ElEXvOjfmwRcbsOilmZBDLFEe5BaX+OUBgwmbB4DeSSOh/DMc81rUZP4SIC8Nt82b
-        u1AuM0I7R2GFufSSh0Zn/xBsW26sfQekOgWSRBF4VnobjwTXkJh+ieJ0gqjLCxf3SzOgM86iQGbBJvNg
-        LhrwHDLFzNuGWsFvi0THpBATKyTKumMRVhaI4LiAYn+AODf2fE1O2M6MvgFNXWN4LZuBwf4NXuY9vD4a
-        kYXXoTSXQzldyf4gFPc8RVlPNM7Fndr1B7C840dmNBfcxfRwFfpG9cgXD+N55RBSygdxkxeEzslav3yC
-        yiTEhbgAcPoxb188zH6fesOrFD3AuCYPtmkJbFN1uJJ4BkXkYwjICL8sUEf8eYITRFlPgivS7rS8Sb7l
-        EKWG7LAVkRjoDi0+ixIyyt+ZHdn1zzf4F4JjTxcExQV42GOzI7smCIL4AYQ9MQIs4eLtAAAAAElFTkSu
-        QmCC
-</value>
-  </data>
-  <data name="toolStripButton20.ToolTipText" xml:space="preserve">
-    <value>Marke hinzufügen</value>
-  </data>
-  <data name="toolStripButton21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALySURBVDhPrZFdSJNRGMffmt4X3XTThV1EBUHdBFFBqXkR
-        1IUSZqAQCorphd9TE5PUTNPUcrO0pjl1m01T0rnp1Jmairo209zch3Pm1+Z8t7mpr7p/7/SlDwi66QcP
-        HDjn93+ecw7x35E3FPkPNWXJx1vZa1/aMqnxtgyqX5iwLK1O+NBcyb7EHPs7CkE+p08Wu23WDGN1SQ+7
-        3QaStGJhTg31gABiTvSGsCQuizn+J72CvDLdGBc2iwkakw3ve4zgiKdQLvqKOokOE9plGDVD6KiKAS83
-        KoXRDuiqLbgia0umrCtG9CsX0dxrhM5sh9XuhMW+Ac28HXUyHVoUBswoJeA/vuuqfhJzgdEJQlab1jFL
-        b3ybW4NIboAXG0lC+30Jm/TaW04PUPlRhwGVCV38JHAzw+oYnSCk7+KXFk2T4EtnMU13du144HS5UPGW
-        hxU6yLG1BbG0B/1aEkWNKkyOClGVGWJkdIJoqY3btFkXUFivwoqbgm1rD9t01/RHOeA3tyItOweyoRFM
-        khQSK0YwbxyhA4LcjE4HPI/etK7qkcNTYt5J0SF7MJMO5D4r3pf7lWpYdoAxK4X40s8w6RWoSv8tQFwS
-        YdBPSlAqUkExS2KRvrTZQaGjbxCGNTuWdwF1UwV6wk+j298X3SHHUBt+hmR0gqjJi+D1CdkYUmlRINLA
-        Qj+YjQIce3TR69kWDtSpV7HZXgzPdCdcgkRIH5zzdAX4xO8H8HJjz1dlh7pnxt6hXjKOp6IZKI3rcNLv
-        4XRR6A47CTcto/wWkHYUyPeDpfAa2q+zDPsBXl7l3Gc3FNzB9DAHvaNjyOcNI7V8EEmlA/tje8abvb/7
-        k/Xs4xD5+3gY/YCXD8OzXiffdLZy72FCngfDNB+GqRp0BR/BxptIgJa2UgnY6DLFsNB5g7XAqL/gZkRe
-        LEsJbnyReNvETQ5ye0scfpbsiDrlWUzzw2q6L/RRhyC/7LMrCTycwWj/5lPoCbY0gGX0ji0NZJkPZIL4
-        AeSHL3OFTkiXAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="toolStripButton21.ToolTipText" xml:space="preserve">
-    <value>Ausgewählte Marke löschen</value>
-  </data>
-  <data name="toolStripButton22.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMDSURBVDhPrZBbTFJxHMf/XVbrrZdaD03XZevylD3UavbQ
-        Zaz5UKvmutvKSvMyZ+HE2xQv5SVFy4CiSQgkYHgtCcxUZmSGEloqihJa3iAESVRcfTvQ2aqthx76bP/t
-        v3P+n8/v/A/5rzQ9Ljigq0xr6qxlfXlXl+LtrEv2auXxE+qH8TVVfNYe+tjfaZXd5LZoohZGTe2YGh+C
-        y+WA02nHp4/d6G6TQcmN+Covikmjj/9JsyynxKznwWGzwmR14MlLC7jKD7ijeA+xyoyugQlYTDo0CCIh
-        zL6cQGs/aRTlBmvqmF77pAVawxiqmi0wj7pgd7lhc32FacQFscaM6tZh9BtUkGSdmn14KzKI1gnRiBIb
-        BqkXfR+/QNE0DB8OpxMDn8cxR+19y/0d4D81o81oRaPkBngpp8W0Toi6PHZ8zNoDiXoQvdTk2cXvcM/O
-        4l6ZEJNUaGZ+Hkr1S2gHnCioMKKnQw5BygkLrRNSLYqZc9g/IV9qxKTHC8f8NyxQU5My2JBU1SIxnQ2N
-        7g1uyBm4IgzCiOUNFWB4aJ0KcCLm7FNDYAsNGHF7qcg3jDpnkH270C9rDd2wLQLR0v1g15/BSf5WCJJ+
-        CyiLwoaHelQoVhjROujEGHXp0Rkv4qT7ECfZi2vluxBethOp1aFQvC0Bs/IoGJx1ICBL/IFHOWHCFjkL
-        OuMAchUm2Kgf5vBSE8W7UdPFhbKz1C/K3haj+AUTotf5iJQysOnWykV/RJgdtUOQftLTry+HVNWJPEU/
-        DJZphFP39clFmjjkPY9GTsNVZNRfROazCPC1WTj3KBhrYsmC/yvusy+yHueGoredi+YOPW4K23FWsA3y
-        jmJI2wsh0uWj7FUuFYkCT5uJq9LD2JBK+tbHk1X+gI/S1PNpD5gh7lreGXQ15eA4byNC7qzHIc5aBBes
-        RphwL7itGbgkZiAglRg3x5KVtPoLXnL4rpKE4xV3rx+x8pgMj2/59hzmMfmWrKXTF0QHEZhM9NvTyQpa
-        +XcCk4gtIGUZSDpZTj+iIOQH8VARapkeC0cAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="toolStripButton22.ToolTipText" xml:space="preserve">
-    <value>Ins dieser Marke springen</value>
   </data>
   <data name="contextMenuStrip_subtitlesData.Size" type="System.Drawing.Size, System.Drawing">
     <value>283, 564</value>
@@ -2674,61 +2647,31 @@ Hinweis: Dadurch wird die Farbe für jeden Char des Untertitels festgelegt.</val
     <value>&amp;Extra</value>
   </data>
   <data name="iD3TagsSynchronizedLyricsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
+    <value>459, 34</value>
   </data>
   <data name="iD3TagsSynchronizedLyricsToolStripMenuItem.Text" xml:space="preserve">
     <value>ID3-Tags (Synchronisierten Lyrics)</value>
   </data>
   <data name="previewWithAHDSynchronisedLyricsViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
+    <value>459, 34</value>
   </data>
   <data name="previewWithAHDSynchronisedLyricsViewToolStripMenuItem.Text" xml:space="preserve">
     <value>Vorschau mit AHD Synchronised Lyrics View</value>
   </data>
-  <data name="toolStripSeparator70.Size" type="System.Drawing.Size, System.Drawing">
-    <value>478, 6</value>
-  </data>
-  <data name="matroskaRipperToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
-  </data>
-  <data name="matroskaRipperToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Matroska-Auskopierer</value>
-  </data>
-  <data name="importVobSubIDXSUBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
-  </data>
-  <data name="importVobSubIDXSUBToolStripMenuItem.Text" xml:space="preserve">
-    <value>VobSub (IDX/SUB) &amp;importieren</value>
-  </data>
   <data name="toolStripSeparator60.Size" type="System.Drawing.Size, System.Drawing">
-    <value>478, 6</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
-  </data>
-  <data name="downloadSubtitlesFromOpenSubtitlesorgToolStripMenuItem.Text" xml:space="preserve">
-    <value>Untertitel aus &amp;OpenSubtitles.org herunterladen</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
-  </data>
-  <data name="uploadSubtitlesToOpenSubtitlesorgToolStripMenuItem.Text" xml:space="preserve">
-    <value>Untertitel in OpenSubtitles.org hochladen</value>
-  </data>
-  <data name="toolStripSeparator66.Size" type="System.Drawing.Size, System.Drawing">
-    <value>478, 6</value>
+    <value>456, 6</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
+    <value>459, 34</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Sprache (&amp;Language)</value>
   </data>
   <data name="toolStripSeparator57.Size" type="System.Drawing.Size, System.Drawing">
-    <value>478, 6</value>
+    <value>456, 6</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 34</value>
+    <value>459, 34</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Einstellungen</value>
@@ -2861,20 +2804,10 @@ Hinweis: Dadurch wird die Farbe für jeden Char des Untertitels festgelegt.</val
   <data name="quickStartToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Schnell Start</value>
   </data>
-  <data name="toolStripSeparator50.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 6</value>
-  </data>
-  <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="donateToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>327, 34</value>
   </data>
-  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Spenden</value>
-  </data>
-  <data name="donateToolStripMenuItem.ToolTipText" xml:space="preserve">
-    <value>Unterstützen Sie die Entwicklung des Programms durch eine Spende per Paypal.
-Danke für deine Großzügigkeit :)</value>
-  </data>
-  <data name="toolStripSeparator78.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripSeparator46.Size" type="System.Drawing.Size, System.Drawing">
     <value>324, 6</value>
   </data>
   <data name="aboutAHDSubtitlesMakerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">

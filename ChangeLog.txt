@@ -1,9 +1,8 @@
 ## Changelog
 
-Version 5.24.7901.42251
+Version 5.24.8036.38493
 
-Built at 19 August, 2021 23:28
+Built at 1 January, 2022 21:23
 
-- Fixed: reseting view port settings when resizing and/or editing subtitles.
-- Fixed: bug when scrolling timeline control to a value less than 0.
-- Removed: ability to download/upload subtitles from/into OpenSubtitles.org. 
+- Updated copyright inforamtion
+- Updated target .netframework version into 4.8 

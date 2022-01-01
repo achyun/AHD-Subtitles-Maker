@@ -223,6 +223,12 @@
     <value>الموقع الحالي للبرنامج:
 https://github.com/alaahadid/AHD-Subtitles-Maker</value>
   </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 532</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>تبرع</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>726, 613</value>
   </data>
@@ -1799,9 +1805,6 @@ https://github.com/alaahadid/AHD-Subtitles-Maker</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACenZ0j2tradb28vLqJiIgOAAAAAAAAAAAAAAAAw/8AAMAf
         AACAAQAAgAAAAIAAAACAAQAAgAEAAIABAAAAAQAAAAMAAAADAAAAAwAAAAMAAMAHAAD8BwAA/4cAAA==
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>حول AHD Subtitles Maker</value>

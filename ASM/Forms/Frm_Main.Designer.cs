@@ -1,7 +1,7 @@
 ﻿// This file is part of AHD Subtitles Maker.
 // A program can make and edit subtitle.
 // 
-// Copyright © Alaa Ibrahim Hadid 2009 - 2021
+// Copyright © Alaa Ibrahim Hadid 2009 - 2022
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -112,29 +112,6 @@ namespace AHD.SM
             this.toolStripButton34 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator69 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton_prepared_word_wrap = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip_edit = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator29 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator30 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator38 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator39 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton32 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator53 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
-            this.setRightToLeftToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.setLeftToRightToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip_marks = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
-            this.ComboBox_marks = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip_main = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
@@ -167,6 +144,29 @@ namespace AHD.SM
             this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip_edit = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator29 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator30 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator38 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator39 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton32 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator53 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
+            this.setRightToLeftToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.setLeftToRightToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStrip_marks = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
+            this.ComboBox_marks = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
             this.contextMenuStrip_subtitlesData = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.addSubtitleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.insertSubtitleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -354,14 +354,15 @@ namespace AHD.SM
             this.websiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipOfTheDayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quickStartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator50 = new System.Windows.Forms.ToolStripSeparator();
+            this.donateToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator46 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutAHDSubtitlesMakerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.ProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.StatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.Timer_Player = new System.Windows.Forms.Timer(this.components);
             this.timer_autosave = new System.Windows.Forms.Timer(this.components);
-            this.hotKey1 = new SmartHotKey.HotKey();
+            this.hotKey1=new SmartHotKey.HotKey ();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -400,9 +401,9 @@ namespace AHD.SM
             this.tabControl_down_Right.SuspendLayout();
             this.tabPage_preparedText.SuspendLayout();
             this.toolStrip1.SuspendLayout();
+            this.toolStrip_main.SuspendLayout();
             this.toolStrip_edit.SuspendLayout();
             this.toolStrip_marks.SuspendLayout();
-            this.toolStrip_main.SuspendLayout();
             this.contextMenuStrip_subtitlesData.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -411,20 +412,25 @@ namespace AHD.SM
             // toolStripContainer1
             // 
             // 
+        
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.splitContainer1);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.hotKey1);
+            this.hotKey1.Visible = false;
+            this.hotKey1.Dock = System.Windows.Forms.DockStyle.Top;
             resources.ApplyResources(this.toolStripContainer1.ContentPanel, "toolStripContainer1.ContentPanel");
             resources.ApplyResources(this.toolStripContainer1, "toolStripContainer1");
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
+
             // 
             // toolStripContainer1.TopToolStripPanel
             // 
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip_edit);
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip_main);
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip_marks);
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip_main);
             // 
             // splitContainer1
             // 
@@ -944,185 +950,6 @@ namespace AHD.SM
             this.toolStripButton_prepared_word_wrap.Name = "toolStripButton_prepared_word_wrap";
             this.toolStripButton_prepared_word_wrap.Click += new System.EventHandler(this.toolStripButton_prepared_word_wrap_Click);
             // 
-            // toolStrip_edit
-            // 
-            resources.ApplyResources(this.toolStrip_edit, "toolStrip_edit");
-            this.toolStrip_edit.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.toolStrip_edit.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton11,
-            this.toolStripButton13,
-            this.toolStripSeparator29,
-            this.toolStripButton15,
-            this.toolStripSeparator30,
-            this.toolStripButton14,
-            this.toolStripButton16,
-            this.toolStripSeparator38,
-            this.toolStripButton17,
-            this.toolStripButton18,
-            this.toolStripSeparator39,
-            this.toolStripButton19,
-            this.toolStripButton32,
-            this.toolStripSeparator53,
-            this.toolStripSplitButton2});
-            this.toolStrip_edit.Name = "toolStrip_edit";
-            this.toolStrip_edit.ParentChanged += new System.EventHandler(this.toolStrip_edit_ParentChanged);
-            // 
-            // toolStripButton11
-            // 
-            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton11, "toolStripButton11");
-            this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.Click += new System.EventHandler(this.duplicateToolStripMenuItem1_Click);
-            // 
-            // toolStripButton13
-            // 
-            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton13, "toolStripButton13");
-            this.toolStripButton13.Name = "toolStripButton13";
-            this.toolStripButton13.Click += new System.EventHandler(this.translateToolStripMenuItem1_Click);
-            // 
-            // toolStripSeparator29
-            // 
-            this.toolStripSeparator29.Name = "toolStripSeparator29";
-            resources.ApplyResources(this.toolStripSeparator29, "toolStripSeparator29");
-            // 
-            // toolStripButton15
-            // 
-            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton15, "toolStripButton15");
-            this.toolStripButton15.Name = "toolStripButton15";
-            this.toolStripButton15.Click += new System.EventHandler(this.synchronizeToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator30
-            // 
-            this.toolStripSeparator30.Name = "toolStripSeparator30";
-            resources.ApplyResources(this.toolStripSeparator30, "toolStripSeparator30");
-            // 
-            // toolStripButton14
-            // 
-            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton14.Image = global::AHD.SM.Properties.Resources.FillTime;
-            resources.ApplyResources(this.toolStripButton14, "toolStripButton14");
-            this.toolStripButton14.Name = "toolStripButton14";
-            this.toolStripButton14.Click += new System.EventHandler(this.shiftTimeToolStripMenuItem_Click);
-            // 
-            // toolStripButton16
-            // 
-            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton16.Image = global::AHD.SM.Properties.Resources.timefill11;
-            resources.ApplyResources(this.toolStripButton16, "toolStripButton16");
-            this.toolStripButton16.Name = "toolStripButton16";
-            this.toolStripButton16.Click += new System.EventHandler(this.fillSpaceToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator38
-            // 
-            this.toolStripSeparator38.Name = "toolStripSeparator38";
-            resources.ApplyResources(this.toolStripSeparator38, "toolStripSeparator38");
-            // 
-            // toolStripButton17
-            // 
-            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton17.Image = global::AHD.SM.Properties.Resources.StretchToLeft;
-            resources.ApplyResources(this.toolStripButton17, "toolStripButton17");
-            this.toolStripButton17.Name = "toolStripButton17";
-            this.toolStripButton17.Click += new System.EventHandler(this.stretchToPreviousToolStripMenuItem_Click);
-            // 
-            // toolStripButton18
-            // 
-            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton18.Image = global::AHD.SM.Properties.Resources.StretchToNext;
-            resources.ApplyResources(this.toolStripButton18, "toolStripButton18");
-            this.toolStripButton18.Name = "toolStripButton18";
-            this.toolStripButton18.Click += new System.EventHandler(this.stretchToNextToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator39
-            // 
-            this.toolStripSeparator39.Name = "toolStripSeparator39";
-            resources.ApplyResources(this.toolStripSeparator39, "toolStripSeparator39");
-            // 
-            // toolStripButton19
-            // 
-            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton19.Image = global::AHD.SM.Properties.Resources.split;
-            resources.ApplyResources(this.toolStripButton19, "toolStripButton19");
-            this.toolStripButton19.Name = "toolStripButton19";
-            this.toolStripButton19.Click += new System.EventHandler(this.splitToolStripMenuItem_Click);
-            // 
-            // toolStripButton32
-            // 
-            this.toolStripButton32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton32.Image = global::AHD.SM.Properties.Resources.Merge;
-            resources.ApplyResources(this.toolStripButton32, "toolStripButton32");
-            this.toolStripButton32.Name = "toolStripButton32";
-            this.toolStripButton32.Click += new System.EventHandler(this.mergeToolStripMenuItem2_Click);
-            // 
-            // toolStripSeparator53
-            // 
-            this.toolStripSeparator53.Name = "toolStripSeparator53";
-            resources.ApplyResources(this.toolStripSeparator53, "toolStripSeparator53");
-            // 
-            // toolStripSplitButton2
-            // 
-            this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripSplitButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.setRightToLeftToolStripMenuItem1,
-            this.setLeftToRightToolStripMenuItem1});
-            resources.ApplyResources(this.toolStripSplitButton2, "toolStripSplitButton2");
-            this.toolStripSplitButton2.Name = "toolStripSplitButton2";
-            this.toolStripSplitButton2.ButtonClick += new System.EventHandler(this.setRightToLeftToolStripMenuItem_Click);
-            // 
-            // setRightToLeftToolStripMenuItem1
-            // 
-            this.setRightToLeftToolStripMenuItem1.Name = "setRightToLeftToolStripMenuItem1";
-            resources.ApplyResources(this.setRightToLeftToolStripMenuItem1, "setRightToLeftToolStripMenuItem1");
-            this.setRightToLeftToolStripMenuItem1.Click += new System.EventHandler(this.setRightToLeftToolStripMenuItem_Click);
-            // 
-            // setLeftToRightToolStripMenuItem1
-            // 
-            this.setLeftToRightToolStripMenuItem1.Name = "setLeftToRightToolStripMenuItem1";
-            resources.ApplyResources(this.setLeftToRightToolStripMenuItem1, "setLeftToRightToolStripMenuItem1");
-            this.setLeftToRightToolStripMenuItem1.Click += new System.EventHandler(this.setLeftToRightToolStripMenuItem_Click);
-            // 
-            // toolStrip_marks
-            // 
-            resources.ApplyResources(this.toolStrip_marks, "toolStrip_marks");
-            this.toolStrip_marks.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.toolStrip_marks.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton20,
-            this.toolStripButton21,
-            this.ComboBox_marks,
-            this.toolStripButton22});
-            this.toolStrip_marks.Name = "toolStrip_marks";
-            this.toolStrip_marks.ParentChanged += new System.EventHandler(this.toolStrip_marks_ParentChanged);
-            // 
-            // toolStripButton20
-            // 
-            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton20, "toolStripButton20");
-            this.toolStripButton20.Name = "toolStripButton20";
-            this.toolStripButton20.Click += new System.EventHandler(this.addMarkToolStripMenuItem_Click);
-            // 
-            // toolStripButton21
-            // 
-            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton21, "toolStripButton21");
-            this.toolStripButton21.Name = "toolStripButton21";
-            this.toolStripButton21.Click += new System.EventHandler(this.deleteSelectedToolStripMenuItem_Click);
-            // 
-            // ComboBox_marks
-            // 
-            this.ComboBox_marks.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBox_marks.Name = "ComboBox_marks";
-            resources.ApplyResources(this.ComboBox_marks, "ComboBox_marks");
-            this.ComboBox_marks.DropDownClosed += new System.EventHandler(this.ComboBox_marks_DropDownClosed);
-            // 
-            // toolStripButton22
-            // 
-            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButton22, "toolStripButton22");
-            this.toolStripButton22.Name = "toolStripButton22";
-            this.toolStripButton22.Click += new System.EventHandler(this.jumpIntoSelectedTimeToolStripMenuItem_Click);
-            // 
             // toolStrip_main
             // 
             resources.ApplyResources(this.toolStrip_main, "toolStrip_main");
@@ -1363,6 +1190,185 @@ namespace AHD.SM
             this.toolStripButton10.Name = "toolStripButton10";
             this.toolStripButton10.Click += new System.EventHandler(this.viewHelpToolStripMenuItem_Click);
             // 
+            // toolStrip_edit
+            // 
+            resources.ApplyResources(this.toolStrip_edit, "toolStrip_edit");
+            this.toolStrip_edit.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.toolStrip_edit.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton11,
+            this.toolStripButton13,
+            this.toolStripSeparator29,
+            this.toolStripButton15,
+            this.toolStripSeparator30,
+            this.toolStripButton14,
+            this.toolStripButton16,
+            this.toolStripSeparator38,
+            this.toolStripButton17,
+            this.toolStripButton18,
+            this.toolStripSeparator39,
+            this.toolStripButton19,
+            this.toolStripButton32,
+            this.toolStripSeparator53,
+            this.toolStripSplitButton2});
+            this.toolStrip_edit.Name = "toolStrip_edit";
+            this.toolStrip_edit.ParentChanged += new System.EventHandler(this.toolStrip_edit_ParentChanged);
+            // 
+            // toolStripButton11
+            // 
+            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton11, "toolStripButton11");
+            this.toolStripButton11.Name = "toolStripButton11";
+            this.toolStripButton11.Click += new System.EventHandler(this.duplicateToolStripMenuItem1_Click);
+            // 
+            // toolStripButton13
+            // 
+            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton13, "toolStripButton13");
+            this.toolStripButton13.Name = "toolStripButton13";
+            this.toolStripButton13.Click += new System.EventHandler(this.translateToolStripMenuItem1_Click);
+            // 
+            // toolStripSeparator29
+            // 
+            this.toolStripSeparator29.Name = "toolStripSeparator29";
+            resources.ApplyResources(this.toolStripSeparator29, "toolStripSeparator29");
+            // 
+            // toolStripButton15
+            // 
+            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton15, "toolStripButton15");
+            this.toolStripButton15.Name = "toolStripButton15";
+            this.toolStripButton15.Click += new System.EventHandler(this.synchronizeToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator30
+            // 
+            this.toolStripSeparator30.Name = "toolStripSeparator30";
+            resources.ApplyResources(this.toolStripSeparator30, "toolStripSeparator30");
+            // 
+            // toolStripButton14
+            // 
+            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton14.Image = global::AHD.SM.Properties.Resources.FillTime;
+            resources.ApplyResources(this.toolStripButton14, "toolStripButton14");
+            this.toolStripButton14.Name = "toolStripButton14";
+            this.toolStripButton14.Click += new System.EventHandler(this.shiftTimeToolStripMenuItem_Click);
+            // 
+            // toolStripButton16
+            // 
+            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton16.Image = global::AHD.SM.Properties.Resources.timefill11;
+            resources.ApplyResources(this.toolStripButton16, "toolStripButton16");
+            this.toolStripButton16.Name = "toolStripButton16";
+            this.toolStripButton16.Click += new System.EventHandler(this.fillSpaceToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator38
+            // 
+            this.toolStripSeparator38.Name = "toolStripSeparator38";
+            resources.ApplyResources(this.toolStripSeparator38, "toolStripSeparator38");
+            // 
+            // toolStripButton17
+            // 
+            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton17.Image = global::AHD.SM.Properties.Resources.StretchToLeft;
+            resources.ApplyResources(this.toolStripButton17, "toolStripButton17");
+            this.toolStripButton17.Name = "toolStripButton17";
+            this.toolStripButton17.Click += new System.EventHandler(this.stretchToPreviousToolStripMenuItem_Click);
+            // 
+            // toolStripButton18
+            // 
+            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton18.Image = global::AHD.SM.Properties.Resources.StretchToNext;
+            resources.ApplyResources(this.toolStripButton18, "toolStripButton18");
+            this.toolStripButton18.Name = "toolStripButton18";
+            this.toolStripButton18.Click += new System.EventHandler(this.stretchToNextToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator39
+            // 
+            this.toolStripSeparator39.Name = "toolStripSeparator39";
+            resources.ApplyResources(this.toolStripSeparator39, "toolStripSeparator39");
+            // 
+            // toolStripButton19
+            // 
+            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton19.Image = global::AHD.SM.Properties.Resources.split;
+            resources.ApplyResources(this.toolStripButton19, "toolStripButton19");
+            this.toolStripButton19.Name = "toolStripButton19";
+            this.toolStripButton19.Click += new System.EventHandler(this.splitToolStripMenuItem_Click);
+            // 
+            // toolStripButton32
+            // 
+            this.toolStripButton32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton32.Image = global::AHD.SM.Properties.Resources.Merge;
+            resources.ApplyResources(this.toolStripButton32, "toolStripButton32");
+            this.toolStripButton32.Name = "toolStripButton32";
+            this.toolStripButton32.Click += new System.EventHandler(this.mergeToolStripMenuItem2_Click);
+            // 
+            // toolStripSeparator53
+            // 
+            this.toolStripSeparator53.Name = "toolStripSeparator53";
+            resources.ApplyResources(this.toolStripSeparator53, "toolStripSeparator53");
+            // 
+            // toolStripSplitButton2
+            // 
+            this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.setRightToLeftToolStripMenuItem1,
+            this.setLeftToRightToolStripMenuItem1});
+            resources.ApplyResources(this.toolStripSplitButton2, "toolStripSplitButton2");
+            this.toolStripSplitButton2.Name = "toolStripSplitButton2";
+            this.toolStripSplitButton2.ButtonClick += new System.EventHandler(this.setRightToLeftToolStripMenuItem_Click);
+            // 
+            // setRightToLeftToolStripMenuItem1
+            // 
+            this.setRightToLeftToolStripMenuItem1.Name = "setRightToLeftToolStripMenuItem1";
+            resources.ApplyResources(this.setRightToLeftToolStripMenuItem1, "setRightToLeftToolStripMenuItem1");
+            this.setRightToLeftToolStripMenuItem1.Click += new System.EventHandler(this.setRightToLeftToolStripMenuItem_Click);
+            // 
+            // setLeftToRightToolStripMenuItem1
+            // 
+            this.setLeftToRightToolStripMenuItem1.Name = "setLeftToRightToolStripMenuItem1";
+            resources.ApplyResources(this.setLeftToRightToolStripMenuItem1, "setLeftToRightToolStripMenuItem1");
+            this.setLeftToRightToolStripMenuItem1.Click += new System.EventHandler(this.setLeftToRightToolStripMenuItem_Click);
+            // 
+            // toolStrip_marks
+            // 
+            resources.ApplyResources(this.toolStrip_marks, "toolStrip_marks");
+            this.toolStrip_marks.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.toolStrip_marks.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton20,
+            this.toolStripButton21,
+            this.ComboBox_marks,
+            this.toolStripButton22});
+            this.toolStrip_marks.Name = "toolStrip_marks";
+            this.toolStrip_marks.ParentChanged += new System.EventHandler(this.toolStrip_marks_ParentChanged);
+            // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton20, "toolStripButton20");
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.Click += new System.EventHandler(this.addMarkToolStripMenuItem_Click);
+            // 
+            // toolStripButton21
+            // 
+            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton21, "toolStripButton21");
+            this.toolStripButton21.Name = "toolStripButton21";
+            this.toolStripButton21.Click += new System.EventHandler(this.deleteSelectedToolStripMenuItem_Click);
+            // 
+            // ComboBox_marks
+            // 
+            this.ComboBox_marks.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ComboBox_marks.Name = "ComboBox_marks";
+            resources.ApplyResources(this.ComboBox_marks, "ComboBox_marks");
+            this.ComboBox_marks.DropDownClosed += new System.EventHandler(this.ComboBox_marks_DropDownClosed);
+            // 
+            // toolStripButton22
+            // 
+            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton22, "toolStripButton22");
+            this.toolStripButton22.Name = "toolStripButton22";
+            this.toolStripButton22.Click += new System.EventHandler(this.jumpIntoSelectedTimeToolStripMenuItem_Click);
+            // 
             // contextMenuStrip_subtitlesData
             // 
             this.contextMenuStrip_subtitlesData.ImageScalingSize = new System.Drawing.Size(24, 24);
@@ -1573,7 +1579,6 @@ namespace AHD.SM
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
@@ -2643,7 +2648,8 @@ namespace AHD.SM
             this.websiteToolStripMenuItem,
             this.tipOfTheDayToolStripMenuItem,
             this.quickStartToolStripMenuItem,
-            this.toolStripSeparator50,
+            this.donateToolStripMenuItem1,
+            this.toolStripSeparator46,
             this.aboutAHDSubtitlesMakerToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
@@ -2689,10 +2695,16 @@ namespace AHD.SM
             this.quickStartToolStripMenuItem.Name = "quickStartToolStripMenuItem";
             this.quickStartToolStripMenuItem.Click += new System.EventHandler(this.quickStartToolStripMenuItem_Click);
             // 
-            // toolStripSeparator50
+            // donateToolStripMenuItem1
             // 
-            this.toolStripSeparator50.Name = "toolStripSeparator50";
-            resources.ApplyResources(this.toolStripSeparator50, "toolStripSeparator50");
+            this.donateToolStripMenuItem1.Name = "donateToolStripMenuItem1";
+            resources.ApplyResources(this.donateToolStripMenuItem1, "donateToolStripMenuItem1");
+            this.donateToolStripMenuItem1.Click += new System.EventHandler(this.donateToolStripMenuItem1_Click);
+            // 
+            // toolStripSeparator46
+            // 
+            this.toolStripSeparator46.Name = "toolStripSeparator46";
+            resources.ApplyResources(this.toolStripSeparator46, "toolStripSeparator46");
             // 
             // aboutAHDSubtitlesMakerToolStripMenuItem
             // 
@@ -2729,12 +2741,6 @@ namespace AHD.SM
             this.timer_autosave.Interval = 1000;
             this.timer_autosave.Tick += new System.EventHandler(this.timer_autosave_Tick);
             // 
-            // hotKey1
-            // 
-            resources.ApplyResources(this.hotKey1, "hotKey1");
-            this.hotKey1.Name = "hotKey1";
-            this.hotKey1.HotKeyPressed += new SmartHotKey.HotKey.HotKeyEventHandler(this.hotKey1_HotKeyPressed);
-            // 
             // Frm_Main
             // 
             resources.ApplyResources(this, "$this");
@@ -2742,7 +2748,6 @@ namespace AHD.SM
             this.Controls.Add(this.toolStripContainer1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.hotKey1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Frm_Main";
             this.Activated += new System.EventHandler(this.Frm_Main_Activated);
@@ -2793,12 +2798,12 @@ namespace AHD.SM
             this.tabPage_preparedText.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.toolStrip_main.ResumeLayout(false);
+            this.toolStrip_main.PerformLayout();
             this.toolStrip_edit.ResumeLayout(false);
             this.toolStrip_edit.PerformLayout();
             this.toolStrip_marks.ResumeLayout(false);
             this.toolStrip_marks.PerformLayout();
-            this.toolStrip_main.ResumeLayout(false);
-            this.toolStrip_main.PerformLayout();
             this.contextMenuStrip_subtitlesData.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -3043,7 +3048,6 @@ namespace AHD.SM
         private System.Windows.Forms.ToolStripMenuItem websiteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tipOfTheDayToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quickStartToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator50;
         private System.Windows.Forms.ToolStripButton toolStripButton26;
         private System.Windows.Forms.ToolStripButton toolStripButton27;
         private System.Windows.Forms.ToolStripMenuItem autoFixBasicErrorToolStripMenuItem;
@@ -3123,5 +3127,7 @@ namespace AHD.SM
         private System.Windows.Forms.ToolStripMenuItem lineBreakToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator77;
         private System.Windows.Forms.ToolStripMenuItem wikiOnlineHelpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem donateToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator46;
     }
 }

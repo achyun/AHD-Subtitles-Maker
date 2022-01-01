@@ -117,300 +117,274 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>AHD SUBTITLES MAKER</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>339, 25</value>
-  </data>
-  <data name="label_version.ToolTip" xml:space="preserve">
-    <value />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>658, 731</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label_version.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>A program can create and edit subtitles.</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="linkLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="linkLabel2.Text" xml:space="preserve">
-    <value>Current AHD Subtitles Maker website: 
-https://github.com/alaahadid/AHD-Subtitles-Maker</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="linkLabel8.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>&amp;Close</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;linkLabel4.Name" xml:space="preserve">
-    <value>linkLabel4</value>
-  </data>
-  <data name="linkLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="linkLabel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 59</value>
-  </data>
-  <data name="label2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>475, 72</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Frm_AboutASM</value>
-  </data>
-  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
-  </data>
-  <data name="linkLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 20</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="linkLabel4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label_version.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;linkLabel7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 146</value>
-  </data>
-  <data name="linkLabel2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;linkLabel7.Name" xml:space="preserve">
-    <value>linkLabel7</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 40</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;linkLabel7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;linkLabel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 39</value>
-  </data>
-  <data name="label_version.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 94</value>
-  </data>
-  <data name="linkLabel4.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="linkLabel2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
-    <value>linkLabel1</value>
-  </data>
-  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
-    <value>toolTip1</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label_version.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="label1.ToolTip" xml:space="preserve">
+  <data name="linkLabel2.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="linkLabel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 655</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 217</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 10pt</value>
-  </data>
-  <data name="&gt;&gt;linkLabel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="linkLabel7.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="linkLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>356, 505</value>
-  </data>
-  <data name="label_version.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label6.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="linkLabel8.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="linkLabel7.ToolTip" xml:space="preserve">
-    <value>Click to view details about copyright, resources usedn
-and credits.</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label_version.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Written, developed and programmed by Alaa Hadid.
-Copyright © Alaa Ibrahim Hadid 2009 - 2021
-All Rights Reserved.</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="&gt;&gt;linkLabel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;linkLabel8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 10pt</value>
-  </data>
-  <data name="linkLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 15.75pt, style=Bold</value>
-  </data>
-  <data name="linkLabel7.Text" xml:space="preserve">
-    <value>Copyright Notices, Credits</value>
-  </data>
-  <data name="linkLabel7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="linkLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 20</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="linkLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 573</value>
+  <data name="button2.Text" xml:space="preserve">
+    <value>&amp;Donate</value>
   </data>
   <data name="&gt;&gt;linkLabel8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 24</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="linkLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.Name" xml:space="preserve">
+    <value>linkLabel4</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 59</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="linkLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
   </data>
-  <data name="linkLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 505</value>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="linkLabel2.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="linkLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 20</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>AHD SUBTITLES MAKER</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm_AboutASM</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 25</value>
+  </data>
+  <data name="linkLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="linkLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 50</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;linkLabel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel7.Name" xml:space="preserve">
+    <value>linkLabel7</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 146</value>
   </data>
   <data name="imageList1.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>16, 16</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label3.Text" xml:space="preserve">
+    <value>Written, developed and programmed by Alaa Hadid.
+Copyright © Alaa Ibrahim Hadid 2009 - 2022
+All Rights Reserved.</value>
+  </data>
+  <data name="linkLabel8.Text" xml:space="preserve">
+    <value>GNU website</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="label_version.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 24</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="linkLabel4.Text" xml:space="preserve">
+    <value>GNU General Public License 3</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_version.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 9</value>
+  </data>
+  <data name="linkLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 505</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="linkLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 505</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 242</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="linkLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 573</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 39</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;linkLabel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="linkLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="linkLabel7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>About ASM</value>
+  </data>
+  <data name="linkLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_version.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="linkLabel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label_version.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 40</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_version.Text" xml:space="preserve">
+    <value>VERSION: 5.0</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_version.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_version.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Name" xml:space="preserve">
+    <value>linkLabel2</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1986,26 +1960,81 @@ All Rights Reserved.</value>
         AACAAQAAgAAAAIAAAACAAQAAgAEAAIABAAAAAQAAAAMAAAADAAAAAwAAAAMAAMAHAAD8BwAA/4cAAA==
 </value>
   </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 655</value>
+  </data>
+  <data name="label_version.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="linkLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 217</value>
+  </data>
+  <data name="linkLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="linkLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 20</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="linkLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 20</value>
+  </data>
+  <data name="linkLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="linkLabel7.ToolTip" xml:space="preserve">
+    <value>Click to view details about copyright, resources usedn
+and credits.</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="linkLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 20</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
   </data>
   <data name="&gt;&gt;linkLabel4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 242</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 9</value>
-  </data>
-  <data name="label_version.Text" xml:space="preserve">
-    <value>VERSION: 5.0</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="label_version.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 94</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -2014,121 +2043,125 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</value>
   </data>
-  <data name="linkLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 505</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label_version.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 10pt</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 288</value>
-  </data>
-  <data name="&gt;&gt;label_version.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;label_version.Name" xml:space="preserve">
-    <value>label_version</value>
-  </data>
-  <data name="&gt;&gt;linkLabel4.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="linkLabel1.Text" xml:space="preserve">
     <value>Email: alaahadidfreeware@gmail.com</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="linkLabel4.Text" xml:space="preserve">
-    <value>GNU General Public License 3</value>
-  </data>
-  <data name="label3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;linkLabel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>368, 24</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>About ASM</value>
-  </data>
-  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
-    <value>imageList1</value>
-  </data>
-  <data name="linkLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 50</value>
-  </data>
-  <data name="&gt;&gt;linkLabel8.Name" xml:space="preserve">
-    <value>linkLabel8</value>
-  </data>
-  <data name="&gt;&gt;linkLabel8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="linkLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label_version.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 24</value>
-  </data>
-  <data name="&gt;&gt;linkLabel2.Name" xml:space="preserve">
-    <value>linkLabel2</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>658, 731</value>
-  </data>
-  <data name="linkLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="linkLabel8.Text" xml:space="preserve">
-    <value>GNU website</value>
-  </data>
-  <data name="&gt;&gt;linkLabel7.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>10</value>
   </data>
   <data name="linkLabel4.ToolTip" xml:space="preserve">
     <value>Click to open license file.</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;linkLabel7.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="linkLabel8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="linkLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 505</value>
   </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>A program can create and edit subtitles.</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="linkLabel7.Text" xml:space="preserve">
+    <value>Copyright Notices, Credits</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;linkLabel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 72</value>
+  </data>
+  <data name="&gt;&gt;linkLabel8.Name" xml:space="preserve">
+    <value>linkLabel8</value>
+  </data>
+  <data name="&gt;&gt;label_version.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="linkLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="linkLabel8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="button1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 655</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;linkLabel8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 40</value>
+  </data>
+  <data name="linkLabel2.Text" xml:space="preserve">
+    <value>Current AHD Subtitles Maker website: 
+https://github.com/alaahadid/AHD-Subtitles-Maker</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_version.Name" xml:space="preserve">
+    <value>label_version</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 288</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>46</value>
-  </metadata>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>127, 17</value>
   </metadata>
 </root>

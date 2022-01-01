@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "619dde69-bc9b-4577-8058-cb68cadc2818": {
+      "ProjectGuid": "619dde69-bc9b-4577-8058-cb68cadc2818",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 0
+    },
+    "fc13028b-4274-414a-9155-4063fce86923": {
+      "ProjectGuid": "fc13028b-4274-414a-9155-4063fce86923",
+      "DisplayName": "AEC",
+      "ColorIndex": 1
+    },
+    "980c8603-f470-4856-8284-be449eb2f9c4": {
+      "ProjectGuid": "980c8603-f470-4856-8284-be449eb2f9c4",
+      "DisplayName": "Formats",
+      "ColorIndex": 2
+    },
+    "26170bc5-b2c0-4b36-acd5-cba634b52174": {
+      "ProjectGuid": "26170bc5-b2c0-4b36-acd5-cba634b52174",
+      "DisplayName": "ASMP",
+      "ColorIndex": 3
+    },
+    "a8874f3c-d11d-44e1-a085-8c8836aae9fc": {
+      "ProjectGuid": "a8874f3c-d11d-44e1-a085-8c8836aae9fc",
+      "DisplayName": "Base",
+      "ColorIndex": 4
+    },
+    "93c23a9f-1ef7-4417-8925-3f2a410d11e8": {
+      "ProjectGuid": "93c23a9f-1ef7-4417-8925-3f2a410d11e8",
+      "DisplayName": "Controls",
+      "ColorIndex": 5
+    },
+    "61f98a44-6b77-4025-a99c-20243c616f47": {
+      "ProjectGuid": "61f98a44-6b77-4025-a99c-20243c616f47",
+      "DisplayName": "Forms",
+      "ColorIndex": 6
+    },
+    "ab513aea-370e-4b95-a8d0-6b0162f95446": {
+      "ProjectGuid": "ab513aea-370e-4b95-a8d0-6b0162f95446",
+      "DisplayName": "ASC",
+      "ColorIndex": 7
+    },
+    "2e0f2e08-87d5-4be6-b88a-eb36cedbc5b8": {
+      "ProjectGuid": "2e0f2e08-87d5-4be6-b88a-eb36cedbc5b8",
+      "DisplayName": "ASLV",
+      "ColorIndex": 8
+    },
+    "77b07c3d-42cd-4298-9e3d-af2fa53f7280": {
+      "ProjectGuid": "77b07c3d-42cd-4298-9e3d-af2fa53f7280",
+      "DisplayName": "ASMForms",
+      "ColorIndex": 9
+    },
+    "be55d4af-1437-4710-b6c8-5f65462fc4a8": {
+      "ProjectGuid": "be55d4af-1437-4710-b6c8-5f65462fc4a8",
+      "DisplayName": "ASM",
+      "ColorIndex": 10
+    },
+    "4f19d282-384c-4d86-b0d0-8d4974a6e5ab": {
+      "ProjectGuid": "4f19d282-384c-4d86-b0d0-8d4974a6e5ab",
+      "DisplayName": "AST",
+      "ColorIndex": 11
+    },
+    "0e29a0d7-afec-458d-9155-c15caa153d92": {
+      "ProjectGuid": "0e29a0d7-afec-458d-9155-c15caa153d92",
+      "DisplayName": "SmartHotKey",
+      "ColorIndex": 12
+    }
+  },
+  "NextColorIndex": 13
+}

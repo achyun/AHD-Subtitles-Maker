@@ -1,7 +1,7 @@
 ﻿// This file is part of AHD Subtitles Maker
 // A program that can make and edit subtitle.
 // 
-// Copyright © Alaa Ibrahim Hadid 2009 - 2021
+// Copyright © Alaa Ibrahim Hadid 2009 - 2022
 //
 // This library is free software; you can redistribute it and/or modify 
 // it under the terms of the GNU Lesser General Public License as published 

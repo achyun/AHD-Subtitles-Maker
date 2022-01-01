@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Direitos autorais</value>
-  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>AHD Subtitles Maker é software grátis: pode redistribuir e ou modicá-lo nos termos da GNU General Public License publicada pela Free Software Foundation, ou na versão 3 da Licença, ou (à sua consideração) qualquer versão posterior.
 
@@ -127,8 +124,8 @@ O AHD Subtitles Maker é distribuído na esperança de vir a ser útil, mas SEM 
 
 Deve ter recebido uma cópia da GNU General Public License junto com este programa.  Se não recebeu, veja em &lt;http://www.gnu.org/licenses/&gt;.</value>
   </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>Créditos</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Direitos autorais</value>
   </data>
   <data name="richTextBox2.Text" xml:space="preserve">
     <value>Autor, desenhista, desenvolvedor e programador:
@@ -136,13 +133,16 @@ Deve ter recebido uma cópia da GNU General Public License junto com este progra
 Ala Ibrahim Hadid
 mailto:alahadid@hotmail.com</value>
   </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Créditos</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 28</value>
+    <value>413, 44</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Direitos autorais © Ala Ibrahim Hadid 2012 - 2016
-Email: alahadid@hotmail.com</value>
+    <value>Direitos autorais © Ala Ibrahim Hadid 2012 - 2022
+Email: alaahadidfreeware@gmail.com</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>&amp;Está bem</value>
@@ -150,11 +150,8 @@ Email: alahadid@hotmail.com</value>
   <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>98, 16</value>
   </data>
-  <data name="linkLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 35</value>
-  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 13</value>
+    <value>125, 20</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Hospedar o site:</value>

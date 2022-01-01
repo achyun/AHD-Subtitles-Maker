@@ -1,7 +1,7 @@
 ﻿// This file is part of AHD Subtitles Maker.
 // A program can make and edit subtitle.
 // 
-// Copyright © Alaa Ibrahim Hadid 2009 - 2021
+// Copyright © Alaa Ibrahim Hadid 2009 - 2022
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -75,11 +75,11 @@ namespace ASC
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            string helpPath = ".\\" + Program.CultureInfo.Name + "\\Help.chm";
-            if (System.IO.File.Exists(helpPath))
-                Help.ShowHelp(this, helpPath, "AHD Subtitles Converter");
-            else
-                Help.ShowHelp(this, ".\\en-US\\Help.chm", "AHD Subtitles Converter");
+            try
+            {
+                System.Diagnostics.Process.Start("https://github.com/alaahadid/AHD-Subtitles-Maker/wiki/AHD-Subtitles-Convertor");
+            }
+            catch { }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
