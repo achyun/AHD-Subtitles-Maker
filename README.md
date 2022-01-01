@@ -61,10 +61,10 @@ AHD Subtitles Maker can get and save the ID3 tags (Synchronized Lyric). you can 
 
 ## System Requirements
 Please make sure your pc meet these requirements to ensure the program work correctly:
-- Works with Microsoft Windows® XP / Vista / 7 / 8 / 8.1 and 10.
+- Works with Microsoft Windows® XP / Vista / 7 / 8 / 8.1 / 10 and 11.
 - Processor: 1700 Mhz or higher (Intel or AMD). 
 - Memory: 512 MB RAM or higher 
-- Microsoft .Net Framework 4. 
+- Microsoft .Net Framework 4.8
 - Media Codec Pack (optional to support more media files types for media playback. By default, Windows® comes with these formats listed here: <https://msdn.microsoft.com/en-us/library/windows/desktop/dd407173%28v=vs.85%29.aspx> ) 
 - Drivers: DirectX 9 or higher 
 
